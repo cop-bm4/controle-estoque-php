@@ -6,6 +6,10 @@ $login = $_POST['login'];
 $senha = $_POST['senha'];
 // as próximas 3 linhas são responsáveis em se conectar com o bando de dados.
 $con = mysql_connect("mysql785.umbler.com", "joaoaluz", "joao9994522") or die ("Sem conexão com o servidor");
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+echo "Connected successfully";
 $select = mysql_select_db("controle_materia") or die("Sem acesso ao DB");
 
 // A variavel $result pega as varias $login e $senha, faz uma pesquisa na tabela de usuarios

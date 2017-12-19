@@ -40,19 +40,6 @@ if ($conn->connect_error) {
 echo "Connected successfully";
 
 
-$sql = "CREATE TABLE usuarios (
-id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-nome VARCHAR(50) NOT NULL,
-usuario VARCHAR(50) NOT NULL,
-senha VARCHAR(50),
-reg_date TIMESTAMP
-)";
-
-if ($conn->query($sql) === TRUE) {
-    echo "Table MyGuests created successfully";
-} else {
-    echo "Error creating table: " . $conn->error;
-}
 
 ?>
 <!--conec -->

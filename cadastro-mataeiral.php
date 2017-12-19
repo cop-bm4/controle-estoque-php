@@ -64,6 +64,12 @@ echo "Não foi possível conectar ao banco de dados";
   </div>
 </nav>
 
+<div class="container">
+  <div class="jumbotron">
+    <h1>SISCOMP</h1> 
+    <p>Sistema de controle de material operacional</p> 
+  </div>
+  
 
 
 

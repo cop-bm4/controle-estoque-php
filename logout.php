@@ -10,7 +10,7 @@ if(isset($_GET['token']) && $_GET['token'] === $token) {
    header("location: index.php");
    exit();
 } else {
-  
+   echo '<a href="logout.php?token='.$token.'>Confirmar logout</a>';
 }
 
 ?>

@@ -63,12 +63,7 @@ echo "Conexão estabelcida com sucesso";
   </div>
 </nav>
 
-<div class="container">
-  <div class="jumbotron">
-    <h1>SISCOMP</h1> 
-    <p class="text-danger">Sistema de controle de material operacional</p> 
 
-  </div>
 
 
 

@@ -28,12 +28,12 @@ if(mysqli_num_rows ($result) > 0 )
 {
 $_SESSION['login'] = $login;
 $_SESSION['senha'] = $senha;
-header('location:index.php');
+header('location:main.php');
 }
 else{
 	unset ($_SESSION['login']);
 	unset ($_SESSION['senha']);
-	header('location:main.php');
+	header('location:index.php');
 	
 	}
 

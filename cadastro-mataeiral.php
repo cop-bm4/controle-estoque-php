@@ -38,8 +38,9 @@ require "db.php";
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
+echo "Não foi possível conectar ao banco de dados";
 } 
-echo "Conexão estabelcida com sucesso";
+
 
 ?>
 <!--conec -->

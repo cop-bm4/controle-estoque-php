@@ -40,15 +40,19 @@ if ($conn->connect_error) {
 echo "Connected successfully";
 
 
-CREATE TABLE IF NOT EXISTS `usuarios` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `nome` varchar(100) NOT NULL,
-  `usuario` varchar(50) NOT NULL,
-  `senha` varchar(50) NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `usuario` (`usuario`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+$sql = "CREATE TABLE usuarios (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+nome VARCHAR(50) NOT NULL,
+usuario VARCHAR(50) NOT NULL,
+senha VARCHAR(50),
+reg_date TIMESTAMP
+)";
 
+if ($conn->query($sql) === TRUE) {
+    echo "Table MyGuests created successfully";
+} else {
+    echo "Error creating table: " . $conn->error;
+}
 
 ?>
 <!--conec -->

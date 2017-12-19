@@ -37,8 +37,33 @@ echo "Connected successfully";
 ?>
 <!--conec -->
 
-	<h1>teste</h1>
-		<div id="brasao"  style='position:absolute;margin-left:1200px;margin-top:5;width:160px;height:160px;z-index:1'><img src="http://mytestsite-com-br.umbler.net/Bras%C3%A3o_CBM_PA.PNG" width="100" height="100"></div>
+	
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://mytestsite-com-br.umbler.net/"> SISCOMP </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="http://mytestsite-com-br.umbler.net/">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="http://mytestsite-com-br.umbler.net/login.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>SISCOMP</h1> 
+    <p class="text-danger">Sistema de controle de material operacional</p> 
+
+  </div>
+
+
 
 <h1>Controle de Material Operacional</h1>
 

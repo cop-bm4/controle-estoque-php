@@ -39,7 +39,7 @@ require "db.php";
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-echo "Connected successfully";
+echo "Conexão estabelcida com sucesso";
 
 ?>
 <!--conec -->
@@ -70,9 +70,6 @@ echo "Connected successfully";
 
   </div>
 
-
-
-<h1>Controle de Material Operacional</h1>
 
 
 <form method="post" action="forms.php">  

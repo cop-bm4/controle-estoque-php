@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+
+<h1>oisks</h1>
+ABAFADOR DE INCENDIO - QUANTIDADE: <?php echo $_POST["quantidade"]; ?>
+
+<br><br>
+
+Situação :<?php echo $_POST["situacao"] ?>;
+
+
+
+
+
+</body>
+
+</html>

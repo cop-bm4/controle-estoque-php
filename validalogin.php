@@ -7,13 +7,9 @@ $senha = $_POST['senha'];
 // as próximas 3 linhas são responsáveis em se conectar com o bando de dados.
 echo $login;
 echo $senha;
+//conxeao com banco de dados
+require "db.php"; 
 
-$servername = "mysql785.umbler.com";
-$username = "joaoaluz";
-$password = "joao99945222";
-$db = "controle_materia"; 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $db);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

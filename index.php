@@ -7,7 +7,7 @@
 
 <legend>LOGIN</legend><br />
 
-<label>NOME : </label>
+<label>NOME: </label>
 
 <input type="text" name="login" id="login"  /><br />
 

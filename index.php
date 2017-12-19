@@ -30,7 +30,7 @@
 
 <input type="password" name="senha" id="senha" /><br />
 
-<input type="submit" value="LOGAR	"  />
+<input type="submit" class="btn btn-link btn-lg" value="LOGAR	"  />
 
 </fieldset>
 

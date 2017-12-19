@@ -30,15 +30,6 @@
   </div>
   
 
-<!-- Centered Tabs -->
-<div class="container">
-<ul class="nav nav-tabs nav-justified">
-  <li class="active"><a href="http://mytestsite-com-br.umbler.net/login.html">Login</a></li>
-  <li><a href="#">Menu 1</a></li>
-  <li><a href="#">Menu 2</a></li>
-  <li><a href="#">Menu 3</a></li>
-</ul>
- </div>
 
 </form>
 </body>

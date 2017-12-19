@@ -34,9 +34,12 @@ $_SESSION['senha'] = $senha;
 header('location:main.php');
 }
 else{
+	$_SESSION['login'] = $login;
+	$_SESSION['senha'] = $senha;
 	unset ($_SESSION['login']);
 	unset ($_SESSION['senha']);
 	header('location:index.php');
+
 	
 	}
 

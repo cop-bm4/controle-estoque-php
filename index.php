@@ -1,4 +1,4 @@
-<form method="post" action="main.php" id="formlogin" name="formlogin" >
+<form method="post" action="validalogin.php" id="formlogin" name="formlogin" >
 <fieldset id="fie">
 <legend>LOGIN</legend><br />
 <label>NOME : </label>

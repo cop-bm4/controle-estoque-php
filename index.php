@@ -25,7 +25,7 @@
    
     <ul class="nav navbar-nav navbar-right">
       <li><a href="http://mytestsite-com-br.umbler.net/login.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+      
     </ul>
   </div>
 </nav>

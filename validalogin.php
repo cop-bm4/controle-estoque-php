@@ -5,8 +5,8 @@ session_start();
 $login = $_POST['login'];
 $senha = $_POST['senha'];
 // as próximas 3 linhas são responsáveis em se conectar com o bando de dados.
-echo '$login';
-echo '$senha';
+echo $login;
+echo $senha;
 
 $servername = "mysql785.umbler.com";
 $username = "joaoaluz";

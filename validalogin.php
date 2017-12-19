@@ -9,7 +9,7 @@ $con = mysqli_connect("mysql785.umbler.com", "joaoaluz", "joao99945222") or die 
 $select = mysqli_select_db("controle_materia") or die("Sem acesso ao DB");
 
 // A variavel $result pega as varias $login e $senha, faz uma pesquisa na tabela de usuarios
-$result = mysql_query("SELECT * FROM `usuarios` WHERE `login` = '$login' AND `senha`= '$senha'");
+$result = mysql_query("SELECT * FROM 'usuarios' WHERE 'login' = '$login' AND 'senha'= '$senha'");
 /* Logo abaixo temos um bloco com if e else, verificando se a variável $result foi bem sucedida, ou seja se ela estiver encontrado algum registro idêntico o seu valor será igual a 1, se não, se não tiver registros seu valor será 0. Dependendo do resultado ele redirecionará para a pagina site.php ou retornara  para a pagina do formulário inicial para que se possa tentar novamente realizar o login */
 if(mysql_num_rows ($result) > 0 )
 {

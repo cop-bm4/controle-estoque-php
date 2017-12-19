@@ -19,7 +19,7 @@
 
 <div class="container">
   <div class="jumbotron">
-    <h2>SISCOMP</h1> 
+    <h1>SISCOMP</h1> 
     <p class="text-danger">Sistema de controle de material operacional</p> 
   <ul class="nav nav-tabs nav-justified">
   <li class="active"><a href="http://mytestsite-com-br.umbler.net/login.html">Login</a></li>

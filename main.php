@@ -26,12 +26,8 @@ $logado = $_SESSION['login'];
 <!-- Banco de dados conect-->
 <?php
 
-$servername = "mysql785.umbler.com";
-$username = "joaoaluz";
-$password = "joao99945222";
-$db = "controle_materia"; 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $db);
+require "db.php"; 
+
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

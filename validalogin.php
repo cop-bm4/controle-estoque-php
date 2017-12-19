@@ -5,8 +5,12 @@ session_start();
 $login = $_POST['login'];
 $senha = $_POST['senha'];
 // as próximas 3 linhas são responsáveis em se conectar com o bando de dados.
-$con = mysqli_connect("mysql785.umbler.com", "joaoaluz", "joao99945222") or die ("Sem conexão com o servidor");
-$select = mysqli_select_db("controle_materia") or die("Sem acesso ao DB");
+$servername = "mysql785.umbler.com";
+$username = "joaoaluz";
+$password = "joao99945222";
+$db = "controle_materia"; 
+// Create connection
+$conn = new mysqli($servername, $username, $password, $db);
 
 // A variavel $result pega as varias $login e $senha, faz uma pesquisa na tabela de usuarios
 $result = mysql_query("SELECT * FROM 'usuarios' WHERE 'login' = '$login' AND 'senha'= '$senha'");

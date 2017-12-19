@@ -38,7 +38,7 @@ else{
 	$_SESSION['senha'] = $senha;
 	unset ($_SESSION['login']);
 	unset ($_SESSION['senha']);
-	header('location:index.php');
+	header('location:credenciaisinvalidas.php');
 
 	
 	}

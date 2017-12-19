@@ -23,7 +23,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="http://mytestsite-com-br.umbler.net/">Home</a></li>
-      <li><a href="#">Page 1</a></li>
+      <li><a href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Cadastro de Material</a></li>
       <li><a href="#">Page 2</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">

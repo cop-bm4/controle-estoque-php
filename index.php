@@ -20,11 +20,11 @@
 <div class="container">
   <div class="jumbotron">
     <h1>SISCOMP</h1> 
-    <p>Sistema de controle de material operacional</p> 
+    <p class="text-danger">Sistema de controle de material operacional</p> 
   </div>
   
 
-	
+
 <form method="post" action="validalogin.php" id="formlogin" name="formlogin" >
 
 <fieldset id="fie">

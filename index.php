@@ -24,24 +24,15 @@
   </div>
   
 
-
-<form method="post" action="validalogin.php" id="formlogin" name="formlogin" >
-
-<fieldset id="fie">
-
-<legend>LOGIN</legend><br />
-
-<label>NOME: </label>
-
-<input type="text" name="login" id="login"  /><br />
-
-<label>SENHA :</label>
-
-<input type="password" name="senha" id="senha" /><br />
-
-<input type="submit" class="btn  btn-lg" value="LOGAR	"  />
-
-</fieldset>
+<!-- Centered Tabs -->
+<div class="container">
+<ul class="nav nav-tabs nav-justified">
+  <li class="active"><a href="#">Home</a></li>
+  <li><a href="#">Menu 1</a></li>
+  <li><a href="#">Menu 2</a></li>
+  <li><a href="#">Menu 3</a></li>
+</ul>
+ </div>
 
 </form>
 </body>

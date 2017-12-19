@@ -19,7 +19,7 @@
 
 <div class="container">
   <div class="jumbotron">
-    <h1>SISCOMP</h1> 
+    <h3>SISCOMP</h3> 
     <p class="text-danger">Sistema de controle de material operacional</p> 
   </div>
   

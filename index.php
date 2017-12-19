@@ -37,28 +37,28 @@
 
   </div>
   
-<form method="post" action="validalogin.php" id="formlogin" name="formlogin" >
 
 
-<fieldset id="fie">
-
-<legend>LOGIN</legend><br />
-
-<label>Login : </label>
-
-<input type="text" name="login" id="login"  /><br />
-
-<label>Senha :</label>
-
-<input type="password" name="senha" id="senha" /><br />
-
-<input type="submit" class="btn  btn-lg" value="LOGAR	"  />
-
-</fieldset>
 
 </form>
 
+
+<div class="container">
+<form method="post" class="input-group" action="validalogin.php" id="formlogin" name="formlogin">
+
+ <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="login" type="text" class="form-control" name="login" placeholder="login">
+  </div>
+  <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    <input id="senha" type="password" class="form-control" name="senha" placeholder="senha">
+  </div>
+  
+  </div>
 </form>
+
+</div>
 </body>
 </html>
 

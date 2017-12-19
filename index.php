@@ -44,11 +44,11 @@
 
 <legend>LOGIN</legend><br />
 
-<label>NOME: </label>
+<label>Login : </label>
 
 <input type="text" name="login" id="login"  /><br />
 
-<label>SENHA :</label>
+<label>Senha :</label>
 
 <input type="password" name="senha" id="senha" /><br />
 

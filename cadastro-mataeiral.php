@@ -53,7 +53,7 @@ echo "Não foi possível conectar ao banco de dados";
       <a class="navbar-brand" href="http://mytestsite-com-br.umbler.net/"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="http://mytestsite-com-br.umbler.net/">Home</a></li>
+      <li ><a href="#">Home</a></li>
       <li class="active" ><a href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Cadastro de Material</a></li>
       <li><a href="#">Page 2</a></li>
     </ul>

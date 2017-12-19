@@ -6,5 +6,5 @@ session_start();
     session_destroy();
     header("location: http://mytestsite-com-br.umbler.net/index.php");
 
-}
+
 ?>

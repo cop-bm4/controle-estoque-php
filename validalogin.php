@@ -6,7 +6,7 @@ $login = $_POST['login'];
 $senha = $_POST['senha'];
 // as próximas 3 linhas são responsáveis em se conectar com o bando de dados.
 $con = mysql_connect("mysql785.umbler.com", "joaoaluz", "joao99945222") or die ("Sem conexão com o servidor");
-$select = mysql_select_db("controle_materia") or die("Sem acesso ao DB, Entre em contato com o Administrador, gilson_sales@bytecode.com.br");
+$select = mysql_select_db("controle_materia") or die("Sem acesso ao DB");
 
 // A variavel $result pega as varias $login e $senha, faz uma pesquisa na tabela de usuarios
 $result = mysql_query("SELECT * FROM `usuarios` WHERE `login` = '$login' AND `senha`= '$senha'");

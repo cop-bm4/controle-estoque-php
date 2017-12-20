@@ -16,6 +16,8 @@ if((!isset ($_SESSION['login']) == true) and (!isset ($_SESSION['senha']) == tru
 
 $logado = $_SESSION['login'];
 ?>
+
+
 	<title>Home</title>
 		 <meta charset="utf-8">
   

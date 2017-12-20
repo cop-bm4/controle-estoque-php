@@ -41,7 +41,7 @@ $logado = $_SESSION['login'];
     <ul class="nav navbar-nav">
       <li class="active" ><a href="http://mytestsite-com-br.umbler.net/home.php">Home</a></li>
       <li  ><a href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Cadastro de Material</a></li>
-      <li><a href="#">Cadastro de Ocorrências</a></li>
+      <li><a href="#">Registro de Ocorrências</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       

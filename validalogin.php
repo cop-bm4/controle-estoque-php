@@ -29,6 +29,7 @@ if(mysqli_num_rows ($result) > 0 )
 $_SESSION['login'] = $login;
 $_SESSION['senha'] = $senha;
 header('location:home.php');
+
 }
 else{
 	$_SESSION['login'] = $login;

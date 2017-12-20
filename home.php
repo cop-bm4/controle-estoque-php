@@ -44,7 +44,7 @@ $logado = $_SESSION['login'];
      	<li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Cadastro de Material<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Material</a></li>
+          <li><a href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Material</a></li>
           <li><a href="#">VTRS</a></li>
           <li><a href="#">Embarcações</a></li>
         </ul>

@@ -56,7 +56,7 @@ echo "Não foi possível conectar ao banco de dados";
     <ul class="nav navbar-nav">
       <li ><a href="http://mytestsite-com-br.umbler.net/home.php">Home</a></li>
       <li class="active" ><a href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Cadastro de Material</a></li>
-      <li><a href="#">Cadastro de Ocorrências</a></li>
+      <li><a href="#">Registro de Ocorrências</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
      

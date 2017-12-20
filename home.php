@@ -61,13 +61,13 @@ $logado = $_SESSION['login'];
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <h3>Cadastro de Material</h3>
+      
       	
 <div class="thumbnail">
       <a href="http://mytestsite-com-br.umbler.net/cadastro-material.php">
         <img src="http://mytestsite-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
         <div class="caption">
-        
+        <p> Cadastro de Material </p>
         </div>
       </a>
     </div>

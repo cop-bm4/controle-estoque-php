@@ -77,21 +77,11 @@ echo "Não foi possível conectar ao banco de dados";
 
 
 
-<form method="post" action="forms.php">  
 
-ABAFADOR INCÊNDIO <input type=text name="quantidade"><br> 
 
-<select name="situacao">
 
-<option value=Operante>Operante</option>
 
-<option value=Inoperante>Inoperante</option>
 
-</select><BR><BR>
-
-  <input type="submit" name="submit" value="Enviar">  
-
-</form>
 
 </body>
 

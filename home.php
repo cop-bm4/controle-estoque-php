@@ -11,7 +11,7 @@ if((!isset ($_SESSION['login']) == true) and (!isset ($_SESSION['senha']) == tru
 {
 	unset($_SESSION['login']);
 	unset($_SESSION['senha']);
-	header('location:index.php');
+	header('location:home.php');
 	}
 
 $logado = $_SESSION['login'];

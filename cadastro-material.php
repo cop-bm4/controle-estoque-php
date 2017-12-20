@@ -70,7 +70,7 @@ echo "Não foi possível conectar ao banco de dados";
 <div class="container">
 <div class="jumbotron">
 <h1>SISCOMP</h1> 
-    <p>Cadastro de Material Operacional </p> 
+    <p class="text-danger">Cadastro de Material Operacional </p> 
   </div>
   
 </div>

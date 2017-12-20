@@ -54,11 +54,39 @@ $logado = $_SESSION['login'];
   <div class="jumbotron">
     <h1>SISCOMP</h1> 
     <p class="text-danger">Sistema de controle de material operacional</p> 
-
+</div>
   </div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Cadastro de Material</h3>
+      	
+<div class="thumbnail">
+      <a href="http://mytestsite-com-br.umbler.net/cadastro-material.php">
+        <img src="http://mytestsite-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
+        <div class="caption">
+        
+        </div>
+      </a>
+    </div>
+
+      
+    </div>
+    <div class="col-sm-4">
+      <h3>Registor de Ocorrências</h3>
+      
+    </div>
+    
+
+    <div class="col-sm-4">
+      <h3>Relatórios</h3> 
+
+
+    </div>
   </div>
-
-
+</div>
 
 
 

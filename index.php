@@ -22,9 +22,10 @@
       <a class="navbar-brand" href="http://mytestsite-com-br.umbler.net/"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-   
+   	
+   </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="http://mytestsite-com-br.umbler.net/login.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+      <li class="active"><a href="http://mytestsite-com-br.umbler.net/login.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
       
     </ul>
   </div>
@@ -36,7 +37,7 @@
     <p class="text-danger">Sistema de controle de material operacional</p> 
 
   </div>
-  
+  </div>
 
 
 

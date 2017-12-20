@@ -53,9 +53,9 @@ echo "Não foi possível conectar ao banco de dados";
       <a class="navbar-brand" href="http://mytestsite-com-br.umbler.net/"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="#">Home</a></li>
+      <li ><a href="http://mytestsite-com-br.umbler.net/home.php">Home</a></li>
       <li class="active" ><a href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Cadastro de Material</a></li>
-      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Cadastro de Ocorrências</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="http://mytestsite-com-br.umbler.net/login.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
@@ -67,12 +67,12 @@ echo "Não foi possível conectar ao banco de dados";
 </nav>
 
 <div class="container">
-  <div class="jumbotron">
-    <h1>SISCOMP</h1> 
-    <p>Sistema de controle de material operacional</p> 
+<div class="jumbotron">
+<h1>SISCOMP</h1> 
+    <p>Cadastro de Material Operacional </p> 
   </div>
   
-
+</div>
 
 
 

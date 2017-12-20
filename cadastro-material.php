@@ -51,7 +51,7 @@ echo "Não foi possível conectar ao banco de dados";
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="http://mytestsite-com-br.umbler.net/"> SISCOMP </a>
+      <a class="navbar-brand" href="#"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
       <li ><a href="http://mytestsite-com-br.umbler.net/home.php">Home</a></li>
@@ -59,7 +59,7 @@ echo "Não foi possível conectar ao banco de dados";
       <li><a href="#">Cadastro de Ocorrências</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="http://mytestsite-com-br.umbler.net/login.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+     
       <li><a href=" http://mytestsite-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
   </div>

@@ -19,6 +19,7 @@ echo "deu ruim";
 echo "conecto";
 $sql = "SELECT id, Material FROM MaterialOp ";
 $result = mysqli_query($conn, $sql);
+echo "id: " . $row["id"]. " - Name: " ". $row["Material"]. "  "<br>";
 
 
 

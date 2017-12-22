@@ -58,6 +58,6 @@ echo "Não foi possível conectar ao banco de dados";
 <body>
 
 <!--conec -->
-oi
+
 </body>
 </html>

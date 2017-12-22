@@ -30,7 +30,7 @@
  function getDados() {
      
      // Declaração de Variáveis
-     var Material   = document.getElementById("txtMaterial").value;
+     var Material   = document.getElementById("txtnome").value;
      var result = document.getElementById("Resultado");
      var xmlreq = CriaRequest();
      
@@ -38,7 +38,7 @@
      result.innerHTML = '<img src="Progresso1.gif"/>';
      
      // Iniciar uma requisição
-     xmlreq.open("GET", "Contato.php?txtMaterial=" + Material, true);
+     xmlreq.open("GET", "Contato.php?txtnome=" + Material, true);
      
      // Atribui uma função para ser executada sempre que houver uma mudança de ado
      xmlreq.onreadystatechange = function(){

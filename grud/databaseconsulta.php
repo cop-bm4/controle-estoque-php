@@ -57,9 +57,8 @@ function find($table = null, $id= null){
 			$found = $result->fetch_all(MYSQLI_ASSOC);
 
 			}
-	}
-}
-	catch (Exception $e){
+		}
+	}catch (Exception $e){
 	$_SESSION['message'] = $e ->GetMessage();
 	$_SESSION['type'] = 'danger';
 	}
@@ -75,4 +74,5 @@ function find_all($table){
 
 	return find($table)
 }
+
 ?>

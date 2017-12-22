@@ -55,46 +55,21 @@ require "/home/mytestsite.com.br/public/grud/function.php";
 
 <body>
 
+<?php
 
-<?php if (!empty($_SESSION['message'])) : ?>			
-	<div class="alert alert-<?php echo $_SESSION['type']; ?> alert-dismissible" role="alert">				
-		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>				
-		<?php echo $_SESSION['message']; ?>			
-	</div>			
-	<?php clear_messages(); ?>		<?php endif; ?>		
-<hr>		
-<table class="table table-hover">		
-	<thead>			
-		<tr>				
-			<th>ID</th>				
-			<th width="30%">Material</th>				
-				<th>RP</th>				
-				<th>Num-Serie</th>				
-					<th>Atualizado em</th>				
-						<th>Ocorrencia</th>			
-					</tr>		
-				</thead>		
-				<tbody>		
-					<?php if ($MaterialOp) : ?>		<?php 
-					foreach ($MaterialOp as $customer) : ?>			
-					<tr>				
-						<td><?php echo $customer['id']; ?>
-							
-						</td>				
-						<td><?php echo $customer['Material']; ?></td>
-									<td><?php echo $customer['Registro_Patrimonio']; ?></td>
-													<td>00 0000-0000</td>				
-													<td><?php echo $customer['modified']; ?></td>				
-													<td class="actions text-right">					<a href="view.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-success"><i class="fa fa-eye"></i> Visualizar</a>					
-													<a href="edit.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Editar</a>					
-													<a href="#" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#delete-modal" data-customer="<?php echo $customer['id']; ?>">						
-														<i class="fa fa-trash"></i> Excluir					</a>				</td>			</tr>		<?php endforeach; ?>		
-													<?php else : ?>			<tr>				<td colspan="6">Nenhum registro encontrado.</td>			</tr>		<?php endif; ?>		</tbody>		</table>
+$sql = "SELECT id, firstname, lastname FROM MyGuests";
+$result = $conn->query($sql);
 
-
-
-
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+    }
+} else {
+    echo "0 results";
+}
+$conn->close();
+?>
 <!--conec -->
-
 </body>
 </html>

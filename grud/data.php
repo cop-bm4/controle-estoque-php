@@ -19,7 +19,7 @@ echo "deu ruim";
 echo "conecto";
 $sql = "SELECT Material FROM MaterialOp";
 $result = mysqli_query($conn, $sql);
-echo  . $result.   "<br>";
+echo   $result;
 
 
 

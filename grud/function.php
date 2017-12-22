@@ -1,6 +1,6 @@
 <?php
 //baco de dados
-require "/home/mytestsite.com.br/public/db.php"; 
+require "/home/mytestsite.com.br/public/grud/databaseconsulta.php"; 
 
 // Check connection
 if ($conn->connect_error) {

@@ -72,7 +72,7 @@ return $found;
 
 function find_all($table){
 
-	return find($table)
+	return find($table);
 }
 
 ?>

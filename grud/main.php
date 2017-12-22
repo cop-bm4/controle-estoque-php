@@ -26,6 +26,6 @@ echo "Não foi possível conectar ao banco de dados";
 
 ?>
 <!--conec -->
-
+oi
 </body>
 </html>

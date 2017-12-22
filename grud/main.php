@@ -4,15 +4,7 @@
 	<title>CONTROLE DE MATERIAL</title>
 
 <!-- banco de dados-->
-	<?php
-require "/home/mytestsite.com.br/public/grud/databaseconsulta.php"; 
-require "/home/mytestsite.com.br/public/grud/function.php";
 
-// Check connection
-
-
-
-?>
 	<!--mod mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!---->
@@ -57,13 +49,22 @@ require "/home/mytestsite.com.br/public/grud/function.php";
 
 <?php
 
-$sql = "SELECT id, firstname, lastname FROM MaterialOp";
+$servername = "mysql785.umbler.com";
+$username = "joaoaluz";
+$password = "joao99945222";
+$db = "controle_materia"; 
+// Create connection
+$conn = new mysqli($servername, $username, $password, $db);
+
+
+
+$sql = "SELECT id, Material,  FROM MaterialOp";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+        echo "id: " . $row["id"]. " - nome: " . $row["Material"]. " " . $row["lastname"]. "<br>";
     }
 } else {
     echo "0 results";

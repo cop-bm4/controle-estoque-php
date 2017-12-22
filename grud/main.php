@@ -57,7 +57,7 @@ require "/home/mytestsite.com.br/public/grud/function.php";
 
 <?php
 
-$sql = "SELECT id, firstname, lastname FROM MyGuests";
+$sql = "SELECT id, firstname, lastname FROM MaterialOp";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

@@ -7,7 +7,7 @@ function open_database(){
 
 
 // Create connection
-$conn = new mysqli("mysql785.umbler.com", "joaoaluz", "joao99945222", "controle_materia";
+$conn = new mysqli("mysql785.umbler.com", "joaoaluz", "joao99945222", "controle_materia");
 	return $conn;
 	}
 	catch(Exception $e){

@@ -16,7 +16,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "SELECT id, Material FROM MaterialOp";
+$sql = "SELECT * FROM MaterialOp";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {

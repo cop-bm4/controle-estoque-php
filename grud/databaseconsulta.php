@@ -57,11 +57,13 @@ function find($table = null, $id= null){
 			$found = $result->fetch_all(MYSQLI_ASSOC);
 
 			}
-	}catch (Exception $e){
+	}
+}
+	catch (Exception $e){
 	$_SESSION['message'] = $e ->GetMessage();
 	$_SESSION['type'] = 'danger';
-}
-}
+	}
+
 close_database($database);
 return $found;
 

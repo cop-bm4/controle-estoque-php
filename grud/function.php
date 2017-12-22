@@ -1,6 +1,5 @@
 <?php
-<!-- banco de dados-->
-	<?php
+//baco de dados
 require "/home/mytestsite.com.br/public/db.php"; 
 
 // Check connection

@@ -16,7 +16,10 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 echo "deu ruim";
 }
-echo "deu bom";
+echo "conecto";
+$sql = "SELECT id, Material FROM MaterialOp ";
+$result = mysqli_query($conn, $sql);
+
 
 
 ?>

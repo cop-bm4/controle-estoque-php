@@ -10,8 +10,6 @@ $username = "joaoaluz";
 $password = "joao99945222";
 $db = "controle_materia"; 
 
-
-
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
 if (!$conn) {

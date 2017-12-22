@@ -5,8 +5,8 @@
 
 <!-- banco de dados-->
 	<?php
-require "/home/mytestsite.com.br/public/databaseconsulta.php"; 
-require "function.php";
+require "/home/mytestsite.com.br/public/grud/databaseconsulta.php"; 
+require "/home/mytestsite.com.br/public/grud/function.php";
 
 // Check connection
 

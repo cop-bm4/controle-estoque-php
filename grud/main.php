@@ -15,7 +15,7 @@
 
 <body>
 <?php
-require "public/db.php"; 
+require "/public/db.php"; 
 
 // Check connection
 if ($conn->connect_error) {

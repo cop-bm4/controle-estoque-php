@@ -19,7 +19,7 @@ if ($conn->connect_error) {
 
 $sql = "SELECT id, Material FROM MaterialOp";
 $result = mysqli_query($conn, $sql);
-
+echo "id: " . $row["id"]. " - Name: " . $row["Material"]. " " . $row["lastname"]. "<br>";
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {

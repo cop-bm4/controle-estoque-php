@@ -77,7 +77,6 @@ echo "Não foi possível conectar ao banco de dados";
   </div>
 </nav>
 
-</nav>
 
 <div class="container">
 <div class="jumbotron">

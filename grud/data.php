@@ -17,9 +17,9 @@ if (!$conn) {
 echo "deu ruim";
 }
 echo "conecto";
-$sql = "SELECT id, Material FROM MaterialOp ";
+$sql = "SELECT Material FROM `MaterialOp`";
 $result = mysqli_query($conn, $sql);
-echo "id: " . $row["id"]. " - Name: " . $row["Material"].   "<br>";
+echo  . $row["Material"].   "<br>";
 
 
 

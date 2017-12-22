@@ -33,42 +33,41 @@ function close_database($conn){
 //pesquisa registro por id em uma tabela do bbanco de daods
 
 function find($table = null, $id= null){
-
-
 	$database = open_database();
 	$found = null;
-}
+	
+	try{
 
-try{
-
-if($id){
+		if($id){
 
 
-	$sql =  "SELECT * FROM " . $table . " WHERE id = " . $id ;
-	$result = $database->query($sql);
+		$sql =  "SELECT * FROM " . $table . " WHERE id = " . $id ;
+		$result = $database->query($sql);
 
-	if($result->num_rows > 0){
-		$found = $result -> fetch_assoc();
+			if($result->num_rows > 0){
+			$found = $result -> fetch_assoc();
 
-	}
-}else{
+			}
+		}else{
 
-	$sql = "SELECT * FROM " .$table;
-	$result = $database->query($sql);
+		$sql = "SELECT * FROM " .$table;
+		$result = $database->query($sql);
 
-	if($result->num_rows>0){
-		$found = $result->fetch_all(MYSQLI_ASSOC);
+			if($result->num_rows>0){
+			$found = $result->fetch_all(MYSQLI_ASSOC);
 
-	}
-}catch (Exception $e){
+			}
+	}catch (Exception $e){
 	$_SESSION['message'] = $e ->GetMessage();
 	$_SESSION['type'] = 'danger';
 }
-
+}
 close_database($database);
 return $found;
 
 }
+
+
 
 function find_all($table){
 

@@ -24,7 +24,7 @@ function close_database($conn){
 	try{
 		mysql_close($conn);
 	}catch(Exception $e){
-		echo $e -.getMessage();
+		echo $e ->getMessage();
 	}
 }
 

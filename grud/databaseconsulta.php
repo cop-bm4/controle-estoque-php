@@ -32,7 +32,7 @@ function close_database($conn){
 
 //pesquisa registro por id em uma tabela do bbanco de daods
 
-function find($table = null, $id= null){
+function find($MaterialOp = null, $id= null){
 	$database = open_database();
 	$found = null;
 	
@@ -41,7 +41,7 @@ function find($table = null, $id= null){
 		if($id){
 
 
-		$sql =  "SELECT * FROM " . $table . " WHERE id = " . $id ;
+		$sql =  "SELECT * FROM " . $MaterialOp . " WHERE id = " . $id ;
 		$result = $database->query($sql);
 
 			if($result->num_rows > 0){
@@ -50,7 +50,7 @@ function find($table = null, $id= null){
 			}
 		}else{
 
-		$sql = "SELECT * FROM " .$table;
+		$sql = "SELECT * FROM " .$MaterialOp;
 		$result = $database->query($sql);
 
 			if($result->num_rows>0){
@@ -70,9 +70,9 @@ return $found;
 
 
 
-function find_all($table){
+function find_all($MaterialOp){
 
-	return find($table);
+	return find($MaterialOp);
 }
 
 ?>

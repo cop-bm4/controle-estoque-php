@@ -81,7 +81,7 @@ echo "Não foi possível conectar ao banco de dados";
   
 </div>
 
-<div class="container">
+<div class="row">
    
     <div class="col-sm-6 text-right h2">
         <a class="btn btn-primary" href="add.php"><i class="fa fa-plus"></i> Novo Material</a>

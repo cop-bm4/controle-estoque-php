@@ -46,9 +46,7 @@ echo "Não foi possível conectar ao banco de dados";
 ?>
 <!--conec -->
 
-	
-
-<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#"> SISCOMP </a>
@@ -64,11 +62,7 @@ echo "Não foi possível conectar ao banco de dados";
         </ul>
       </li>
       
-
-
-
-
-      <li><a href="#">Registro de Ocorrências</a></li>
+ <li><a href="#">Registro de Ocorrências</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
      

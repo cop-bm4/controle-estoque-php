@@ -55,7 +55,7 @@ $logado = $_SESSION['login'];
 
 
 
-      <li><a href="#">Registro de Ocorrências</a></li>
+      <li><a href="#">Relatórios</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       

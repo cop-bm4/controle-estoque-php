@@ -63,7 +63,7 @@ echo "Não foi possível conectar ao banco de dados";
         </ul>
       </li>
       
- <li><a href="#">Registro de Ocorrências</a></li>
+ <li><a href="#">Relatórios</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
      

@@ -84,7 +84,7 @@ echo "Não foi possível conectar ao banco de dados";
 <div class="row">
    
     <div class="col-sm-10 text-right h2">
-        <a class="btn btn-primary" href="add.php"><i class="fa fa-plus"></i> Novo Material</a>
+        <a class="btn btn-primary" href="http://mytestsite-com-br.umbler.net/cadastronovo.php"><i class="fa fa-plus"></i> Novo Material</a>
         <a class="btn btn-default" href="http://mytestsite-com-br.umbler.net/cadastro-material.php"><i class="fa fa-refresh"></i> Atualizar</a>
       </div>
   </div>

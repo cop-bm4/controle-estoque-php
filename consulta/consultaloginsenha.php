@@ -1,3 +1,6 @@
+
+
+
 <?php
 $servername = "mysql785.umbler.com";
 $username = "joaoaluz";
@@ -5,22 +8,23 @@ $password = "joao99945222";
 $db = "controle_materia"; 
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 
 $sql = "SELECT id, nome,login, senha, reg_data FROM usuarios";
-$result = $conn->query($sql);
+$result = mysqli_query($conn, $sql);
 
-if ($result->num_rows > 0) {
+if (mysqli_num_rows($result) > 0) {
     // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["id"]. " - Name: " . $row["nome"]. " login: " . $row["login"]. "senha: ".$row["senha"]. "<br>";
+    while($row = mysqli_fetch_assoc($result)) {
+         echo "id: " . $row["id"]. " - Name: " . $row["nome"]. " login: " . $row["login"]. "senha: ".$row["senha"]. "<br>";
     }
 } else {
     echo "0 results";
 }
-$conn->close();
+
+mysqli_close($conn);
 ?>

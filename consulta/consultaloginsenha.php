@@ -28,6 +28,7 @@ $sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, re
 $result = mysqli_query($conn, $sql);
 ?>
 
+
 <?php if(mysqli_num_rows ($result) > 0 ): ?>
 
  <?php while($row = mysqli_fetch_assoc($result)): ?> 

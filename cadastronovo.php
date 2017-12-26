@@ -76,15 +76,15 @@ echo "Não foi possível conectar ao banco de dados";
 
 <?php
 
-$ubm: "30 gbm";
-$material: "capa";
-$tipo: "2";
-$rp:"1234";
-$nserie:"123";
-$situacao:"operante";
-$ocorrencia:"deu prego";
-$nome:"vasco";
-$rg:"643687";
+$ubm = "30 gbm";
+$material = "capa";
+$tipo = "2";
+$rp="1234";
+$nserie="123";
+$situacao="operante";
+$ocorrencia="deu prego";
+$nome="vasco";
+$rg="643687";
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

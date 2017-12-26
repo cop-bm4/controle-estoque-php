@@ -86,9 +86,6 @@ $result = mysqli_query($conn, $sql);
 ?>
 
 
-<?php if(mysqli_num_rows ($result) > 0 ): ?>
-
- <?php while($row = mysqli_fetch_assoc($result)): ?> 
        
 <table class="table table-bordered">
 <thead>
@@ -102,6 +99,10 @@ $result = mysqli_query($conn, $sql);
     <th>Opções</th>
   </tr>
 </thead>
+
+<?php if(mysqli_num_rows ($result) > 0 ): ?>
+
+ <?php while($row = mysqli_fetch_assoc($result)): ?> 
 <tbody>
   <tr>
     <td><?php echo $row['id']; ?></td>

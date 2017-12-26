@@ -64,13 +64,43 @@ echo "Não foi possível conectar ao banco de dados";
 </nav>
 
 
-<div class="container">
+<div  class="container">
 <div class="jumbotron">
 <h1>SISCOMP</h1> 
     <p class="text-danger">Cadastro de Material Operacional </p> 
   </div>
   
 </div>
+
+
+
+<?php
+
+$ubm: "30 gbm";
+$material: "capa";
+$tipo: "2";
+$rp:"1234";
+$nserie:"123";
+$situacao:"operante";
+$ocorrencia:"deu prego";
+$nome:"vasco";
+$rg:"643687";
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+
+$sql = "INSERT INTO  materialoperacional(ubm, material, tipo, rp, nserie, situacao, ocorrencia, nome, rg)
+VALUES ($ubm, $material, $tipo, $rp, $nserie, $situacao, $ocorrencia, $nome, $rg)";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+?>
 
 </body>
 </html>

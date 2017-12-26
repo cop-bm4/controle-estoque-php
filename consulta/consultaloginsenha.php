@@ -4,6 +4,7 @@
 	<title></title>
 </head>
 <body>
+
 <?php
 $servername = "mysql785.umbler.com";
 $username = "joaoaluz";
@@ -12,7 +13,7 @@ $db = "controle_materia";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
 
-$sql = "SELECT login, senha FROM usuarios Where `login` = '$login' AND `senha`= '$senha'";
+$sql = "SELECT login, senha FROM usuarios ";
 $result = mysqli_query($conn, $sql);
 
 if(mysqli_num_rows ($result) > 0 ){

@@ -101,9 +101,9 @@ $result = mysqli_query($conn, $sql);
 </thead>
 
 
-
- <?php while($row = mysqli_fetch_assoc($result)): ?> 
 <tbody>
+ <?php while($row = mysqli_fetch_assoc($result)): ?> 
+
   <tr>
     <td><?php echo $row['id']; ?></td>
     <td><?php echo $row['material']; ?></td>
@@ -122,11 +122,11 @@ $result = mysqli_query($conn, $sql);
 
   
 
-</tbody>
-</table>
+
 
 <?php endwhile; ?>
-
+</tbody>
+</table>
 <?php endif;?>
 
 

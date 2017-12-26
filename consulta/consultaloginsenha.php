@@ -22,12 +22,12 @@ if (!$conn) {
 }
 
 
-$result = mysql_query("SELECT id,nome FROM usuarios WHERE id = '1'");
+$result = mysqli_query("SELECT id,nome FROM usuarios WHERE id = '1'");
 if (!$result) {
     echo 'Could not run query: ' . mysql_error();
     exit;
 }
-$row = mysql_fetch_row($result);
+$row = mysqli_fetch_row($result);
 
 echo $row[0]; // 42
 echo $row[1]; // the email value

@@ -9,7 +9,7 @@ oi
 
 <?php
 
-$servername = "mysql785.umbler.com:mysql785.umbler.com";
+$servername = "mysql785.umbler.com";
 $username = "joaoaluz";
 $password = "joao99945222";
 $db = "controle_materia"; 

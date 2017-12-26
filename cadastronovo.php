@@ -82,8 +82,7 @@ echo "Não foi possível conectar ao banco de dados";
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-$stmt = $conn->prepare("INSERT INTO  materialoperacional(ubm, material, tipo, rp, nserie, situacao, ocorrencia, nome, rg)
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
+$stmt = $conn->prepare("INSERT INTO  materialoperacional(ubm, material, tipo, rp, nserie, situacao, ocorrencia, nome, rg) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
 $stmt->bind_param($ubm, $material, $tipo, $rp, $nserie, $situacao, $ocorrencia, $nome, $rg);
 $ubm = "30 gbm";
 $material = "capa";

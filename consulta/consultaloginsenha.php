@@ -16,8 +16,8 @@ $sql = "SELECT login, senha FROM usuarios Where `login` = '$login' AND `senha`= 
 $result = mysqli_query($conn, $sql);
 
 if(mysqli_num_rows ($result) > 0 ){
-echo "login: "$row['login'];
-
+echo $login;
+echo "achou";
 
 }
 

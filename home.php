@@ -42,7 +42,7 @@ $logado = $_SESSION['login'];
       <li class="active" ><a href="http://mytestsite-com-br.umbler.net/home.php">Home</a></li>
      
      	<li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Cadastro<span class="caret"></span></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Material</a></li>
           <li><a href="#">VTRS</a></li>
@@ -81,7 +81,7 @@ $logado = $_SESSION['login'];
       <a href="http://mytestsite-com-br.umbler.net/cadastro-material.php">
         <img src="http://mytestsite-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
         <div class="caption">
-        <h3 align="center">        Cadastro de Material </h3>
+        <h3 align="center">        Material </h3>
         </div>
       </a>
     </div>
@@ -89,13 +89,13 @@ $logado = $_SESSION['login'];
       
     </div>
     <div class="col-sm-4">
-      <h3>Registor de Ocorrências</h3>
+      <h3>VTR'S</h3>
       
     </div>
     
 
     <div class="col-sm-4">
-      <h3>Relatórios</h3> 
+      <h3>EMBARCAÇÕES</h3> 
 
 
     </div>

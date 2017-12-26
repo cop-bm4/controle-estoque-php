@@ -42,8 +42,6 @@
 
 
 
-
-
 <div class="container">
 <form method="post" class="input-group" action="validalogin.php" id="formlogin" name="formlogin">
 

@@ -54,7 +54,7 @@ echo "Não foi possível conectar ao banco de dados";
     <ul class="nav navbar-nav">
       <li ><a href="http://mytestsite-com-br.umbler.net/home.php">Home</a></li>
       <li class= "active" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Cadastro<span class="caret"></span></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="http://mytestsite-com-br.umbler.net/cadastro-material.php" >Material</a></li>
           <li><a href="#">VTRS</a></li>

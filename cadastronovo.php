@@ -78,6 +78,7 @@ echo "Não foi possível conectar ao banco de dados";
 
 
 
+
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 

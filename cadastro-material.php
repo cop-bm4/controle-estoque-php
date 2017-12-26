@@ -90,7 +90,7 @@ $result = mysqli_query($conn, $sql);
 
  <?php while($row = mysqli_fetch_assoc($result)): ?> 
        
-<table class="table table-hover">
+<table class="table table-bordered">
 <thead>
   <tr>
     <th>ID</th>

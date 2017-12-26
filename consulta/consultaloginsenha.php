@@ -24,7 +24,7 @@ $db = "controle_materia";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
 
-$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, reg_date FROM materialoperacional";
+$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, reg_date,situacao FROM materialoperacional";
 $result = mysqli_query($conn, $sql);
 ?>
 
@@ -37,9 +37,10 @@ $result = mysqli_query($conn, $sql);
 <thead>
 	<tr>
 		<th>ID</th>
-		<th width="30%">Nome</th>
-		<th>CPF/CNPJ</th>
-		<th>Telefone</th>
+		<th >Material</th>
+		<th>RP</th>
+		<th>Numero de Serie</th>
+		<th>situacao</th>
 		<th>Atualizado em</th>
 		<th>Opções</th>
 	</tr>
@@ -47,10 +48,11 @@ $result = mysqli_query($conn, $sql);
 <tbody>
 	<tr>
 		<td><?php echo $row['id']; ?></td>
-		<td><?php echo $row['nome']; ?></td>
 		<td><?php echo $row['material']; ?></td>
-		<td>00 0000-0000</td>
-		<td><?php echo $row['modified']; ?></td>
+		<td><?php echo $row['rp']; ?></td>
+		<td><?php echo $row['nserie']?></td>
+		<td><?php echo $row['situacao']; ?></td>
+		<td><?php echo $row['reg_date']; ?></td>
 		<td class="actions text-right">
 			<a href="view.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-success"><i class="fa fa-eye"></i> Visualizar</a>
 			<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Editar</a>
@@ -83,7 +85,7 @@ $result = mysqli_query($conn, $sql);
 
 
 
-?>
+
 
 
 

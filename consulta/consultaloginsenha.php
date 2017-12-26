@@ -2,6 +2,17 @@
 <html>
 <head>
 	<title></title>
+		 <meta charset="utf-8">
+  
+<!--mod mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!---->
+  <!-- include bibliotecas bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!---->
+
 </head>
 <body>
 
@@ -36,8 +47,8 @@ $result = mysqli_query($conn, $sql);
 <tbody>
 	<tr>
 		<td><?php echo $row['id']; ?></td>
-		<td><?php echo $row['name']; ?></td>
-		<td><?php echo $row['cpf_cnpj']; ?></td>
+		<td><?php echo $row['nome']; ?></td>
+		<td><?php echo $row['material']; ?></td>
 		<td>00 0000-0000</td>
 		<td><?php echo $row['modified']; ?></td>
 		<td class="actions text-right">

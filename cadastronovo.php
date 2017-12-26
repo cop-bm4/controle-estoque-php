@@ -84,7 +84,7 @@ if ($conn->connect_error) {
 } 
 $stmt = $conn->prepare("INSERT INTO  materialoperacional(ubm, material, tipo, rp, nserie, situacao, ocorrencia, nome, rg) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
-$stmt->bind_param("sss",$ubm, $material, $tipo, $rp, $nserie, $situacao, $ocorrencia, $nome, $rg);
+$stmt->bind_param($ubm, $material, $tipo, $rp, $nserie, $situacao, $ocorrencia, $nome, $rg);
 
 $ubm = "30 gbm";
 $material = "capa";

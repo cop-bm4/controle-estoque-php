@@ -27,6 +27,7 @@ $logado = $_SESSION['login'];
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!---->
+
 </head>
 
 
@@ -79,6 +80,17 @@ echo "Não foi possível conectar ao banco de dados";
   </div>
   
 </div>
+
+<div class="row">
+    <div class="col-sm-6">
+      <h2>Clientes</h2>
+    </div>
+    <div class="col-sm-6 text-right h2">
+        <a class="btn btn-primary" href="add.php"><i class="fa fa-plus"></i> Novo Material</a>
+        <a class="btn btn-default" href="http://mytestsite-com-br.umbler.net/cadastro-material.php"><i class="fa fa-refresh"></i> Atualizar</a>
+      </div>
+  </div>
+
 <?php
 
 $sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, reg_date,situacao FROM materialoperacional";

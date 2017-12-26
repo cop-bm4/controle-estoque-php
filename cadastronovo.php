@@ -88,7 +88,7 @@ $stmt->bind_param("sss",$ubm, $material, $tipo, $rp, $nserie, $situacao, $ocorre
 
 $ubm = "30 gbm";
 $material = "capa";
-$tipo = "2";
+$tipo = 2;
 $rp="1234";
 $nserie="123";
 $situacao="operante";

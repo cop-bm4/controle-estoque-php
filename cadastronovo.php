@@ -76,6 +76,14 @@ echo "Não foi possível conectar ao banco de dados";
 
 <?php
 
+
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+$stmt = $conn->prepare("INSERT INTO  materialoperacional(ubm, material, tipo, rp, nserie, situacao, ocorrencia, nome, rg)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
+$stmt->bind_param($ubm, $material, $tipo, $rp, $nserie, $situacao, $ocorrencia, $nome, $rg);
 $ubm = "30 gbm";
 $material = "capa";
 $tipo = "2";
@@ -85,19 +93,10 @@ $situacao="operante";
 $ocorrencia="deu prego";
 $nome="vasco";
 $rg="643687";
+$stmt->execute();
 
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
 
-$sql = "INSERT INTO  materialoperacional(ubm, material, tipo, rp, nserie, situacao, ocorrencia, nome, rg)
-VALUES ($ubm, $material, $tipo, $rp, $nserie, $situacao, $ocorrencia, $nome, $rg)";
-
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
+$stmt->close();
 
 $conn->close();
 ?>

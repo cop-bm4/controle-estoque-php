@@ -21,20 +21,19 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "SELECT id, nome,login, senha, reg_data FROM usuarios";
-$result = mysqli_query($conn, $sql);
 
-if (mysqli_num_rows($result) > 0) {
-    // output data of each row
-    while($row = mysqli_fetch_assoc($result)) {
-        echo "id: " . $row["id"]. " - Name: " . $row["nome"]. " login: " . $row["login"]. "senha: ".$row["senha"]. "<br>";
-    }
-} else {
-    echo "0 results";
+$result = mysql_query("SELECT id,nome FROM usuarios WHERE id = '1'");
+if (!$result) {
+    echo 'Could not run query: ' . mysql_error();
+    exit;
 }
+$row = mysql_fetch_row($result);
 
-mysqli_close($conn);
+echo $row[0]; // 42
+echo $row[1]; // the email value
 ?>
+
+
 </body>
 </html>
 

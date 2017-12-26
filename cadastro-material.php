@@ -79,8 +79,54 @@ echo "Não foi possível conectar ao banco de dados";
   </div>
   
 </div>
+<?php
+
+$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, reg_date,situacao FROM materialoperacional";
+$result = mysqli_query($conn, $sql);
+?>
 
 
+<?php if(mysqli_num_rows ($result) > 0 ): ?>
+
+ <?php while($row = mysqli_fetch_assoc($result)): ?> 
+       
+<table class="table table-hover">
+<thead>
+  <tr>
+    <th>ID</th>
+    <th >Material</th>
+    <th>RP</th>
+    <th>Numero de Serie</th>
+    <th>situacao</th>
+    <th>Atualizado em</th>
+    <th>Opções</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><?php echo $row['id']; ?></td>
+    <td><?php echo $row['material']; ?></td>
+    <td><?php echo $row['rp']; ?></td>
+    <td><?php echo $row['nserie']?></td>
+    <td><?php echo $row['situacao']; ?></td>
+    <td><?php echo $row['reg_date']; ?></td>
+    <td class="actions text-right">
+      <a href="view.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-success"><i class="fa fa-eye"></i> Visualizar</a>
+      <a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-warning"><i class="fa fa-pencil"></i> Editar</a>
+      <a href="#" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#delete-modal" data-customer="<?php echo $customer['id']; ?>">
+        <i class="fa fa-trash"></i> Excluir
+      </a>
+    </td>
+  </tr>
+
+  
+
+</tbody>
+</table>
+
+<?php endwhile; ?>
+
+<?php endif;?>
 
 
 

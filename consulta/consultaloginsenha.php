@@ -13,13 +13,13 @@ $db = "controle_materia";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
 
-$sql = "SELECT login, senha FROM usuarios  ";
+$sql = "SELECT id, Nome, Material, Numero_Serie, Ocorrencia, reg_data FROM MaterialOp ";
 $result = mysqli_query($conn, $sql);
 
 if(mysqli_num_rows ($result) > 0 ){
 
  while($row = mysqli_fetch_assoc($result)) {
-        echo "login: " . $row["login"]. " - Name: " . $row["senha"].  "<br>";
+        echo "id: " . $row["id"]. " - Name: " . $row["Nome"]. "Material" .$row["Material"]. "Numero de Serie:" .$row["Numero_Serie"]. "Ocorrencia" .$row["Ocorrencia"]. "Data de registro:" .$row["reg_data"].  "<br>";
     }
 
 

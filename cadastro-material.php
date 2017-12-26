@@ -85,7 +85,7 @@ $sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, re
 $result = mysqli_query($conn, $sql);
 ?>
 
-
+<div class="container" >
    <?php if(mysqli_num_rows ($result) > 0 ): ?>    
 <table class="table table-bordered">
 <thead>
@@ -129,7 +129,7 @@ $result = mysqli_query($conn, $sql);
 </table>
 <?php endif;?>
 
-
+</div>
 
 
 

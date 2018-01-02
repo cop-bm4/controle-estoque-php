@@ -65,7 +65,7 @@ echo "Não foi possível conectar ao banco de dados";
 
 
 
-    <p class="text-danger">Cadastro de Material Operacional </p> 
+   
 
 <div class="row">
    
@@ -86,7 +86,7 @@ $result = mysqli_query($conn, $sql);
 <table class="table table-bordered">
 <thead>
   <tr>
-    <th>ID</th>
+  
     <th >Material</th>
     <th>RP</th>
     <th>Numero de Serie</th>
@@ -101,7 +101,7 @@ $result = mysqli_query($conn, $sql);
  <?php while($row = mysqli_fetch_assoc($result)): ?> 
 
   <tr>
-    <td><?php echo $row['id']; ?></td>
+    
     <td><?php echo $row['material']; ?></td>
     <td><?php echo $row['rp']; ?></td>
     <td><?php echo $row['nserie']?></td>

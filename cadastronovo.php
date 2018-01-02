@@ -4,17 +4,8 @@
   <title>cadastro material operacional</title>
 
     <!--login -->
-<?php  
-session_start();
-if((!isset ($_SESSION['login']) == true) and (!isset ($_SESSION['senha']) == true))
-{
-  unset($_SESSION['login']);
-  unset($_SESSION['senha']);
-  header('location:home.php');
-  }
+<?php require "credenciais.php" ?>
 
-$logado = $_SESSION['login'];
-?>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!---->

@@ -60,7 +60,7 @@
       <div class="col-sm-6">
         <div class="input-group">
           <span class="input-group-addon">Text</span>
-            <input id="msg" type="text" class="form-control" name="msg" placeholder="Nome">
+            <input id="msg" type="Nome" class="form-control" name="msg" placeholder="Nome">
           </div>
       </div>
     </div>

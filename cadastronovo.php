@@ -65,29 +65,7 @@ echo "Não foi possível conectar ao banco de dados";
 
 
 
-<?php
 
-$ubm = "30 gbm";
-$material = "capa";
-$tipo = 2;
-$rp="1234";
-$nserie="123";
-$situacao="operante";
-$ocorrencia="deu prego";
-$nome="vasco";
-$rg="643687";
-
-$query = "INSERT INTO  materialoperacional('ubm', 'material', 'tipo', 'rp', 'nserie', 'situacao', 'ocorrencia', 'nome',' rg') VALUES ('$ubm' ,'$material','$tipo','$rp','$nserie','$situacao','$ocorrencia','$nome', '$rg') ";
-
-mysqli_query($query,$conn);
-
-
-
-
-
-
-$conn->close();
-?>
 
 </body>
 </html>

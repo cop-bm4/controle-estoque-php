@@ -25,7 +25,7 @@
    	
    </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="http://mytestsite-com-br.umbler.net/login.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+      <li class="active"><a href="http://copbm4-com-br.umbler.net/login.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
       
     </ul>
   </div>

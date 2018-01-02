@@ -87,12 +87,12 @@ $result = mysqli_query($conn, $sql);
 <thead>
   <tr>
   
-    <th >Material</th>
+    <th align="center" >Material</th>
     <th>RP</th>
     <th>Numero de Serie</th>
     <th>situacao</th>
     <th>Atualizado em</th>
-    <th align="center">Opções</th>
+    <th align="center" >        Opções      </th>
   </tr>
 </thead>
 

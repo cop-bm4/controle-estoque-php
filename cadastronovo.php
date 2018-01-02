@@ -4,7 +4,7 @@
   <title>cadastro material operacional</title>
 
     <!--login -->
-<?php require "credenciais.php" ?>
+
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -67,16 +67,6 @@ echo "Não foi possível conectar ao banco de dados";
 
 <?php
 
-
-
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-$stmt = $conn->prepare("INSERT INTO  materialoperacional(ubm, material, tipo, rp, nserie, situacao, ocorrencia, nome, rg) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
-
-$stmt->bind_param($ubm, $material, $tipo, $rp, $nserie, $situacao, $ocorrencia, $nome, $rg);
-
 $ubm = "30 gbm";
 $material = "capa";
 $tipo = 2;
@@ -86,10 +76,15 @@ $situacao="operante";
 $ocorrencia="deu prego";
 $nome="vasco";
 $rg="643687";
-$stmt->execute();
+
+$query = "INSERT INTO  'materialoperacional'('ubm', 'material', 'tipo', 'rp', 'nserie', 'situacao', 'ocorrencia', 'nome',' rg') VALUES ('$ubm' ,'$material','$tipo','$rp','$nserie','$situacao','$ocorrencia','$nome', '$rg') ";
+
+mysqli_query($query,$conn);
 
 
-$stmt->close();
+
+
+
 
 $conn->close();
 ?>

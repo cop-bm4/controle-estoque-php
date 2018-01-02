@@ -77,7 +77,7 @@ $ocorrencia="deu prego";
 $nome="vasco";
 $rg="643687";
 
-$query = "INSERT INTO  'materialoperacional'('ubm', 'material', 'tipo', 'rp', 'nserie', 'situacao', 'ocorrencia', 'nome',' rg') VALUES ('$ubm' ,'$material','$tipo','$rp','$nserie','$situacao','$ocorrencia','$nome', '$rg') ";
+$query = "INSERT INTO  materialoperacional('ubm', 'material', 'tipo', 'rp', 'nserie', 'situacao', 'ocorrencia', 'nome',' rg') VALUES ('$ubm' ,'$material','$tipo','$rp','$nserie','$situacao','$ocorrencia','$nome', '$rg') ";
 
 mysqli_query($query,$conn);
 

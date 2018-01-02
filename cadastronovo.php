@@ -13,7 +13,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- <?php
+
+</head>
+<body>
+  <?php
   require "db.php"; 
 
 // Check connection
@@ -51,12 +54,9 @@ echo "Não foi possível conectar ao banco de dados";
   </div>
 </nav>
 
-</head>
-<body>
- 
 
 <form action="cadastro.php" method="post">
-  <div class="container">
+  
     <div class="row">
       <div class="col-sm-6">
         <div class="input-group">
@@ -65,8 +65,7 @@ echo "Não foi possível conectar ao banco de dados";
           </div>
       </div>
     </div>
-  </div>
-
+  
 </form>
 
 

@@ -53,8 +53,9 @@
   </div>
   
 </div>
+
 <form action="cadastro.php" method="post">
-  
+  <div class="container">
     <div class="row">
       <div class="col-sm-6">
         <div class="input-group">
@@ -63,7 +64,7 @@
           </div>
       </div>
     </div>
-  
+  </div>
 </form>
 
 

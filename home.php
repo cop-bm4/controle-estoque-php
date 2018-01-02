@@ -36,15 +36,15 @@ $logado = $_SESSION['login'];
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="http://mytestsite-com-br.umbler.net/"> SISCOMP </a>
+      <a class="navbar-brand" href="http://copbm4-com-br.umbler.net/"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active" ><a href="http://mytestsite-com-br.umbler.net/home.php">Home</a></li>
+      <li class="active" ><a href="http://copbm4-com-br.umbler.net/home.php">Home</a></li>
      
      	<li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Registro<span class="caret"></span></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4-com-br.umbler.net/cadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Material</a></li>
+          <li><a href="http://copbm4-com-br.umbler.net/cadastro-material.php">Material</a></li>
           <li><a href="#">VTRS</a></li>
           <li><a href="#">Embarcações</a></li>
         </ul>
@@ -59,7 +59,7 @@ $logado = $_SESSION['login'];
     </ul>
     <ul class="nav navbar-nav navbar-right">
       
-      <li><a href=" http://mytestsite-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+      <li><a href="http://copbm4-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
   </div>
 </nav>
@@ -78,8 +78,8 @@ $logado = $_SESSION['login'];
       
       	
 <div class="thumbnail">
-      <a href="http://mytestsite-com-br.umbler.net/cadastro-material.php">
-        <img src="http://mytestsite-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
+      <a href="http://copbm4-com-br.umbler.net/cadastro-material.php">
+        <img src="http://copbm4-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
         <div class="caption">
         <h3 align="center">        Material </h3>
         </div>

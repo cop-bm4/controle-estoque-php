@@ -44,11 +44,11 @@ echo "Não foi possível conectar ao banco de dados";
       <a class="navbar-brand" href="#"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="http://mytestsite-com-br.umbler.net/home.php">Home</a></li>
+      <li ><a href="http://copbm4-com-br.umbler.net/home.php">Home</a></li>
       <li class= "active" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="http://mytestsite-com-br.umbler.net/cadastro-material.php">Registro<span class="caret"></span></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4-com-br.umbler.net/cadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="http://mytestsite-com-br.umbler.net/cadastro-material.php" >Material</a></li>
+          <li><a href="http://copbm4-com-br.umbler.net/cadastro-material.php" >Material</a></li>
           <li><a href="#">VTRS</a></li>
           <li><a href="#">Embarcações</a></li>
         </ul>
@@ -58,7 +58,7 @@ echo "Não foi possível conectar ao banco de dados";
     </ul>
     <ul class="nav navbar-nav navbar-right">
      
-      <li><a href=" http://mytestsite-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+      <li><a href="http://copbm4-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
   </div>
 </nav>

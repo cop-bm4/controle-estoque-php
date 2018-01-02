@@ -4,7 +4,7 @@
 
 <?php
 
-$material ="oculos";
+$material = $_POST['material'];
 ?>
 <?php
 

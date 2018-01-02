@@ -55,18 +55,7 @@ echo "Não foi possível conectar ao banco de dados";
 </nav>
 
 
-<form action="cadastro.php" method="post">
-  
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="input-group">
-          <span class="input-group-addon">Text</span>
-            <input id="msg" type="text" class="form-control" name="msg" placeholder="Nome">
-          </div>
-      </div>
-    </div>
-  
-</form>
+
 
 
 </body>

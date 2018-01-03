@@ -97,14 +97,16 @@
               <option data-tokens="operacional" value="Operacional">Operacional</option>
               <option data-tokens="Inoperante" value="Inoperante">Inoperante</option>
             </select>
+               <?php
+  $option = $_POST['situacao'];
+?>
         </div>
       </div>
     </div>
     <br>
-    <?php
-  $option = $_POST['situacao'];
-?>
-<?php if (option==Inoperante): ?>
+ 
+
+<?php if ($option=="Inoperante"): ?>
     <div class="row">
       <div class="col-lg-8">
         <div class="input-group">

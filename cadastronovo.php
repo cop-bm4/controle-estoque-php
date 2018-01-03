@@ -57,21 +57,15 @@
 <form action="cadastro.php" method="post">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <div class="input-group">
-          <span class="input-group-addon">Material</span>
-            <input id="msg" type="text" class="form-control" name="material" placeholder="Nome">
-          </div>
-          <div class="input-group">
-  
-              <span class="input-group-addon">Material</span>
-              <select class="form-control" data-live-search="true" name="teste">
+            <span class="input-group-addon">Material</span>
+              <select class="form-control" data-live-search="true" name="material">
                 <option data-tokens="hotdog" value="hot Dog">Hot Dog, Fries and a Soda</option>
                  <option data-tokens="mustard" value="Burger">Burger, Shake and a Smile</option>
                  <option data-tokens="frosting" value="Sugar">Sugar, Spice and all things nice</option>
               </select>
-
-               </div> 
+          </div> 
 
 
           </div>

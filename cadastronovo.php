@@ -88,7 +88,7 @@
     
    <br>
   
-  
+  <form action="" method="post">
     <div class="row">
       <div class="col-lg-4">
         <div class="input-group"> 
@@ -117,7 +117,7 @@
       </div>
     </div>   
 <?php endif; ?>
-
+</form>
     <div class="col-lg-8">
    <button type="submit" class="btn btn-default">Enviar</button>
     </div>

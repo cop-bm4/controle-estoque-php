@@ -62,21 +62,17 @@
           <span class="input-group-addon">Material</span>
             <input id="msg" type="text" class="form-control" name="material" placeholder="Nome">
           </div>
-          
           <div>
-            
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <label class="input-group-text" for="selec">Material</label>
-              </div>
-              <select class="custom-select" data-live-search="true" name="teste" id="selec">
+  
+
+              <select class="selectpicker" data-live-search="true" name="teste">
                 <option data-tokens="hotdog" value="hot Dog">Hot Dog, Fries and a Soda</option>
                  <option data-tokens="mustard" value="Burger">Burger, Shake and a Smile</option>
                  <option data-tokens="frosting" value="Sugar">Sugar, Spice and all things nice</option>
               </select>
 
                </div> 
-               
+
 
           </div>
       </div>
@@ -85,17 +81,6 @@
 </form>
 
 
-<div class="input-group">
-  <div class="input-group-prepend">
-    <label class="input-group-text" for="inputGroupSelect01">Options</label>
-  </div>
-  <select class="custom-select" id="inputGroupSelect01">
-    <option selected>Choose...</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-</div>
 
 </body>
 </html>

@@ -62,9 +62,9 @@
           <span class="input-group-addon">Material</span>
             <input id="msg" type="text" class="form-control" name="material" placeholder="Nome">
           </div>
-          <div>
+          <div class="input-group">
   
-
+              <span class="input-group-addon">Material</span>
               <select class="selectpicker" data-live-search="true" name="teste">
                 <option data-tokens="hotdog" value="hot Dog">Hot Dog, Fries and a Soda</option>
                  <option data-tokens="mustard" value="Burger">Burger, Shake and a Smile</option>

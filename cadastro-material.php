@@ -83,9 +83,9 @@ $result = mysqli_query($conn, $sql);
   <tr>
   
     <th align="center" >Material</th>
-    <th>RP</th>
-    <th>Numero de Serie</th>
-    <th>situacao</th>
+    <th>R. Patrimônial</th>
+    <th>Número de Série</th>
+    <th>Situação</th>
     <th>Atualizado em</th>
     <th align="center" >        Opções      </th>
   </tr>

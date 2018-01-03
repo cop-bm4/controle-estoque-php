@@ -91,7 +91,9 @@
     </div>
   </div>
   <div class="container">
+    <div class="col-sm-8">
    <button type="submit" class="btn btn-default">Enviar</button>
+    </div>
    </div>
 </form>
 

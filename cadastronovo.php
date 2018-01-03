@@ -88,7 +88,7 @@
     </div>
   </div>
   
-  <div class="container">
+  
     <div class="row">
       <div class="col-lg-4">
         <div class="input-group"> 
@@ -100,14 +100,14 @@
         </div>
       </div>
     </div>
-  </div>
+ 
 
 
-  <div class="container">
+  
     <div class="col-lg-8">
    <button type="submit" class="btn btn-default">Enviar</button>
     </div>
-   </div>
+   
 </form>
 
 

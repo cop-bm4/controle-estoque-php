@@ -69,10 +69,10 @@
         </div>
         
         <div class="col-sm-2">
-          <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="inputGroup-sizing-default">R. Patrimônial</span>
-            </div>
+          <div class="input-group">
+            
+                <span class="input-group-addon" id="inputGroup-sizing-default">R. Patrimônial</span>
+            
                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rp">
           </div>
         

@@ -65,7 +65,7 @@
           <div>
   
 
-<select class="selectpicker" data-live-search="true" name="teste">
+<select class="form-control" data-live-search="true" name="teste">
   <option data-tokens="ketchup mustard" value="hot Dog">Hot Dog, Fries and a Soda</option>
   <option data-tokens="mustard" value="Burger">Burger, Shake and a Smile</option>
   <option data-tokens="frosting" value="Sugar">Sugar, Spice and all things nice</option>

@@ -47,24 +47,54 @@
 
 
 <div class="container">
-<div class="jumbotron">
-<h1>SISCOMP</h1> 
-    <p class="text-danger">Cadastro de Material Operacional </p> 
-  </div>
+
+
+   <h2 class="text-danger" align="center"> Cadastro de Novo Material  </h2> 
+  
   
 </div>
 
 <form action="cadastro.php" method="post">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <div class="input-group">
-          <span class="input-group-addon">Material</span>
-            <input id="msg" type="text" class="form-control" name="material" placeholder="Nome">
+            <span class="input-group-addon">Material</span>
+              <select class="form-control" data-live-search="true" name="material">
+                <option data-tokens="hotdog" value="Capacete">Capacete </option>
+                 <option data-tokens="mustard" value="Luva">Luva</option>
+                 <option data-tokens="frosting" value="Bala Clava">Bala Clava</option>
+              </select>
+          </div> 
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="input-group">
+            
+                <span class="input-group-addon" id="inputGroup-sizing-default">R. Patrimônial</span>
+            
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rp">
           </div>
+        
+        </div>
+        <div class="col-sm-4">
+          <div class="input-group">
+            <span class="input-group-addon"  id="inputGroup-sizing-default" >N. Série</span>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie">
+          </div>
+        </div>
+
       </div>
+
+   
+
     </div>
   </div>
+  <div class="container">
+    <div class="col-sm-8">
+   <button type="submit" class="btn btn-default">Enviar</button>
+    </div>
+   </div>
 </form>
 
 

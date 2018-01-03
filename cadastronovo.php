@@ -79,8 +79,8 @@
         </div>
         <div class="col-sm-4">
           <div class="input-group">
-            <span class="input-group-addon">N. Série</span>
-            <input type="text" name="nserie">
+            <span class="input-group-addon"  id="inputGroup-sizing-default" >N. Série</span>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie">
           </div>
         </div>
 

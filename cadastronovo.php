@@ -101,7 +101,7 @@
       </div>
     </div>
 
-<?php if (situacao==Inoperante) ?>
+<?php if (situacao==Inoperante): ?>
     <div class="row">
       <div class="col-lg-8">
         <div class="input-group">

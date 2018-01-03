@@ -66,9 +66,9 @@
           <div>
             <div class="input-group mb-3">
               <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">Material</label>
+                <label class="input-group-text" for="selec">Material</label>
               </div>
-              <select class="selectpicker" data-live-search="true" name="teste">
+              <select class="custom-select" data-live-search="true" name="teste" id="selec">
                 <option data-tokens="hotdog" value="hot Dog">Hot Dog, Fries and a Soda</option>
                  <option data-tokens="mustard" value="Burger">Burger, Shake and a Smile</option>
                  <option data-tokens="frosting" value="Sugar">Sugar, Spice and all things nice</option>

@@ -66,9 +66,18 @@
                  <option data-tokens="frosting" value="Sugar">Sugar, Spice and all things nice</option>
               </select>
           </div> 
-
-
+        </div>
+        
+        <div class="col-sm-2">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">R. Patrimônial</span>
+            </div>
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rp">
           </div>
+        
+        </div>
+
       </div>
     </div>
   </div>

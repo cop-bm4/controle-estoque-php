@@ -49,7 +49,7 @@
 <div class="container">
 
 
-    <p class="text-danger">Cadastro de Material Operacional </p> 
+   <h2> <p class="text-danger">Cadastro de Material Operacional </p> </h2> 
   
   
 </div>

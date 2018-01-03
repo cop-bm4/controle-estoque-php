@@ -101,7 +101,10 @@
       </div>
     </div>
     <br>
-<?php if (situacao==Inoperante): ?>
+    <?php
+  $option = $_POST['situacao'];
+?>
+<?php if (option==Inoperante): ?>
     <div class="row">
       <div class="col-lg-8">
         <div class="input-group">

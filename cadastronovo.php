@@ -76,7 +76,16 @@
               </select>
 
                </div> 
-               <div class="input-group mb-3">
+               
+
+          </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+
+<div class="input-group">
   <div class="input-group-prepend">
     <label class="input-group-text" for="inputGroupSelect01">Options</label>
   </div>
@@ -87,15 +96,6 @@
     <option value="3">Three</option>
   </select>
 </div>
-
-
-          </div>
-      </div>
-    </div>
-  </div>
-</form>
-
-
 
 </body>
 </html>

@@ -100,10 +100,18 @@
         </div>
       </div>
     </div>
- 
 
+<?php if (situacao==Inoperante) ?>
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="input-group">
+          <span class="input-group-addon"> Ocorrência</span>
+            <input type="text" name="ocorrencia" class="form-control" placeholder="Digite a Ocorrência">
+        </div>
+      </div>
+    </div>   
+<?php endif; ?>
 
-  
     <div class="col-lg-8">
    <button type="submit" class="btn btn-default">Enviar</button>
     </div>

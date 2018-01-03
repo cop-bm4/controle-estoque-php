@@ -65,17 +65,14 @@
           <div>
   
 
-<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <label class="input-group-text" for="inputGroupSelect01">Material</label>
-  </div>
-  <select class="custom-select" id="inputGroupSelect01" data-live-search="true" name="teste">
-    <option ><input id="msg" type="text"> </option>
-    <option data-tokens= "One " value="1">One</option>
-    <option data-tokens= "Two"  value="2">Two</option>
-    <option data-tokens= "Three" value="3">Three</option>
-  </select>
-</div>
+<select class="form-control" data-live-search="true" name="teste">
+  <option data-tokens="hotdog" value="hot Dog">Hot Dog, Fries and a Soda</option>
+  <option data-tokens="mustard" value="Burger">Burger, Shake and a Smile</option>
+  <option data-tokens="frosting" value="Sugar">Sugar, Spice and all things nice</option>
+</select>
+
+
+
 
           </div>>
       </div>

@@ -92,7 +92,7 @@ $result = mysqli_query($conn, $sql);
     <th>Numero de Serie</th>
     <th>situacao</th>
     <th>Atualizado em</th>
-    <th align="center" >        Opções      </th>
+    <th margin:0 auto >        Opções      </th>
   </tr>
 </thead>
 

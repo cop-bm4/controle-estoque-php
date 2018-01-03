@@ -109,12 +109,12 @@
       <div class="col-lg-8">
         <div class="input-group">
           <span class="input-group-addon"> Ocorrência</span>
-            <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" >
+            <input type="text" class="form-control"  placeholder="Caso Inoperante digite a Ocorrência" name="ocorrencia" >
         </div>
       </div>
     </div>   
 
-
+<br>
     <div class="col-lg-8">
    <button type="submit" class="btn btn-default">Enviar</button>
     </div>

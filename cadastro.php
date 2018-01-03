@@ -10,7 +10,7 @@ $teste = $_POST['teste'];
 <?php
 
 
-$sql = "INSERT INTO materialoperacional (material, ubm, nome)
+$sql = "INSERT INTO materialoperacional (material, rp, nome)
 VALUES ('$material', '$teste', 'john')";
 
 if ($conn->query($sql) === TRUE) {

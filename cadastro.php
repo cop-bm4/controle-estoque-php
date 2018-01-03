@@ -5,12 +5,13 @@
 <?php
 
 $material = $_POST['material'];
+$teste = $_POST['teste'];
 ?>
 <?php
 
 
 $sql = "INSERT INTO materialoperacional (material, ubm, nome)
-VALUES ('$material', '30 gbm', 'john')";
+VALUES ('$material', '$teste', 'john')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";

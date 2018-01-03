@@ -61,9 +61,9 @@
         <div class="input-group">
             <span class="input-group-addon">Material</span>
               <select class="form-control" data-live-search="true" name="material">
-                <option data-tokens="hotdog" value="hot Dog">Hot Dog, Fries and a Soda</option>
-                 <option data-tokens="mustard" value="Burger">Burger, Shake and a Smile</option>
-                 <option data-tokens="frosting" value="Sugar">Sugar, Spice and all things nice</option>
+                <option data-tokens="hotdog" value="hot Dog">Capacete </option>
+                 <option data-tokens="mustard" value="Burger">Luva</option>
+                 <option data-tokens="frosting" value="Sugar">Bala Clava</option>
               </select>
           </div> 
         </div>
@@ -85,7 +85,7 @@
         </div>
 
       </div>
-       
+
    
 
     </div>

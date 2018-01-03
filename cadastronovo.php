@@ -88,7 +88,7 @@
     
    <br>
   
-  <form action="" method="post">
+  
     <div class="row">
       <div class="col-lg-4">
         <div class="input-group"> 
@@ -97,17 +97,14 @@
               <option data-tokens="operacional" value="Operacional">Operacional</option>
               <option data-tokens="Inoperante" value="Inoperante">Inoperante</option>
             </select>
-               <?php
-  $option = $_POST['situacao'];
-  echo  $option;
-?>
+     
         </div>
       </div>
     </div>
     <br>
  
 
-<?php if ($option=="Inoperante"): ?>
+
     <div class="row">
       <div class="col-lg-8">
         <div class="input-group">
@@ -116,8 +113,8 @@
         </div>
       </div>
     </div>   
-<?php endif; ?>
-</form>
+
+
     <div class="col-lg-8">
    <button type="submit" class="btn btn-default">Enviar</button>
     </div>

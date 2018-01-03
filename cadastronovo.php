@@ -99,6 +99,7 @@
             </select>
                <?php
   $option = $_POST['situacao'];
+  echo  $option;
 ?>
         </div>
       </div>

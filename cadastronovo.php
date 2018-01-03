@@ -62,6 +62,14 @@
           <span class="input-group-addon">Material</span>
             <input id="msg" type="text" class="form-control" name="material" placeholder="Nome">
           </div>
+          <div>
+            <B>Qual seu processador?</B><br>
+<select name=processador>
+<option value=Pentium>Pentium</option>
+<option value=AMD>AMD</option>
+<option value=Celeron>Celeron</option>
+</select>
+          </div>>
       </div>
     </div>
   </div>

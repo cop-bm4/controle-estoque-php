@@ -61,9 +61,9 @@
         <div class="input-group">
             <span class="input-group-addon">Material</span>
               <select class="form-control" data-live-search="true" name="material">
-                <option data-tokens="hotdog" value="hot Dog">Capacete </option>
-                 <option data-tokens="mustard" value="Burger">Luva</option>
-                 <option data-tokens="frosting" value="Sugar">Bala Clava</option>
+                <option data-tokens="hotdog" value="Capacete">Capacete </option>
+                 <option data-tokens="mustard" value="Luva">Luva</option>
+                 <option data-tokens="frosting" value="Bala Clava">Bala Clava</option>
               </select>
           </div> 
         </div>

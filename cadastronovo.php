@@ -64,7 +64,7 @@
           </div>
           <div>
             <B>Qual seu processador?</B><br>
-<select name=processador>
+<select name="teste">
 <option value=Pentium>Pentium</option>
 <option value=AMD>AMD</option>
 <option value=Celeron>Celeron</option>

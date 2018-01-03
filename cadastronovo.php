@@ -86,16 +86,7 @@
 
       </div>
 
-    <div class="row">
-      <div class="col-sm-4"></div>
-        <div class="input-group">
-            <span class="input-group-addon">Situação</span>
-              <select class="form-control" data-live-search="true" name="situacao">
-                <option data-tokens="operante" value="operante">Operante</option>
-                 <option data-tokens="inoperante" value="inoperante">Inoperante</option>
-              </select>
-          </div> 
-    </div>    
+   
 
     </div>
   </div>

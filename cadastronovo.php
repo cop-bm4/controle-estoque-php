@@ -49,7 +49,7 @@
 <div class="container">
 
 
-   <h2 class="text-danger" align="center"> Cadastro de Material Operacional  </h2> 
+   <h2 class="text-danger" align="center"> Cadastro de Novo Material  </h2> 
   
   
 </div>

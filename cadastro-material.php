@@ -84,10 +84,10 @@ $result = mysqli_query($conn, $sql);
 <div class="container" >
    <?php if(mysqli_num_rows ($result) > 0 ): ?>    
 <table class="table table-bordered">
-<thead>
+<thead class="thead-default">
   <tr>
   
-    <th  >Material</th>
+    <th  > Material </th>
     <th>Registro Patrimônial</th>
     <th>Número de Série</th>
     <th>Situação</th>

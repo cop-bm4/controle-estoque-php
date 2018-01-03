@@ -57,7 +57,7 @@
 <form action="cadastro.php" method="post">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-lg-4">
         <div class="input-group">
             <span class="input-group-addon">Material</span>
               <select class="form-control" data-live-search="true" name="material">
@@ -68,7 +68,7 @@
           </div> 
         </div>
         
-        <div class="col-sm-4">
+        <div class="col-lg-4">
           <div class="input-group">
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">R. Patrimônial</span>
@@ -77,7 +77,7 @@
           </div>
         
         </div>
-        <div class="col-sm-4">
+        <div class="col-lg-4">
           <div class="input-group">
             <span class="input-group-addon"  id="inputGroup-sizing-default" >N. Série</span>
             <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie">
@@ -90,7 +90,7 @@
   
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-lg-4">
         <div class="input-group"> 
           <span class="input-group-addon">Situação</span>
             <select class="form-control" data-live-search="true" name="situacao">
@@ -104,7 +104,7 @@
 
 
   <div class="container">
-    <div class="col-sm-8">
+    <div class="col-lg-8">
    <button type="submit" class="btn btn-default">Enviar</button>
     </div>
    </div>

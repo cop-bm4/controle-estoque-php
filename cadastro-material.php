@@ -87,12 +87,12 @@ $result = mysqli_query($conn, $sql);
 <thead>
   <tr>
   
-    <th align="center" >Material</th>
-    <th>RP</th>
-    <th>Numero de Serie</th>
-    <th>situacao</th>
+    <th  >Material</th>
+    <th>Registro Patrimônial</th>
+    <th>Número de Série</th>
+    <th>Situação</th>
     <th>Atualizado em</th>
-    <th margin:0 auto >        Opções      </th>
+    <th  >        Opções      </th>
   </tr>
 </thead>
 
@@ -108,9 +108,9 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['situacao']; ?></td>
     <td><?php echo $row['reg_date']; ?></td>
     <td class="actions text-right">
-      <a href="view.php?id=<?php echo $row['id']; ?>" class="btn"><i class="fa fa-eye"></i> Visualizar</a>
-      <a href="edit.php?id=<?php echo $row['id']; ?>" class="btn "><i class="fa fa-pencil"></i> Editar</a>
-      <a href="#" class="btn " data-toggle="modal" data-target="#delete-modal" data-customer="<?php echo $row['id']; ?>">
+      <a href="view.php?id=<?php echo $row['id']; ?>" class="btn btn-secondary"><i class="fa fa-eye"></i> Visualizar</a>
+      <a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-secondary "><i class="fa fa-pencil"></i> Editar</a>
+      <a href="#" class="btn btn-secondary " data-toggle="modal" data-target="#delete-modal" data-customer="<?php echo $row['id']; ?>">
         <i class="fa fa-trash"></i> Excluir
       </a>
     </td>

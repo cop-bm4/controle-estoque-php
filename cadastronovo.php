@@ -63,22 +63,28 @@
             <input id="msg" type="text" class="form-control" name="material" placeholder="Nome">
           </div>
       </div>
-      <div class="col-sm-3">
-          <div class="btn-group" role="group" name="teste">
-    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Dropdown
-    </button>
-    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-      <a class="dropdown-item" href="#">Dropdown link</a>
-      <a class="dropdown-item" href="#">Dropdown link</a>
-    </div>
-  </div>
-        
-      </div>>
     </div>
   </div>
 </form>
 
+<form action="select.php" method="post">
+<B>Qual seu processador?</B><br>
+<select name=processador>
+<option value=Pentium>Pentium</option>
+<option value=AMD>AMD</option>
+<option value=Celeron>Celeron</option>
+</select><BR><BR>
+<B>Livros que deseja comprar?</B><br>
+Obs: segure "CTRL" para selecionar mais de um.<BR>
+<select name="livros[]" multiple>
+<option value="Biblia do PHP 4">Biblia do PHP 4</option>
+<option value="PHP Professional">PHP Professional</option>
+<option value="Iniciando em PHP">Iniciando em PHP</option>
+<option value="Novidades do PHP 5">Novidades do PHP 5</option>
+<option value="Biblia do MySQL">Biblia do MySQL</option>
+</select><BR><BR>
+<input type=submit>
+</form>
 
 
 </body>

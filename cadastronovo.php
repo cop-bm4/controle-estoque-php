@@ -149,10 +149,11 @@
                 <span class="input-group-addon" id="inputGroup-sizing-default">Nome</span>
             
                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="João Victor" name="nome">
-                 <p id="passwordHelpBlock" class="form-text text-muted">
+             
+          </div>
+              <p id="passwordHelpBlock" class="form-text text-muted">
             Digite o seu nome completo.
           </p>
-          </div>
       </div>
       
       <div class="col-lg-4">

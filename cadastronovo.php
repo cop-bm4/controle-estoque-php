@@ -90,10 +90,10 @@
         <div class="col-lg-4">
           <div class="input-group">
             <span class="input-group-addon"  id="inputGroup-sizing-default" >N. Série</span>
-            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie" required>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie" id="validationCustom01" required>
             <div class="invalid-feedback">
           Please choose a username.
-        </div>
+            </div>
           </div>
             <p id="passwordHelpBlock" class="form-text text-muted">
             Digite o Número de Série do Material .

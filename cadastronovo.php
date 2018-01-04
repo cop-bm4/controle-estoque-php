@@ -164,16 +164,16 @@
                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rg">
           </div>
       </div>
-    </div>
-    <div class="col-lg-4">
+   
+      <div class="col-lg-4">
          <div class="input-group">
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">Cargo</span>
             
                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="cargo">
-          </div>
+        </div>
       </div>
-
+    </div>
 
 <br>
     <div class="col-lg-8">

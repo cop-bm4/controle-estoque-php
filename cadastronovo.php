@@ -96,9 +96,13 @@
           <span class="input-group-addon">Situação</span>
             <select class="form-control" data-live-search="true" name="situacao">
               <option data-tokens="operacional" value="Operacional">Operacional</option>
-              <option data-tokens="Inoperante" value="Inoperante">Inoperante</option>
+              <option data-tokens="Inoperante" value="Inoperante" data-toggle="collapse" data-target="collapseExample" aria-expanded="false">Inoperante</option>
             </select>
-     
+     <div class="collapse" id="collapseExample">
+  <div class="input-group">
+          <span class="input-group-addon"> Ocorrência</span>
+            <input type="text" class="form-control"  placeholder="Caso Inoperante, digite a Ocorrência" name="ocorrencia" >
+        </div>
         </div>
       </div>
     </div>

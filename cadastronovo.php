@@ -55,10 +55,10 @@
 </div>
 
  
-  <div class="p-3 mb-2 bg-danger text-white">1- Cadastro Material</div>
-  
 <form action="cadastro.php" method="post">
- 
+ <div class="container">
+  <div class="p-3 mb-2 bg-info text-white">1- Cadastro Material</div>
+  </div>
   <div class="container">
   
     <div class="row">

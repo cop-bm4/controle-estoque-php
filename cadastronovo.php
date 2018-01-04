@@ -93,6 +93,7 @@
             <p id="passwordHelpBlock" class="form-text text-muted">
             Digite o seu númeor de Série .
            </p>
+        
         </div>
 
       </div>

@@ -14,7 +14,7 @@ $ocorrencia = $_POST['ocorrencia'];
 
 
 $sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia)
-VALUES ('$material', '$rp', '$nserie', '$situacao', 'ocorrencia')";
+VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";

@@ -81,13 +81,18 @@
             
                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rp">
           </div>
-        
+            <p id="passwordHelpBlock" class="form-text text-muted">
+            Digite o seu número de R. Patrimônial.
+           </p>
         </div>
         <div class="col-lg-4">
           <div class="input-group">
             <span class="input-group-addon"  id="inputGroup-sizing-default" >N. Série</span>
             <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie">
           </div>
+            <p id="passwordHelpBlock" class="form-text text-muted">
+            Digite o seu númeor de Série .
+           </p>
         </div>
 
       </div>
@@ -163,6 +168,9 @@
             
                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rg">
           </div>
+            <p id="passwordHelpBlock" class="form-text text-muted">
+            Digite o seu RG.
+           </p>
       </div>
    
       <div class="col-lg-4">
@@ -172,6 +180,9 @@
             
                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="cargo">
         </div>
+            <p id="passwordHelpBlock" class="form-text text-muted">
+            Digite o seu Cargo.
+           </p>
       </div>
     
     </div>

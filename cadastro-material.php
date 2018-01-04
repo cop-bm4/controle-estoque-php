@@ -65,8 +65,7 @@ echo "Não foi possível conectar ao banco de dados";
 
    
 <?php $ub = $_SESSION['ubm']; 
-echo $ub;
-echo "string";
+
 ?>
 
 <div class="row">
@@ -78,7 +77,7 @@ echo "string";
   </div>
 
 <?php
-$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, reg_date FROM materialoperacional WHERE 'ubm' =' $ub' ";
+$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, reg_date FROM materialoperacional WHERE 'ubm' ='$ub' ";
 $result = mysqli_query($conn, $sql);
 ?>
 

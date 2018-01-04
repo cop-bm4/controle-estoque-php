@@ -55,7 +55,7 @@
 </div>
 
  
-<form action="cadastro.php" method="post" novalidate>
+<form action="cadastro.php" method="post" id="needs-validation" novalidate>
  <div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Cadastro Material </h3></div>
   </div>

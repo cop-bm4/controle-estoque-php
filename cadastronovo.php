@@ -57,7 +57,7 @@
 <form action="cadastro.php" method="post">
   <div class="container">
     <div class="alert alert-secondary" role="alert">
-  <h2>1 - Cadastro do Material. </h2>
+  1 - Cadastro do Material. 
 </div>
     <div class="row">
       <div class="col-lg-4">

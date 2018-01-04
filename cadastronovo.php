@@ -120,6 +120,7 @@
       <div class="col-lg-4"></div>
 <p>
   <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" name="ubm">
+   
     Regitrar Ocorrência.
   </a>
   

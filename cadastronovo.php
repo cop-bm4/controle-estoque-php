@@ -128,7 +128,8 @@
       <div class="collapse" id="collapseExample">
         <div class="input-group">
           <span class="input-group-addon"> Ocorrência</span>
-            <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" >
+           <!-- <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" > -->
+            <textarea class="form-control" rows="5" id="comment" placeholder="Digite a Ocorrência" name="ocorrencia"></textarea>
       </div>
       </div>
         </div>

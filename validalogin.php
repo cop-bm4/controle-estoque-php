@@ -5,8 +5,7 @@ session_start();
 $login = $_POST['login'];
 $senha = $_POST['senha'];
 // as próximas 3 linhas são responsáveis em se conectar com o bando de dados.
-echo $login;
-echo $senha;
+
 //conxeao com banco de dados
 require "db.php"; 
 
@@ -17,7 +16,7 @@ if ($conn->connect_error) {
 echo "Connected successfully";
 
 
-$sql = "SELECT login, senha, ubm FROM materialoperacional Where `login` = '$login' AND `senha`= '$senha'";
+$sql = "SELECT login, senha FROM materialoperacional Where `login` = '$login' AND `senha`= '$senha'";
 $result = mysqli_query($conn, $sql);
 
 // A variavel $result pega as varias $login e $senha, faz uma pesquisa na tabela de usuarios
@@ -33,8 +32,7 @@ header('location:home.php');
 echo "deu certo";
 }
 else{
-	$_SESSION['login'] = $login;
-	$_SESSION['senha'] = $senha;
+	
 	unset ($_SESSION['login']);
 	unset ($_SESSION['senha']);
 	header('location:credenciaisinvalidas.php');

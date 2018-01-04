@@ -43,6 +43,7 @@
 
 
 <div class="container">
+  <form method="post" action="cadastro.php">
 <form method="post" class="input-group" action="validalogin.php" id="formlogin" name="formlogin">
 
  <div class="input-group input-group-lg">
@@ -57,7 +58,7 @@
 
   </div>
 </form>
-
+</form>
 </div>
 </body>
 </html>

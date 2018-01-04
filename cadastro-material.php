@@ -66,7 +66,9 @@ echo "Não foi possível conectar ao banco de dados";
    
 <?php $ub = $_SESSION['ubm']; 
 echo $ub;
+echo "string";
 ?>
+
 <div class="row">
    
     <div class="col-sm-10 text-right h2">

@@ -6,6 +6,7 @@
   <!--login -->
 <?php 
 require "credenciais.php"
+$ubm = $_SESSION['ubm'];
 ?>
 <title>Controle de Material Operacional</title>
 
@@ -72,7 +73,7 @@ echo "Não foi possível conectar ao banco de dados";
   </div>
 
 <?php
-$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, reg_date FROM materialoperacional ";
+$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, reg_date FROM materialoperacional WHERE 'ubm'='$ubm'";
 $result = mysqli_query($conn, $sql);
 ?>
 

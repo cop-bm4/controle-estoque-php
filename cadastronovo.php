@@ -55,7 +55,7 @@
 </div>
 
  
-<form action="cadastro.php" method="post">
+<form action="cadastro.php" method="post" novalidate>
  <div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Cadastro Material </h3></div>
   </div>
@@ -66,7 +66,7 @@
       <div class="col-lg-4">
         <div class="input-group">
             <span class="input-group-addon">Material</span>
-              <select class="form-control" data-live-search="true" name="material">
+              <select class="form-control" data-live-search="true" name="material" required>
                 <option data-tokens="Capacete" value="Capacete">Capacete </option>
                  <option data-tokens="Luva" value="Luva">Luva</option>
                  <option data-tokens="bala Clava" value="Bala Clava">Bala Clava</option>
@@ -90,7 +90,10 @@
         <div class="col-lg-4">
           <div class="input-group">
             <span class="input-group-addon"  id="inputGroup-sizing-default" >N. Série</span>
-            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie">
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie" required>
+            <div class="invalid-feedback">
+          Please choose a username.
+        </div>
           </div>
             <p id="passwordHelpBlock" class="form-text text-muted">
             Digite o Número de Série do Material .
@@ -220,7 +223,23 @@
    </div>
 </form>
 
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
 
+  window.addEventListener('load', function() {
+    var form = document.getElementById('needs-validation');
+    form.addEventListener('submit', function(event) {
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated');
+    }, false);
+  }, false);
+})();
+</script>
 
 </body>
 </html>

@@ -123,7 +123,7 @@
   <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" name="ubm">
     30 gbm
   </a>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" name="ubm">
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="collapseExample" aria-expanded="false" aria-controls="collapseExample" name="ubm">
     1 gbm
   </button>
 </p>

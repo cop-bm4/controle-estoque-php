@@ -148,6 +148,7 @@
     </div>
     <br>
     <div class="row">
+      
       <div class="col-lg-4">
         <div class="input-group">
             
@@ -156,6 +157,7 @@
                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nome">
           </div>
       </div>
+      
       <div class="col-lg-4">
          <div class="input-group">
             
@@ -165,7 +167,7 @@
           </div>
       </div>
    
-      <div class="col-lg-4">
+      <div class="col-lg-3">
          <div class="input-group">
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">Cargo</span>
@@ -173,6 +175,7 @@
                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="cargo">
         </div>
       </div>
+    
     </div>
 
 <br>

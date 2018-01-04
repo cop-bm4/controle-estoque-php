@@ -8,4 +8,5 @@ if((!isset ($_SESSION['login']) == true) and (!isset ($_SESSION['senha']) == tru
   }
 
 $logado = $_SESSION['login'];
+$ub = $_SESSION['ubm'];
 ?>

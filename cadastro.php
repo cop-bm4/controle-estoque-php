@@ -1,7 +1,7 @@
 
 
 <?php require 'db.php';  ?>
-
+<?php require 'credencias.php' ?>
 <?php
 
 $material = $_POST['material'];
@@ -17,10 +17,11 @@ $rg = $_POST['rg'];
 
 
 $sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg)
-VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ubm','$nome','$rg')";
+VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ub','$nome','$rg')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
+    header('location:cadastro-material.php');
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }

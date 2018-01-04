@@ -110,16 +110,7 @@
     <br>
  
 
-<!--
-    <div class="row">
-      <div class="col-lg-8">
-        <div class="input-group">
-          <span class="input-group-addon"> Ocorrência</span>
-            <input type="text" class="form-control"  placeholder="Caso Inoperante, digite a Ocorrência" name="ocorrencia" >
-        </div>
-      </div>
-    </div>   
--->
+
 
     <div class="row">
       <div class="col-lg-8">
@@ -131,16 +122,16 @@
     
         </p>
         <p id="passwordHelpBlock" class="form-text text-muted">
-  Caso inoperante clique para registrar a ocorrência.
-</p>
+            Caso inoperante clique para registrar a ocorrência.
+          </p>
       <div class="collapse" id="collapseExample">
         <div class="input-group">
           <span class="input-group-addon"> Ocorrência</span>
            <!-- <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" > -->
             <textarea class="form-control" rows="5" id="comment" placeholder="Digite a Ocorrência" name="ocorrencia"></textarea>
-      </div>
-      </div>
         </div>
+      </div>
+     </div>
     </div>
 
     <div class="container">
@@ -178,7 +169,7 @@
     
     </div>
 
-<br>
+    <br>
     <div class="col-lg-8">
    <button type="submit" class="btn btn-default">Enviar</button>
     </div>

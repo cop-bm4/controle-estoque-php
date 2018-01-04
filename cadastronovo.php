@@ -55,12 +55,15 @@
 </div>
 
 <form action="cadastro.php" method="post">
-  <div class="container">
+   <div class="container">
    <div class="card">
   <div class="card-body">
     Cadastro de novo material.
   </div>
 </div>
+</div>
+  <div class="container">
+  
     <div class="row">
       <div class="col-lg-4">
         <div class="input-group">

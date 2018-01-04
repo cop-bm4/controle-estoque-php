@@ -56,9 +56,11 @@
 
 <form action="cadastro.php" method="post">
   <div class="container">
-    <div class="alert alert-secondary" role="alert">
-  1 - Cadastro do Material. 
-</div>
+   <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">1- Cadastro do Material</li>
+  </ol>
+</nav>
     <div class="row">
       <div class="col-lg-4">
         <div class="input-group">

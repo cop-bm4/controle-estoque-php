@@ -1,7 +1,7 @@
 
 
 <?php require 'db.php';  ?>
-<?php require 'credencias.php' ?>
+<?php require 'credenciais.php' ?>
 <?php
 
 $material = $_POST['material'];

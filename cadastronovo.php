@@ -175,7 +175,7 @@
    <button type="submit" class="btn btn-default btn-lg">Enviar</button>
     </div>
     <div class="col-lg-4">
-      <a href="http://copbm4-com-br.umbler.net/cadastro-material.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Voltar</a>
+      <a href="http://copbm4-com-br.umbler.net/cadastro-material.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
     </div>
    </div>
    </div>

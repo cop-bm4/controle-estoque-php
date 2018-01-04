@@ -105,7 +105,7 @@
     <br>
  
 
-
+<!--
     <div class="row">
       <div class="col-lg-8">
         <div class="input-group">
@@ -114,7 +114,7 @@
         </div>
       </div>
     </div>   
-
+-->
     <div class="row">
       <div class="col-lg-4"></div>
 

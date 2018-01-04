@@ -53,11 +53,11 @@
   
   
 </div>
-
-<form action="cadastro.php" method="post">
-   <div class="container">
+  <div class="container">
   <div class="p-3 mb-2 bg-secondary text-white">1- Cadastro Material</div>
   </div>
+<form action="cadastro.php" method="post">
+ 
   <div class="container">
   
     <div class="row">

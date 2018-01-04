@@ -113,6 +113,7 @@
 
 
     <div class="row">
+      
       <div class="col-lg-8">
         <p>
           <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" name="ubm">
@@ -121,14 +122,16 @@
         </a>
     
         </p>
-        <p id="passwordHelpBlock" class="form-text text-muted">
+          <p id="passwordHelpBlock" class="form-text text-muted">
             Caso inoperante clique para registrar a ocorrência.
           </p>
       <div class="collapse" id="collapseExample">
+        
         <div class="input-group">
           <span class="input-group-addon"> Ocorrência</span>
            <!-- <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" > -->
             <textarea class="form-control" rows="5" id="comment" placeholder="Digite a Ocorrência" name="ocorrencia"></textarea>
+        
         </div>
       </div>
      </div>
@@ -145,7 +148,10 @@
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">Nome</span>
             
-               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nome">
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="João Victor" name="nome">
+                 <p id="passwordHelpBlock" class="form-text text-muted">
+            Digite o seu nome completo.
+          </p>
           </div>
       </div>
       

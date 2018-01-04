@@ -111,6 +111,9 @@
             </select>
      
         </div>
+        <p id="passwordHelpBlock" class="form-text text-muted">
+            Caso Inoperante, Clique para Registrar a Ocorrência.
+          </p>
       </div>
     </div>
     <br>
@@ -120,7 +123,7 @@
 
     <div class="row">
       
-      <div class="col-lg-8">
+      <div class="col-lg-6">
         <p>
           <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" name="ubm">
    
@@ -128,9 +131,7 @@
         </a>
     
         </p>
-          <p id="passwordHelpBlock" class="form-text text-muted">
-            Caso Inoperante clique para Registrar a Ocorrência.
-          </p>
+          
       <div class="collapse" id="collapseExample">
         
         <div class="input-group">
@@ -138,6 +139,12 @@
            <!-- <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" > -->
             <textarea class="form-control" rows="5" id="comment" placeholder="Digite a Ocorrência" name="ocorrencia"></textarea>
         
+        </div>
+        <div class="col-lg-6">
+          <div class="input-group">
+            <span class="input-group-addon"> Defeito</span>
+            <textarea class="form-control" rows="5" id="Defeito" placeholder="Digite o Defeito" name="defeito"> </textarea>
+          </div>
         </div>
       </div>
      </div>

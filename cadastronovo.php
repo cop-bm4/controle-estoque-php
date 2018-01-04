@@ -117,7 +117,7 @@
 -->
 
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-8">
         <p>
           <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" name="ubm">
    

@@ -56,11 +56,7 @@
 
 <form action="cadastro.php" method="post">
   <div class="container">
-   <nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item active" aria-current="page">1- Cadastro do Material</li>
-  </ol>
-</nav>
+   
     <div class="row">
       <div class="col-lg-4">
         <div class="input-group">
@@ -121,6 +117,25 @@
 
     <div class="row">
       <div class="col-lg-4"></div>
+
+        <p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" name="ubm">
+    30 gbm
+  </a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" name="ubm">
+    1 gbm
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="input-group">
+          <span class="input-group-addon"> Ocorrência</span>
+            <input type="text" class="form-control"  placeholder="Caso Inoperante, digite a Ocorrência" name="ocorrencia" >
+        </div>
+</div>
+
+
+
+
     </div>
 <br>
     <div class="col-lg-8">

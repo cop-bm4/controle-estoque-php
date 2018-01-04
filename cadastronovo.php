@@ -117,21 +117,21 @@
 -->
 
     <div class="row">
-      <div class="col-lg-4"></div>
-<p>
-  <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" name="ubm">
+      <div class="col-lg-4">
+        <p>
+          <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" name="ubm">
    
-    Regitrar Ocorrência.
-  </a>
+        Regitrar Ocorrência.
+        </a>
   
-</p>
-<div class="collapse" id="collapseExample">
-  <div class="input-group">
+        </p>
+      <div class="collapse" id="collapseExample">
+        <div class="input-group">
           <span class="input-group-addon"> Ocorrência</span>
             <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" >
+      </div>
+      </div>
         </div>
-</div>
-
 
 
 

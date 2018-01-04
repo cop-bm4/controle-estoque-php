@@ -123,8 +123,11 @@
    
         Regitrar Ocorrência.
         </a>
-  
+    
         </p>
+        <p id="passwordHelpBlock" class="form-text text-muted">
+  Caso inoperante clique para registrar a ocorrência.
+</p>
       <div class="collapse" id="collapseExample">
         <div class="input-group">
           <span class="input-group-addon"> Ocorrência</span>

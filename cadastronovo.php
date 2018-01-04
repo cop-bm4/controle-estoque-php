@@ -141,10 +141,32 @@
       </div>
       </div>
         </div>
-
-
-
     </div>
+
+    <div class="container">
+      <div class="p-3 mb-2 bg-info text-white"> <h3>2 - Responsável pelo Preenchimento </h3></div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="input-group">
+            
+                <span class="input-group-addon" id="inputGroup-sizing-default">Nome</span>
+            
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nome">
+          </div>
+      </div>
+      <div class="col-lg-4">
+         <div class="input-group">
+            
+                <span class="input-group-addon" id="inputGroup-sizing-default">RG</span>
+            
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nome">
+          </div>
+      </div>
+    </div>
+
+
 <br>
     <div class="col-lg-8">
    <button type="submit" class="btn btn-default">Enviar</button>

@@ -171,7 +171,7 @@
 
     <br>
     <div class="row">
-    <div class="col-lg-4" align="center">
+    <div class="col-lg-0" align="center">
    <button type="submit" class="btn btn-default btn-lg">Enviar</button>
     </div>
    </div>

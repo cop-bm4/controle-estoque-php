@@ -73,8 +73,7 @@
               </select>
           </div> 
            <p id="passwordHelpBlock" class="form-text text-muted">
-           Escolha o Material.
-           </p>
+           Escolha o Material.</p>
         </div>
         
         <div class="col-lg-4">

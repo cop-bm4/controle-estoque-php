@@ -6,7 +6,10 @@
   <!--login -->
 <?php 
 require "credenciais.php"
+
 $ubm = $_SESSION['ubm'];
+
+
 ?>
 <title>Controle de Material Operacional</title>
 

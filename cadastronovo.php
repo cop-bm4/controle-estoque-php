@@ -56,6 +56,9 @@
 
 <form action="cadastro.php" method="post">
   <div class="container">
+    <div class="alert alert-secondary" role="alert">
+  <h2>1 - Cadastro do Material. </h2>
+</div>
     <div class="row">
       <div class="col-lg-4">
         <div class="input-group">
@@ -114,6 +117,9 @@
       </div>
     </div>   
 
+    <div class="row">
+      <div class="col-lg-4"></div>
+    </div>
 <br>
     <div class="col-lg-8">
    <button type="submit" class="btn btn-default">Enviar</button>

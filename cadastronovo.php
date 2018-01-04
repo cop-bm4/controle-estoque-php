@@ -56,10 +56,8 @@
 
 <form action="cadastro.php" method="post">
    <div class="container">
-   <div class="card">
-  <div class="card-body">
-    Cadastro de novo material.
-  </div>
+   <div class="alert alert-primary" role="alert">
+  This is a primary alert—check it out!
 </div>
 </div>
   <div class="container">

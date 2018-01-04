@@ -31,7 +31,7 @@ if(mysqli_num_rows ($result) > 0 )
 $_SESSION['login'] = $login;
 $_SESSION['senha'] = $senha;
 $_SESSION['ubm']   = $ubm;
- header('location:home.php'); 
+header('location:home.php'); 
 echo "deu certo ";
 
 }

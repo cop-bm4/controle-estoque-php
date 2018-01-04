@@ -153,7 +153,7 @@
           </div>
               <p id="passwordHelpBlock" class="form-text text-muted">
             Digite o seu nome completo.
-          </p>
+           </p>
       </div>
       
       <div class="col-lg-4">

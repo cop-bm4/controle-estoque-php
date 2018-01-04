@@ -170,10 +170,11 @@
     </div>
 
     <br>
-    <div class="col-lg-8">
-   <button type="submit" class="btn btn-default">Enviar</button>
+    <div class="row">
+    <div class="col-lg-4" align="center">
+   <button type="submit" class="btn btn-default btn-lg">Enviar</button>
     </div>
-   
+   </div>
    </div>
 </form>
 

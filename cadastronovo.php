@@ -56,10 +56,8 @@
 
 <form action="cadastro.php" method="post">
    <div class="container">
-   <div class="alert alert-primary" role="alert">
-  This is a primary alert—check it out!
-</div>
-</div>
+  <div class="p-3 mb-2 bg-secondary text-white">1- Cadastro Material</div>
+  </div>
   <div class="container">
   
     <div class="row">

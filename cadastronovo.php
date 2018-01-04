@@ -161,7 +161,7 @@
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">RG</span>
             
-               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nome">
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rg">
           </div>
       </div>
     </div>

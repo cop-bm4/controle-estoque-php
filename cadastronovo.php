@@ -81,7 +81,7 @@
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">R. Patrimônial</span>
             
-               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rp">
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rp" required>
           </div>
             <p id="passwordHelpBlock" class="form-text text-muted">
             Digite o número de R. Patrimônial do Material.
@@ -91,9 +91,7 @@
           <div class="input-group">
             <span class="input-group-addon"  id="inputGroup-sizing-default" >N. Série</span>
             <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie" id="validationCustom01" required>
-            <div class="invalid-feedback">
-          Please choose a username.
-            </div>
+           
           </div>
             <p id="passwordHelpBlock" class="form-text text-muted">
             Digite o Número de Série do Material .
@@ -110,7 +108,7 @@
       <div class="col-lg-4">
         <div class="input-group"> 
           <span class="input-group-addon">Situação</span>
-            <select class="form-control" data-live-search="true" name="situacao">
+            <select class="form-control" data-live-search="true" name="situacao" required>
               <option data-tokens="operacional" value="Operacional">Operacional</option>
               <option data-tokens="Inoperante" value="Inoperante">Inoperante</option>
             </select>
@@ -132,7 +130,7 @@
 
       <div class="col-lg-6">
         <p>
-          <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" name="ubm">
+          <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" >
    
         Regitrar Ocorrência.
         </a>
@@ -174,7 +172,7 @@
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">Nome</span>
             
-               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="João Victor" name="nome">
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Nome" name="nome" required>
              
           </div>
               <p id="passwordHelpBlock" class="form-text text-muted">
@@ -187,7 +185,7 @@
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">RG</span>
             
-               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rg">
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="rg" name="rg" required="">
           </div>
             <p id="passwordHelpBlock" class="form-text text-muted">
             Digite o seu RG.

@@ -57,8 +57,9 @@
  
 <form action="cadastro.php" method="post">
  <div class="container">
-  <div class="p-3 mb-2 bg-info text-white">1- Cadastro Material</div>
+  <div class="p-3 mb-2 bg-info text-white"> <h3>1- Cadastro Material </h3></div>
   </div>
+  <br>
   <div class="container">
   
     <div class="row">

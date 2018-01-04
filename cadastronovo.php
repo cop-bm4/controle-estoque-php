@@ -82,7 +82,7 @@
                <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rp">
           </div>
             <p id="passwordHelpBlock" class="form-text text-muted">
-            Digite o seu número de R. Patrimônial.
+            Digite o número de R. Patrimônial do Material.
            </p>
         </div>
         <div class="col-lg-4">
@@ -91,7 +91,7 @@
             <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie">
           </div>
             <p id="passwordHelpBlock" class="form-text text-muted">
-            Digite o seu númeor de Série .
+            Digite o Número de Série do Material .
            </p>
         
         </div>
@@ -129,7 +129,7 @@
     
         </p>
           <p id="passwordHelpBlock" class="form-text text-muted">
-            Caso inoperante clique para registrar a ocorrência.
+            Caso Inoperante clique para Registrar a Ocorrência.
           </p>
       <div class="collapse" id="collapseExample">
         
@@ -158,7 +158,7 @@
              
           </div>
               <p id="passwordHelpBlock" class="form-text text-muted">
-            Digite o seu nome completo.
+            Digite o seu Nome Completo.
            </p>
       </div>
       

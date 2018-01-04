@@ -72,6 +72,9 @@
                  <option data-tokens="bala Clava" value="Bala Clava">Bala Clava</option>
               </select>
           </div> 
+           <p id="passwordHelpBlock" class="form-text text-muted">
+           Escolha o Material.
+           </p>
         </div>
         
         <div class="col-lg-4">

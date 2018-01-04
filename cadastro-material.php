@@ -35,7 +35,7 @@ echo "Não foi possível conectar ao banco de dados";
 } 
 ?>
 <!--conec -->
-<?php $ub = $_SESSION['ubm']; ?>
+
 	<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -64,7 +64,9 @@ echo "Não foi possível conectar ao banco de dados";
 
 
    
-
+<?php $ub = $_SESSION['ubm']; 
+echo $ub;
+?>
 <div class="row">
    
     <div class="col-sm-10 text-right h2">

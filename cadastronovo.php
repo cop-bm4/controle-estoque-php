@@ -171,10 +171,10 @@
 
     <br>
     <div class="row">
-    <div class="col-lg-1" align="center">
+    <div class="col-lg-0" >
    <button type="submit" class="btn btn-default btn-lg">Enviar</button>
     </div>
-    <div class="col-lg-1">
+    <div class="col-lg-0">
       <a href="http://copbm4-com-br.umbler.net/cadastro-material.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
     </div>
    </div>

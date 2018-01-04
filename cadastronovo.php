@@ -96,13 +96,9 @@
           <span class="input-group-addon">Situação</span>
             <select class="form-control" data-live-search="true" name="situacao">
               <option data-tokens="operacional" value="Operacional">Operacional</option>
-              <option data-tokens="Inoperante" value="Inoperante" data-toggle="collapse" data-target="collapseExample" aria-expanded="false">Inoperante</option>
+              <option data-tokens="Inoperante" value="Inoperante">Inoperante</option>
             </select>
-     <div class="collapse" id="collapseExample">
-  <div class="input-group">
-          <span class="input-group-addon"> Ocorrência</span>
-            <input type="text" class="form-control"  placeholder="Caso Inoperante, digite a Ocorrência" name="ocorrencia" >
-        </div>
+     
         </div>
       </div>
     </div>
@@ -122,19 +118,16 @@
 
     <div class="row">
       <div class="col-lg-4"></div>
-
-        <p>
-  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" name="ubm">
-    30 gbm
+<p>
+  <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" name="ubm">
+    Regitrar Ocorrência.
   </a>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="collapseExample" aria-expanded="false" aria-controls="collapseExample" name="ubm">
-    1 gbm
-  </button>
+  
 </p>
 <div class="collapse" id="collapseExample">
   <div class="input-group">
           <span class="input-group-addon"> Ocorrência</span>
-            <input type="text" class="form-control"  placeholder="Caso Inoperante, digite a Ocorrência" name="ocorrencia" >
+            <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" >
         </div>
 </div>
 

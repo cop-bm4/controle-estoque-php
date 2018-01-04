@@ -125,7 +125,7 @@
       
      
 
-      <div class="col-lg-12">
+      <div class="col-lg-6">
         <p>
           <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" name="ubm">
    
@@ -133,6 +133,10 @@
         </a>
     
         </p>
+      </div>
+    </div>
+
+    <div class="row">
        <div class="col-lg-6">   
       <div class="collapse" id="collapseExample">
         
@@ -140,18 +144,19 @@
           <span class="input-group-addon"> Ocorrência</span>
            <!-- <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" > -->
             <textarea class="form-control" rows="5" id="comment" placeholder="Digite a Ocorrência" name="ocorrencia"></textarea>
-        
         </div>
         </div>
+        </div>
+
         <div class="col-lg-6">
+          <div class="collapse" id="collapseExample">
           <div class="input-group">
             <span class="input-group-addon"> Defeito</span>
             <textarea class="form-control" rows="5" id="Defeito" placeholder="Digite o Defeito" name="defeito"> </textarea>
           </div>
-        V
+        </div>
       </div>
      </div>
-    </div>
 
     <div class="container">
       <div class="p-3 mb-2 bg-info text-white"> <h3>2 - Responsável pelo Preenchimento </h3></div>

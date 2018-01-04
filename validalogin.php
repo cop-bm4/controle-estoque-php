@@ -17,7 +17,7 @@ if ($conn->connect_error) {
 echo "Connected successfully";
 
 
-$sql = "SELECT login, senha, ubm FROM usuarios Where `login` = '$login' AND `senha`= '$senha'";
+$sql = "SELECT login, senha, ubm FROM materialoperacional Where `login` = '$login' AND `senha`= '$senha'";
 $result = mysqli_query($conn, $sql);
 
 // A variavel $result pega as varias $login e $senha, faz uma pesquisa na tabela de usuarios
@@ -28,7 +28,7 @@ if(mysqli_num_rows ($result) > 0 )
 {
 $_SESSION['login'] = $login;
 $_SESSION['senha'] = $senha;
-$_SESSION['ubm'] = $ubm;
+
 header('location:home.php');
 echo "deu certo";
 }

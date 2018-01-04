@@ -135,10 +135,10 @@
         </p>
       </div>
     </div>
-
+<div class="collapse" id="collapseExample">
     <div class="row">
        <div class="col-lg-6">   
-      <div class="collapse" id="collapseExample">
+      
         
         <div class="input-group">
           <span class="input-group-addon"> Ocorrência</span>
@@ -146,10 +146,10 @@
             <textarea class="form-control" rows="5" id="comment" placeholder="Digite a Ocorrência" name="ocorrencia"></textarea>
         </div>
         </div>
-        </div>
+        
 
         <div class="col-lg-6">
-          <div class="collapse" id="collapseExample">
+          
           <div class="input-group">
             <span class="input-group-addon"> Defeito</span>
             <textarea class="form-control" rows="5" id="Defeito" placeholder="Digite o Defeito" name="defeito"> </textarea>

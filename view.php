@@ -79,7 +79,7 @@ echo $row['cargo'];
  <div class="container">
  	 <dl class="row">
      <dt class="col-sm-3"> Material</dt>
-     <dd class="col-sm-9"><?php echo $row['material']; ?></dd>
+     <dd class="col-sm-4"><?php echo $row['material']; ?></dd>
 
    </dl>
  </div>

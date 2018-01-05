@@ -75,7 +75,7 @@ echo $row['cargo'];
 
 
 ?>
-
+<div class="jumbotrom">
  <div class="container">
  	 
      
@@ -84,8 +84,7 @@ echo $row['cargo'];
   <p class="lead"> <strong> Material: </strong> <mark><?php echo $row['material']; ?></mark> <strong> R. Patrimônial: </strong> <mark><?php echo $row['rp']; ?></mark> <strong> N. Série: </strong> <mark><?php echo ['nserie']; ?> </mark> </p>
 
  </div>
-
-
+</div>
 
 
 </body>

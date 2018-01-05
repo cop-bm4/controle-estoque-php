@@ -78,12 +78,11 @@ echo $row['cargo'];
 
  <div class="container">
  	 
-     <dt class="col-sm-1"> Material: </dt>
-     <dd class="col-sm-1"><?php echo $row['material']; ?></dd>
-     <dt class="col-sm-2">R. Patrimônial: </dt>
-     <dd class="col-sm-1"><?php echo $row['rp'] ?></dd>
-   
-   </dl>
+     
+  <h1>Visualizaçâo Detalhada do Material</h1>    
+  <br>
+  <p> <strong> Material</strong> <mark><?php echo $row['material']; ?></mark> </p>
+
  </div>
 
 

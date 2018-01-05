@@ -5,5 +5,5 @@
 
 require 'db.php';
 	
-echo "deu bom";
+echo "deu bom, s";
 ?>

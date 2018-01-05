@@ -52,7 +52,38 @@ require 'db.php';
 <?php 
 $id = $_GET['id'];
 echo "id .$id. ";
+
 ?>
+
+<?php
+$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo FROM materialoperacional where id=$id ";
+$result = mysqli_query($conn, $sql);
+$row = mysqli_fetch_assoc($result);
+
+echo "$id";
+echo "$ubm";
+echo "$material";
+echo "$rp";
+echo "$nserie";
+echo "$situacao";
+echo "$ocorrencia"; 
+echo "$nome";
+echo "$rg";
+echo "$defeito";
+echo "reg_date";
+echo "cargo";
+
+
+?>
+
+ <div class="container">
+ 	<div class="row">
+ 		<div class=""></div>
+ 	</div>
+ </div>
+
+
+
 
 </body>
 </html>

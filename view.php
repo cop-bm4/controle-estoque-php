@@ -60,18 +60,18 @@ $sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, de
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 
-echo "$id";
-echo "$ubm";
-echo "$material";
-echo "$rp";
-echo "$nserie";
-echo "$situacao";
-echo "$ocorrencia"; 
-echo "$nome";
-echo "$rg";
-echo "$defeito";
-echo "reg_date";
-echo "cargo";
+echo $row['id'];
+echo $row['ubm'];
+echo $row['material'];
+echo $row['rp'];
+echo $row['nserie'];
+echo $row['situacao'];
+echo $row['ocorrencia']; 
+echo $row['nome'];
+echo $row['rg'];
+echo $row['defeito'];
+echo $row['reg_date'];
+echo $row['cargo'];
 
 
 ?>

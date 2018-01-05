@@ -75,7 +75,7 @@ echo $row['cargo'];
 
 
 ?>
-<div class="jumbotrom">
+<div class="jumbotron">
  <div class="container">
  	 
      

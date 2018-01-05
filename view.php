@@ -7,7 +7,7 @@
 require 'credenciais.php';
 require 'db.php';
 
-$id = $_GET['id'];
+
 ?>
 	<title>Visualizar</title>
 
@@ -50,6 +50,7 @@ $id = $_GET['id'];
 </nav>
 
 <?php 
+$id = $_GET['id'];
 echo "id .$id. ";
 ?>
 

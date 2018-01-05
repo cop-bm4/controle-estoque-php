@@ -2,9 +2,8 @@
 
 
 <?php
-view($_GET['id']);
+require 'credencias.php';
 require 'db.php';
-	
-echo "deu bom, s";
-
+	$id = $_GET['id'];
+echo "deu bom";
 ?>

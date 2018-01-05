@@ -81,7 +81,7 @@ echo $row['cargo'];
      
   <h1>Visualizaçâo Detalhada do Material</h1>    
   <br>
-  <p class="lead"> <strong> Material: </strong> <?php echo $row['material']; ?> <strong> R. Patrimônial: </strong> <?php echo $row['rp']; ?> <strong> N. Série: </strong> <?php echo ['nserie']; ?>  </p>
+  <p class="lead"> <strong> Material: </strong> <?php echo $row['material']; ?> <strong> R. Patrimônial: </strong> <?php echo $row['rp']; ?> <strong> N. Série: </strong> <?php echo $row['nserie'];?>  </p>
 
  </div>
 </div>

@@ -108,7 +108,7 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['situacao']; ?></td>
     <td><?php echo $row['reg_date']; ?></td>
     <td class="actions text-right">
-      <a href="view.php?id=<?php echo $row['id']; ?>"button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Visualizar</a>
+      <a href="http://copbm4-com-br.umbler.net/view.php?id=<?php echo $row['id']; ?>"button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Visualizar</a>
       <a href="edit.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Editar</a>
       <a href="#" button type="button" class="btn btn-default" data-toggle="modal" data-target="#delete-modal" data-customer="<?php echo $row['id']; ?>">
         <i class="fa fa-trash"></i> Excluir

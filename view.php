@@ -59,7 +59,7 @@ echo "id .$id. ";
 $sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo FROM materialoperacional where id=$id ";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
-
+/*
 echo $row['id'];
 echo $row['ubm'];
 echo $row['material'];
@@ -73,8 +73,9 @@ echo $row['defeito'];
 echo $row['reg_date'];
 echo $row['cargo'];
 
-
+*/
 ?>
+
 <div class="jumbotron">
  <div class="container">
  	 

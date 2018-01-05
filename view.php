@@ -75,9 +75,9 @@ echo $row['cargo'];
 
 */
 ?>
-
-<div class="jumbotron">
- <div class="container">
+<div class="container">
+  <div class="jumbotron">
+ 
  	 
      
   <h1>Visualizaçâo Detalhada do Material</h1>    

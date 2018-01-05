@@ -4,7 +4,7 @@
 <head>
 
 <?php
-/*require 'credenciais.php';*/
+require 'credenciais.php';
 require 'db.php';
 
 

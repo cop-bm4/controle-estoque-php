@@ -2,7 +2,7 @@
 
 
 <?php
-require 'credencias.php';
+
 require 'db.php';
 
 $id = $_GET['id'];

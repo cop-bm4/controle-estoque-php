@@ -77,9 +77,11 @@ echo $row['cargo'];
 ?>
 
  <div class="container">
- 	<div class="row">
- 		<div class=""></div>
- 	</div>
+ 	 <dl class="row">
+     <dt class="col-sm-3"> Material</dt>
+     <dd class="col-sm-9"><?php $row['material']; ?></dd>
+
+   </dl>
  </div>
 
 

@@ -155,7 +155,7 @@
           
           <div class="input-group">
             <span class="input-group-addon"> Defeito</span>
-            <textarea class="form-control" rows="5" id="Defeito" placeholder="Digite o Defeito" name="defeito"> </textarea>
+            <textarea class="form-control" rows="5" id="Defeito" placeholder=" Digite o Defeito" name="defeito"></textarea>
           </div>
         </div>
       </div>

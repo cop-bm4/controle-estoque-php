@@ -101,6 +101,7 @@ echo $row['cargo'];
     </div>      
    </div>  
   <?php endif; ?>
+  
 <br>
   <div class="row">
     <div class="col-lg-12">

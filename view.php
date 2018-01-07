@@ -101,8 +101,9 @@ echo $row['cargo'];
     </div>      
    </div>  
   <?php endif; ?>
-  
+
 <br>
+  
   <div class="row">
     <div class="col-lg-12">
       <p class="lead"> <strong> Preenchido por: </strong> <?php echo " .$row['cargo'].  .$row['nome']. ;"  ?> <strong> Em: </strong> <?php echo $row['reg_date']; ?>

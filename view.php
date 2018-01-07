@@ -92,9 +92,9 @@ echo $row['cargo'];
     <?php if (!$row['ocorrencia']==NULL): ?>
     
     <div class="col-lg-12"> 
-        <p class="lead"><strong>Defeito: </strong> <?php echo $row['defeito'];  ?> </p>
-          <br>
-          <p class="lead"><strong>Ocorrência: </strong> <?php echo $row['ocorrencia']; ?> </p>     
+      <p class="lead"><strong>Defeito: </strong> <?php echo $row['defeito'];  ?> </p>
+         
+      <p class="lead"><strong>Ocorrência: </strong> <?php echo $row['ocorrencia']; ?> </p>     
     </div>       
   <?php endif; ?>
       

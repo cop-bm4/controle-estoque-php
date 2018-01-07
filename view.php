@@ -80,23 +80,26 @@ echo $row['cargo'];
   <h2>Visualizaçâo Detalhada do Material</h2>    
     <br>
  	 <div class="row">
-     <div class="col-lg-12"></div>
+    <div class="col-lg-12"></div>
    
-    <p class="lead"> <strong> Material: </strong> <?php echo $row['material']; ?>      <strong> R. Patrimônial: </strong> <?php echo $row['rp']; ?>      <strong> N. Série: </strong> <?php echo $row['nserie'];?> <strong>UBM: </strong> <?php echo $row['ubm']; ?> </p>
+    <p class="lead"><strong>Material:</strong> <?php echo $row['material']; ?>      <strong> R. Patrimônial: </strong> <?php echo $row['rp']; ?>      <strong> N. Série: </strong> <?php echo $row['nserie'];?> <strong>UBM: </strong> <?php echo $row['ubm']; ?> </p>
   </div>
+
   <div class="row">
     <div class="col-lg-12">
       <p class="lead"><strong>Situação: </strong> <?php echo $row['situacao']; ?> </p> 
     </div>
 
     <?php if (!$row['ocorrencia']==NULL): ?>
-    
+    <div class="row">
     <div class="col-lg-12"> 
       <p class="lead"><strong>Defeito: </strong> <?php echo $row['defeito'];  ?> </p>
          
       <p class="lead"><strong>Ocorrência: </strong> <?php echo $row['ocorrencia']; ?> </p>     
-    </div>       
+    </div>      
+   </div>  
   <?php endif; ?>
+
       
 
 

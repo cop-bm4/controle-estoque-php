@@ -109,7 +109,7 @@
         <div class="input-group"> 
           <span class="input-group-addon">Situação</span>
             <select class="form-control" data-live-search="true" name="situacao" required>
-              <option data-tokens="operacional" value="Operacional">Operante</option>
+              <option data-tokens="operacional" value="Operante">Operante</option>
               <option data-tokens="Inoperante" value="Inoperante">Inoperante</option>
             </select>
      

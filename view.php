@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
 <html>
-<head>
 
+<head>
 <?php
 require 'credenciais.php';
 require 'db.php';
@@ -89,6 +89,7 @@ echo $row['cargo'];
     <div class="col-lg-12">
       <p class="lead"><strong>Situação: </strong> <?php echo $row['situacao']; ?> </p> 
     </div>
+   </div> 
 
     <?php if (!$row['ocorrencia']==NULL): ?>
     <div class="row">

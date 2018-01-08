@@ -144,7 +144,7 @@ $result = mysqli_query($conn, $sql);
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
-        <button type="button" class="btn btn-primary" href="http://copbm4-com-br.umbler.net/excluir.php?id=<?php echo $row['id']; ?>">Sim</button>
+        <button type="button" class="btn btn-primary" href="http://copbm4-com-br.umbler.net/excluir.php?id=<?php echo $row['id']; ?>"> Sim </button>
       </div>
     </div>
   </div>

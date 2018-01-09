@@ -23,6 +23,7 @@
    width: 100%;
    color: black;
    text-align: center;
+   font-size: 9px;
 }
 </style>
 <!-- -->

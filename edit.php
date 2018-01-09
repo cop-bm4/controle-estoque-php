@@ -22,8 +22,7 @@ $defeito = $_POST['defeito'];
 
 
 
-$sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, nome, rg, cargo, defeito)
-VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$nome','$rg', '$cargo', '$defeito')";
+$sql = "UPDATE materialoperacional SET material='$material' rp='$rp' nome='$nome' WHERE id=$id";
 
 
 if ($conn->query($sql) === TRUE) {

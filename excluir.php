@@ -112,7 +112,7 @@ $row = mysqli_fetch_assoc($result);
   
 <form action="#" method="post">
 <div class="container">
-	<p class="lead" align="center">VOCÊ RELAMENTE DESEJA EXCLUIR O ITEM ACIMA ?</p>
+	<p class="lead" >VOCÊ RELAMENTE DESEJA EXCLUIR O ITEM ACIMA ?</p>
 	
   <button align="center" type="submit" class="btn btn-danger btn-lg" value="sim" name="butao"> Sim </button>
   

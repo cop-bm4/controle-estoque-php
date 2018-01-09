@@ -256,8 +256,7 @@ $rg = $_POST['rg'];
 $cargo = $_POST['cargo'];
 $defeito = $_POST['defeito'];
 
-?>
-<?php
+
 
 
 

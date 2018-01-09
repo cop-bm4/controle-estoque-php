@@ -11,7 +11,7 @@ require 'db.php';
 ?>
 	<title>Visualizar</title>
 
-
+<link rel="stylesheet" type="text/css" href="http://copbm4-com-br.umbler.net/estilo.css"/>
 	 <meta charset="utf-8">
   
 <!--mod mobile-->

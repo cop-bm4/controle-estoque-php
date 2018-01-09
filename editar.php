@@ -72,7 +72,7 @@ $row = mysqli_fetch_assoc($result);
 
 ?>
 
-<form action="#" method="post" >
+<form action="edit.php" method="post" >
  <div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Atualizar Material </h3></div>
   </div>
@@ -235,40 +235,7 @@ $row = mysqli_fetch_assoc($result);
 </form>
 
 
-<?php
 
-
-$material = $_POST['material'];
-$rp = $_POST['rp'];
-$nserie = $_POST['nserie'];
-$situacao = $_POST['situacao'];
-$ocorrencia = $_POST['ocorrencia']; 
-
-$ubm = $_POST['ubm'];
-
-$nome = $_POST['nome'];
-$rg = $_POST['rg'];
-$cargo = $_POST['cargo'];
-$defeito = $_POST['defeito'];
-
-
-
-
-
-$sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg, cargo, defeito)
-VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ubm','$nome','$rg', '$cargo', '$defeito')";
-
-
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-    header('location:cadastro-material.php');
-   
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
-$conn->close();
-
-?>
 
 
 

@@ -14,18 +14,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!---->
 
+<!--fixed footer -->
 <style>
 .footer {
    position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: red;
+   background-color: black;
    color: white;
    text-align: center;
 }
 </style>
-
+<!-- -->
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -74,7 +75,7 @@
 </div>
 
 <div class="footer">
-  <p>Footer</p>
+  <p>© 2018 BM4/COP   V.C João Luz</p>
 </div>
 
 </body>

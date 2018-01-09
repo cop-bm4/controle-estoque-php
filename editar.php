@@ -6,6 +6,8 @@
 require 'credenciais.php';
 require 'db.php';
 $id = $_GET['id'];
+
+echo $id;
 ?>
 
 	<title>Atualizar</title>

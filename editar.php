@@ -78,7 +78,14 @@ $row = mysqli_fetch_assoc($result);
   </div>
   <br>
   <div class="container">
-  
+  <div class="row">
+  	<div class="col-lg-1">
+  		<div class="input-group">
+            <span class="input-group-addon">ID</span>
+  		<input type="text" class="form-control" name="id" value="<?php echo $row['id'];  ?>" disabled>
+  	</div>
+  	</div>
+  </div>
     <div class="row">
       <div class="col-lg-4">
         <div class="input-group">

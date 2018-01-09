@@ -82,7 +82,7 @@ $row = mysqli_fetch_assoc($result);
   	<div class="col-lg-4">
   		<div class="input-group">
             <span class="input-group-addon">ID</span>
-  		<input type="text" class="form-control" name="id" value="<?php echo $row['id'];  ?>" disabled>
+  		<input type="text" class="form-control" name="id" value="<?php echo $row['id']; ?>" disabled>
   	</div>
   	</div>
   </div>

@@ -115,11 +115,11 @@ $row = mysqli_fetch_assoc($result);
 	<p class="lead" align="center">VOCÊ RELAMENTE DESEJA EXCLUIR O ITEM ACIMA ?</p>
 	
   <button align="center" type="submit" class="btn btn-danger btn-lg" value="sim" name="butao"> Sim </button>
-  <button align="center" href="http://copbm4-com-br.umbler.net/cadastro-material.php" type="button" class="btn btn-secondary btn-lg" > Não </button>
+  
 </div>
 
 </form>
-
+<button align="center" href="http://copbm4-com-br.umbler.net/cadastro-material.php" type="button" class="btn btn-secondary btn-lg" > Não </button>
 <?php 
 
 $aux = $_POST['butao'];

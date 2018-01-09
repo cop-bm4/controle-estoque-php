@@ -3,9 +3,9 @@
 <head>
 
 <?php
-require 'credencias.php';
+require 'credenciais.php';
 require 'db.php';
-
+$id = $_GET['id'];
 ?>
 
 	<title>Atualizar</title>
@@ -64,9 +64,7 @@ require 'db.php';
   </div>
 </nav>
 
-<?php 
-$id = $_GET['id'];
-?>
+
 
 
 

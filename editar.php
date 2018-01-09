@@ -259,7 +259,13 @@ $sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorren
 VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ubm','$nome','$rg', '$cargo', '$defeito')";
 
 
-
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+    header('location:cadastro-material.php');
+   
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
 $conn->close();
 
 ?>

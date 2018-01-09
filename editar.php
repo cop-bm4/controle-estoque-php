@@ -115,10 +115,14 @@ $row = mysqli_fetch_assoc($result);
 
       </div>
     
-   <br>
+       <div class="row">
+       	<div class="col-lg-6">
+       		<input type="text" name="ubm" value="<?php echo $row['ubm']; ?>" >
+       	</div>
+       </div>
   
   
-    <div class="row">
+     <div class="row">
       <div class="col-lg-4">
         <div class="input-group"> 
           <span class="input-group-addon">Situação</span>
@@ -228,13 +232,49 @@ $row = mysqli_fetch_assoc($result);
         <button type="submit" class="btn btn-default btn-lg">Enviar</button>
       </div>
       <div class="col-lg-1">
-      <a href="http://copbm4-com-br.umbler.net/cadastro-material.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
+      <a href="http://copbm4-com-br.umbler.net/cadastro-material.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Cancelar</a>
       </div>
     </div>
    
    </div>
 </form>
 
+
+<?php
+
+
+$material = $_POST['material'];
+$rp = $_POST['rp'];
+$nserie = $_POST['nserie'];
+$situacao = $_POST['situacao'];
+$ocorrencia = $_POST['ocorrencia']; 
+
+$ubm = $_POST['ubm'];
+
+$nome = $_POST['nome'];
+$rg = $_POST['rg'];
+$cargo = $_POST['cargo'];
+$defeito = $_POST['defeito'];
+
+?>
+<?php
+
+
+
+$sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg, cargo, defeito)
+VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ubm','$nome','$rg', '$cargo', '$defeito')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "";
+    header('location:cadastro-material.php');
+   
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+
+?>
 
 
 

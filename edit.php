@@ -22,8 +22,8 @@ $defeito = $_POST['defeito'];
 echo $id;
 
 
-$sql = "UPDATE materialoperacional SET  rp='$rp' nome='$nome' WHERE id='$id' ";
-
+/* $sql = "UPDATE materialoperacional SET  rp='$rp' nome='$nome' WHERE id='$id' ";
+*/
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";

@@ -74,7 +74,10 @@ $row = mysqli_fetch_assoc($result);
 
 ?>
 <?php 
+echo "string";
 echo $id;
+
+
 ?>
 <form action="edit.php" method="post" >
  <div class="container">

@@ -7,7 +7,7 @@ require 'credenciais.php';
 require 'db.php';
 $id = $_GET['id'];
 
-echo $id;
+
 ?>
 
 	<title>Atualizar</title>
@@ -73,7 +73,9 @@ $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 
 ?>
-
+<?php 
+echo $id;
+?>
 <form action="edit.php" method="post" >
  <div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Atualizar Material </h3></div>

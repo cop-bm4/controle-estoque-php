@@ -19,7 +19,7 @@ $cargo = $_POST['cargo'];
 $defeito = $_POST['defeito'];
 
 
-
+echo $id;
 
 
 $sql = "UPDATE materialoperacional SET  rp='$rp' nome='$nome' WHERE id='$id' ";

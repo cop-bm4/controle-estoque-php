@@ -120,7 +120,7 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['reg_date']; ?></td>
     <td class="actions text-right">
       <a href="http://copbm4-com-br.umbler.net/view.php?id=<?php echo $row['id']; ?>"button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Visualizar</a>
-      <a href="edit.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Editar</a>
+      <a href="editar.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Editar</a>
       <a href="http://copbm4-com-br.umbler.net/excluir.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default" >
         <i class="fa fa-trash"></i> Excluir</a>
     </td>

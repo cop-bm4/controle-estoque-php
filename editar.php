@@ -117,6 +117,8 @@ $row = mysqli_fetch_assoc($result);
     
        <div class="row">
        	<div class="col-lg-6">
+       		 <div class="input-group">
+            <span class="input-group-addon"  id="inputGroup-sizing-default" >UBM</span>
        		<input type="text" name="ubm" value="<?php echo $row['ubm']; ?>" >
        	</div>
        </div>
@@ -263,13 +265,7 @@ $defeito = $_POST['defeito'];
 $sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg, cargo, defeito)
 VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ubm','$nome','$rg', '$cargo', '$defeito')";
 
-if ($conn->query($sql) === TRUE) {
- 
-    header('location:cadastro-material.php');
-   
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
+
 
 $conn->close();
 

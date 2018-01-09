@@ -14,6 +14,18 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!---->
 
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+</style>
+
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -61,13 +73,10 @@
 
 </div>
 
+<div class="footer">
+  <p>Footer</p>
+</div>
 
-  <div id="footer">
-    <div class="container">
-      <p class="footer-block">Place sticky footer content here.</p>
-    </div>
-  </div>
-  
 </body>
 </html>
 

@@ -153,7 +153,7 @@ require "credenciais.php";
         </p>
       </div>
     </div>
-<div class="collapse" id="collapseExample">
+ <div class="collapse" id="collapseExample">
     <div class="row">
        <div class="col-lg-6">   
       
@@ -222,8 +222,8 @@ require "credenciais.php";
     </div>
 
     <br>
-<br>
-<br>
+ <br>
+ <br>
     <div class="row">
       <div class="col-lg-1" >
         <button type="submit" class="btn btn-default btn-lg">Enviar</button>

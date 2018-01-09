@@ -115,15 +115,8 @@ $row = mysqli_fetch_assoc($result);
 
       </div>
     
-       <div class="row">
-       	<div class="col-lg-6">
-       		 <div class="input-group">
-            	<span class="input-group-addon"  id="inputGroup-sizing-default" >UBM</span>
-       			<input type="text" name="ubm" value="<?php echo $row['ubm']; ?>" >
-       		</div>
-        </div>
-  	   </div>	
-  
+      	
+  <br>
      <div class="row">
       <div class="col-lg-4">
         <div class="input-group"> 

@@ -23,6 +23,7 @@
    
    color: black;
    text-align: center;
+   font-size: 12px;
 }
 </style>
 </head>

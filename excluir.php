@@ -22,7 +22,7 @@
    
    color: black;
    text-align: center;
-  font-size: 9px;
+  font-size: 10px;
 }
 </style>
 <?php

@@ -112,6 +112,8 @@ $row = mysqli_fetch_assoc($result);
   </div>
 
   </div>
+
+  <a href="http://copbm4-com-br.umbler.net/cadastro-material"  button type="button" class="btn btn-default btn-lg"  class="">Voltar</a>
  </div>
   
  <div class="footer">

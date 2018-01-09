@@ -72,7 +72,7 @@ $row = mysqli_fetch_assoc($result);
 ?>
 <div class="container">
   <div class="jumbotron">
-  <h2>Visualizaçâo Detalhada do Material</h2>    
+  
     <br>
  	 <div class="row">
     <div class="col-lg-12">
@@ -95,6 +95,7 @@ $row = mysqli_fetch_assoc($result);
     <p class="lead"><strong>Ocorrência: </strong> <?php echo $row['ocorrencia']; ?> </p>     
     </div>      
    </div>  
+   
   <?php endif; ?>
 
 <br>

@@ -130,10 +130,16 @@ $result = mysqli_query($conn, $sql);
 
 
 <?php endwhile; ?>
-</tbody>
-</table>
+
+<?php else : ?>     
+  <tr>       
+   <td colspan="6">Nenhum registro encontrado.</td>      
+ </tr>
+
 <?php endif;?>
 
+</tbody>
+</table>
 </div>
 
 

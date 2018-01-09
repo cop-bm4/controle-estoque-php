@@ -22,7 +22,7 @@ $defeito = $_POST['defeito'];
 
 
 
-$sql = "UPDATE materialoperacional SET material='$material' rp='$rp' nome='$nome' WHERE id=$id";
+$sql = "UPDATE materialoperacional SET  rp='$rp' nome='$nome' WHERE id=$id";
 
 
 if ($conn->query($sql) === TRUE) {

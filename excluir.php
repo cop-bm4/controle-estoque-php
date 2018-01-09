@@ -119,7 +119,9 @@ $row = mysqli_fetch_assoc($result);
 </div>
 
 </form>
-<button align="center" href="http://copbm4-com-br.umbler.net/cadastro-material.php" type="button" class="btn btn-secondary btn-lg" > Não </button>
+
+<button  type="button" class="btn btn-secondary btn-lg"  <a href="href="http://copbm4-com-br.umbler.net/cadastro-material.php""></a> > Não </button>
+
 <?php 
 
 $aux = $_POST['butao'];

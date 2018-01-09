@@ -114,7 +114,7 @@ $row = mysqli_fetch_assoc($result);
  </div>
   
  <div class="footer">
-  <p>© 2018 BM4/COP   V.C João Luz </p>
+  <p>© 2018 BM4/COP  CBM-PA V.C João Luz </p>
 </div>
 </body>
 </html>

@@ -219,7 +219,7 @@ $row = mysqli_fetch_assoc($result);
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">Cargo</span>
             
-               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="cargo">
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="cargo" required="">
         </div>
             <p id="passwordHelpBlock" class="form-text text-muted">
             Digite o seu Cargo.
@@ -236,7 +236,7 @@ $row = mysqli_fetch_assoc($result);
         <button type="submit" class="btn btn-default btn-lg">Atualizar</button>
       </div>
       <div class="col-lg-1">
-      <a href="http://copbm4-com-br.umbler.net/cadastro-material.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Cancelar</a>
+      <a href="http://copbm4-com-br.umbler.net/cadastro-material.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
       </div>
     </div>
    
@@ -264,7 +264,7 @@ echo $material;
 echo $situacao;
 
 
-$sql = "UPDATE materialoperacional SET  rp='$rp' nome='$nome' WHERE id='$id' ";
+$sql = "UPDATE materialoperacional SET  rp=$rp nome=$nome WHERE id=$id ";
 
 
 if ($conn->query($sql) === TRUE) {

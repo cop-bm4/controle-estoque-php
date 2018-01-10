@@ -3,7 +3,7 @@
 
 <?php
 
-/*
+
 $material = $_POST['material'];
 $rp = $_POST['rp'];
 $nserie = $_POST['nserie'];
@@ -18,14 +18,10 @@ $cargo = $_POST['cargo'];
 $defeito = $_POST['defeito'];
 
 
-echo $id;
-echo $material;
-echo $situacao;
 
-*/
 
-$id= 70;
-$sql = "UPDATE materialoperacional SET nome='joca' WHERE id='$id' ";
+
+$sql = "UPDATE materialoperacional SET nome='$nome' WHERE id='$id' ";
 
 
 if ($conn->query($sql) === TRUE) {

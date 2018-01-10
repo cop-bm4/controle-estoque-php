@@ -73,12 +73,7 @@ $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 
 ?>
-<?php 
-echo "string";
-echo $id;
 
-
-?>
 <form action="#" method="post" >
  <div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Atualizar Material </h3></div>

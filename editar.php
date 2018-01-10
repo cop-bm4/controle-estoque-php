@@ -259,21 +259,17 @@ $cargo = $_POST['cargo'];
 $defeito = $_POST['defeito'];
 
 
-echo $id;
-echo $material;
-echo $situacao;
 
 
-$sql = "UPDATE materialoperacional SET  rp=$rp nome=$nome WHERE id=$id ";
+$sql = "UPDATE materialoperacional SET nome='$nome' WHERE id='$id' ";
 
 
 if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-    header('location:cadastro-material.php');
-   
+    echo "Atualização feita com sucesso";
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error updating record: " . $conn->error;
 }
+
 $conn->close();
 
 ?>

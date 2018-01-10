@@ -29,7 +29,7 @@ $sql = "UPDATE materialoperacional SET nome='joca' WHERE id='$id' ";
 
 
 if ($conn->query($sql) === TRUE) {
-    echo "Record updated successfully joca";
+    echo "Atualização feita com sucesso";
 } else {
     echo "Error updating record: " . $conn->error;
 }

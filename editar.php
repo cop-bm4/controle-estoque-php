@@ -74,7 +74,7 @@ $row = mysqli_fetch_assoc($result);
 
 ?>
 
-<form action="edit.php" method="post" >
+<form action="#" method="post" >
  <div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Atualizar Material </h3></div>
   </div>
@@ -243,7 +243,12 @@ $row = mysqli_fetch_assoc($result);
    </div>
 </form>
 
+<?php
 
+$material = $_POST['material'];
+echo $material;
+
+?>
 
  <div class="footer">
   <p>© 2018 BM4/COP  CBM-PA V.C João Luz </p>

@@ -13,6 +13,7 @@ $ocorrencia = $_POST['ocorrencia'];
 $id = $_POST['id'];
 
 $nome = $_POST['nome'];
+
 $rg = $_POST['rg'];
 $cargo = $_POST['cargo'];
 $defeito = $_POST['defeito'];

@@ -20,6 +20,7 @@ $defeito = $_POST['defeito'];
 
 echo $id;
 echo $nome;
+echo $material;
 
 
 

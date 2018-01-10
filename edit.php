@@ -24,11 +24,11 @@ echo $situacao;
 
 */
 
-$sql = "UPDATE materialoperacional SET nome='joao' ";
+$sql = "UPDATE materialoperacional SET nome='joca' WHERE id='69' ";
 
 
 if ($conn->query($sql) === TRUE) {
-    echo "Record updated successfully";
+    echo "Record updated successfully joca";
 } else {
     echo "Error updating record: " . $conn->error;
 }

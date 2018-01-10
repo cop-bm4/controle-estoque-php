@@ -24,6 +24,7 @@ echo $situacao;
 
 */
 
+$id= '70';
 $sql = "UPDATE materialoperacional SET nome='joca' WHERE id='69' ";
 
 

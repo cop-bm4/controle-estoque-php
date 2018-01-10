@@ -24,7 +24,7 @@ echo $situacao;
 
 */
 
-$sql = "UPDATE materialoperacional nome='joao' ";
+$sql = "UPDATE materialoperacional SET nome='joao' ";
 
 
 if ($conn->query($sql) === TRUE) {

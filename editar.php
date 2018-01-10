@@ -74,7 +74,7 @@ $row = mysqli_fetch_assoc($result);
 
 ?>
 
-<form action="#" method="post" >
+<form action="#" method="post" name="att">
  <div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Atualizar Material </h3></div>
   </div>
@@ -245,8 +245,13 @@ $row = mysqli_fetch_assoc($result);
 
 <?php
 
+ if(isset($_POST['att'])){
 $material = $_POST['material'];
 echo $material;
+echo "nome";
+  }
+
+
 
 ?>
 

@@ -24,15 +24,13 @@ echo $situacao;
 
 */
 
-$sql = "UPDATE materialoperacional SET  rp='123' nome='joao' WHERE id='57' ";
+$sql = mysqli_query("UPDATE materialoperacional SET  rp='123' nome='joao' WHERE id='57' ");
 
 
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-    header('location:cadastro-material.php');
-   
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+if(mysqli_affected_rows() > 0){
+  echo "Sucesso: Atualizado corretamente!";
+}else{
+  echo "Aviso: Não foi atualizado!";
 }
 $conn->close();
 

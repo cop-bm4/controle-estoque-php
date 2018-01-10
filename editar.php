@@ -79,7 +79,7 @@ echo $id;
 
 
 ?>
-<form action="edit.php" method="post" >
+<form action="#" method="post" >
  <div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Atualizar Material </h3></div>
   </div>
@@ -238,7 +238,7 @@ echo $id;
  <br>
     <div class="row">
       <div class="col-lg-1" >
-        <button type="submit" class="btn btn-default btn-lg">Enviar</button>
+        <button type="submit" class="btn btn-default btn-lg">Atualizar</button>
       </div>
       <div class="col-lg-1">
       <a href="http://copbm4-com-br.umbler.net/cadastro-material.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Cancelar</a>
@@ -249,7 +249,39 @@ echo $id;
 </form>
 
 
+<?php
 
+
+$material = $_POST['material'];
+$rp = $_POST['rp'];
+$nserie = $_POST['nserie'];
+$situacao = $_POST['situacao'];
+$ocorrencia = $_POST['ocorrencia']; 
+
+$nome = $_POST['nome'];
+$rg = $_POST['rg'];
+$cargo = $_POST['cargo'];
+$defeito = $_POST['defeito'];
+
+
+echo $id;
+echo $material;
+echo $situacao;
+
+
+$sql = "UPDATE materialoperacional SET  rp='$rp' nome='$nome' WHERE id='$id' ";
+
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+    header('location:cadastro-material.php');
+   
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+$conn->close();
+
+?>
 
 
 

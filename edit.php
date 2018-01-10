@@ -24,13 +24,13 @@ echo $situacao;
 
 */
 
-$sql = "UPDATE 'materialoperacional' SET  'rp'='123' 'nome'='joao' WHERE 'id'='59' ";
+$sucesso = mysql_query("UPDATE materialoperacional SET nome='joao', rp='123' WHERE id=60");
+ 
 
-
-if ($conn->query($sql) === TRUE) {
-    echo "Record updated successfully";
-} else {
-    echo "Error updating record: " . $conn->error;
+if ($sucesso){
+   echo "atualização ok";
+}else{
+   die (mysql_error());
 }
 
 $conn->close();

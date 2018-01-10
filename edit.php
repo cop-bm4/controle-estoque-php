@@ -18,7 +18,8 @@ $rg = $_POST['rg'];
 $cargo = $_POST['cargo'];
 $defeito = $_POST['defeito'];
 
-
+echo $id;
+echo $nome;
 
 
 
@@ -27,7 +28,7 @@ $sql = "UPDATE materialoperacional SET nome='$nome' WHERE id='$id' ";
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
-    header("location:cadastro-material.php");
+    
 } else {
     echo "Error updating record: " . $conn->error;
 }

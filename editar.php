@@ -84,7 +84,7 @@ $row = mysqli_fetch_assoc($result);
   	<div class="col-lg-4">
   		<div class="input-group">
             <span class="input-group-addon">ID</span>
-  		<input type="text" class="form-control" name="id" value="<?php echo $id; ?>" disabled>
+  		<input type="text" class="form-control" name="id" value="<?php echo $id; ?>" >
   	</div>
   	</div>
   </div>
@@ -92,7 +92,7 @@ $row = mysqli_fetch_assoc($result);
       <div class="col-lg-4">
         <div class="input-group">
             <span class="input-group-addon">Material</span>
-              <input type="text" class="form-control" name="material" value="<?php echo $row['material'] ?> "  disabled>
+              <input type="text" class="form-control" name="material" value="<?php echo $row['material'] ?> "  >
           </div> 
            <p id="passwordHelpBlock" class="form-text text-muted">
             Material.</p>
@@ -245,7 +245,7 @@ $row = mysqli_fetch_assoc($result);
 
 <?php
 
- if(isset($_POST['att'])){
+ if(isset($_POST['rp'])){
 $material = $_POST['material'];
 echo $material;
 echo "nome";

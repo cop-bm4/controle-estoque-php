@@ -28,7 +28,7 @@ $sql = "UPDATE materialoperacional SET nome='$nome' rg='$rg' rp='$rp' nserie='$n
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
-    header("location:controle-material.php")
+    header("location:controle-material.php");
     
 } else {
     echo "Error updating record: " . $conn->error;

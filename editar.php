@@ -237,15 +237,22 @@ $row = mysqli_fetch_assoc($result);
 </form>
 
 <?php
-
+/*
  if(isset($_POST['rp'])){
 
 $nome = $_POST['nome'];
 $ocorrencia =$_POST['ocorrencia'];
-echo $ocorrencia;
+$rp = $_POST['rp'];
+$nserie = $_POST['nserie'];
+$situacao = $_POST['situacao'];
+$nome = $_POST['nome'];
+$rg = $_POST['rg'];
+$cargo = $_POST['cargo'];
+$defeito = $_POST['defeito'];
 
-echo $id;
-$sql = " UPDATE materialoperacional SET nome='$nome', ocorrencia='$ocorrencia' WHERE id='$id'";
+
+
+$sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg', rp='$rp', nserie='$nserie', situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito' WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
@@ -259,9 +266,44 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
   }
 
-
+*/
 
 ?>
+
+
+<?php if (isset($_POST['rp'])): ?>
+
+<?php 
+if(isset($_POST['rp'])){
+
+$nome = $_POST['nome'];
+$ocorrencia =$_POST['ocorrencia'];
+$rp = $_POST['rp'];
+$nserie = $_POST['nserie'];
+$situacao = $_POST['situacao'];
+$nome = $_POST['nome'];
+$rg = $_POST['rg'];
+$cargo = $_POST['cargo'];
+$defeito = $_POST['defeito'];
+
+
+
+$sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg', rp='$rp', nserie='$nserie', situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito' WHERE id='$id'";
+
+?>
+<?php if ($conn->query($sql) === TRUE): ?>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-1">
+			<p class="lead">Atualização realizada com sucesso.</p>
+		</div>
+	</div>
+</div>
+<?php endif;  ?>
+
+
+<?php endif; ?> 
+
 
  <div class="footer">
   <p>© 2018 BM4/COP  CBM-PA V.C João Luz </p>

@@ -99,6 +99,8 @@ echo "Não foi possível conectar ao banco de dados";
                 <option data-tokens="Inoperante" value="inoperante">Inoperante</option>
               </select>
           </div>
+          <p id="passwordHelpBlock" class="form-text text-muted">
+           Selecione a Situação.</p>
         </div>
        
         <div class="col-lg-3">
@@ -112,6 +114,8 @@ echo "Não foi possível conectar ao banco de dados";
               
             </select>
           </div>
+          <p id="passwordHelpBlock" class="form-text text-muted">
+           Escolha a UBM.</p>
         </div>
       <div class="col-lg-2">
         <button type="submit" class="btn btn-default ">Pesquisar</button>

@@ -74,7 +74,7 @@ $row = mysqli_fetch_assoc($result);
 
 ?>
 
-<form action="#" method="post" name="att">
+<form action="edit.php" method="post" name="att">
  <div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Atualizar Material </h3></div>
   </div>

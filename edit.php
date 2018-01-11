@@ -1,5 +1,7 @@
 
-<?php require 'db.php';  ?>
+<?php require 'db.php';
+		require 'credenciais.php';
+  ?>
 
 <?php
 
@@ -18,17 +20,15 @@ $rg = $_POST['rg'];
 $cargo = $_POST['cargo'];
 $defeito = $_POST['defeito'];
 
-echo $id;
-echo $nome;
-echo $material;
 
 
 
-$sql = "UPDATE materialoperacional SET nome='$nome' WHERE id='$id' ";
+$sql = "UPDATE materialoperacional SET nome='$nome' rg='$rg' rp='$rp' nserie='$nserie' situacao='$situacao' ocorrencia='$ocorrencia' cargo='$cargo' defeito='defeito' WHERE id='$id' ";
 
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
+    header("location:controle-material.php")
     
 } else {
     echo "Error updating record: " . $conn->error;

@@ -161,8 +161,8 @@ $row = mysqli_fetch_assoc($result);
         <div class="input-group">
           <span class="input-group-addon"> Ocorrência</span>
            <!-- <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" > -->
-            <input type="text"  class="form-control" rows="5" id="comment" placeholder="Digite a Ocorrência" name="ocorrencia">
-        </div>
+            <textarea  class="form-control" rows="5" id="comment" placeholder="Digite a Ocorrência" name="ocorrencia" value="<?php echo $row['ocorrencia']; ?>  "></textarea>
+         </div>
         </div>
         
 
@@ -170,7 +170,7 @@ $row = mysqli_fetch_assoc($result);
           
           <div class="input-group">
             <span class="input-group-addon"> Defeito</span>
-            <textarea class="form-control" rows="5" id="Defeito" placeholder=" Digite o Defeito" name="defeito"></textarea>
+            <textarea class="form-control" rows="5" id="Defeito" placeholder=" Digite o Defeito" name="defeito" value="<?php echo $row['defeito']; ?>"></textarea>
           </div>
         </div>
       </div>

@@ -248,7 +248,7 @@ $row = mysqli_fetch_assoc($result);
  if(isset($_POST['rp'])){
 $material = $_POST['material'];
 echo $material;
-echo "nome";
+
   }
 
 

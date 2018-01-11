@@ -161,7 +161,7 @@ $row = mysqli_fetch_assoc($result);
         <div class="input-group">
           <span class="input-group-addon"> Ocorrência</span>
            <!-- <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" > -->
-            <textarea class="form-control" rows="5" id="comment" placeholder="Digite a Ocorrência" name="ocorrencia"></textarea>
+            <input type="textarea"  class="form-control" rows="5" id="comment" placeholder="Digite a Ocorrência" name="ocorrencia">
         </div>
         </div>
         

@@ -47,21 +47,21 @@ $id = $_GET['id'];
       <a class="navbar-brand" href="#"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="http://copbm4-com-br.umbler.net/home.php">Home</a></li>
+      <li ><a href="http://copbm4cbmpa-com-br.umbler.net/home.php">Home</a></li>
       <li class= "active" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4-com-br.umbler.net/cadastro-material.php">Registro<span class="caret"></span></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="http://copbm4-com-br.umbler.net/cadastro-material.php" >Material</a></li>
+          <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php" >Material</a></li>
           <li><a href="#">VTRS</a></li>
           <li><a href="#">Embarcações</a></li>
         </ul>
       </li>
       
- <li><a href="http://copbm4-com-br.umbler.net/relatorios.php">Relatórios</a></li>
+ <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatorios.php">Relatórios</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
      
-      <li><a href=" http://copbm4-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+      <li><a href=" http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
   </div>
 </nav>
@@ -229,7 +229,7 @@ $row = mysqli_fetch_assoc($result);
         <button type="submit" class="btn btn-default btn-lg">Atualizar</button>
       </div>
       <div class="col-lg-1">
-      <a href="http://copbm4-com-br.umbler.net/cadastro-material.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
+      <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
       </div>
     </div>
    

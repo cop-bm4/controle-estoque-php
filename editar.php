@@ -248,8 +248,11 @@ $row = mysqli_fetch_assoc($result);
  if(isset($_POST['rp'])){
 $material = $_POST['material'];
 echo $material;
+
 echo "nome";
-$sql = " UPDATE materialoperacional SET material='$material'";
+$id = $_POST['id'];
+echo $id;
+$sql = " UPDATE materialoperacional SET material='$material' WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";

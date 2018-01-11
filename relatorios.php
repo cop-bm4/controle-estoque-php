@@ -101,17 +101,17 @@ echo "Não foi possível conectar ao banco de dados";
           </div>
         </div>
        
-       <div class="col-lg-5">
-         <div class="input-group-addon">
-          <span class="input-group-addon"> UBM </span>
+        <div class="col-lg-3">
+          <div class="input-group">
+            <span class="input-group-addon">UBM</span>
             <select class="form-control" data-live-search="true" name="ubm">
               <option data-tokens="qualquer" value="qualquer">Qualquer</option>
               <option data-tokens="30 gbm" value="30 GBM"> 30º GBM</option>
               <option data-tokens="3 gbm" value="3 GBM">3º GBM</option>
               <option data-tokens="1 gbm" value="1 GBM">1º GBM</option>
             </select>
+          </div>
         </div>
-      </div>   
      </div>
     
 </form>

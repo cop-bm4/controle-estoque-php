@@ -74,7 +74,7 @@ $row = mysqli_fetch_assoc($result);
 
 ?>
 
-<form action="edit.php" method="post" name="att">
+<form action="#" method="post" name="att">
  <div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Atualizar Material </h3></div>
   </div>
@@ -244,9 +244,9 @@ $row = mysqli_fetch_assoc($result);
 </form>
 
 
-<!--
+
 <?php
-/*
+
  if(isset($_POST['rp'])){
 $material = $_POST['material'];
 $rp = $_POST['rp'];
@@ -270,7 +270,7 @@ $sql = "UPDATE materialoperacional SET nome='$nome' rg='$rg' rp='$rp' nserie='$n
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
-    header("location:edit.php")
+  
     
 } else {
     echo "Error updating record: " . $conn->error;
@@ -284,9 +284,9 @@ $conn->close();
   
 
 
-*/
+
 ?>
--->
+
 
  <div class="footer">
   <p>© 2018 BM4/COP  CBM-PA V.C João Luz </p>

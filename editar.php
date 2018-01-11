@@ -242,7 +242,7 @@ $row = mysqli_fetch_assoc($result);
 
 $nome = $_POST['nome'];
 $ocorrencia =$_POST['ocorrencia'];
-
+echo $ocorrencia;
 
 echo $id;
 $sql = " UPDATE materialoperacional SET nome='$nome' ocorrencia='$ocorrencia' WHERE id='$id'";

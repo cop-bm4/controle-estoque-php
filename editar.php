@@ -80,14 +80,7 @@ $row = mysqli_fetch_assoc($result);
   </div>
   <br>
   <div class="container">
-  <div class="row">
-  	<div class="col-lg-4">
-  		<div class="input-group">
-            <span class="input-group-addon">ID</span>
-  		<input type="text" class="form-control" name="id" value="<?php echo $id; ?>" >
-  	</div>
-  	</div>
-  </div>
+ 
     <div class="row">
       <div class="col-lg-4">
         <div class="input-group">
@@ -248,9 +241,9 @@ $row = mysqli_fetch_assoc($result);
  if(isset($_POST['rp'])){
 $material = $_POST['material'];
 echo $material;
+$nome = $_POST['nome'];
+echo $nome;
 
-echo "nome";
-$id = $_POST['id'];
 echo $id;
 $sql = " UPDATE materialoperacional SET nome='$nome' WHERE id='$id'";
 

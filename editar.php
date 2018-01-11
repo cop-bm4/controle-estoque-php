@@ -239,13 +239,13 @@ $row = mysqli_fetch_assoc($result);
 <?php
 
  if(isset($_POST['rp'])){
-$material = $_POST['material'];
-echo $material;
+
 $nome = $_POST['nome'];
-echo $nome;
+$ocorrencia =$_POST['ocorrencia'];
+
 
 echo $id;
-$sql = " UPDATE materialoperacional SET nome='$nome' WHERE id='$id'";
+$sql = " UPDATE materialoperacional SET nome='$nome' ocorrencia='$ocorrencia' WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";

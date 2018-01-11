@@ -73,9 +73,53 @@ echo "Não foi possível conectar ao banco de dados";
 <?php $ub = $_SESSION['ubm']; 
 
 ?>
-
+<div class="container">
+  <h2>Faça sua pesquisa</h2>
 <form action="#" method="post">
-  <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+            <div class="input-group">
+            <span class="input-group-addon">Material</span>
+              <select class="form-control" data-live-search="true" name="material" required>
+                <option data-tokens="Capacete" value="Capacete">Capacete </option>
+                 <option data-tokens="Luva" value="Luva">Luva</option>
+                 <option data-tokens="bala Clava" value="Bala Clava">Bala Clava</option>
+              </select>
+          </div> 
+           <p id="passwordHelpBlock" class="form-text text-muted">
+           Escolha o Material.</p>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="input-group">
+            <span class="input-group-addon">Situação</span>
+              <select class="form-control" data-live-search="true" name="sitaucao">
+                <option data-tokens="qualquer" value="qualquer"> Qualquer</option>
+                <option data-tokens="Operante" value="operante">Operante</option>
+                <option data-tokens="Inoperante" value="inoperante">Inoperante</option>
+              </select>
+          </div>
+        </div>
+       <div class="col-lg-4">
+         <div class="input-group-addon">
+          <span class="input-group-addon">UBM</span>
+            <select class="form-control" data-live-search="true" name="ubm">
+              <option data-tokens="qualquer" value="qualquer">Qualquer</option>
+              <option data-tokens="30 gbm" value="30 GBM"> 30º GBM</option>
+              <option data-tokens="3 gbm" value="3 GBM">3º GBM</option>
+              <option data-tokens="1 gbm" value="1 GBM">1º GBM</option>
+              
+            </select>
+           
+         </div>
+       </div>   
+      </div>
+    
+
+
+
+
+  </form>
     <table class="table table-bordered">
       <thead>
         <tr>
@@ -88,9 +132,11 @@ echo "Não foi possível conectar ao banco de dados";
       </thead>
       
     </table>
-  </div>
+  
 
 </form>
+
+</div>
 </body>
 </html>
  

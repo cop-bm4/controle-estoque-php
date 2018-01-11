@@ -212,7 +212,7 @@ require "credenciais.php";
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">Cargo</span>
             
-               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="cargo">
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="cargo" required="Informe seu cargo">
         </div>
             <p id="passwordHelpBlock" class="form-text text-muted">
             Digite o seu Cargo.

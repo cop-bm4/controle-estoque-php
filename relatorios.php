@@ -100,7 +100,7 @@ echo "Não foi possível conectar ao banco de dados";
               </select>
           </div>
         </div>
-       <div class="col-lg-4">
+       <div class="col-lg-5">
          <div class="input-group-addon">
           <span class="input-group-addon">UBM</span>
             <select class="form-control" data-live-search="true" name="ubm">

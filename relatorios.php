@@ -113,7 +113,10 @@ echo "Não foi possível conectar ao banco de dados";
             </select>
           </div>
         </div>
-     </div>
+      <div class="col-lg-2">
+        <button type="submit" class="btn btn-default btn-lg">Pesquisar</button>
+      </div>
+    </div>
     
 </form>
    

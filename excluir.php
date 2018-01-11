@@ -53,7 +53,7 @@ $id = $_GET['id'];
         </ul>
       </li>
       
- <li><a href="#">Relatórios</a></li>
+ <li><a href="http://copbm4-com-br.umbler.net/relatorios.php">Relatórios</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
      

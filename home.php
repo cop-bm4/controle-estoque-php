@@ -58,7 +58,7 @@
   
 
 
-      <li><a href="http://copbm4-com-br.umbler.net/cadastro-material.php">Relatórios</a></li>
+      <li><a href="http://copbm4-com-br.umbler.net/relatorios.php">Relatórios</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       

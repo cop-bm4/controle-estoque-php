@@ -232,7 +232,7 @@ $row = mysqli_fetch_assoc($result);
  <br>
  <br>
     <div class="row">
-      <div class="col-lg-1" >
+      <div class="col-lg-3" >
         <button type="submit" class="btn btn-default btn-lg">Atualizar</button>
       </div>
       <div class="col-lg-1">

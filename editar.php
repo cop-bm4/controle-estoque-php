@@ -92,7 +92,7 @@ $row = mysqli_fetch_assoc($result);
       <div class="col-lg-4">
         <div class="input-group">
             <span class="input-group-addon">Material</span>
-              <input type="text" class="form-control" name="material" value="<?php echo $row['material'] ?> "  >
+              <input type="text" class="form-control" name="material" value="<?php echo $row['material'] ?> " disabled >
           </div> 
            <p id="passwordHelpBlock" class="form-text text-muted">
             Material.</p>
@@ -252,10 +252,11 @@ echo $material;
 echo "nome";
 $id = $_POST['id'];
 echo $id;
-$sql = " UPDATE materialoperacional SET material='$material' WHERE id='$id'";
+$sql = " UPDATE materialoperacional SET nome='$nome' rg='$rg' rp='$rp' nserie='$nserie' situacao='$situacao' ocorrencia='$ocorrencia' cargo='$cargo' defeito='$defeito' WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
+    
     
     
 } else {

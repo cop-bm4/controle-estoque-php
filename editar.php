@@ -245,7 +245,7 @@ $ocorrencia =$_POST['ocorrencia'];
 echo $ocorrencia;
 
 echo $id;
-$sql = " UPDATE materialoperacional SET nome='$nome' ocorrencia='$ocorrencia' WHERE id='$id'";
+$sql = " UPDATE materialoperacional SET nome='$nome', ocorrencia='$ocorrencia' WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";

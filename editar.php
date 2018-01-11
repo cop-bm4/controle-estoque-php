@@ -235,9 +235,11 @@ $row = mysqli_fetch_assoc($result);
    
    </div>
 </form>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-5">
+			<?php
 
-<?php
-/*
  if(isset($_POST['rp'])){
 
 $nome = $_POST['nome'];
@@ -266,43 +268,18 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
   }
 
-*/
+
 
 ?>
 
-
-<?php if (isset($_POST['rp'])): ?>
-
-<?php 
-if(isset($_POST['rp'])){
-
-$nome = $_POST['nome'];
-$ocorrencia =$_POST['ocorrencia'];
-$rp = $_POST['rp'];
-$nserie = $_POST['nserie'];
-$situacao = $_POST['situacao'];
-$nome = $_POST['nome'];
-$rg = $_POST['rg'];
-$cargo = $_POST['cargo'];
-$defeito = $_POST['defeito'];
-
-
-
-$sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg', rp='$rp', nserie='$nserie', situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito' WHERE id='$id'";
-
-?>
-<?php if ($conn->query($sql) === TRUE): ?>
-<div class="container">
-	<div class="row">
-		<div class="col-lg-1">
-			<p class="lead">Atualização realizada com sucesso.</p>
 		</div>
 	</div>
 </div>
-<?php endif;  ?>
 
 
-<?php endif; ?> 
+
+
+
 
 
  <div class="footer">

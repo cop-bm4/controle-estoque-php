@@ -252,11 +252,11 @@ echo $material;
 echo "nome";
 $id = $_POST['id'];
 echo $id;
-$sql = " UPDATE materialoperacional SET nome='$nome' rg='$rg' rp='$rp' nserie='$nserie' situacao='$situacao' ocorrencia='$ocorrencia' cargo='$cargo' defeito='$defeito' WHERE id='$id'";
+$sql = " UPDATE materialoperacional SET nome='$nome' WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
-    
+
     
     
 } else {

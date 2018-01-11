@@ -78,7 +78,7 @@ echo "Não foi possível conectar ao banco de dados";
 <?php $ub = $_SESSION['ubm']; 
 
 ?>
-
+<div class="container">
 <div class="row">
    
     <div class="col-sm-10 text-right h2">
@@ -92,7 +92,7 @@ $sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, re
 $result = mysqli_query($conn, $sql);
 ?>
 
-<div class="container" >
+
    <?php if(mysqli_num_rows ($result) > 0 ): ?>    
 <table class="table table-bordered">
 <thead>
@@ -141,31 +141,14 @@ $result = mysqli_query($conn, $sql);
 
 </tbody>
 </table>
+
+
+
+
+
 </div>
-
-
-
 <!-- Modal -->
-<div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Excluir</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Você realmente deseja exluir esse Material
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
-        
-        <button type="button" class="btn btn-primary" href="http://copbm4-com-br.umbler.net/excluir.php?id=<?php echo $row['id']; ?>"> Sim </button>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
 

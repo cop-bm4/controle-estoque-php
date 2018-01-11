@@ -90,7 +90,7 @@ echo "Não foi possível conectar ao banco de dados";
            Escolha o Material.</p>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="input-group">
             <span class="input-group-addon">Situação</span>
               <select class="form-control" data-live-search="true" name="sitaucao">

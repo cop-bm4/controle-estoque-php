@@ -1,9 +1,8 @@
+<?php 
+    require 'db.php';
+	require 'credenciais.php';
+ 
 
-<?php require 'db.php';
-		require 'credenciais.php';
-  ?>
-
-<?php
 
 
 $material = $_POST['material'];
@@ -23,7 +22,7 @@ $defeito = $_POST['defeito'];
 
 
 
-$sql = "UPDATE materialoperacional SET nome='$nome' rg='$rg' rp='$rp' nserie='$nserie' situacao='$situacao' ocorrencia='$ocorrencia' cargo='$cargo' defeito='defeito' WHERE id='$id' ";
+$sql = "UPDATE materialoperacional SET nome='$nome' rg='$rg' rp='$rp' nserie='$nserie' situacao='$situacao' ocorrencia='$ocorrencia' cargo='$cargo' defeito='$defeito' WHERE id='$id' ";
 
 
 if ($conn->query($sql) === TRUE) {
@@ -35,5 +34,6 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
+
 
 ?>

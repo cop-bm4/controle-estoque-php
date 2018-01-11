@@ -235,7 +235,7 @@ require "credenciais.php";
    
    </div>
 </form>
-<!--
+
 <script>
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {
@@ -253,7 +253,7 @@ require "credenciais.php";
   }, false);
 })();
 </script>
--->
+
 <div class="footer">
   <p>© 2018 BM4/COP CBM-PA  V.C João Luz </p>
 </div>

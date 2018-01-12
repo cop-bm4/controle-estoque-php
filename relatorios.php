@@ -125,6 +125,12 @@ echo "Não foi possível conectar ao banco de dados";
 </form>
    
 
+   <?php 
+    if(isset($_POST['material'])):
+
+
+    ?>
+
     <table class="table table-bordered">
       <thead>
         <tr>
@@ -138,8 +144,7 @@ echo "Não foi possível conectar ao banco de dados";
       
     </table>
   
-
-</form>
+<?php endif; ?>
 
 </div>
 </body>

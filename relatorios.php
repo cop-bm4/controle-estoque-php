@@ -110,6 +110,7 @@ echo "Não foi possível conectar ao banco de dados";
               <option data-tokens="qualquer" >Qualquer</option>
               <option data-tokens="1 gbm" value="1 GBM">1º GBM</option>
               <option data-tokens="3 gbm" value="3 GBM">3º GBM</option>
+               <option data-tokens="3 gbm" value="4 GBM">4º GBM</option>
               <option data-tokens="30 gbm" value="30 GBM"> 30º GBM</option>
               
             </select>
@@ -142,6 +143,10 @@ echo "Não foi possível conectar ao banco de dados";
         </tr>
       </thead>
       
+
+
+
+
     </table>
   
 <?php endif; ?>

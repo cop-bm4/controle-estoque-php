@@ -155,9 +155,9 @@ echo "Não foi possível conectar ao banco de dados";
       <thead>
         <tr>
           <th>
-            <blockquote class="blockquote text-center">
-                 <p>Material</p>
-            </blockquote> 
+            
+                 <p class="text-align">Material</p>
+            
           </th>
           <th>Qt. Operante</th>
           <th>Qt. Inoperante</th>

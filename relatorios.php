@@ -148,11 +148,8 @@ echo "Não foi possível conectar ao banco de dados";
     
     $resultInoperantes = mysqli_query($conn, $inoperantes);
     $countInoperantes=  mysqli_num_rows($resultInoperantes);
-    
-
-
-   
     ?>
+
     <table class="table table-bordered">
       <thead>
         <tr>

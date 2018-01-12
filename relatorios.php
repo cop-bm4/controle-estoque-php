@@ -130,7 +130,7 @@ echo "Não foi possível conectar ao banco de dados";
     if(isset($_POST['material'])):?>
     <?php 
     $ubm=$_POST['ubm'];
-    $situacao=$_POST['sutuacao'];
+    $situacao=$_POST['situacao'];
     $material=$_POST['material'];
 
     $sql = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubm' and material='$material'";

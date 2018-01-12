@@ -170,6 +170,7 @@ echo "Não foi possível conectar ao banco de dados";
          <td><?php echo $material; ?></td>
          <td><?php echo $countOperantes; ?></td>
          <td><?php  echo $countInoperantes;  ?></td>
+         <td><?php echo $countTotal ?></td>
          <td><?php echo $ubm; ?></td>
        </tr>
      </tbody> 

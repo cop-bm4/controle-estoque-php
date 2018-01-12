@@ -93,7 +93,7 @@ echo "Não foi possível conectar ao banco de dados";
         <div class="col-lg-3">
           <div class="input-group">
             <span class="input-group-addon">Situação</span>
-              <select class="form-control" data-live-search="true" name="sitaucao">
+              <select class="form-control" data-live-search="true" name="situacao">
                 <option data-tokens="qualquer" > Qualquer</option>
                 <option data-tokens="Operante" value="operante">Operante</option>
                 <option data-tokens="Inoperante" value="inoperante">Inoperante</option>
@@ -127,11 +127,16 @@ echo "Não foi possível conectar ao banco de dados";
    
 
    <?php 
-    if(isset($_POST['material'])):
+    if(isset($_POST['material'])):?>
+    <?php 
+    $ubm=$_POST['ubm'];
+    $situacao=$_POST['sutuacao'];
+    $material=$_POST['material'];
 
-
+    $sql = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubm' and material='$material'";
+    $operantes= "SELECT COUNT(situacao) FROM tabela WHERE ubm=$ubm and situacao=$situacao";
+    echo $operantes;
     ?>
-
     <table class="table table-bordered">
       <thead>
         <tr>

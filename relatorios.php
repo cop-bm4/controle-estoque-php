@@ -128,7 +128,7 @@ echo "Não foi possível conectar ao banco de dados";
 </form>
    
 
-   <?php if(isset($_POST['material'])): ?>
+   <?php if(isset($_POST['material']) && $_POST['material'] == 'qualquer') : ?>
     <?php 
     $ubm=$_POST['ubm'];
     $situacao=$_POST['situacao'];

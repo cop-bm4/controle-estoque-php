@@ -94,7 +94,7 @@ echo "Não foi possível conectar ao banco de dados";
           <div class="input-group">
             <span class="input-group-addon">Situação</span>
               <select class="form-control" data-live-search="true" name="situacao">
-                <option data-tokens="qualquer" > Qualquer</option>
+                
                 <option data-tokens="Operante" value="operante">Operante</option>
                 <option data-tokens="Inoperante" value="inoperante">Inoperante</option>
               </select>
@@ -107,7 +107,7 @@ echo "Não foi possível conectar ao banco de dados";
           <div class="input-group">
             <span class="input-group-addon">UBM</span>
             <select class="form-control" data-live-search="true" name="ubm">
-              <option data-tokens="qualquer" >Qualquer</option>
+              <option data-tokens="qualquer" value="qualquer" >Qualquer</option>
               <option data-tokens="1 gbm" value="1 GBM">1º GBM</option>
               <option data-tokens="3 gbm" value="3 GBM">3º GBM</option>
                <option data-tokens="3 gbm" value="4 GBM">4º GBM</option>
@@ -133,13 +133,26 @@ echo "Não foi possível conectar ao banco de dados";
     $situacao=$_POST['situacao'];
     $material=$_POST['material'];
 
-    $sql = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubm' and material='$material'";
-    $operantes = "SELECT situacao FROM materialoperacional WHERE ubm=$ubm and situacao=$situacao";
-    $result = mysqli_query($conn, $sql);
-    $count=  mysqli_num_rows($result);
+    $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubm' and material='$material'  ";
+    $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='operante'";
+    $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='inoperante'";
     
-    echo $count;
+    $resultTotal = mysqli_query($conn, $total);
+    $countTotal=  mysqli_num_rows($resultTotal);
     
+    echo $countTotal;
+    
+    $resultOperantes = mysqli_query($conn, $operantes);
+    $countOperantes=  mysqli_num_rows($resultOperantes);
+    
+    echo $countOperantes;
+    
+    $resultInoperantes = mysqli_query($conn, $inoperantes);
+    $countInoperantes=  mysqli_num_rows($resultInoperantes);
+    
+    echo $countInoperantes;
+
+   
     ?>
     <table class="table table-bordered">
       <thead>
@@ -147,11 +160,12 @@ echo "Não foi possível conectar ao banco de dados";
           <th> Material</th>
           <th>Qt. Operante</th>
           <th>Qt. Inoperante</th>
+          <th>Total</th>>
           <th>UBM</th>
           
         </tr>
       </thead>
-      
+      i
 
 
 

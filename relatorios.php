@@ -81,7 +81,9 @@ echo "Não foi possível conectar ao banco de dados";
             <div class="input-group">
             <span class="input-group-addon">Material</span>
               <select class="form-control" data-live-search="true" name="material" required>
+                <option data-tokens="qualquer" value="qualquer">Qualquer</option>
                 <option data-tokens="Capacete" value="Capacete">Capacete </option>
+
                  <option data-tokens="Luva" value="Luva">Luva</option>
                  <option data-tokens="bala Clava" value="Bala Clava">Bala Clava</option>
               </select>
@@ -132,9 +134,10 @@ echo "Não foi possível conectar ao banco de dados";
     $situacao=$_POST['situacao'];
     $material=$_POST['material'];
 
+
     $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubm' and material='$material'  ";
-    $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='operante'";
-    $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='inoperante'";
+    $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='operante' and material='$material'";
+    $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='inoperante' and material='$material' ";
     
     $resultTotal = mysqli_query($conn, $total);
     $countTotal=  mysqli_num_rows($resultTotal);
@@ -179,7 +182,86 @@ echo "Não foi possível conectar ao banco de dados";
   
 <?php endif; ?>
 
+
+  <?php if($material=='qualquer'):?>
+  <?php
+    $ubm=$_POST['ubm'];
+    $situacao=$_POST['situacao'];
+    $material=$_POST['material'];
+
+
+    $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubm'  ";
+    $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='operante' and material='$material'";
+    $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='inoperante' and material='$material'";
+    
+    $resultTotal = mysqli_query($conn, $total);
+    $countTotal=  mysqli_num_rows($resultTotal);
+    
+    
+    
+    $resultOperantes = mysqli_query($conn, $operantes);
+    $countOperantes=  mysqli_num_rows($resultOperantes);
+    
+    
+    
+    $resultInoperantes = mysqli_query($conn, $inoperantes);
+    $countInoperantes=  mysqli_num_rows($resultInoperantes);
+      
+  ?>
+
+
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Material</th>
+          <th>Qt. Operante</th>
+          <th>Qt. Inoperante</th>
+          <th>Total</th>>
+          <th>UBM</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+ <?php while($row = mysqli_fetch_assoc($resultTotal)): ?> 
+<?php 
+    $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='operante' and material='$material'";
+    $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='inoperante' and material='$material'";
+    
+    $resultTotal = mysqli_query($conn, $total);
+    $countTotal=  mysqli_num_rows($resultTotal);
+    
+    
+    
+    $resultOperantes = mysqli_query($conn, $operantes);
+    $countOperantes=  mysqli_num_rows($resultOperantes);
+    
+    
+    
+    $resultInoperantes = mysqli_query($conn, $inoperantes);
+    $countInoperantes=  mysqli_num_rows($resultInoperantes);
+    
+
+
+?>
+  <tr>
+    
+    <td><?php echo $row['material'];?></td>
+    <td><?php echo $countOperantes; ?></td>
+    <td><?php echo $countInoperantes;?></td>
+    <td><?php echo $countTotal; ?></td>
+    <td><?php echo $ubm; ?></td>
+    
+  </tr>
+
+  
+<?php endwhile; ?>
+
+</tbody>
+</table>
+  <?php endif; ?>
+
 </div>
+
 </body>
 </html>
  

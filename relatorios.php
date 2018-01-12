@@ -135,7 +135,8 @@ echo "Não foi possível conectar ao banco de dados";
 
     $sql = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubm' and material='$material'";
     $operantes = "SELECT situacao FROM materialoperacional WHERE ubm=$ubm and situacao=$situacao";
-    $count=  mysql_num_rows($operantes);
+    $result = mysqli_query($conn, $operantes);
+    $count=  mysqli_num_rows($result);
     echo $count;
     ?>
     <table class="table table-bordered">

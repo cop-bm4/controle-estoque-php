@@ -89,7 +89,7 @@ echo "Não foi possível conectar ao banco de dados";
            <p id="passwordHelpBlock" class="form-text text-muted">
            Escolha o Material.</p>
         </div>
-
+<!--
         <div class="col-lg-3">
           <div class="input-group">
             <span class="input-group-addon">Situação</span>
@@ -102,7 +102,7 @@ echo "Não foi possível conectar ao banco de dados";
           <p id="passwordHelpBlock" class="form-text text-muted">
            Selecione a Situação.</p>
         </div>
-       
+-->       
         <div class="col-lg-3">
           <div class="input-group">
             <span class="input-group-addon">UBM</span>
@@ -126,7 +126,7 @@ echo "Não foi possível conectar ao banco de dados";
 </form>
    
 
-   <?php if(isset($_POST['material'])):?>
+   <?php if(isset($_POST['material'])): ?>
     <?php 
     $ubm=$_POST['ubm'];
     $situacao=$_POST['situacao'];
@@ -148,6 +148,7 @@ echo "Não foi possível conectar ao banco de dados";
     
     $resultInoperantes = mysqli_query($conn, $inoperantes);
     $countInoperantes=  mysqli_num_rows($resultInoperantes);
+    
     ?>
 
     <table class="table table-bordered">

@@ -126,8 +126,7 @@ echo "Não foi possível conectar ao banco de dados";
 </form>
    
 
-   <?php 
-    if(isset($_POST['material'])):?>
+   <?php if(isset($_POST['material'])):?>
     <?php 
     $ubm=$_POST['ubm'];
     $situacao=$_POST['situacao'];
@@ -140,17 +139,17 @@ echo "Não foi possível conectar ao banco de dados";
     $resultTotal = mysqli_query($conn, $total);
     $countTotal=  mysqli_num_rows($resultTotal);
     
-    echo $countTotal;
+    
     
     $resultOperantes = mysqli_query($conn, $operantes);
     $countOperantes=  mysqli_num_rows($resultOperantes);
     
-    echo $countOperantes;
+    
     
     $resultInoperantes = mysqli_query($conn, $inoperantes);
     $countInoperantes=  mysqli_num_rows($resultInoperantes);
     
-    echo $countInoperantes;
+
 
    
     ?>

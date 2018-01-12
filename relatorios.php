@@ -154,7 +154,10 @@ echo "Não foi possível conectar ao banco de dados";
     <table class="table table-bordered">
       <thead>
         <tr>
-          <th> Material</th>
+          <th><blockquote class="blockquote text-center">
+  <p class="mb-0">Material</p>
+  
+</blockquote> </th>
           <th>Qt. Operante</th>
           <th>Qt. Inoperante</th>
           <th>Total</th>>

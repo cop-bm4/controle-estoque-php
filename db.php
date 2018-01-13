@@ -7,5 +7,5 @@ $db = "materialcontrol";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
 
-
+   
   ?>

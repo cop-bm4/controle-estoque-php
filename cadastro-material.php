@@ -101,7 +101,7 @@ $result = mysqli_query($conn, $sql);
     <th  >Material</th>
     <th>R. Patrimônial</th>
     <th>Número de Série</th>
-    <th>Marca</th>
+    
     <th>Situação</th>
     <th>Atualizado em</th>
     <th> Opções</th>
@@ -117,7 +117,7 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['material']; ?></td>
     <td><?php echo $row['rp']; ?></td>
     <td><?php echo $row['nserie']?></td>
-    <td><?php echo $row['marca']?><td>
+    
     <td><?php echo $row['situacao']; ?></td>
     <td><?php echo $row['reg_date']; ?></td>
     

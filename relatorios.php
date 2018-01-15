@@ -129,7 +129,37 @@ echo "Não foi possível conectar ao banco de dados";
    
 
    <?php if(isset($_POST['pesquisar']) ): ?>
-      
+    <?php if($_POST['material']=='qualquer'): ?>
+
+      <table class="table table-bordered">
+        <thead>
+        <tr>
+          <th>Material</th>
+          <th>Qt. Operante</th>
+          <th>Qt. Inoperante</th>
+          <th>Total</th>>
+          <th>UBM</th>
+          
+        </tr>
+      </thead>
+     <tbody>
+       <tr>
+         <td><?php echo $material; ?></td>
+         <td><?php echo $countOperantes; ?></td>
+         <td><?php  echo $countInoperantes;  ?></td>
+         <td><?php echo $countTotal ?></td>
+         <td><?php echo $ubm; ?></td>
+       </tr>
+     </tbody> 
+  </table>
+  
+
+
+
+
+<?php endif; ?>
+    
+
     <?php 
     $ubm=$_POST['ubm'];
     $situacao=$_POST['situacao'];

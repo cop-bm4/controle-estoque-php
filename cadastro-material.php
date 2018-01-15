@@ -98,13 +98,13 @@ $result = mysqli_query($conn, $sql);
 <thead>
   <tr>
   
-    <th align="center" >Material</th>
+    <th  >Material</th>
     <th>R. Patrimônial</th>
     <th>Número de Série</th>
     <th>Marca</th>
     <th>Situação</th>
     <th>Atualizado em</th>
-    <th align="center" >        Opções      </th>
+    <th> Opções</th>
   </tr>
 </thead>
 
@@ -120,6 +120,7 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['marca']?><td>
     <td><?php echo $row['situacao']; ?></td>
     <td><?php echo $row['reg_date']; ?></td>
+    
     <td class="actions text-right">
       <a href="http://copbm4cbmpa-com-br.umbler.net/view.php?id=<?php echo $row['id']; ?>"button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Visualizar</a>
       <a href="editar.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Editar</a>
@@ -134,6 +135,9 @@ $result = mysqli_query($conn, $sql);
 
 <?php endwhile; ?>
 
+</tbody>
+</table>
+
 <?php else : ?>     
   <tr>       
    <td colspan="6">Nenhum registro encontrado.</td>      
@@ -141,8 +145,6 @@ $result = mysqli_query($conn, $sql);
 
 <?php endif;?>
 
-</tbody>
-</table>
 
 
 

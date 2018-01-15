@@ -121,14 +121,15 @@ echo "Não foi possível conectar ao banco de dados";
            Escolha a UBM.</p>
         </div>
       <div class="col-lg-2">
-        <button type="submit" class="btn btn-default ">Pesquisar</button>
+        <button type="submit" class="btn btn-default " name="pesquisar">Pesquisar</button>
       </div>
     </div>
     
 </form>
    
 
-   <?php if(isset($_POST['material']) ): ?>
+   <?php if(isset($_POST['pesquisar']) ): ?>
+      
     <?php 
     $ubm=$_POST['ubm'];
     $situacao=$_POST['situacao'];
@@ -174,11 +175,7 @@ echo "Não foi possível conectar ao banco de dados";
          <td><?php echo $ubm; ?></td>
        </tr>
      </tbody> 
-
-
-
-
-    </table>
+  </table>
   
 <?php endif; ?>
 

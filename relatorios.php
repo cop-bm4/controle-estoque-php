@@ -127,9 +127,34 @@ echo "Não foi possível conectar ao banco de dados";
     
 </form>
    
-
-   <?php if(isset($_POST['pesquisar']) ): ?>
+<?php if(isset($_POST['pesquisar']) ): ?>
+    
     <?php if($_POST['material']=='qualquer'): ?>
+
+          <?php 
+      $ubm=$_POST['ubm'];
+      $situacao=$_POST['situacao'];
+      $material=$_POST['material'];
+
+
+      $totalCapacete = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubm' and material='Capacete'  ";
+      $operantesCapacete = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='operante' and material='Capacete'";
+      $inoperantesCapacete = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='inoperante' and material='Capacete' ";
+    
+      $resultTotalCapacete = mysqli_query($conn, $totalCapacete);
+      $countTotalCapacete=  mysqli_num_rows($resultTotal);
+    
+    
+    
+      $resultOperantesCapacete = mysqli_query($conn, $operantes);
+      $countOperantesCapacete=  mysqli_num_rows($resultOperantes);
+    
+    
+    
+      $resultInoperantesCapacete = mysqli_query($conn, $inoperantes);
+      $countInoperantesCapacete =  mysqli_num_rows($resultInoperantes);
+    
+      ?>
 
       <table class="table table-bordered">
         <thead>
@@ -144,59 +169,58 @@ echo "Não foi possível conectar ao banco de dados";
       </thead>
      <tbody>
        <tr>
-         <td><?php echo $material; ?></td>
+         <td>Capacete</td> 
          <td><?php echo $countOperantes; ?></td>
          <td><?php  echo $countInoperantes;  ?></td>
          <td><?php echo $countTotal ?></td>
          <td><?php echo $ubm; ?></td>
        </tr>
      </tbody> 
-  </table>
-  
+    </table>
+    <?php endif; ?>
 
 
 
 
-<?php endif; ?>
+     <?php  ?>
     
+      <?php 
+      $ubm=$_POST['ubm'];
+      $situacao=$_POST['situacao'];
+      $material=$_POST['material'];
 
-    <?php 
-    $ubm=$_POST['ubm'];
-    $situacao=$_POST['situacao'];
-    $material=$_POST['material'];
 
+      $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubm' and material='$material'  ";
+      $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='operante' and material='$material'";
+      $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='inoperante' and material='$material' ";
+    
+      $resultTotal = mysqli_query($conn, $total);
+      $countTotal=  mysqli_num_rows($resultTotal);
+    
+    
+    
+      $resultOperantes = mysqli_query($conn, $operantes);
+      $countOperantes=  mysqli_num_rows($resultOperantes);
+    
+    
+    
+      $resultInoperantes = mysqli_query($conn, $inoperantes);
+      $countInoperantes=  mysqli_num_rows($resultInoperantes);
+    
+      ?>
 
-    $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubm' and material='$material'  ";
-    $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='operante' and material='$material'";
-    $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='inoperante' and material='$material' ";
-    
-    $resultTotal = mysqli_query($conn, $total);
-    $countTotal=  mysqli_num_rows($resultTotal);
-    
-    
-    
-    $resultOperantes = mysqli_query($conn, $operantes);
-    $countOperantes=  mysqli_num_rows($resultOperantes);
-    
-    
-    
-    $resultInoperantes = mysqli_query($conn, $inoperantes);
-    $countInoperantes=  mysqli_num_rows($resultInoperantes);
-    
-    ?>
-
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th>Material</th>
-          <th>Qt. Operante</th>
-          <th>Qt. Inoperante</th>
-          <th>Total</th>>
-          <th>UBM</th>
+     <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Material</th>
+            <th>Qt. Operante</th>
+            <th>Qt. Inoperante</th>
+           <th>Total</th>>
+            <th>UBM</th>
           
         </tr>
-      </thead>
-     <tbody>
+        </thead>
+      <tbody>
        <tr>
          <td><?php echo $material; ?></td>
          <td><?php echo $countOperantes; ?></td>
@@ -205,8 +229,9 @@ echo "Não foi possível conectar ao banco de dados";
          <td><?php echo $ubm; ?></td>
        </tr>
      </tbody> 
-  </table>
-  
+    </table>
+  <?php endif; ?>
+
 <?php endif; ?>
 
 

@@ -81,7 +81,7 @@ $row = mysqli_fetch_assoc($result);
  	 <div class="row">
     <div class="col-lg-12">
    
-    <p class="lead"><strong>Material:</strong> <?php echo $row['material']; ?>      <strong> R. Patrimônial: </strong> <?php echo $row['rp']; ?>      <strong> N. Série: </strong> <?php echo $row['nserie'];?> <strong>UBM: </strong> <?php echo $row['ubm']; ?> </p>
+    <p class="lead"><strong>Material:</strong> <?php echo $row['material']; ?>      <strong> R. Patrimônial: </strong> <?php echo $row['rp']; ?>      <strong> N. Série: </strong> <?php echo $row['nserie'];?> <strong>UBM: </strong> <?php echo $row['ubm']; ?> <strong>Marca: </strong> <?php echo $row['marca']; ?></p>
     </div>
   </div>
 

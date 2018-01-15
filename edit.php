@@ -12,7 +12,7 @@ $situacao = $_POST['situacao'];
 $ocorrencia = $_POST['ocorrencia']; 
 
 $id = $_POST['id'];
-
+$marca= $_POST['marca'];
 $nome = $_POST['nome'];
 
 $rg = $_POST['rg'];
@@ -22,7 +22,7 @@ $defeito = $_POST['defeito'];
 
 
 
-$sql = "UPDATE materialoperacional SET nome='$nome', rg='$rg', rp='$rp', nserie='$nserie', situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito' WHERE id='$id' ";
+$sql = "UPDATE materialoperacional SET nome='$nome', rg='$rg', rp='$rp', nserie='$nserie', situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito', marca='$marca' WHERE id='$id' ";
 
 
 if ($conn->query($sql) === TRUE) {

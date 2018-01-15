@@ -88,7 +88,7 @@ echo "Não foi possível conectar ao banco de dados";
   </div>
 
 <?php
-$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, reg_date, login FROM materialoperacional where ubm='$ub' and login='login' ";
+$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, reg_date, login,marca FROM materialoperacional where ubm='$ub' and login='login' ";
 $result = mysqli_query($conn, $sql);
 ?>
 
@@ -101,6 +101,7 @@ $result = mysqli_query($conn, $sql);
     <th align="center" >Material</th>
     <th>R. Patrimônial</th>
     <th>Número de Série</th>
+    <th>Marca</th>
     <th>Situação</th>
     <th>Atualizado em</th>
     <th align="center" >        Opções      </th>
@@ -116,6 +117,7 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['material']; ?></td>
     <td><?php echo $row['rp']; ?></td>
     <td><?php echo $row['nserie']?></td>
+    <td><?php echo $row['marca']?><td>
     <td><?php echo $row['situacao']; ?></td>
     <td><?php echo $row['reg_date']; ?></td>
     <td class="actions text-right">

@@ -116,7 +116,15 @@ $row = mysqli_fetch_assoc($result);
         </div>
 
       </div>
-    
+    <div class="row">
+       <div class="col-lg-6">
+         <div class="input-group">
+           <span class="input-group-addon">Marca</span>
+           <input type="text" name="marca" value="<?php echo $row['marca'] ?>">
+         </div>
+         <p class="form-text text-muted">Digite a Marca.</p>
+       </div> 
+      </div>
       	
   <br>
      <div class="row">

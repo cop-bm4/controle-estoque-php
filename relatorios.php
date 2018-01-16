@@ -4,7 +4,7 @@
   <title>Relatórios</title>
    <!--login -->
 <?php 
-require "credenciais.php"
+require "credenciais.php";
 
 
 ?>

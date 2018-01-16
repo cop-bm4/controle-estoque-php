@@ -85,6 +85,33 @@ require "credenciais.php";
                 <option data-tokens="Capacete" value="Capacete">Capacete </option>
                  <option data-tokens="Luva" value="Luva">Luva</option>
                  <option data-tokens="bala Clava" value="Bala Clava">Bala Clava</option>
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               </select>
           </div> 
            <p id="passwordHelpBlock" class="form-text text-muted">

@@ -114,7 +114,7 @@ $row = mysqli_fetch_assoc($result);
   
 <form action="#" method="post">
 <div class="container">
-	<p class="lead" >VOCÊ RELAMENTE DESEJA EXCLUIR O ITEM ACIMA ?</p>
+	<p class="lead" >VOCÊ REALMENTE DESEJA EXCLUIR O ITEM ACIMA ?</p>
 	
   <button align="center" type="submit" class="btn btn-danger btn-lg" value="sim" name="butao"> Sim </button>
   <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Voltar</a>

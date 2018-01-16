@@ -130,7 +130,7 @@ echo "Não foi possível conectar ao banco de dados";
 <?php if(isset($_POST['pesquisar']) ): ?>
     
     <?php if($_POST['material']=='qualquer'): ?>
-
+      
       <?php 
       $ubm=$_POST['ubm'];
       $situacao=$_POST['situacao'];

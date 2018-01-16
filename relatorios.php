@@ -83,7 +83,7 @@ echo "Não foi possível conectar ao banco de dados";
               <select class="form-control" data-live-search="true" name="material" required>
                 <option data-tokens="qualquer" value="qualquer">Qualquer</option> 
                 
-                
+
 <option data-tokens= "ABAFADOR INCÊNDIO" value="ABAFADOR INCENDIO" >ABAFADOR INCÊNDIO</option>
 <option data-tokens= "AFT" value="AFT" >AFT</option>
 <option data-tokens= "ALAVANCA" value="ALAVANCA" >ALAVANCA</option>
@@ -336,7 +336,7 @@ echo "Não foi possível conectar ao banco de dados";
 
 
 
-     <?php if ($_POST['material']!= 'qualquer'): ?>
+     <?php if ($_POST['material']!='qualquer'): ?>
     
       <?php 
       $ubm=$_POST['ubm'];

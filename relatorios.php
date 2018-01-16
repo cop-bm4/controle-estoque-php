@@ -81,7 +81,7 @@ echo "Não foi possível conectar ao banco de dados";
             <div class="input-group">
             <span class="input-group-addon">Material</span>
               <select class="form-control" data-live-search="true" name="material" required>
-               <!-- <option data-tokens="qualquer" value="qualquer">Qualquer</option> -->
+               <option data-tokens="qualquer" value="qualquer">Qualquer</option> 
                 <option data-tokens="Capacete" value="Capacete">Capacete </option>
 
                  <option data-tokens="Luva" value="Luva">Luva</option>
@@ -182,7 +182,7 @@ echo "Não foi possível conectar ao banco de dados";
 
 
 
-     <?php  ?>
+     <?php if ($_POST['material']!= 'qualquer'): ?>
     
       <?php 
       $ubm=$_POST['ubm'];

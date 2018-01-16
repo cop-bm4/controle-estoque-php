@@ -50,10 +50,10 @@ $nomematerial = array("ABAFADOR INCÊNDIO", "AFT", "ALAVANCA", "APARELHO OITO", 
 
       	<tbody>
       		<tr>
-      		<td><?php echo "$value"; ?></td>
-      		<td><?php echo "$countOperantes"; ?></td>
-      		<td><?php echo "$countInoperantes";?></td>
-      		<td></td>
+      		<td><?php echo $value; ?></td>
+      		<td><?php echo $countOperantes; ?></td>
+      		<td><?php echo $countInoperantes;?></td>
+      		<td><?php echo $countTotal; ?></td>
       		</tr>
       	</tbody>
 

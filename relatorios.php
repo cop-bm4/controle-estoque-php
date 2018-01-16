@@ -88,23 +88,9 @@ echo "Não foi possível conectar ao banco de dados";
                  <option data-tokens="bala Clava" value="Bala Clava">Bala Clava</option>
               </select>
           </div> 
-           <p id="passwordHelpBlock" class="form-text text-muted">
-           Escolha o Material.</p>
+           <p id="passwordHelpBlock" class="form-text text-muted"> Escolha o Material.</p>
         </div>
-<!--
-        <div class="col-lg-3">
-          <div class="input-group">
-            <span class="input-group-addon">Situação</span>
-              <select class="form-control" data-live-search="true" name="situacao">
-                
-                <option data-tokens="Operante" value="operante">Operante</option>
-                <option data-tokens="Inoperante" value="inoperante">Inoperante</option>
-              </select>
-          </div>
-          <p id="passwordHelpBlock" class="form-text text-muted">
-           Selecione a Situação.</p>
-        </div>
--->       
+  
         <div class="col-lg-3">
           <div class="input-group">
             <span class="input-group-addon">UBM</span>
@@ -130,7 +116,7 @@ echo "Não foi possível conectar ao banco de dados";
 <?php if(isset($_POST['pesquisar']) ): ?>
     
     <?php if($_POST['material']=='qualquer'): ?>
-      
+
       <?php 
       $ubm=$_POST['ubm'];
       $situacao=$_POST['situacao'];

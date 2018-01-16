@@ -55,15 +55,17 @@ $nomematerial = array("ABAFADOR INCÊNDIO", "AFT", "ALAVANCA", "APARELHO OITO", 
       		<td><?php echo $countInoperantes;?></td>
       		<td><?php echo $countTotal; ?></td>
       		</tr>
-      	</tbody>
+      	
 
 
 <?php endforeach; ?>
 
-
+</tbody>
 
 </table>
 
 </body>
+
+
 </html>
 

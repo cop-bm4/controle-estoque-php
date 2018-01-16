@@ -32,10 +32,9 @@ $nomematerial = array("ABAFADOR INCÊNDIO", "AFT", "ALAVANCA", "APARELHO OITO", 
 </thead>
 
 <?php foreach ($nomematerial as $value): ?>
-	echo "$value <br>";
-
+	
 	<?php
-      $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubm' and material='$value'  ";
+      $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubm' and material='$value' ";
       $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='operante' and material='$value'";
       $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='inoperante' and material='$value' ";
     

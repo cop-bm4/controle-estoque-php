@@ -68,7 +68,7 @@ $id = $_GET['id'];
 
 
 <?php
-$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo FROM materialoperacional where id=$id ";
+$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo,marca FROM materialoperacional where id=$id ";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 
@@ -120,7 +120,7 @@ $row = mysqli_fetch_assoc($result);
        <div class="col-lg-6">
          <div class="input-group">
            <span class="input-group-addon">Marca</span>
-           <input type="text" name="marca" value="<?php echo $row['marca'] ?>">
+           <input type="text" name="marca" value="<?php echo $row['marca'] ?>" >
          </div>
          <p class="form-text text-muted">Digite a Marca.</p>
        </div> 

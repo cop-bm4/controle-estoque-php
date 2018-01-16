@@ -212,6 +212,7 @@ require "credenciais.php";
 <option data-tokens= "MOTO BOMBAELÉTRICA" value="MOTO BOMBAELETRICA" >MOTO BOMBAELÉTRICA</option>
 <option data-tokens= "MOTO GERADOR" value="MOTO GERADOR" >MOTO GERADOR</option>
 <option data-tokens= "MANILHA" value="MANILHA" >MANILHA</option>
+<option data-tokens="MCLEOD" value="MCLEOD">MCLEOD</option>
 <option data-tokens= "MOTOR DE P  15 HP" value="MOTOR DE P  15 HP" >MOTOR DE P  15 HP</option>
 <option data-tokens= "MOTOR DE P  25 HP" value="MOTOR DE P  25 HP" >MOTOR DE P  25 HP</option>
 <option data-tokens= "MOTOR DE POPA 40 HP" value="MOTOR DE POPA 40 HP" >MOTOR DE POPA 40 HP</option>
@@ -247,11 +248,10 @@ require "credenciais.php";
 <option data-tokens= "TÁBUA DE SALVAMENTO" value="TABUA DE SALVAMENTO" >TÁBUA DE SALVAMENTO</option>
 <option data-tokens= "TALHA" value="TALHA" >TALHA</option>
 <option data-tokens= "TALABARTE" value="TALABARTE" >TALABARTE</option>
+<option data-tokens="TESADO" value="TESADO">TESADO</option>
 <option data-tokens= "TORRE DE ILUMINAÇÃO" value="TORRE DE ILUMINACAO" >TORRE DE ILUMINAÇÃO</option>
 <option data-tokens= "TRIPÉ RESG POÇO" value="TRIPE RESG POcO" >TRIPÉ RESG POÇO</option>
 <option data-tokens="VÁLVULA MERGULHO" value="VALVULA DE MERGULHO">VÁLVULA DE MERGULHO</option>
-<option data-tokens="TESADO" value="TESADO">TESADO</option>
-
 
               
               </select>

@@ -31,7 +31,7 @@ $nomematerial = array("ABAFADOR INCÊNDIO", "AFT", "ALAVANCA", "APARELHO OITO", 
 	</tr>
 </thead>
 
-<?php foreach ($nomematerial as $value) ?>
+<?php foreach ($nomematerial as $value): ?>
 	echo "$value <br>";
 
 	<?php

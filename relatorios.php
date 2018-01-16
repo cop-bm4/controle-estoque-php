@@ -131,7 +131,7 @@ echo "Não foi possível conectar ao banco de dados";
     
     <?php if($_POST['material']=='qualquer'): ?>
 
-          <?php 
+      <?php 
       $ubm=$_POST['ubm'];
       $situacao=$_POST['situacao'];
       $material=$_POST['material'];
@@ -142,17 +142,17 @@ echo "Não foi possível conectar ao banco de dados";
       $inoperantesCapacete = "SELECT situacao FROM materialoperacional WHERE ubm='$ubm' and situacao='inoperante' and material='Capacete' ";
     
       $resultTotalCapacete = mysqli_query($conn, $totalCapacete);
-      $countTotalCapacete=  mysqli_num_rows($resultTotal);
+      $countTotalCapacete=  mysqli_num_rows($resultTotalCapacete);
     
     
     
-      $resultOperantesCapacete = mysqli_query($conn, $operantes);
-      $countOperantesCapacete=  mysqli_num_rows($resultOperantes);
+      $resultOperantesCapacete = mysqli_query($conn, $operantesCapacete);
+      $countOperantesCapacete=  mysqli_num_rows($resultOperantesCapacete);
     
     
     
-      $resultInoperantesCapacete = mysqli_query($conn, $inoperantes);
-      $countInoperantesCapacete =  mysqli_num_rows($resultInoperantes);
+      $resultInoperantesCapacete = mysqli_query($conn, $inoperantesCapacete);
+      $countInoperantesCapacete =  mysqli_num_rows($resultInoperantesCapacete);
     
       ?>
 

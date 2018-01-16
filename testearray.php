@@ -58,7 +58,7 @@ $nomematerial = array("ABAFADOR INCÊNDIO", "AFT", "ALAVANCA", "APARELHO OITO", 
       	</tbody>
 
 
-<? endfor; ?>
+<?php endfor; ?>
 
 
 

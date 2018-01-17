@@ -48,8 +48,8 @@
         <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php">Material</a></li>
-          <li><a href="#">VTRS</a></li>
-          <li><a href="#">Embarcações</a></li>
+        <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-vtrs.php">VTRS</a></li>
+                  <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-embarcacoes.php">Embarcações</a></li>
         </ul>
       </li>
 
@@ -58,7 +58,13 @@
   
 
 
-      <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatorios.php">Relatórios</a></li>
+      <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Relatórios</a>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatorios.php"> Material</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosvtrs.php">Vtr's</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosembarcacoes.php">Embarcações</a></li>
+              </li>  
+
     </ul>
     <ul class="nav navbar-nav navbar-right">
       

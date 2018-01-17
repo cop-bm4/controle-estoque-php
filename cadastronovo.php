@@ -285,6 +285,7 @@ require "credenciais.php";
                  
               </select>
             </div>
+            <p class="form-text text-muted">Escolha a UBM.</p>
           </div>
 
 

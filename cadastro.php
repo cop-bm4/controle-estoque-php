@@ -11,7 +11,7 @@ $nserie = $_POST['nserie'];
 $situacao = $_POST['situacao'];
 $ocorrencia = $_POST['ocorrencia']; 
 $marca= $_POST['marca'];
-$ubm = $_SESSION['ubm'];
+$ubm = $_POST['ubm'];
 
 $nome = $_POST['nome'];
 $rg = $_POST['rg'];

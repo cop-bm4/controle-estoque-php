@@ -62,7 +62,7 @@ echo "Não foi possível conectar ao banco de dados";
       </li>
       
 <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Relatórios</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" > <span class="cared">Relatórios</span></a>
                 <ul class="dropdown-menu">
                 <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatorios.php"> Material</a></li>
                 <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosvtrs.php">Vtr's</a></li>

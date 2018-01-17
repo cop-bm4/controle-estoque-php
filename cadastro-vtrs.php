@@ -66,10 +66,7 @@
                 </ul>
       				</li>	 
 
-
-
-        			
-    				</ul>
+</ul>
    					 <ul class="nav navbar-nav navbar-right">
      
       				<li><a href=" http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>

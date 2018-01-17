@@ -28,7 +28,7 @@ VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ubm','$nome'
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
-    header('location:cadastro-material.php');
+    header('location:mastercadastro-material.php');
    
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;

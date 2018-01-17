@@ -121,7 +121,7 @@ $row = mysqli_fetch_assoc($result);
 
       </div>
     <div class="row">
-       <div class="col-lg-6">
+       <div class="col-lg-4">
          <div class="input-group">
            <span class="input-group-addon">Marca</span>
            <input type="text"  class="form-control" arial-label="Default" aria-describelby="inputGroup-sizing-default" name="marca" value="<?php echo $row['marca'] ?>" disabled>

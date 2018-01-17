@@ -105,21 +105,17 @@ $row = mysqli_fetch_assoc($result);
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">R. Patrimônial</span>
             
-               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rp" value="<?php echo $row['rp']; ?>" required>
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rp" value="<?php echo $row['rp']; ?>" disabled>
           </div>
-            <p id="passwordHelpBlock" class="form-text text-muted">
-            Digite o número de R. Patrimônial do Material.
-           </p>
+            
         </div>
         <div class="col-lg-4">
           <div class="input-group">
             <span class="input-group-addon"  id="inputGroup-sizing-default" >N. Série</span>
-            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie" value="<?php echo $row['nserie']; ?>" id="validationCustom01" required>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie" value="<?php echo $row['nserie']; ?>" id="validationCustom01" disabled>
            
           </div>
-            <p id="passwordHelpBlock" class="form-text text-muted">
-            Digite o Número de Série do Material .
-           </p>
+            
         
         </div>
 
@@ -128,9 +124,9 @@ $row = mysqli_fetch_assoc($result);
        <div class="col-lg-6">
          <div class="input-group">
            <span class="input-group-addon">Marca</span>
-           <input type="text" name="marca" value="<?php echo $row['marca'] ?>" >
+           <input type="text" name="marca" value="<?php echo $row['marca'] ?>" disabled>
          </div>
-         <p class="form-text text-muted">Digite a Marca.</p>
+   
        </div> 
       </div>
       	

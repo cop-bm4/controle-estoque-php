@@ -38,6 +38,8 @@
 			<?php
 			require 'db.php';
 			require 'credenciais.php';
+			$ub= $_SESSION['ubm'];
+
 			?>
 
 			<nav class="navbar navbar-inverse">
@@ -74,6 +76,12 @@
   			   </div>
 			</nav>
 	
+
+				
+
+
+
+
 
 
 	   </body>

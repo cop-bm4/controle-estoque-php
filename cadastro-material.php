@@ -90,7 +90,7 @@ echo "Não foi possível conectar ao banco de dados";
 <div class="row">
    
     <div class="col-sm-12 text-right h2">
-        <a class="btn btn-primary" href="http://copbm4cbmpa-com-br.umbler.net/cadastronovo.php"><i class="fa fa-plus"></i> Novo Material</a>
+        <!-- <a class="btn btn-primary" href="http://copbm4cbmpa-com-br.umbler.net/cadastronovo.php"><i class="fa fa-plus"></i> Novo Material</a> -->
         <a class="btn btn-default" href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php"><i class="fa fa-refresh"></i> Atualizar</a>
       </div>
   </div>
@@ -132,8 +132,8 @@ $result = mysqli_query($conn, $sql);
     <td class="actions text-right">
       <a href="http://copbm4cbmpa-com-br.umbler.net/view.php?id=<?php echo $row['id']; ?>"button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Visualizar</a>
       <a href="editar.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Editar</a>
-      <a href="http://copbm4cbmpa-com-br.umbler.net/excluir.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default" >
-        <i class="fa fa-trash"></i> Excluir</a>
+      <!-- <a href="http://copbm4cbmpa-com-br.umbler.net/excluir.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default" >
+         <i class="fa fa-trash"></i> Excluir</a> -->
     </td>
   </tr>
 

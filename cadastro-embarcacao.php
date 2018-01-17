@@ -5,7 +5,7 @@
 
 
 		<head>
-			<title>Cadastro VTRS</title>
+			<title>Cadastro Embarcações</title>
 
 			 <meta name="viewport" content="width=device-width, initial-scale=1">
 				<!---->
@@ -81,7 +81,7 @@
 
 
 
-
+				
 
 
 	   </body>

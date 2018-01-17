@@ -132,7 +132,7 @@ $result = mysqli_query($conn, $sql);
     <td class="actions text-right">
       <a href="http://copbm4cbmpa-com-br.umbler.net/masterview.php?id=<?php echo $row['id']; ?>"button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Visualizar</a>
       <a href="mastereditar.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Editar</a>
-      <a href="http://copbm4cbmpa-com-br.umbler.net/masterexcluir.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default" >
+      <a href="http://copbm4cbmpa-com-br.umbler.net/excluir.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default" >
          <i class="fa fa-trash"></i> Excluir</a>
     </td>
   </tr>

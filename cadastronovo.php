@@ -268,8 +268,28 @@ require "credenciais.php";
            <p id="passwordHelpBlock" class="form-text text-muted">
            Escolha o Material.</p>
         </div>
-        
-        <div class="col-lg-4">
+           
+          <div class="col-lg-3">
+            <div class="input-group">
+              <span class="input-group-addon" id="in">UBM</span>
+              <select class="form-control" data-live-search="true" name="ubm" required>
+              
+
+
+              <option data-tokens="1 GBM" value="1 GBM"> 1ª GBM </option> 
+              <option data-tokens="2 GBM" value="2 GBM"> 2ª GBM </option>      
+              <option data-tokens="3 GBM" value="3 GBM"> 3ª GBM </option>   
+
+              <option data-tokens="4 GBM" value="4 GBM"> 4ª GBM </option>
+              <option data-tokens="5 GBM" value="5 GBM"> 5ª GBM </option>
+                 
+              </select>
+            </div>
+          </div>
+
+
+
+        <div class="col-lg-2">
           <div class="input-group">
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">R. Patrimônial</span>
@@ -280,7 +300,7 @@ require "credenciais.php";
             Digite o número de R. Patrimônial do Material.
            </p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="input-group">
             <span class="input-group-addon"  id="inputGroup-sizing-default" >N. Série</span>
             <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie" id="validationCustom01" required>

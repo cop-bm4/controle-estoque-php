@@ -269,7 +269,7 @@ require "credenciais.php";
            Escolha o Material.</p>
         </div>
            
-          <div class="col-lg-3">
+          <div class="col-lg-2">
             <div class="input-group">
               <span class="input-group-addon" id="in">UBM</span>
               <select class="form-control" data-live-search="true" name="ubm" required>
@@ -289,7 +289,7 @@ require "credenciais.php";
 
 
 
-        <div class="col-lg-2">
+        <div class="col-lg-3">
           <div class="input-group">
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">R. Patrimônial</span>

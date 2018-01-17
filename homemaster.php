@@ -42,14 +42,14 @@
       <a class="navbar-brand" href="http://copbm4cbmpa-com-br.umbler.net/"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active" ><a href="http://copbm4cbmpa-com-br.umbler.net/home.php">Home</a></li>
+      <li class="active" ><a href="http://copbm4cbmpa-com-br.umbler.net/masterhome.php">Home</a></li>
      
      	<li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php">Registro<span class="caret"></span></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php">Material</a></li>
-        <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-vtrs.php">VTRS</a></li>
-                  <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-embarcacoes.php">Embarcações</a></li>
+          <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php">Material</a></li>
+        <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php">VTRS</a></li>
+                  <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-embarcacoes.php">Embarcações</a></li>
         </ul>
       </li>
 
@@ -61,9 +61,9 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Relatórios</a>
                 <ul class="dropdown-menu">
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatorios.php"> Material</a></li>
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosvtrs.php">Vtr's</a></li>
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosembarcacoes.php">Embarcações</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatorios.php"> Material</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatoriosvtrs.php">Vtr's</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatoriosembarcacoes.php">Embarcações</a></li>
                 </ul>
               </li>  
 
@@ -89,8 +89,8 @@
       
       	
 <div class="thumbnail">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php">
-        <img src="http://copbm4cbmpa-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
+      <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php">
+        <img src="http://copbm4cbmpa-com-br.umbler.net/mastervetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
         <div class="caption">
         <h3 align="center">        Material </h3>
         </div>
@@ -102,7 +102,7 @@
     <div class="col-sm-4">
 
       <div class="thumbnail">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-vtrs.php">
+      <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php">
         <img src="http://copbm4cbmpa-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
         <div class="caption">
         <h3 align="center">        VTRS </h3>
@@ -115,7 +115,7 @@
 
     <div class="col-sm-4">
      <div class="thumbnail">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-embarcacoes.php">
+      <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-embarcacoes.php">
         <img src="http://copbm4cbmpa-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
         <div class="caption">
         <h3 align="center">        EMBARCAÇÕES </h3>

@@ -58,11 +58,13 @@
   
 
 
-      <li class="dropdown">
+            <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Relatórios</a>
+                <ul class="dropdown-menu">
                 <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatorios.php"> Material</a></li>
                 <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosvtrs.php">Vtr's</a></li>
                 <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosembarcacoes.php">Embarcações</a></li>
+                </ul>
               </li>  
 
     </ul>

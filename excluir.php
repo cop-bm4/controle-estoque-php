@@ -54,10 +54,11 @@ $id = $_GET['id'];
       </li>
       
  				<li class="dropdown">
-      					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Relatórios</a>
-      					<li><a href="http://copbm4cbmpa-com-br.umbler.net/relatorios.php"> Material</a></li>
-      					<li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosvtrs.php">Vtr's</a></li>
-      					<li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosembarcacoes.php">Embarcações</a></li>
+      					 <ul class="dropdown-menu">
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatorios.php"> Material</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosvtrs.php">Vtr's</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosembarcacoes.php">Embarcações</a></li>
+                </ul>
       				</li>	 
 
 

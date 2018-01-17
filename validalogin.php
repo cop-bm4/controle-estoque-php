@@ -35,7 +35,7 @@ header('location:home.php');
 
 
 }
-elseif (myssli_num_rows($result)>0 and $lg='master' {
+elseif (myssli_num_rows($result)>0 and $lg='master' ){
 	$_SESSION['login'] = $login;
     $_SESSION['senha'] = $senha;
     $_SESSION['ubm']   = $ubm;

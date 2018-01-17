@@ -100,14 +100,29 @@
       
     </div>
     <div class="col-sm-4">
-      <h3>VTR'S</h3>
+
+      <div class="thumbnail">
+      <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php">
+        <img src="http://copbm4cbmpa-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
+        <div class="caption">
+        <h3 align="center">        VTRS </h3>
+        </div>
+      </a>
+    </div>
       
     </div>
     
 
     <div class="col-sm-4">
-      <h3>EMBARCAÇÕES</h3> 
-
+     <div class="thumbnail">
+      <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php">
+        <img src="http://copbm4cbmpa-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
+        <div class="caption">
+        <h3 align="center">        EMBARCAÇÕES </h3>
+        </div>
+      </a>
+    </div>
+      
 
     </div>
   </div>

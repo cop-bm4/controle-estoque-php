@@ -105,7 +105,7 @@ $result = mysqli_query($conn, $sql);
 <table class="table table-bordered">
 <thead>
   <tr>
-  
+    <th>UBM</th>
     <th  >Material</th>
     <th>R. Patrimônial</th>
     <th>Número de Série</th>
@@ -121,8 +121,8 @@ $result = mysqli_query($conn, $sql);
  <?php while($row = mysqli_fetch_assoc($result)): ?> 
 
   <tr>
-    
-    <td><?php echo $row['material']; ?></td>
+    <td><?php echo $row['ubm']; ?></td>
+    <td><?php echo $row['material'];?> </td>
     <td><?php echo $row['rp']; ?></td>
     <td><?php echo $row['nserie']?></td>
     

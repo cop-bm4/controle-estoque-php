@@ -289,7 +289,7 @@ require "credenciais.php";
 
 
 
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <div class="input-group">
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">R. Patrimônial</span>
@@ -300,7 +300,7 @@ require "credenciais.php";
             Digite o número de R. Patrimônial do Material.
            </p>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3">
           <div class="input-group">
             <span class="input-group-addon"  id="inputGroup-sizing-default" >N. Série</span>
             <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie" id="validationCustom01" required>

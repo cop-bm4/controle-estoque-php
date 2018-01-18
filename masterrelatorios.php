@@ -274,7 +274,7 @@
                 <option data-tokens="1 GBM" value="1 GBM"> 1 GBM </option>
                 <option data-tokens="2 GBM" value="2 GBM">  2 GBM </option>
                 <option data-tokens="3 GBM" value="3 GBM">  3 GBM </option>
-<option data-tokens="4 GBM" value="4 GBM">  4 GBM </option>
+                  <option data-tokens="4 GBM" value="4 GBM">  4 GBM </option>
 <option data-tokens="5 GBM" value="5 GBM">  5 GBM </option>
 <option data-tokens="6 GBM" value="6 GBM">  6 GBM </option>
 <option data-tokens="7 GBM" value="7 GBM">  7 GBM </option>

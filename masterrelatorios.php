@@ -304,6 +304,8 @@
       
     <?php 
     $ub=$_POST['ub']; 
+     $situacao=$_POST['situacao'];
+        $material=$_POST['material'];    
     ?>
   
 
@@ -311,6 +313,7 @@
   <table class="table table-bordered">
   <thead>
     <tr>
+      <th>UBM</th>
     <th>Material</th>
     <th>Qt. Operante</th>
     <th>Qt. Inoperante</th>
@@ -337,6 +340,7 @@
 
           <tbody>
             <tr>
+              <td><?php ?></td>
             <td><?php echo $value; ?></td>
             <td><?php echo $countOperantes; ?></td>
             <td><?php echo $countInoperantes;?></td>
@@ -358,12 +362,11 @@
 
 
 
-       <?php if ($_POST['material']!='qualquer'): ?>
+       <?php if ($_POST['material']!='qualquer' and $_POST['ubm']!='qualquer'): ?>
       
         <?php 
         
-        $situacao=$_POST['situacao'];
-        $material=$_POST['material'];
+       
 
 
         $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ub' and material='$material'  ";

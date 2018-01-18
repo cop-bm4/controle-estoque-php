@@ -488,9 +488,9 @@
                     
 
                                  <?php 
-        $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubms[$i]' and material='$material'  ";
-        $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubms[$i]' and situacao='operante' and material='$material '";
-        $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubms[$i]' and situacao='inoperante' and material='$material ";
+        $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubms[$i]' and material='$material'";
+        $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubms[$i]' and situacao='operante' and material='$material'";
+        $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubms[$i]' and situacao='inoperante' and material='$material'";
       
         $resultTotal = mysqli_query($conn, $total);
         $countTotal=  mysqli_num_rows($resultTotal);

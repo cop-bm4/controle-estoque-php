@@ -431,7 +431,7 @@
                 </tr>
               </thead>
 
-              <?php foreach ($nomematerial as $valueumaterial): ?>
+              <?php foreach ($nomematerial as $valuematerial): ?>
 
 
                   <?php 

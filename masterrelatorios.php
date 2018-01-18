@@ -474,7 +474,7 @@
       <?php if ($_POST['material']!='qualquer' && $ub=='qualquer'): ?>
 
               <?php for ($i=0; $i <$tamanhoubms ; $i++): ?>
-                <h2><?php echo $ubms[$i];  ?></h2>
+               
                   <table class="table table-bordered">
                     <thead>
                       <tr>

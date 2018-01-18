@@ -461,8 +461,8 @@
 
                   <tbody>
                     <tr>
-                       <td><?php echo $ub; ?></td>
-           <td><?php echo $material; ?></td>
+                       <td><?php echo $valueubm; ?></td>
+           <td><?php echo $valuematerial; ?></td>
            <td><?php echo $countOperantes; ?></td>
            <td><?php  echo $countInoperantes;  ?></td>
            <td><?php echo $countTotal ?></td>

@@ -415,69 +415,7 @@
       </table>
     <?php endif; ?>
 
-    <?php if($_POST['material']=='qualquer' && $_POST['ubm']=='qualquer')?>
-
-
-        <?php foreach ($ubms as $valueubm) : ?>
-          <h2><?php echo $valueubm; ?></h2>
-          <table class="table table-bordered">
-              <thead>
-                <tr>
-                  <th>UBM</th>
-                  <th> Material</th>
-                  <th>Qt. Operante</th>
-                  <th>Qt. Inoperante</th>
-                  <th>TOTAL</th>
-                </tr>
-              </thead>
-
-              <?php foreach ($nomematerial as $value): ?>
-
-               <tbody>
-                  <?php 
-        
-       
-
-
-        $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$valueubm' and material='$value'  ";
-        $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$valueub' and situacao='operante' and material='$value'";
-        $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$valueub' and situacao='inoperante' and material='$value' ";
-      
-        $resultTotal = mysqli_query($conn, $total);
-        $countTotal=  mysqli_num_rows($resultTotal);
-      
-      
-      
-        $resultOperantes = mysqli_query($conn, $operantes);
-        $countOperantes=  mysqli_num_rows($resultOperantes);
-      
-      
-      
-        $resultInoperantes = mysqli_query($conn, $inoperantes);
-        $countInoperantes=  mysqli_num_rows($resultInoperantes);
-      
-        ?>
-
-
-                
-                    <tr>
-            <td><?php echo $valueubm; ?></td>
-           <td><?php echo $value; ?></td>
-           <td><?php echo $countOperantes; ?></td>
-           <td><?php  echo $countInoperantes;  ?></td>
-           <td><?php echo $countTotal ?></td>
-                    </tr>
-                  </tbody>
-              <?php endforeach; ?>
-          
-          </table>
-
-
-
-        <?php endforeach; ?>    
     
-      <?php endif; ?>
-
     <?php endif; ?>
 
  

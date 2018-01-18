@@ -391,6 +391,7 @@
        <table class="table table-bordered">
           <thead>
             <tr>
+              <th>UBM</th>
               <th>Material</th>
               <th>Qt. Operante</th>
               <th>Qt. Inoperante</th>
@@ -401,6 +402,7 @@
           </thead>
         <tbody>
          <tr>
+          <td><?php echo $ub; ?></td>
            <td><?php echo $material; ?></td>
            <td><?php echo $countOperantes; ?></td>
            <td><?php  echo $countInoperantes;  ?></td>

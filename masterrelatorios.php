@@ -318,8 +318,8 @@
     
     <?php
 
-        $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE  material='$value' and ubm='$_POST['ub']' ";
-        $operantes = "SELECT situacao FROM materialoperacional WHERE  situacao='operante' and material='$value' and ubm='$_POST['ub']' ";
+        $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE  material='$value' and ubm=' =$_POST['ub']' ";
+        $operantes = "SELECT situacao FROM materialoperacional WHERE  situacao='operante' and material='$value'  ubm='$_POST['ub']' ";
         $inoperantes = "SELECT situacao FROM materialoperacional WHERE situacao='inoperante' and material='$value' and ubm='$_POS['ub']' ";
       
         $resultTotal = mysqli_query($conn, $total);

@@ -270,7 +270,7 @@
               <span class="input-group-addon">UBM</span>
               <select class="form-control" data-live-search="true" name="ub">
                 <option data-tokens="qualquer" value="qualquer" >Qualquer</option> 
-                <option data-tokens="1 gbm" value="1 GBM">1º GBM</option>
+                <option data-tokens="1 gbm" value="1 GBM">1º GBM </option>
                 <option data-tokens="3 gbm" value="3 GBM">3º GBM</option>
                  <option data-tokens="3 gbm" value="4 GBM">4º GBM</option>
                 <option data-tokens="30 gbm" value="30 GBM"> 30º GBM</option>
@@ -302,8 +302,12 @@
 
   <?php if(isset($_POST['pesquisar']) ): ?>
       
-          <?php if($_POST['material']=='qualquer' and $_POST['ub']!='qualquer'): ?>
+    <?php 
+    $ub=$_POST['ub']; 
+    ?>
+  
 
+  <?php if($_POST['material']=='qualquer' and $_POST['ub']!='qualquer'): ?>
   <table class="table table-bordered">
   <thead>
     <tr>
@@ -317,10 +321,10 @@
   <?php foreach ($nomematerial as $value): ?>
     
     <?php
-
-        $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE  material='$value' and ubm='$_POST['ub']' ";
-        $operantes = "SELECT situacao FROM materialoperacional WHERE  situacao='operante' and material='$value' and ubm='$_POST['ub']' ";
-        $inoperantes = "SELECT situacao FROM materialoperacional WHERE situacao='inoperante' and material='$value' and ubm='$_POS['ub']' ";
+       
+        $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE  material='$value' and ubm='$ub' ";
+        $operantes = "SELECT situacao FROM materialoperacional WHERE  situacao='operante' and material='$value' and ubm='$ub' ";
+        $inoperantes = "SELECT situacao FROM materialoperacional WHERE situacao='inoperante' and material='$value' and ubm='$ub' ";
       
         $resultTotal = mysqli_query($conn, $total);
         $countTotal=  mysqli_num_rows($resultTotal);

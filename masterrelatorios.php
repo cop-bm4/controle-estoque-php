@@ -413,7 +413,7 @@
       </table>
     <?php endif; ?>
 
-      <?php if ($_POST['material']!='qualquer' && $_POST['ub']=='qualquer'): ?>
+      <?php if ($_POST['material']=='qualquer' && $_POST['ub']=='qualquer'): ?>
 
             <?php for($i=0; $i<$tamanhoubms; $i++): ?>
 

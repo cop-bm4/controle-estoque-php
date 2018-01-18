@@ -311,7 +311,7 @@
     ?>
   
 
-  <?php if($_POST['material']=='qualquer' and $_POST['ub']!='qualquer'): ?>
+  <?php if($_POST['material']=='qualquer' && $_POST['ub']!='qualquer'): ?>
   <table class="table table-bordered">
   <thead>
     <tr>
@@ -364,7 +364,7 @@
 
 
 
-       <?php if ($_POST['material']!='qualquer' and $_POST['ubm']!='qualquer'): ?>
+       <?php if ($_POST['material']!='qualquer' && $_POST['ubm']!='qualquer'): ?>
       
         <?php 
         
@@ -415,7 +415,7 @@
       </table>
     <?php endif; ?>
 
-    <?php if($_POST['material']=='qualquer' and $_POST['ubm']=='qualquer')?>
+    <?php if($_POST['material']=='qualquer' && $_POST['ubm']=='qualquer')?>
 
 
         <?php foreach ($ubms as $valueubm) : ?>
@@ -477,7 +477,7 @@
         <?php endforeach; ?>    
     
       <?php endif; ?>
-      
+
     <?php endif; ?>
 
  

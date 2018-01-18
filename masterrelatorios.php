@@ -270,6 +270,7 @@
             <div class="input-group">
               <span class="input-group-addon">UBM</span>
               <select class="form-control" data-live-search="true" name="ub">
+                <option data-tokens="qualquer" value="qualquer">Qualquer</option>
                 <option data-tokens="1 GBM" value="1 GBM"> 1 GBM </option>
 <option data-tokens="2 GBM" value="2 GBM">  2 GBM </option>
 <option data-tokens="3 GBM" value="3 GBM">  3 GBM </option>

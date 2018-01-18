@@ -90,7 +90,7 @@
       	
 <div class="thumbnail">
       <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php">
-        <img src="http://copbm4cbmpa-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
+       
         <div class="caption">
         <h3 align="center">        Material </h3>
         </div>
@@ -103,7 +103,7 @@
 
       <div class="thumbnail">
       <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php">
-        <img src="http://copbm4cbmpa-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
+       
         <div class="caption">
         <h3 align="center">        VTRS </h3>
         </div>
@@ -116,7 +116,7 @@
     <div class="col-sm-4">
      <div class="thumbnail">
       <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-embarcacoes.php">
-        <img src="http://copbm4cbmpa-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236">
+       
         <div class="caption">
         <h3 align="center">        EMBARCAÇÕES </h3>
         </div>

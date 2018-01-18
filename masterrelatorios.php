@@ -418,7 +418,7 @@
             <?php for($i=0; $i<$tamanhoubms; $i++): ?>
 
               <h2> <?php echo $ubms[$i]; ?> </h2>
-                <table>
+                <table class="table table-bordered">
                     <thead>
                       <tr>
                         <th>UBM</th>

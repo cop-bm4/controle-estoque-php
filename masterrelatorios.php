@@ -476,7 +476,8 @@
 
         <?php endforeach; ?>    
     
-
+      <?php endif; ?>
+      
     <?php endif; ?>
 
  

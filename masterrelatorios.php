@@ -465,8 +465,9 @@
 
               <?php endfor ?>      
                 </tbody>
+                </table>
             <?php endfor ?>
-        </table>
+        
 
       <?php endif; ?>
 

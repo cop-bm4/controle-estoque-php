@@ -340,7 +340,7 @@
 
           <tbody>
             <tr>
-              <td><?php ?></td>
+              <td><?php echo $ub; ?></td>
             <td><?php echo $value; ?></td>
             <td><?php echo $countOperantes; ?></td>
             <td><?php echo $countInoperantes;?></td>

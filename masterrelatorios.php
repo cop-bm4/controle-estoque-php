@@ -364,7 +364,7 @@
 
 
 
-       <?php if ($_POST['material']!='qualquer' && $_POST['ubm']!='qualquer'): ?>
+       <?php if ($_POST['material']!='qualquer' && $_POST['ub']!='qualquer'): ?>
       
         <?php 
         
@@ -415,7 +415,20 @@
       </table>
     <?php endif; ?>
 
-    
+      <?php if ($_POST['material']!='qualquer' && $_POST['ub']=='qualquer'): ?>
+
+
+          <?php
+          echo "deu";
+          ?>
+
+
+
+      <?php endif; ?>
+
+
+
+
     <?php endif; ?>
 
  

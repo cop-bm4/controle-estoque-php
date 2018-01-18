@@ -364,13 +364,9 @@
 
 
 
-       <?php if ($_POST['material']!='qualquer' && $_POST['ub']!='qualquer'): ?>
+       <?php if ($_POST['material']!='qualquer' && $ub != 'qualquer'): ?>
       
         <?php 
-        
-       
-
-
         $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ub' and material='$material'  ";
         $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ub' and situacao='operante' and material='$material'";
         $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ub' and situacao='inoperante' and material='$material' ";

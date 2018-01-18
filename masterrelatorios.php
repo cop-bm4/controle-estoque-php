@@ -304,8 +304,8 @@
       
     <?php 
     $ub=$_POST['ub']; 
-     $situacao=$_POST['situacao'];
-        $material=$_POST['material'];    
+    $situacao=$_POST['situacao'];
+    $material=$_POST['material'];    
     ?>
   
 

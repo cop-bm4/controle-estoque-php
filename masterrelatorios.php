@@ -431,17 +431,17 @@
                 </tr>
               </thead>
 
-              <?php foreach ($nomematerial as $valuematerial): ?>
+              <?php foreach ($nomematerial as $value): ?>
 
-
+               <tbody>
                   <?php 
         
        
 
 
-        $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$valueubm' and material='$valuematerial'  ";
-        $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$valueub' and situacao='operante' and material='$valuematerial'";
-        $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$valueub' and situacao='inoperante' and material='$valuematerial' ";
+        $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$valueubm' and material='$value'  ";
+        $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$valueub' and situacao='operante' and material='$value'";
+        $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$valueub' and situacao='inoperante' and material='$value' ";
       
         $resultTotal = mysqli_query($conn, $total);
         $countTotal=  mysqli_num_rows($resultTotal);
@@ -459,10 +459,10 @@
         ?>
 
 
-                  <tbody>
+                
                     <tr>
             <td><?php echo $valueubm; ?></td>
-           <td><?php echo $valuematerial; ?></td>
+           <td><?php echo $value; ?></td>
            <td><?php echo $countOperantes; ?></td>
            <td><?php  echo $countInoperantes;  ?></td>
            <td><?php echo $countTotal ?></td>

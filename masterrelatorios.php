@@ -80,6 +80,7 @@
 
 
   <div class="container">
+    
     <h2>Faça sua pesquisa</h2>
   <form action="#" method="post">
         <div class="row">
@@ -396,7 +397,7 @@
               <th>Qt. Operante</th>
               <th>Qt. Inoperante</th>
              <th>Total</th>>
-              <th>UBM</th>
+              
             
           </tr>
           </thead>
@@ -407,15 +408,77 @@
            <td><?php echo $countOperantes; ?></td>
            <td><?php  echo $countInoperantes;  ?></td>
            <td><?php echo $countTotal ?></td>
-           <td><?php echo $ubm; ?></td>
+          
          </tr>
        </tbody> 
       </table>
     <?php endif; ?>
 
-  <?php endif; ?>
+    <?php if($_POST['material']=='qualquer' and $_POST['ubm']=='qualquer')?>
 
 
+        <?php foreach ($ubms as $valueubm) : ?>
+          <h2><?php echo $valueubm; ?></h2>
+          <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>UBM</th>
+                  <th> Material</th>
+                  <th>Qt. Operante</th>
+                  <th>Qt. Inoperante</th>
+                  <th>TOTAL</th>
+                </tr>
+              </thead>
+
+              <?php foreach ($nomematerial as $valueumaterial): ?>
+
+
+                  <?php 
+        
+       
+
+
+        $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$valueubm' and material='$valuematerial'  ";
+        $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$valueub' and situacao='operante' and material='$valuematerial'";
+        $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$valueub' and situacao='inoperante' and material='$valuematerial' ";
+      
+        $resultTotal = mysqli_query($conn, $total);
+        $countTotal=  mysqli_num_rows($resultTotal);
+      
+      
+      
+        $resultOperantes = mysqli_query($conn, $operantes);
+        $countOperantes=  mysqli_num_rows($resultOperantes);
+      
+      
+      
+        $resultInoperantes = mysqli_query($conn, $inoperantes);
+        $countInoperantes=  mysqli_num_rows($resultInoperantes);
+      
+        ?>
+
+
+                  <tbody>
+                    <tr>
+                       <td><?php echo $ub; ?></td>
+           <td><?php echo $material; ?></td>
+           <td><?php echo $countOperantes; ?></td>
+           <td><?php  echo $countInoperantes;  ?></td>
+           <td><?php echo $countTotal ?></td>
+                    </tr>
+                  </tbody>
+              <?php endforeach; ?>
+          
+          </table>
+
+
+
+        <?php endforeach; ?>    
+    
+
+    <?php endif; ?>
+
+ 
   </div>
 
   </body>

@@ -96,7 +96,7 @@ echo "Não foi possível conectar ao banco de dados";
   </div>
 
 <?php
-$sql = "SELECT id, ubm, prefixo, placa, renavam, chassi, modelo, origem, ano_fab, licenciamento FROM materialoperacional where material !='' ";
+$sql = "SELECT id, ubm, prefixo, placa, renavam, chassi, modelo, origem, ano_fab, licenciamento FROM materialoperacional where prefixo !='' ";
 $result = mysqli_query($conn, $sql);
 ?>
 

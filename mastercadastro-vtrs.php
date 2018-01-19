@@ -90,7 +90,7 @@ echo "Não foi possível conectar ao banco de dados";
 <div class="row">
    
     <div class="col-sm-12 text-right h2">
-        <a class="btn btn-primary" href="http://copbm4cbmpa-com-br.umbler.net/cadastronovo.php"><i class="fa fa-plus"></i> Nova VTR</a> 
+        <a class="btn btn-primary" href="http://copbm4cbmpa-com-br.umbler.net/cadastronovovtr.php"><i class="fa fa-plus"></i> Nova VTR</a> 
         <a class="btn btn-default" href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php"><i class="fa fa-refresh"></i> Atualizar</a>
       </div>
   </div>

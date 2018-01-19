@@ -106,9 +106,9 @@ $result = mysqli_query($conn, $sql);
 <thead>
   <tr>
   
-    <th  >Material</th>
-    <th>R. Patrimônial</th>
-    <th>Número de Série</th>
+    <th  >Prefixo</th>
+    <th>Placa</th>
+    <th>Chassi</th>
     
     <th>Situação</th>
     <th>Atualizado em</th>

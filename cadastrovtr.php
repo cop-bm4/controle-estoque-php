@@ -27,7 +27,7 @@ $sql= "INSERT INTO materialoperacional(prefixo, placa, renavam, chassi, modelo, 
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
-    header('location:mastercadastro-material.php');
+    header('location:mastercadastro-vtrs.php');
    
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;

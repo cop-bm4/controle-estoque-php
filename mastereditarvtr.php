@@ -81,8 +81,8 @@ echo "Não foi possível conectar ao banco de dados";
 
 <?php 
 $sql ="SELECT  id, prefixo, placa, renavam, chassi, modelo, origem, ano_fab, licenciamento, ubm FROM materialoperacional WHERE id=$id ";
-$result= mysqli_query($conn,$sql);
-$row=mysqli_fetch_assc($result);
+$result = mysqli_query($conn, $sql);
+$row = mysqli_fetch_assoc($result);
 
 ?>
 <div class="container">

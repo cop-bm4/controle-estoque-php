@@ -189,6 +189,7 @@ $row = mysqli_fetch_assoc($result);
       </div>
      </div>
 
+    <div class="collapse" id="collapseobservacoes">
      <div class="row">
              <div class="col-lg-6">
         <div class="input-group">
@@ -198,6 +199,7 @@ $row = mysqli_fetch_assoc($result);
         </div>
          
        </div> 
+     </div>
      </div>
 
     <div class="container">

@@ -31,11 +31,11 @@ $licenciamento=$_POST['licenciamento'];
 
 
 
-$sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg, cargo, defeito, marca, observacoes, prefixo, placa, renavam, chassi, modelo, origem, ano_fab, licenciamento) VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ubm','$nome','$rg', '$cargo', '$defeito', '$marca', '$observacoes', '$prefixo', '$placa','$renavam','$chassi','$chassi','$modelo','$origem','$ano_fab', '$licenciamento')";
+$sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg, cargo, defeito, marca, observacoes, prefixo, placa, renavam, chassi, modelo, origem, licenciamento) VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ubm','$nome','$rg', '$cargo', '$defeito', '$marca', '$observacoes', '$prefixo', '$placa','$renavam','$chassi','$chassi','$modelo','$origem', '$licenciamento')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
-    header('location:mastercadastro-material.php');
+    header('location:mastercadastro-vtrs.php');
    
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;

@@ -3,7 +3,7 @@
 <head>
   <title>Atualizar</title>
   <?php 
-require "credenciais.php"
+require "credenciais.php";
 $id = $_GET['id'];
 
 ?>

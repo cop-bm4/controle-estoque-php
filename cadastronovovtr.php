@@ -80,17 +80,22 @@ echo "Não foi possível conectar ao banco de dados";
 </nav>
 
 <div class="container">
-	<h2 style="danger" align="center"> Cadastro de VTRS</h2>
+	<h2 class=" text-danger " align="center"> Cadastro de VTRS</h2>
  </div>
 
- 
-<form class="form-control" method="POST">
+
+<form class="form-control" method="POST" action="cadastro.php">
 	<div class="container">
+  <div class="p-3 mb-2 bg-info text-white"> <h3>1- Cadastro Material </h3></div>
+  </div>
+
+	<div class="container">
+		<
 		<div class="row">
 
 			<div class="col-lg-4"></div>
-				<div class="input-gruop">
-					<span class="input-gruop-addon">Prefixo</span>
+				<div class="input-group">
+					<span class="input-group-addon">Prefixo</span>
 					<input type="text" name="prefixo">
 				</div>
 		</div>

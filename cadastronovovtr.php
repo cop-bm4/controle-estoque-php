@@ -86,7 +86,7 @@ echo "Não foi possível conectar ao banco de dados";
 
 <form method="post" action="cadastro.php" id="needs-validation">
 	<div class="container">
-  <div class="p-3 mb-2 bg-info text-white"> <h3>1- Cadastro Material </h3></div>
+  <div class="p-3 mb-2 bg-info text-white"> <h3>1- Cadastro VTR </h3></div>
   </div>
 
 	<div class="container">

@@ -90,7 +90,7 @@ echo "Não foi possível conectar ao banco de dados";
   </div>
 
 	<div class="container">
-		<
+		
 		<div class="row">
 
 			<div class="col-lg-4">

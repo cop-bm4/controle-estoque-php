@@ -149,8 +149,9 @@ echo "Não foi possível conectar ao banco de dados";
 			<div class="col-lg-3">
 				<div class="input-group">
 					<span class="input-group-addon" id="inputGroup-sizing-default">Placa</span>
-					<input type="text" name="placa" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
+					<input type="text" name="placa" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
 				</div>	
+				<p class="form-text text-muted">Digite a Placa.</p>
 			</div>
 
 	</div>

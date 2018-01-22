@@ -1,8 +1,8 @@
+
+<?php require 'db.php';  ?>
+<?php require 'credenciais.php' ?>
+
 <?php
-require 'credencias.php';
-require 'db.php';
-
-
 
 $prefixo=$_POST['prefixo'];
 $placa= $_POST['placa'];

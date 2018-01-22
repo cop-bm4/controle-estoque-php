@@ -422,6 +422,7 @@ require "credenciais.php";
       </div>  
      </div>
      
+     
      <div class="collapse" id="collapseobservacoes">
      <div class="row">
              <div class="col-lg-6">

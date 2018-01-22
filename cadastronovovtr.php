@@ -184,6 +184,21 @@ echo "Não foi possível conectar ao banco de dados";
 				</div>
 				<p class="form-text text-muted">Digite o Modelo.</p>
 			</div>
+
+			<div class="col-lg-3">
+				<div class="input-group">
+					<span class="input-group-addon" id="inputGroup-sizing-default">Origem</span>
+					<input type="text" name="origem" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" required>
+				</div>
+				<p class="form-text text-muted">Digite a Origem</p>
+			</div>
+
+			<div class="col-lg-2">
+				<div class="input-group">
+					<span class="input-group-addon" id="inputGroup-sizing-default">Ano/Fab</span>
+					<input type="text" name="ano_fab" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" required>
+				</div>
+			</div>
 		
 	</div>
 

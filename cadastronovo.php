@@ -349,13 +349,7 @@ require "credenciais.php";
          </div>
          <p class="form-text text-muted">Digite a Marca.</p>
        </div>
-       <div class="col-lg-6">
-        <div class="input-group">
-          <span class="input-group-addon">Observações</span>
-         <textarea class="form-control" rows="4" placeholder="Digite observações, se houver." name="observacoes" ></textarea>
-        </div>
-         
-       </div> 
+  
       </div>
     
    <br>
@@ -416,6 +410,16 @@ require "credenciais.php";
           </div>
         </div>
       </div>
+     </div>
+     <div class="row">
+             <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-addon">Observações</span>
+       
+          <textarea class="form-control" rows="4" placeholder="Digite observações, se houver." name="observacoes" ></textarea>
+        </div>
+         
+       </div> 
      </div>
 
     <div class="container">

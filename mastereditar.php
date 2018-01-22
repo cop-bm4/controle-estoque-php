@@ -128,13 +128,7 @@ $row = mysqli_fetch_assoc($result);
          </div>
    
        </div> 
-       <div class="col-lg-6">
-        <div class="input-group">
-          <span class="input-group-addon">Observações</span>
-          <textarea class="form-control" rows="4" placeholder="Digite observações, se houver." name="observacoes" ></textarea>
-        </div>
-         
-       </div> 
+      
       </div>
       	
   <br>
@@ -193,6 +187,17 @@ $row = mysqli_fetch_assoc($result);
           </div>
         </div>
       </div>
+     </div>
+
+     <div class="row">
+             <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-addon">Observações</span>
+       
+          <textarea class="form-control" rows="4" placeholder="Digite observações, se houver." name="observacoes" ></textarea>
+        </div>
+         
+       </div> 
      </div>
 
     <div class="container">

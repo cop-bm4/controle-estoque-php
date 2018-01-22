@@ -220,7 +220,86 @@ echo "Não foi possível conectar ao banco de dados";
 			<p class="form-text text-muted">Digite o Ano de Lincenciamento </p>
 		</div>
 	</div>
+	<div class="row">
+      <div class="col-lg-4">
+        <div class="input-group"> 
+          <span class="input-group-addon">Situação</span>
+            <select class="form-control" data-live-search="true" name="situacao" required>
+              <option data-tokens="operacional" value="Operante">Operante</option>
+              <option data-tokens="Inoperante" value="Inoperante">Inoperante</option>
+            </select>
+     
+        </div>
+        <p id="passwordHelpBlock" class="form-text text-muted">
+            Caso Inoperante, Clique para Registrar a Ocorrência.
+          </p>
+      </div>
+    </div>
+    <br>
+ 
 
+
+
+    <div class="row">
+      
+     
+
+      <div class="col-lg-6">
+        <p>
+          <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" >
+   
+        Regitrar Ocorrência.
+        </a>
+    
+        </p>
+      </div>
+    </div>
+ <div class="collapse" id="collapseExample">
+    <div class="row">
+       <div class="col-lg-6">   
+      
+        
+        <div class="input-group">
+          <span class="input-group-addon"> Ocorrência</span>
+           <!-- <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" > -->
+            <textarea class="form-control" rows="5" id="comment" placeholder="Digite a Ocorrência" name="ocorrencia"></textarea>
+        </div>
+        </div>
+        
+
+        <div class="col-lg-6">
+          
+          <div class="input-group">
+            <span class="input-group-addon"> Defeito</span>
+            <textarea class="form-control" rows="5" id="Defeito" placeholder=" Digite o Defeito" name="defeito"></textarea>
+          </div>
+        </div>
+      </div>
+     </div>
+     <br>
+     <div class="row">
+      <div class="col-lg-6">
+        <p>
+          <a class="btn btn-default" data-toggle="collapse" href="#collapseobservacoes" role="button" aria-expanded="false" aria-controls="collapseobservacoes">
+            Registrar observações.
+          </a>
+        </p>
+      </div>  
+     </div>
+     
+
+     <div class="collapse" id="collapseobservacoes">
+     <div class="row">
+             <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-addon">Observações</span>
+       
+          <textarea class="form-control" rows="4" placeholder="Digite observações, se houver." name="observacoes" ></textarea>
+        </div>
+         
+       </div> 
+     </div>
+     </div>
 
 	<div class="container">
       <div class="p-3 mb-2 bg-info text-white"> <h3>2 - Responsável pelo Preenchimento </h3></div>

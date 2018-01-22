@@ -198,6 +198,7 @@ echo "Não foi possível conectar ao banco de dados";
 					<span class="input-group-addon" id="inputGroup-sizing-default">Ano/Fab</span>
 					<input type="text" name="ano_fab" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" required>
 				</div>
+				<p class="form-text text-muted">Ano de Fabricação.</p>
 			</div>
 		
 	</div>

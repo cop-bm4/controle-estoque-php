@@ -77,7 +77,7 @@ $id = $_GET['id'];
 ?>
 
 <?php
-$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo, marca FROM materialoperacional where id=$id ";
+$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo, marca,observacoes FROM materialoperacional where id=$id ";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 
@@ -98,6 +98,14 @@ $row = mysqli_fetch_assoc($result);
       <p class="lead"><strong>Situação: </strong> <?php echo $row['situacao']; ?> </p> 
     </div>
    </div> 
+   
+   <?php if (!$row['observacoes']==NULL): ?>
+   <div class="row">
+     <div class="col-lg-12">
+       <p class="lead"><strong>Observações: </strong> <?php echo $row['observacoes']; ?></p>
+     </div>
+   </div>
+    <?php endif; ?>
 
     <?php if (!$row['ocorrencia']==NULL): ?>
     <div class="row">

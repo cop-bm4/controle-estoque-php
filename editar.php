@@ -76,7 +76,7 @@ $id = $_GET['id'];
 
 
 <?php
-$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo,marca FROM materialoperacional where id=$id ";
+$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo,marca, observacoes FROM materialoperacional where id=$id ";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 
@@ -145,9 +145,17 @@ $row = mysqli_fetch_assoc($result);
             Caso Inoperante, Clique para Registrar a Ocorrência.
           </p>
       </div>
+      <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-addon">Observações</span>
+          <input type="textarea" name="observacoes">
+        </div>
+         
+       </div> 
+
     </div>
     <br>
- 
+   
 
 
 
@@ -263,10 +271,10 @@ $nome = $_POST['nome'];
 $rg = $_POST['rg'];
 $cargo = $_POST['cargo'];
 $defeito = $_POST['defeito'];
-
+$observacoes= $_POST['observacoes'];
 $marca=$_POST['marca'];
 
-$sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg', rp='$rp', nserie='$nserie', situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito', marca='$marca' WHERE id='$id'";
+$sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg', rp='$rp', nserie='$nserie', situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito', marca='$marca', observacoes=$observacoes WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";

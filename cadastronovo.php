@@ -348,6 +348,13 @@ require "credenciais.php";
            <input type="text" name="marca">
          </div>
          <p class="form-text text-muted">Digite a Marca.</p>
+       </div>
+       <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-addon">Observações</span>
+          <input type="textarea" name="observacoes">
+        </div>
+         
        </div> 
       </div>
     

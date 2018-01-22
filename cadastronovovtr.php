@@ -143,6 +143,7 @@ echo "Não foi possível conectar ao banco de dados";
 					<span class="input-group-addon" id="inputGroup-sizing-default">Prefixo</span>
 					<input type="text" name="prefixo" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
 				</div>
+				 <p class="form-text text-muted">Digite o Prefixo.</p>
 		</div>
 	</div>
 	</div>

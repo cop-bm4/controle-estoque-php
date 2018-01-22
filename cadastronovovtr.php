@@ -79,6 +79,32 @@ echo "Não foi possível conectar ao banco de dados";
   </div>
 </nav>
 
+<div class="container">
+	<h2 style="danger" align="center"> Cadastro de VTRS</h2>
+ </div>
+
+ 
+<form class="form-control" method="POST">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-4"></div>
+				<div class="input-gruop">
+					<span class="input-gruop-addon">Prefixo</span>
+					<input type="text" name="prefixo">
+				</div>
+		</div>
+	</div>
+	
+
+
+
+</form>
+
+
+
+
+
 
 
 

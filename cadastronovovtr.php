@@ -80,7 +80,7 @@ echo "Não foi possível conectar ao banco de dados";
 </nav>
 
 <div class="container">
-	<h2 class=" text-danger " align="center"> Cadastro de VTRS</h2>
+	<h2 class=" text-danger " align="center"> Cadastro de Nova VTR</h2>
  </div>
 
 

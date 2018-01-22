@@ -211,7 +211,14 @@ echo "Não foi possível conectar ao banco de dados";
 	<br>
 
 	<div class="row">
-		<div class="col"></div>
+		<div class="col-lg-4">
+			<div class="input-group">
+				<span class="input-group-addon" id="inputGroup-sizing-default">Lincenciamento</span>
+				<input type="text" name="lincenciamento" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" required>
+				
+			</div>
+			<p class="form-text text-muted">Digite o Ano de Lincenciamento </p>
+		</div>
 	</div>
 
 

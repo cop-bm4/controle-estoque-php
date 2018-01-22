@@ -211,7 +211,7 @@ echo "Não foi possível conectar ao banco de dados";
 	<br>
 
 	<div class="row">
-		<div class="col-lg-4">
+		<div class="col-lg-3">
 			<div class="input-group">
 				<span class="input-group-addon" id="inputGroup-sizing-default">Lincenciamento</span>
 				<input type="text" name="lincenciamento" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" required>
@@ -222,7 +222,7 @@ echo "Não foi possível conectar ao banco de dados";
 	</div>
 
 
-	
+
 	</div>
 
 

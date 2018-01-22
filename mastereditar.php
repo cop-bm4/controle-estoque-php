@@ -131,7 +131,7 @@ $row = mysqli_fetch_assoc($result);
        <div class="col-lg-6">
         <div class="input-group">
           <span class="input-group-addon">Observações</span>
-          <input type="textarea" name="observacoes">
+          <textarea class="form-control" rows="4" placeholder="Digite observações, se houver." name="observacoes" ></textarea>
         </div>
          
        </div> 

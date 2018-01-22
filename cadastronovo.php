@@ -342,7 +342,7 @@ require "credenciais.php";
 
       </div>
       <div class="row">
-       <div class="col-lg-6">
+       <div class="col-lg-4">
          <div class="input-group">
            <span class="input-group-addon">Marca</span>
            <input type="text" name="marca">
@@ -352,7 +352,7 @@ require "credenciais.php";
        <div class="col-lg-6">
         <div class="input-group">
           <span class="input-group-addon">Observações</span>
-          <input type="textarea" name="observacoes">
+         <textarea class="form-control" rows="4" placeholder="Digite observações, se houver." name="observacoes" ></textarea>
         </div>
          
        </div> 

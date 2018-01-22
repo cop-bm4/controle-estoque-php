@@ -411,6 +411,18 @@ require "credenciais.php";
         </div>
       </div>
      </div>
+     <br>
+     <div class="row">
+      <div class="col-lg-6">
+        <p>
+          <a class="btn btn-default" data-toggle="collapse" href="#collapseobservacoes" role="button" aria-expanded="false" aria-controls="collapseobservacoes">
+            Registrar observações.
+          </a>
+        </p>
+      </div>  
+     </div>
+     
+     <div class="collapse" id="collapseobservacoes">
      <div class="row">
              <div class="col-lg-6">
         <div class="input-group">
@@ -421,7 +433,7 @@ require "credenciais.php";
          
        </div> 
      </div>
-
+     </div>
     <div class="container">
       <div class="p-3 mb-2 bg-info text-white"> <h3>2 - Responsável pelo Preenchimento </h3></div>
     </div>

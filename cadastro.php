@@ -25,14 +25,13 @@ $chassi=$_POST['chassi'];
 $modelo=$_POST['modelo'];
 $origem=$_POST['origem'];
 $ano_fab=$_POST['ano_fab'];
-$lincenciamento=$_POST['lincenciamento'];
+$licenciamento=$_POST['licenciamento'];
 ?>
 <?php
 
 
 
-$sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg, cargo, defeito, marca, observacoes, prefixo, placa, renavam, chassi, modelo, origem, ano_fab, lincenciamento)
-VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ubm','$nome','$rg', '$cargo', '$defeito', '$marca', '$observacoes', '$prefixo', '$placa','$renavam','$chassi','$chassi','$modelo','$origem','$ano_fab', '$lincenciamento')";
+$sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg, cargo, defeito, marca, observacoes, prefixo, placa, renavam, chassi, modelo, origem, ano_fab, licenciamento) VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ubm','$nome','$rg', '$cargo', '$defeito', '$marca', '$observacoes', '$prefixo', '$placa','$renavam','$chassi','$chassi','$modelo','$origem','$ano_fab', '$licenciamento')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";

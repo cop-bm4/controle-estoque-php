@@ -190,7 +190,16 @@ $row = mysqli_fetch_assoc($result);
         </div>
       </div>
      </div>
-     
+
+       <div class="row">
+      <div class="col-lg-6">
+        <p>
+          <a class="btn btn-default" data-toggle="collapse" href="#collapseobservacoes" role="button" aria-expanded="false" aria-controls="collapseobservacoes">
+            Registrar observações.
+          </a>
+        </p>
+      </div>  
+     </div>
        <div class="collapse" id="collapseobservacoes">
      <div class="row">
              <div class="col-lg-6">

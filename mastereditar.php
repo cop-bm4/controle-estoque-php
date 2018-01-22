@@ -188,7 +188,7 @@ $row = mysqli_fetch_assoc($result);
         </div>
       </div>
      </div>
-
+<br>
        <div class="row">
       <div class="col-lg-6">
         <p>

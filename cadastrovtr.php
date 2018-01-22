@@ -23,7 +23,7 @@ $defeito= $_POST['defeito'];
 
 
 
-$sql= "INSERT INTO materialoperacional(prefixo, placa, renavam, chassi, modelo, origem, licenciamento, situacao, ocorrencia, observacoes, defeito) VALUES('$prefixo', '$placa','$renavam', '$chassi','$modelo','$origem', '$ano_fab', '$licenciamento','$ubm', '$nome', '$rg', '$cargo', '$situacao', '$ocorrencia','$observacoes', '$defeito')";
+$sql= "INSERT INTO materialoperacional(prefixo, placa, renavam, chassi, modelo, origem, licenciamento,ubm,nome, rg, cargo, situacao, ocorrencia, observacoes, defeito) VALUES('$prefixo', '$placa','$renavam', '$chassi','$modelo','$origem', '$licenciamento','$ubm', '$nome', '$rg', '$cargo', '$situacao', '$ocorrencia','$observacoes', '$defeito')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";

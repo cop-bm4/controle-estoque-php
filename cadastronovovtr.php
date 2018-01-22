@@ -84,7 +84,7 @@ echo "Não foi possível conectar ao banco de dados";
  </div>
 
 
-<form class="form-control" method="POST" action="cadastro.php">
+<form method="post" action="cadastro.php" id="needs-validation">
 	<div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Cadastro Material </h3></div>
   </div>
@@ -93,7 +93,7 @@ echo "Não foi possível conectar ao banco de dados";
 		<
 		<div class="row">
 
-			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
 				<div class="input-group">
 					<span class="input-group-addon">Prefixo</span>
 					<input type="text" name="prefixo">

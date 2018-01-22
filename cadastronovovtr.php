@@ -167,14 +167,14 @@ echo "Não foi possível conectar ao banco de dados";
 
 	<div class="row">
 
-			<!-- <div class="col-lg-2">
+			 <div class="col-lg-2">
 				<div class="input-group">
 					<span class="input-group-addon" id="inputGroup-sizing-default">Ano/Fab</span>
 					<input type="text" name="ano_fab" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" required>
 				</div>
 				<p class="form-text text-muted">Ano de Fabricação.</p>
 			</div>
-	-->
+	
 		<div class="col-lg-3">
 			<div class="input-group">
 				<span class="input-group-addon" id="inputGroup-sizing-default"> Chassi</span>

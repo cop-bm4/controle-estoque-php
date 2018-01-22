@@ -21,9 +21,9 @@ $ocorrencia= $_POST['ocorrencia'];
 $observacoes= $_POST['observacoes'];
 $defeito= $_POST['defeito'];
 
+$ano_fab=$_POST['ano_fab'];
 
-
-$sql= "INSERT INTO materialoperacional(prefixo, placa, renavam, chassi, modelo, origem, licenciamento,ubm,nome, rg, cargo, situacao, ocorrencia, observacoes, defeito) VALUES('$prefixo', '$placa','$renavam', '$chassi','$modelo','$origem', '$licenciamento','$ubm', '$nome', '$rg', '$cargo', '$situacao', '$ocorrencia','$observacoes', '$defeito')";
+$sql= "INSERT INTO materialoperacional(prefixo, placa, renavam, chassi, modelo, origem, licenciamento,ubm,nome, rg, cargo, situacao, ocorrencia, observacoes, defeito, ano_fab) VALUES('$prefixo', '$placa','$renavam', '$chassi','$modelo','$origem', '$licenciamento','$ubm', '$nome', '$rg', '$cargo', '$situacao', '$ocorrencia','$observacoes', '$defeito','$ano_fab')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";

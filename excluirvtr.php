@@ -137,7 +137,7 @@ $row = mysqli_fetch_assoc($result);
   <p class="lead" >VOCÊ REALMENTE DESEJA EXCLUIR O ITEM ACIMA ?</p>
   
   <button align="center" type="submit" class="btn btn-danger btn-lg" value="sim" name="butao"> Sim </button>
-  <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Voltar</a>
+  <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Voltar</a>
 </div>
 
 </form>
@@ -161,7 +161,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-header('location:http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php');
+header('location:http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php');
 }
 
  ?>

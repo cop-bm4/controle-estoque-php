@@ -335,9 +335,63 @@ $row = mysqli_fetch_assoc($result);
 
 
 
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5">
+      <?php
+
+ if(isset($_POST['prefixo'])){
+
+$nome = $_POST['nome'];
+$ocorrencia =$_POST['ocorrencia'];
+
+$situacao = $_POST['situacao'];
+$nome = $_POST['nome'];
+$rg = $_POST['rg'];
+$cargo = $_POST['cargo'];
+$defeito = $_POST['defeito'];
+$observacoes= $_POST['observacoes'];
+
+$marca=$_POST['marca'];
+
+$prefixo=$_POST['prefixo'];
+$placa=$_POST['placa'];
+$renavam=$_POST['renavam'];
+$chassi=$_POST['chassi'];
+$modelo=$_POST['modelo'];
+$origem=$_POST['origem'];
+$ano_fab=$_POST['licenciamento'];
+
+
+id, prefixo, placa, renavam, chassi, modelo, origem, ano_fab, licenciamento, ubm
+
+
+$sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg', prefixo='$prefixo', placa='$placa' , situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito', renavam='$renavam' , observacoes='$observacoes', chassi='$chassi', modelo ='$modelo', origem = '$origem', licenciamento= 'licenciamento' WHERE id='$id'";
+
+if ($conn->query($sql) === TRUE) {
+    echo "Atualização feita com sucesso";
+
+    
+    
+} else {
+    echo "Error updating record: " . $conn->error;
+}
+
+$conn->close();
+  }
 
 
 
+?>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <p>© 2018 BM4/COP  CBM-PA V.C João Luz </p>
+</div>
 
 
 </body>

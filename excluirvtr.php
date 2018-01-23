@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+<?php
+require 'credenciais.php';
+require 'db.php';
+
+
+?>
 	<title>Excluir</title>
-	<link rel="stylesheet" type="text/css" href="http://copbm4cbmpa-com-br.umbler.net/estilo.css"/>
+
+<link rel="stylesheet" type="text/css" href="http://copbm4cbmpa-com-br.umbler.net/estilo.css"/>
 	 <meta charset="utf-8">
   
 <!--mod mobile-->
@@ -22,20 +30,11 @@
    
    color: black;
    text-align: center;
-  font-size: 10px;
+   font-size: 12px;
 }
 </style>
-<?php
-
-require 'credenciais.php';
-require 'db.php';
-	
-$id = $_GET['id'];
-
-?>
 </head>
 <body>
-
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -43,26 +42,24 @@ $id = $_GET['id'];
       <a class="navbar-brand" href="#"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="http://copbm4cbmpa-com-br.umbler.net/masterhome.php">Home</a></li>
+      <li ><a href="http://copbm4cbmpa-com-br.umbler.net/home.php">Home</a></li>
       <li class= "active" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Registro<span class="caret"></span></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php" >Material</a></li>
-         <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php">VTRS</a></li>
-          				<li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-embarcacoes.php">Embarcações</a></li>
+          <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php" >Material</a></li>
+          <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-vtrs.php">VTRS</a></li>
+          <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-embarcacoes.php">Embarcações</a></li>
         </ul>
       </li>
       
- 				<li class="dropdown">
-      					 <ul class="dropdown-menu">
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatorios.php"> Material</a></li>
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatoriosvtrs.php">Vtr's</a></li>
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatoriosembarcacoes.php">Embarcações</a></li>
+ <li class="dropdown">
+      					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Relatórios</a>
+      				 <ul class="dropdown-menu">
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatorios.php"> Material</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosvtrs.php">Vtr's</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosembarcacoes.php">Embarcações</a></li>
                 </ul>
       				</li>	 
-
-
-
 
     </ul>
     <ul class="nav navbar-nav navbar-right">
@@ -72,23 +69,26 @@ $id = $_GET['id'];
   </div>
 </nav>
 
+<?php 
+$id = $_GET['id'];
 
 
+?>
 
 <?php
-$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo FROM materialoperacional where id=$id ";
+$sql = "SELECT id, ubm, prefixo, placa, renavam, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo, marca,observacoes, chassi, modelo, origem, ano_fab FROM materialoperacional where id=$id ";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 
 ?>
 <div class="container">
   <div class="jumbotron">
-  
+  <h2>Visualizaçâo Detalhada do Material</h2>    
     <br>
  	 <div class="row">
     <div class="col-lg-12">
    
-    <p class="lead"><strong>Material:</strong> <?php echo $row['material']; ?>      <strong> R. Patrimônial: </strong> <?php echo $row['rp']; ?>      <strong> N. Série: </strong> <?php echo $row['nserie'];?> <strong>UBM: </strong> <?php echo $row['ubm']; ?> </p>
+    <p class="lead"><strong>Prefixo:</strong> <?php echo $row['prefixo']; ?>      <strong> Placa: </strong> <?php echo $row['placa']; ?>      <strong> chassi: </strong> <?php echo $row['chassi'];?> <strong>UBM: </strong> <?php echo $row['ubm']; ?> <strong>modelo: </strong> <?php echo $row['modelo']; ?></p>
     </div>
   </div>
 
@@ -97,6 +97,14 @@ $row = mysqli_fetch_assoc($result);
       <p class="lead"><strong>Situação: </strong> <?php echo $row['situacao']; ?> </p> 
     </div>
    </div> 
+   
+   <?php if (!$row['observacoes']==NULL): ?>
+   <div class="row">
+     <div class="col-lg-12">
+       <p class="lead"><strong>Observações: </strong> <?php echo $row['observacoes']; ?></p>
+     </div>
+   </div>
+    <?php endif; ?>
 
     <?php if (!$row['ocorrencia']==NULL): ?>
     <div class="row">
@@ -106,7 +114,6 @@ $row = mysqli_fetch_assoc($result);
     <p class="lead"><strong>Ocorrência: </strong> <?php echo $row['ocorrencia']; ?> </p>     
     </div>      
    </div>  
-   
   <?php endif; ?>
 
 <br>
@@ -120,12 +127,15 @@ $row = mysqli_fetch_assoc($result);
   </div>
 
   </div>
+
  </div>
-  
-<form action="#" method="post">
+
+
+
+ <form action="#" method="post">
 <div class="container">
-	<p class="lead" >VOCÊ REALMENTE DESEJA EXCLUIR O ITEM ACIMA ?</p>
-	
+  <p class="lead" >VOCÊ REALMENTE DESEJA EXCLUIR O ITEM ACIMA ?</p>
+  
   <button align="center" type="submit" class="btn btn-danger btn-lg" value="sim" name="butao"> Sim </button>
   <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Voltar</a>
 </div>
@@ -139,7 +149,7 @@ $row = mysqli_fetch_assoc($result);
 $aux = $_POST['butao'];
 if ($aux == 'sim') {
 
-$sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo FROM materialoperacional where id=$id ";
+
 
 
 $sql = "DELETE FROM materialoperacional WHERE id=$id";
@@ -156,16 +166,11 @@ header('location:http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.ph
 
  ?>
 
-
   
  <div class="footer">
-  <p>© 2018 BM4/COP CBM-PA  V.C João Luz </p>
+  <p>© 2018 BM4/COP  CBM-PA V.C João Luz </p>
 </div>
-
 </body>
 </html>
-
-
-
 
 

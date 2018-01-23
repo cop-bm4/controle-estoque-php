@@ -316,7 +316,7 @@ $row = mysqli_fetch_assoc($result);
         <button type="submit" class="btn btn-default btn-lg">Enviar</button>
       </div>
       <div class="col-lg-1">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
+      <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-vtrs.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
       </div>
     </div>
    

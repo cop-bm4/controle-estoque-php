@@ -90,7 +90,7 @@ $row = mysqli_fetch_assoc($result);
  </div>
 
 
-<form method="post" action="cadastrovtr.php" id="needs-validation">
+<form method="post" action="#" id="needs-validation">
   <div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Cadastro VTR </h3></div>
   </div>

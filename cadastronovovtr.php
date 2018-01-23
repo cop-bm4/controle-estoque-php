@@ -97,9 +97,7 @@ echo "Não foi possível conectar ao banco de dados";
               <span class="input-group-addon" id="in">UBM</span>
               <select class="form-control" data-live-search="true" name="ubm" required>
               
-
-
-             <option data-tokens="1 GBM" value="1 GBM">  1 GBM </option>
+<option data-tokens="1 GBM" value="1 GBM">  1 GBM </option>
 <option data-tokens="2 GBM" value="2 GBM">  2 GBM </option>
 <option data-tokens="3 GBM" value="3 GBM">  3 GBM </option>
 <option data-tokens="4 GBM" value="4 GBM">  4 GBM </option>

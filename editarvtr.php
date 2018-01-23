@@ -366,7 +366,7 @@ $ano_fab=$_POST['licenciamento'];
 
 
 
-$sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg', prefixo='$prefixo', placa='$placa' , situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito', renavam='$renavam' , observacoes='$observacoes', chassi='$chassi', modelo ='$modelo', origem = '$origem', licenciamento= '$licenciamento' WHERE id='$id'";
+$sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg',  situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito', observacoes='$observacoes'  WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";

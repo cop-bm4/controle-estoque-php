@@ -161,11 +161,11 @@
 
                     $sql = "SELECT prefixo, situacao, placa, ubm FROM materialoperacional WHERE ubm='$ubms[$i]' and prefixo!='' and material='' ";
 					$result= mysqli_query($conn, $sql);
-					$row = mysqli_fetch_assoc($result);
-					$count= count($row);
+					
+					
                     ?>
 
-                    <?php for ($j=0; $j <$count ; $j++):  ?> 
+                    <?php while ($row = mysqli_fetch_assoc($result)):  ?> 
 
                     <tr>
                     	<th><?php echo $ubms[$i]; ?></th>
@@ -174,7 +174,7 @@
                     </tr>	
                     	
 
-                   <?php endfor; ?>
+                   <?php endwhile; ?>
                    </tbody>
 
 				</table>

@@ -161,6 +161,7 @@
 					$row = mysqli_fetch_assoc($result);
 					$count= count($row);
                     ?>
+                    
                     <?php for ($j=0; $j <$count ; $j++):  ?> 
 
                     <tr>
@@ -170,7 +171,7 @@
                     </tr>	
                     	
 
-                   <?php ?>
+                   <?php endfor; ?>
                    </tbody>
 
 				</table>

@@ -186,7 +186,42 @@
 		<?php endif; ?>
 
 
+		<?php if ($_POST['ub']!='qualquer'): ?>
+			<table class="table table-bordered">
+				 <thead>
+                      <tr>
+                        <th>UBM</th>
+                        <th>VIATURA</th>
+                        <th>SITUAÇÃO</th>
+                        
+                      </tr>
 
+                    </thead>
+                    <tbody>
+                    <?php
+
+                    $sql = "SELECT prefixo, situacao, placa, ubm FROM materialoperacional WHERE ubm='$_POST['ub']' and prefixo!='' and material='' ";
+					$result= mysqli_query($conn, $sql);
+					
+					
+                    ?>
+
+                    <?php while ($row = mysqli_fetch_assoc($result)):  ?> 
+
+                    <tr>
+                    	<th><?php echo $_POST['ub']; ?></th>
+                    	<th><?php  echo $row['prefixo']; ?></th>
+                    	<th><?php echo $row['situacao']; ?></th>
+                    </tr>	
+                    	
+
+                   <?php endwhile; ?>
+                   </tbody>
+
+				</table>
+
+		
+		<?php endif; ?>	
 
 
 

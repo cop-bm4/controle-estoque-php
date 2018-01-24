@@ -133,6 +133,9 @@
 ?>
 
 
+
+<div class="container">
+
 <?php  if ( isset($_POST['pesquisar'])): ?>
 
 
@@ -143,7 +146,7 @@
 
 
 
-			<table class="table table-borderd">
+			<table class="table table-bordered">
 				 <thead>
                       <tr>
                         <th>UBM</th>
@@ -156,12 +159,12 @@
                     <tbody>
                     <?php
 
-                    $sql = "SELECT prefixo, situacao, placa, ubm FROM materialoperacional WHERE ubm='$ubms[$i]'  ";
+                    $sql = "SELECT prefixo, situacao, placa, ubm FROM materialoperacional WHERE ubm='$ubms[$i]' and prefixo!='' ";
 					$result= mysqli_query($conn, $sql);
 					$row = mysqli_fetch_assoc($result);
 					$count= count($row);
                     ?>
-                    
+
                     <?php for ($j=0; $j <$count ; $j++):  ?> 
 
                     <tr>
@@ -189,7 +192,7 @@
 
 <?php endif ?>
 
-
+</div>
 
 </body>
 </html>

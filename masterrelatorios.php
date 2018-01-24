@@ -86,6 +86,7 @@
         <div class="row">
           <div class="col-lg-4">
               <div class="input-group">
+
               <span class="input-group-addon">Material</span>
                 <select class="form-control" data-live-search="true" name="material" required>
                   <option data-tokens="qualquer" value="qualquer">Qualquer</option> 
@@ -403,7 +404,6 @@
       
         $resultTotal = mysqli_query($conn, $total);
         $countTotal=  mysqli_num_rows($resultTotal);
-      
       
       
         $resultOperantes = mysqli_query($conn, $operantes);

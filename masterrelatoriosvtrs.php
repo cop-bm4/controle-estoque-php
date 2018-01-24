@@ -210,7 +210,7 @@
 
                     <tr>
                     	<th><?php echo $_POST['ub']; ?></th>
-                    	<th><?php  echo $row['prefixo']; ?></th>
+                    	<th><?php echo $row['prefixo']; ?></th>
                     	<th><?php echo $row['situacao']; ?></th>
                     </tr>	
                     	

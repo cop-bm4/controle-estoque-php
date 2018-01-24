@@ -199,13 +199,13 @@
                     </thead>
                     <tbody>
 
-                    <?php
-                    /* $sql = "SELECT prefixo, situacao, placa FROM materialoperacional WHERE ubm='$_POST['ub']' and prefixo!='' and material='' ";
-					 $result = mysqli_query($conn, $sql);
-				     */
-				     $sql = "SELECT prefixo, situacao, placa, ubm FROM materialoperacional WHERE ubm='$_POST['ub']' and prefixo!='' and material='' ";
+               		<?php 
+               		$ubs= $_POST['ub'];
+
+               			  $sql = "SELECT prefixo, situacao, placa, ubm FROM materialoperacional WHERE ubm='$ubs' and prefixo!='' and material='' ";
 					$result= mysqli_query($conn, $sql);
-				     ?>
+
+               		?>
 
                     <?php while ($row = mysqli_fetch_assoc($result)):  ?> 
 

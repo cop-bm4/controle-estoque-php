@@ -200,8 +200,9 @@
                     <tbody>
 
                     <?php
-                     $sql = "SELECT prefixo, situacao, placa FROM materialoperacional WHERE ubm='$_POST['ub']' and prefixo!='' and material='' ";
+                    /* $sql = "SELECT prefixo, situacao, placa FROM materialoperacional WHERE ubm='$_POST['ub']' and prefixo!='' and material='' ";
 					 $result = mysqli_query($conn, $sql);
+				     */
 				     ?>
 
                     <?php while ($row = mysqli_fetch_assoc($result)):  ?> 

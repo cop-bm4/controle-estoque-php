@@ -78,7 +78,7 @@
 <div class="container">
   <div class="jumbotron">
     <h1>SISCOMP/bm4</h1> 
-    <p class="text-danger">Sistema de controle de material operacional</p> 
+    <p class="text-danger">Sistema de Controle de Material Operacional e Viaturas</p> 
 </div>
   </div>
 

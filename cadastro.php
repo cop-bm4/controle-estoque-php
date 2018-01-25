@@ -41,9 +41,9 @@ $target_file = $target_dir . basename($_FILES["imagens"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 // Check if image file is a actual image or fake image
-move_uploaded_file($_FILES["imagens"]["tmp_name"], $target_file);
-$imagens= $_FILES["imagens"]["name"];
-/*
+/*move_uploaded_file($_FILES["imagens"]["tmp_name"], $target_file);
+$imagens= $_FILES["imagens"]["name"];*/
+
     $check = getimagesize($_FILES["imagens"]["tmp_name"]);
     if($check !== false) {
         echo "File is an image - " . $check["mime"] . ".";
@@ -83,7 +83,7 @@ if ($uploadOk == 0) {
 }
 
 
-*/
+
 
 
 

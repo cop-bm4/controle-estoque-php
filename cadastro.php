@@ -18,8 +18,28 @@ $rg = $_POST['rg'];
 $cargo = $_POST['cargo'];
 $defeito = $_POST['defeito'];
 $observacoes= $_POST['observacoes'];
-$imagens=$_POST['imagens'];
+$imagens=$_FILES['imagens'];
+
+
+preg_match("/\.(gif|bmp|png|jpg|jpeg){1}$/i", $imagens["name"], $ext);
+ 
+        	// Gera um nome único para a imagem
+        	$nome_imagem = md5(uniqid(time())) . "." . $ext[1];
+ 
+        	// Caminho de onde ficará a imagem
+        	$caminho_imagem = "imagenss/" . $nome_imagem;
+ 
+			// Faz o upload da imagem para seu respectivo caminho
+			move_uploaded_file($imagens["tmp_name"], $caminho_imagem);
+
+
+
+
 ?>
+
+
+
+
 <?php
 
 

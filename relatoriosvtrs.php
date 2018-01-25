@@ -82,6 +82,7 @@ $ubmss = $_SESSION['ubm'];
                     
                         <th>VIATURA</th>
                         <th>SITUAÇÃO</th>
+                        <th>DEFEITO</th>
                         
                       </tr>
 
@@ -89,7 +90,7 @@ $ubmss = $_SESSION['ubm'];
                     <tbody>
                     <?php
 
-                    $sql = "SELECT prefixo, situacao, placa, ubm FROM materialoperacional WHERE ubm='$ubmss' and prefixo!='' and material='' ";
+                    $sql = "SELECT prefixo, situacao, placa, ubm, defeito FROM materialoperacional WHERE ubm='$ubmss' and prefixo!='' and material='' ";
 					           $result= mysqli_query($conn, $sql);
 					
 					
@@ -101,6 +102,8 @@ $ubmss = $_SESSION['ubm'];
                 
                     	<th><?php  echo $row['prefixo']; ?></th>
                     	<th><?php echo $row['situacao']; ?></th>
+                      <th><?php echo $row['defeito'] ?></th>
+
                     </tr>	
                     	
 

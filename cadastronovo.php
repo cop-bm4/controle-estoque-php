@@ -437,7 +437,7 @@ require "credenciais.php";
     </div>
 
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-5">
           <div class="input-group">
             <span class="input-group-addon">Imagens </span>  
             <input class="form-control" type="file" name="imagens">  

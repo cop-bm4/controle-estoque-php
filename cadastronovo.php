@@ -438,15 +438,10 @@ require "credenciais.php";
 
       <div class="row">
         <div class="col-lg-6">
-         <div class="input-group ">
-            <div class="input-group-prepend">
-                 <span class="input-group-text">Upload</span>
-            </div>
-               <div class="custom-file">
-                  <input type="file" class="custom-file-input" id="inputGroupFile01" name="imagens">
-                  <label class="custom-file-label" for="inputGroupFile01">Selecione a imagem.</label>
-              </div>
-            </div>
+         <label class="custom-file">
+              <input type="file" id="file" class="custom-file-input" name="imagens">
+                <span class="custom-file-control"></span>
+        </label>
           <p class="form-text text-muted">Enviar foto atualizada do material.</p>
         </div>
       </div>

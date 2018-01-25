@@ -19,7 +19,6 @@ $cargo = $_POST['cargo'];
 $defeito = $_POST['defeito'];
 $observacoes= $_POST['observacoes'];
 
-$imagens= $_FILES['imagens'];
 
 /*
 preg_match("/\.(gif|bmp|png|jpg|jpeg){1}$/i", $imagens["name"], $ext);
@@ -42,7 +41,8 @@ $target_file = $target_dir . basename($_FILES["imagens"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 // Check if image file is a actual image or fake image
-
+move_uploaded_file($_FILES["imagens"]["tmp_name"], $target_file);
+/*
     $check = getimagesize($_FILES["imagens"]["tmp_name"]);
     if($check !== false) {
         echo "File is an image - " . $check["mime"] . ".";
@@ -82,7 +82,7 @@ if ($uploadOk == 0) {
 }
 
 
-
+*/
 
 
 

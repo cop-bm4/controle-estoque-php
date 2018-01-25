@@ -79,7 +79,7 @@ require "credenciais.php";
 </div>
 
  
-<form action="cadastro.php" method="post" id="needs-validation" >
+<form action="cadastro.php" method="post" id="needs-validation" enctype="multipart/form-data" >
  <div class="container">
   <div class="p-3 mb-2 bg-info text-white"> <h3>1- Cadastro Material </h3></div>
   </div>
@@ -440,7 +440,7 @@ require "credenciais.php";
         <div class="col-lg-6">
           <div class="input-group">
             <span class="input-group-addon">Foto.</span>  
-            <input type="file" name="imagens">  
+            <input class="form-control" type="file" name="imagens">  
           </div>
           <p class="form-text text-muted">Enviar foto atualizada do material.</p>
         </div>

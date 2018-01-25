@@ -434,8 +434,18 @@ require "credenciais.php";
          
        </div> 
      </div>
-     </div>
-     
+    </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="input-group">
+            <span class="input-group-addon">Foto.</span>  
+            <input type="file" name="imagens">  
+          </div>
+          <p class="form-text text-muted">Enviar foto atualizada do material.</p>
+        </div>
+      </div>
+
     <div class="container">
       <div class="p-3 mb-2 bg-info text-white"> <h3>2 - Responsável pelo Preenchimento </h3></div>
     </div>

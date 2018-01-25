@@ -79,7 +79,7 @@ $ubmss = $_SESSION['ubm'];
 <table class="table table-bordered">
 				 <thead>
                       <tr>
-                        <th>UBM</th>
+                    
                         <th>VIATURA</th>
                         <th>SITUAÇÃO</th>
                         
@@ -98,7 +98,7 @@ $ubmss = $_SESSION['ubm'];
                     <?php while ($row = mysqli_fetch_assoc($result)):  ?> 
 
                     <tr>
-                    	<th><?php echo $$ubmss; ?></th>
+                
                     	<th><?php  echo $row['prefixo']; ?></th>
                     	<th><?php echo $row['situacao']; ?></th>
                     </tr>	

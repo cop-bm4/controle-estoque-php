@@ -51,7 +51,7 @@ $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
         echo "File is not an image.";
         $uploadOk = 0;
     }
-}
+
 // Check if file already exists
 if (file_exists($target_file)) {
     echo "Sorry, file already exists.";
@@ -83,12 +83,7 @@ if ($uploadOk == 0) {
 
 
 
-?>
 
-
-
-
-<?php
 
 
 

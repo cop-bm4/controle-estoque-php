@@ -39,7 +39,7 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="http://copbm4cbmpa-com-br.umbler.net/"> SISCOMP </a>
+      <a class="navbar-brand" href="http://copbm4cbmpa-com-br.umbler.net/"> SISCOMP/bm4 </a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active" ><a href="http://copbm4cbmpa-com-br.umbler.net/home.php">Home</a></li>
@@ -77,7 +77,7 @@
 
 <div class="container">
   <div class="jumbotron">
-    <h1>SISCOMP</h1> 
+    <h1>SISCOMP/bm4</h1> 
     <p class="text-danger">Sistema de controle de material operacional</p> 
 </div>
   </div>

@@ -76,5 +76,10 @@ echo "Não foi possível conectar ao banco de dados";
   </div>
 </nav>
 
+<div class="container">
+	
+<h2 class=" text-danger " align="center"> Cadastro de Nova Embarcações</h2>
+ </div>
+
 </body>
 </html>

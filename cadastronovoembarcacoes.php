@@ -135,7 +135,18 @@ echo "Não foi possível conectar ao banco de dados";
          		<input type="text" name="embarcacoes" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
          	</div>
 			<p class="form-text text-muted">Digite a Embarcação.</p>         	
+         </div>
+
+         <div class="col-lg-2">
+         	<div class="input-group">
+         		<span class="input-group-addon">Casco</span>
+         		<input type="text" name="casco" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
+         		
+         	</div>
+         	<p class="form-text text-muted">Digite o Casco</p>
          </div> 
+
+
 		</div>
 
 

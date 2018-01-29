@@ -85,6 +85,7 @@ echo "Não foi possível conectar ao banco de dados";
    
 <?php $ub = $_SESSION['ubm']; 
 
+
 ?>
 <div class="container">
 <div class="row">

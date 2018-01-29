@@ -68,6 +68,7 @@
     <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
     <input id="senha" type="password" class="form-control" name="senha" placeholder="senha">
   </div>
+  <br>
   <input type="submit" class="btn  btn-lg" value="LOGAR	"  />
 
   </div>

@@ -89,13 +89,13 @@ echo "Não foi possível conectar ao banco de dados";
 <div class="row">
    
     <div class="col-sm-12 text-right h2">
-        <a class="btn btn-primary" href="http://copbm4cbmpa-com-br.umbler.net/cadastronovovtr.php"><i class="fa fa-plus"></i> Nova Embarcação</a> 
-        <a class="btn btn-default" href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php"><i class="fa fa-refresh"></i> Atualizar</a>
+        <a class="btn btn-primary" href="http://copbm4cbmpa-com-br.umbler.net/cadastronovoembarcacoes.php"><i class="fa fa-plus"></i> Nova Embarcação</a> 
+        <a class="btn btn-default" href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-embarcacoes.php"><i class="fa fa-refresh"></i> Atualizar</a>
       </div>
   </div>
 
 <?php
-$sql = "SELECT id, ubm, embarcacao, casco, renavam, motor, modelo, origem, ano_fab, licenciamento, reg_date,situacao FROM materialoperacional where embarcacao !='' ";
+$sql = "SELECT id, ubm, embarcacao, casco, motor, reg_date,situacao FROM materialoperacional where embarcacao !='' ";
 $result = mysqli_query($conn, $sql);
 ?>
 

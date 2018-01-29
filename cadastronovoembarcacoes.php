@@ -85,9 +85,10 @@ echo "Não foi possível conectar ao banco de dados";
 <div class="container">
 		<form method="post" action="cadastroembarcacoes.php" id="needs-validation" enctype="multipart/form-data">
 			<div class="row">
-				 <div class="col-lg-2">
+
+		<div class="col-lg-2">
             <div class="input-group">
-              <span class="input-group-addon" id="in">UBM</span>
+              	<span class="input-group-addon" id="in">UBM</span>
               <select class="form-control" data-live-search="true" name="ubm" required>
               
 <option data-tokens="1 GBM" value="1 GBM">  1 GBM </option>
@@ -128,7 +129,11 @@ echo "Não foi possível conectar ao banco de dados";
             </div>
             <p class="form-text text-muted">Escolha a UBM.</p>
           </div>
-			</div>
+		</div>
+
+
+
+
 
 		</form>
 

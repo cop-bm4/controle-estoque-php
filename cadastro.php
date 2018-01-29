@@ -20,6 +20,16 @@ $defeito = $_POST['defeito'];
 $observacoes= $_POST['observacoes'];
 
 
+
+
+
+
+
+
+
+
+
+
 /*
 preg_match("/\.(gif|bmp|png|jpg|jpeg){1}$/i", $imagens["name"], $ext);
  
@@ -38,10 +48,8 @@ preg_match("/\.(gif|bmp|png|jpg|jpeg){1}$/i", $imagens["name"], $ext);
 
 $target_dir = "imagens/";
 $target_file = $target_dir . basename($_FILES["imagens"]["name"]);
-
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
- 
-move_uploaded_file($_FILES["imagens"]["tmp_name"], $target_file);
+ move_uploaded_file($_FILES["imagens"]["tmp_name"], $target_file);
 $imagens= $_FILES["imagens"]["name"];
 
 

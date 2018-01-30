@@ -293,16 +293,10 @@ echo "Não foi possível conectar ao banco de dados";
       </div>
     </div>
    
-   
-   </div>
+	</div>
 
 
-
-
-
-
-
-		</form>
+</form>
 
 
 </div>

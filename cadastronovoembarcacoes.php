@@ -146,10 +146,20 @@ echo "Não foi possível conectar ao banco de dados";
          	<p class="form-text text-muted">Digite o Casco</p>
          </div> 
 
+	</div>
 
+	<div class="row">
+		<div class="col-lg-8">
+			<div class="input-group">
+				<span class="input-group-addon">Motor - Marca/Potência</span>
+				<input type="text" name="motor" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Motor">
+				
+			</div>
+			<p class="form-text text-muted">Digite o Motor - Marca/Potência.</p>
+			
 		</div>
-
-
+		
+	</div>
 
 
 

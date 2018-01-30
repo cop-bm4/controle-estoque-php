@@ -202,7 +202,7 @@
                		<?php 
                		$ubs= $_POST['ub'];
 
-               			  $sql = "SELECT embarcacao, situacao, casco, ubm FROM materialoperacional WHERE ubm='$ubs' and prefixo='' and material='' ";
+               			  $sql = "SELECT embarcacao, situacao, casco, ubm FROM materialoperacional WHERE ubm='$ubs' and prefixo='' and material='' and embarcacao!='' ";
 					$result= mysqli_query($conn, $sql);
 
                		?>

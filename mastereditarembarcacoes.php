@@ -140,7 +140,7 @@ $row = mysqli_fetch_assoc($result);
          <div class="col-lg-4">
          	<div class="input-group">
          		<span class="input-group-addon">Embarcação</span>
-         		<input type="text" name="embarcacoes" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Embarcação" required value="<?php echo $row['embarcacao']; ?>">
+         		<input type="text" name="embarcacoes" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Embarcação" required value="<?php echo $row['embarcacao']; ?>" disabled>
          	</div>
 			<p class="form-text text-muted">Digite a Embarcação.</p>         	
          </div>
@@ -349,7 +349,7 @@ $motor = $_POST['motor'];
 
 
 
-$sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg',  situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito', observacoes='$observacoes', embarcacao='$embarcacao', casco='$casco', motor='$motor'  WHERE id='$id'";
+$sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg',  situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito', observacoes='$observacoes', casco='$casco', motor='$motor'  WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";

@@ -159,7 +159,7 @@
                     <tbody>
                     <?php
 
-                    $sql = "SELECT embarcacao, situacao, casco, ubm FROM materialoperacional WHERE ubm='$ubms[$i]' and prefixo='' and material='' and embarcacoe!=''";
+                    $sql = "SELECT embarcacao, situacao, casco, ubm FROM materialoperacional WHERE ubm='$ubms[$i]' and prefixo='' and material=''";
 					           $result= mysqli_query($conn, $sql);
 					
 					
@@ -202,7 +202,7 @@
                		<?php 
                		$ubs= $_POST['ub'];
 
-               			  $sql = "SELECT embarcacao, situacao, casco, ubm FROM materialoperacional WHERE ubm='$ubs' and prefixo='' and material='' and embarcacoe!='' ";
+               			  $sql = "SELECT embarcacao, situacao, casco, ubm FROM materialoperacional WHERE ubm='$ubs' and prefixo='' and material='' ";
 					$result= mysqli_query($conn, $sql);
 
                		?>

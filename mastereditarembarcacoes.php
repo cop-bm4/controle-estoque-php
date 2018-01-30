@@ -353,7 +353,7 @@ $sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg',  situacao='$situ
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
-
+    header("location:mastercadastro-embarcacoes");
     
     
 } else {

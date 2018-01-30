@@ -7,7 +7,7 @@ $embarcacoes= $_POST['embarcacoes'];
 $casco= $_POST['casco'];
 $motor= $_POST['motor'];
 
-
+$situacao= $situacao['situacao'];
 
 $ubm = $_POST['ubm'];
 
@@ -16,7 +16,7 @@ $rg = $_POST['rg'];
 $cargo = $_POST['cargo'];
 $defeito = $_POST['defeito'];
 $observacoes= $_POST['observacoes'];
-
+$ocorrencia=['ocorrencia'];
 
 /*
 preg_match("/\.(gif|bmp|png|jpg|jpeg){1}$/i", $imagens["name"], $ext);

@@ -2,10 +2,11 @@
 <html>
 
 <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <?php
 require 'credenciais.php';
 require 'db.php';
-
+header('Content-Type: text/html; charset=utf-8');
 
 ?>
 	<title>Visualizar</title>

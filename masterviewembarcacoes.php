@@ -76,7 +76,7 @@ $id = $_GET['id'];
 ?>
 
 <?php
-$sql = "SELECT id, ubm, embarcacao , casco, motor, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo, observacoes,  FROM materialoperacional where id=$id ";
+$sql = "SELECT id, ubm, embarcacao , casco, motor, situacao, ocorrencia, nome, rg, defeito, reg_date, cargo, observacoes  FROM materialoperacional where id=$id ";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 

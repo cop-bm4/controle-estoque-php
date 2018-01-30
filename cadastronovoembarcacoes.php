@@ -86,7 +86,7 @@ echo "Não foi possível conectar ao banco de dados";
 		<form method="post" action="cadastroembarcacoes.php" id="needs-validation" enctype="multipart/form-data">
 			<div class="row">
 
-		<div class="col-lg-2">
+		<div class="col-lg-3">
             <div class="input-group">
               	<span class="input-group-addon" id="in">UBM</span>
               <select class="form-control" data-live-search="true" name="ubm" required>

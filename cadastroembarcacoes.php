@@ -7,7 +7,7 @@ $embarcacoes= $_POST['embarcacoes'];
 $casco= $_POST['casco'];
 $motor= $_POST['motor'];
 
-$situacao= $situacao['situacao'];
+$situacao= $_POST['situacao'];
 
 $ubm = $_POST['ubm'];
 

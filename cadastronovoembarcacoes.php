@@ -163,6 +163,144 @@ echo "Não foi possível conectar ao banco de dados";
 
 
 
+	 <div class="row">
+      
+     
+
+      <div class="col-lg-6">
+        <p>
+          <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" >
+   
+        Regitrar Ocorrência.
+        </a>
+    
+        </p>
+      </div>
+    </div>
+ <div class="collapse" id="collapseExample">
+    <div class="row">
+       <div class="col-lg-6">   
+      
+        
+        <div class="input-group">
+          <span class="input-group-addon"> Ocorrência</span>
+           <!-- <input type="text" class="form-control"  placeholder="Digite a Ocorrência" name="ocorrencia" > -->
+            <textarea class="form-control" rows="5" id="comment" placeholder="Digite a Ocorrência" name="ocorrencia"></textarea>
+        </div>
+        </div>
+        
+
+        <div class="col-lg-6">
+          
+          <div class="input-group">
+            <span class="input-group-addon"> Defeito</span>
+            <textarea class="form-control" rows="5" id="Defeito" placeholder=" Digite o Defeito" name="defeito"></textarea>
+          </div>
+        </div>
+      </div>
+     </div>
+     <br>
+     <div class="row">
+      <div class="col-lg-6">
+        <p>
+          <a class="btn btn-default" data-toggle="collapse" href="#collapseobservacoes" role="button" aria-expanded="false" aria-controls="collapseobservacoes">
+            Registrar observações.
+          </a>
+        </p>
+      </div>  
+     </div>
+     
+
+     <div class="collapse" id="collapseobservacoes">
+     <div class="row">
+             <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-addon">Observações</span>
+       
+          <textarea class="form-control" rows="4" placeholder="Digite observações, se houver." name="observacoes" ></textarea>
+        </div>
+         
+       </div> 
+     </div>
+     </div>
+     <br>
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="input-group">
+            <span class="input-group-addon">Imagens </span>  
+            <input class="form-control" type="file" name="imagens">  
+          </div>
+          <p class="form-text text-muted">Enviar foto atualizada do material.</p>
+        </div>
+      </div>
+
+
+
+	<div class="container">
+      <div class="p-3 mb-2 bg-info text-white"> <h3>2 - Responsável pelo Preenchimento </h3></div>
+    </div>
+    <br>
+    <div class="row">
+      
+      <div class="col-lg-4">
+        <div class="input-group">
+            
+                <span class="input-group-addon" id="inputGroup-sizing-default">Nome</span>
+            
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Nome" name="nome" required>
+             
+          </div>
+              <p id="passwordHelpBlock" class="form-text text-muted">
+            Digite o seu Nome Completo.
+           </p>
+      </div>
+      
+      <div class="col-lg-4">
+         <div class="input-group">
+            
+                <span class="input-group-addon" id="inputGroup-sizing-default">RG</span>
+            
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="rg" name="rg" required="">
+          </div>
+            <p id="passwordHelpBlock" class="form-text text-muted">
+            Digite o seu RG.
+           </p>
+      </div>
+   
+      <div class="col-lg-4">
+         <div class="input-group">
+            
+                <span class="input-group-addon" id="inputGroup-sizing-default">Cargo</span>
+            
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="cargo" required="Informe seu cargo">
+        </div>
+            <p id="passwordHelpBlock" class="form-text text-muted">
+            Digite o seu Cargo.
+           </p>
+      </div>
+    
+    </div>
+
+    <br>
+ <br>
+ <br>
+    <div class="row">
+      <div class="col-lg-1" >
+        <button type="submit" class="btn btn-default btn-lg">Enviar</button>
+      </div>
+      <div class="col-lg-1">
+      <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
+      </div>
+    </div>
+   
+   </div>
+
+
+
+
+	
+
+
 		</form>
 
 

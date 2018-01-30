@@ -9,7 +9,7 @@ require 'db.php';
 header('Content-Type: text/html; charset=utf-8');
 
 ?>
-	<title>Visualizar</title>
+	<title>Excluir</title>
 
 <link rel="stylesheet" type="text/css" href="http://copbm4cbmpa-com-br.umbler.net/estilo.css"/>
 	 <meta charset="utf-8">
@@ -128,7 +128,7 @@ $row = mysqli_fetch_assoc($result);
   </div>
 
   </div>
-  
+
 <form action="#" method="post">
 <div class="container">
   <p class="lead" >VOCÊ REALMENTE DESEJA EXCLUIR O ITEM ACIMA ?</p>

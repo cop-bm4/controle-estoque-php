@@ -132,7 +132,7 @@ echo "Não foi possível conectar ao banco de dados";
          <div class="col-lg-4">
          	<div class="input-group">
          		<span class="input-group-addon">Embarcação</span>
-         		<input type="text" name="embarcacoes" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
+         		<input type="text" name="embarcacoes" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Embarcação" required>
          	</div>
 			<p class="form-text text-muted">Digite a Embarcação.</p>         	
          </div>
@@ -140,7 +140,7 @@ echo "Não foi possível conectar ao banco de dados";
          <div class="col-lg-4">
          	<div class="input-group">
          		<span class="input-group-addon">Casco</span>
-         		<input type="text" name="casco" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
+         		<input type="text" name="casco" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Casco" required>
          		
          	</div>
          	<p class="form-text text-muted">Digite o Casco</p>

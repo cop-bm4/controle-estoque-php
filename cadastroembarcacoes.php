@@ -46,8 +46,8 @@ $imagens= $_FILES["imagens"]["name"];
 
 
 
-$sql = "INSERT INTO materialoperacional ( situacao, ocorrencia, ubm, nome, rg, cargo, defeito,  observacoes, imagens, embarcacoes, casco, motor )
-VALUES ( '$situacao', '$ocorrencia','$ubm','$nome','$rg', '$cargo', '$defeito', '$observacoes','$imagens', '$embarcacoes','$cargo',$motor)";
+$sql = "INSERT INTO materialoperacional ( situacao, ocorrencia, ubm, nome, rg, cargo, defeito,  observacoes, imagens, embarcacao, casco, motor )
+VALUES ( '$situacao', '$ocorrencia','$ubm','$nome','$rg', '$cargo', '$defeito', '$observacoes','$imagens', '$embarcacoes','$casco',$motor)";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";

@@ -352,10 +352,7 @@ $motor = $_POST['motor'];
 $sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg',  situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito', observacoes='$observacoes', casco='$casco', motor='$motor'  WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Atualização feita com sucesso";
-    header("location:mastercadastro-embarcacoes");
-    
-    
+    echo "Atualização feita com sucesso";    
 } else {
     echo "Error updating record: " . $conn->error;
 }

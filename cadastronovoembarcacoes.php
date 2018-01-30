@@ -161,6 +161,22 @@ echo "Não foi possível conectar ao banco de dados";
 		
 	</div>
 
+	<div class="row">
+      <div class="col-lg-4">
+        <div class="input-group"> 
+          <span class="input-group-addon">Situação</span>
+            <select class="form-control" data-live-search="true" name="situacao" required>
+              <option data-tokens="operacional" value="Operante">Operante</option>
+              <option data-tokens="Inoperante" value="Inoperante">Inoperante</option>
+            </select>
+     
+        </div>
+        <p id="passwordHelpBlock" class="form-text text-muted">
+            Caso Inoperante, Clique para Registrar a Ocorrência.
+          </p>
+      </div>
+    </div>
+    <br>
 
 
 	 <div class="row">

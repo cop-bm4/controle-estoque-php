@@ -83,7 +83,7 @@ echo "Não foi possível conectar ao banco de dados";
 
 
 <div class="container">
-		<form method="post" action="cadastroembarcacoes.php" id="needs-validation" enctype="multipart/form-data">
+		<form method="post" action="cadastro-embarcacoes.php" id="needs-validation" enctype="multipart/form-data">
 			<div class="row">
 
 		<div class="col-lg-3">

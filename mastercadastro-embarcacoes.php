@@ -129,7 +129,7 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['reg_date']; ?></td>
     
     <td class="actions text-right">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/masterviewembarcacoe.php?id=<?php echo $row['id']; ?>"button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Visualizar</a>
+      <a href="http://copbm4cbmpa-com-br.umbler.net/masterviewembarcacoes.php?id=<?php echo $row['id']; ?>"button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Visualizar</a>
       <a href="mastereditarembarcacoe.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Editar</a>
       <a href="http://copbm4cbmpa-com-br.umbler.net/excluirembarcacoe.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default" >
          <i class="fa fa-trash"></i> Excluir</a>

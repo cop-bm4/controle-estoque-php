@@ -82,7 +82,7 @@ $id = $_GET['id'];
 
 <?php
 
-$ql = "SELECT id, embarcacao, casco, motor, situacao, ocorrencia, defeito, observacoes FROM materialoperacional WHERE id='$id'"
+$ql = "SELECT id, embarcacao, casco, motor, situacao, ocorrencia, defeito, observacoes FROM materialoperacional WHERE id='$id'";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 ?>

@@ -306,8 +306,7 @@ $row = mysqli_fetch_assoc($result);
     </div>
 
     <br>
- <br>
- <br>
+ 
     <div class="row">
       <div class="col-lg-1" >
         <button type="submit" class="btn btn-default btn-lg" name="btt">Enviar</button>

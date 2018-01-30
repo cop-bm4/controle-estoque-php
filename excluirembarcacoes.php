@@ -128,12 +128,7 @@ $row = mysqli_fetch_assoc($result);
   </div>
 
   </div>
-
   
- 
-
-
-
 <form action="#" method="post">
 <div class="container">
   <p class="lead" >VOCÊ REALMENTE DESEJA EXCLUIR O ITEM ACIMA ?</p>

@@ -140,12 +140,12 @@
   <p class="form-text text-muted">Repita a Senha.</p>
   <br>
 <div class="row">
-	<div class="col-lg-3">
-		<input name="btt" type="submit" class="btn  btn-lg" value="Cadastrar	"  />
+	<div class="col-lg-4">
+		<input name="btt" type="submit" class="btn  btn-lg" value="Cadastrar"  />
 
 		
 	</div>
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<a  href="masterhome.php" button type="button" class="btn btn-default btn-lg" >	Voltar</a>
 	</div>
 		

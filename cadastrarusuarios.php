@@ -148,14 +148,24 @@
 
 
 <?php
-$login= $_POST['login'];
-$senha;
+
 
 if ($_POST['senha']==$_POST['senha2']) {
 	$senha=$_POST['senha'];
 
-$sql="INSERT INTO 'materialoperacional'() ";
+$sql="INSERT INTO materialoperacional(ubm,login, senha) VALUES( '$_POST['ubm']', '$_POST['login']', '$senha') ";
 
+if ($conn->query($sql) === TRUE) {
+    echo "Cadastro Realizado com sucesso.";
+    
+
+   
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Não foi possível realizar o cadastro. Por favor, tente novamente.";
+}
+
+$conn->close();
 
 
 
@@ -171,6 +181,7 @@ else{
 
 ?>
 
+<a  href="masterhome.php" button type="button" class="btn btn-default btn-lg" >	Voltar</a>
 </div>
 
 	

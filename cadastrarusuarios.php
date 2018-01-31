@@ -154,7 +154,7 @@ $senha;
 if ($_POST['senha']==$_POST['senha2']) {
 	$senha=$_POST['senha'];
 
-$sql="INSERT INTO 'materialoperacional'() "
+$sql="INSERT INTO 'materialoperacional'() ";
 
 
 

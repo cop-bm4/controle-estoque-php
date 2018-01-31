@@ -21,7 +21,7 @@ $observacoes="SEM CABO";
 
 
 
-for ($i=0; $i <13 ; $i++) {
+for ($i=0; $i <12 ; $i++) {
 
 
 $sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg, cargo, defeito, marca, observacoes )
@@ -35,7 +35,7 @@ if ($conn->query($sql) === TRUE) {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
-$conn->close();
+
 
 
 

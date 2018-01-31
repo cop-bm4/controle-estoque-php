@@ -33,7 +33,7 @@
 
 <body>
 <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+ <!-- <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="http://copbm4cbmpa-com-br.umbler.net/"> SISCOMP/bm4 </a>
     </div>
@@ -68,7 +68,7 @@
       
       <li><a href="http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
-  </div>
+  </div> -->
 </nav>
 
 

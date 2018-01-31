@@ -140,7 +140,7 @@
   <p class="form-text text-muted">Repita a Senha.</p>
   <br>
 
-  <input type="submit" class="btn  btn-lg" value="Cadastrar	"  />
+  <input name="btt" type="submit" class="btn  btn-lg" value="Cadastrar	"  />
 
   </div>
 </form>
@@ -149,12 +149,17 @@
 
 <?php
 
+if (isset($_POST['btt'])) {
+	
+
 
 if ($_POST['senha']==$_POST['senha2']) {
 	$senha=$_POST['senha'];
 	$login=$_POST['login'];
 	$ubm=$_POST['ubm'];
+
 $sql = "INSERT INTO materialoperacional (ubm, login, senha ) VALUES ( '$ubm', '$login', '$senha')";
+
 if ($conn->query($sql) === TRUE) {
     echo "Cadastro Realizado com sucesso.";
     
@@ -175,7 +180,7 @@ $conn->close();
 else{
 	echo "As senhas não conferem, por favor tente novamente.";
 }
-
+}
 
 
 

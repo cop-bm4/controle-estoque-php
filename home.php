@@ -3,12 +3,12 @@
 
 
 <head>
-
+<title>Home</title>
 	<!--login -->
 <?php require "credenciais.php" ?>
 
 
-	<title>Home</title>
+	
 		 <meta charset="utf-8">
   
 <!--mod mobile-->

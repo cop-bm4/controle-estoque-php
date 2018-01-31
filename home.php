@@ -69,7 +69,7 @@
 
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="http://copbm4cbmpa-com-br.umbler.net/mudarsenha.php"><span class="glyphicon glyphicon-lock">Mudar Senha</span></a></li>
+      <li><a href="http://copbm4cbmpa-com-br.umbler.net/mdsenha.php"><span class="glyphicon glyphicon-lock">Mudar Senha</span></a></li>
       <li><a href="http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
   </div>

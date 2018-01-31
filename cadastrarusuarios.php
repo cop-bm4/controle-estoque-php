@@ -72,8 +72,9 @@
 </nav>
 
 
-<div class="container">
 	<form class="form-control" method="post" action="#">
+		<div class="container">
+
 		<div class="row">
 			<div class="col-lg-4 ">
 				<div class="input-group">
@@ -94,12 +95,12 @@
 				<p class="text text-mudet">Digite o Senha</p>
 			</div>
 		</div>
-
+</div>
 	</form>
 
 
 	
-</div>
+
 
 
 

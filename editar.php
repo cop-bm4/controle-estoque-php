@@ -93,7 +93,7 @@ $row = mysqli_fetch_assoc($result);
       <div class="col-lg-4">
         <div class="input-group">
             <span class="input-group-addon">Material</span>
-              <input type="text" class="form-control" name="material" value="<?php echo $row['material'] ?> " disabled >
+              <input type="text" class="form-control" name="material" value="<?php echo $row['material'] ?> "  disabled>
           </div> 
            <p id="passwordHelpBlock" class="form-text text-muted">
             Material.</p>
@@ -105,14 +105,14 @@ $row = mysqli_fetch_assoc($result);
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">R. Patrimônial</span>
             
-               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rp" value="<?php echo $row['rp']; ?>" disabled>
+               <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rp" value="<?php echo $row['rp']; ?>" >
           </div>
             
         </div>
         <div class="col-lg-4">
           <div class="input-group">
             <span class="input-group-addon"  id="inputGroup-sizing-default" >N. Série</span>
-            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie" value="<?php echo $row['nserie']; ?>" id="validationCustom01" disabled>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="nserie" value="<?php echo $row['nserie']; ?>" id="validationCustom01" >
            
           </div>
             
@@ -124,7 +124,7 @@ $row = mysqli_fetch_assoc($result);
        <div class="col-lg-4">
          <div class="input-group">
            <span class="input-group-addon">Marca</span>
-           <input type="text"  class="form-control" arial-label="Default" aria-describelby="inputGroup-sizing-default" name="marca" value="<?php echo $row['marca'] ?>" disabled>
+           <input type="text"  class="form-control" arial-label="Default" aria-describelby="inputGroup-sizing-default" name="marca" value="<?php echo $row['marca'] ?>" >
          </div>
    
        </div> 

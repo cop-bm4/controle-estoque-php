@@ -108,7 +108,7 @@ $row = mysqli_fetch_assoc($result);
       <div class="col-lg-3">
         <div class="input-group">
           <span class="input-group-addon" id="inputGroup-sizing-default">Placa</span>
-          <input type="text" name="placa" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['placa'] ?>" disabled>
+          <input type="text" name="placa" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['placa'] ?>" >
         </div>  
         <p class="form-text text-muted">Digite a Placa.</p>
       </div>
@@ -116,7 +116,7 @@ $row = mysqli_fetch_assoc($result);
       <div class="col-lg-4">
         <div class="input-group">
           <span class="input-group-addon" id="inputGroup-sizing-default">Renavam</span>
-          <input type="text" name="renavam" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['renavam'] ?>" disabled>
+          <input type="text" name="renavam" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['renavam'] ?>" >
         </div>
         <p class="form-text text-muted"> Digite o Renavam</p>
       </div>
@@ -129,7 +129,7 @@ $row = mysqli_fetch_assoc($result);
        <div class="col-lg-2">
         <div class="input-group">
           <span class="input-group-addon" id="inputGroup-sizing-default">Ano/Fab</span>
-          <input type="text" name="ano_fab" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['ano_fab'] ?>" disabled>
+          <input type="text" name="ano_fab" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['ano_fab'] ?>" >
         </div>
         <p class="form-text text-muted">Ano de Fabricação.</p>
       </div>
@@ -137,7 +137,7 @@ $row = mysqli_fetch_assoc($result);
     <div class="col-lg-3">
       <div class="input-group">
         <span class="input-group-addon" id="inputGroup-sizing-default"> Chassi</span>
-        <input type="text" name="chassi" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['chassi'] ?>" disabled>
+        <input type="text" name="chassi" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['chassi'] ?>" >
         
       </div>
       <p class="form-text text-muted">Dgite o Chassi.</p>
@@ -149,7 +149,7 @@ $row = mysqli_fetch_assoc($result);
       <div class="col-lg-3">
         <div class="input-group">
           <span class="input-group-addon" id="inputGroup-sizing-default">Origem</span>
-          <input type="text" name="origem" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['origem'] ?>" disabled>
+          <input type="text" name="origem" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['origem'] ?>" >
         </div>
         <p class="form-text text-muted">Digite a Origem</p>
       </div>
@@ -158,7 +158,7 @@ $row = mysqli_fetch_assoc($result);
       <div class="col-lg-4">
         <div class="input-group">
           <span class="input-group-addon" id="inputGroup-sizing-default">Modelo</span>
-          <input type="text" name="modelo" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['modelo'] ?>" disabled>
+          <input type="text" name="modelo" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['modelo'] ?>" >
           
         </div>
         <p class="form-text text-muted">Digite o Modelo.</p>
@@ -173,7 +173,7 @@ $row = mysqli_fetch_assoc($result);
     <div class="col-lg-3">
       <div class="input-group">
         <span class="input-group-addon" id="inputGroup-sizing-default">Licenciamento</span>
-        <input type="text" name="licenciamento" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['licenciamento']?>" disabled>
+        <input type="text" name="licenciamento" class="form-control" arial-label="Default" aria-describedby="inputGroup-sizing-default" value="<?php echo $row['licenciamento']?>" >
         
       </div>
       <p class="form-text text-muted">Digite o Ano de Licenciamento </p>

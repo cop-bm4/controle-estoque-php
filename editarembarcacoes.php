@@ -148,7 +148,7 @@ $row = mysqli_fetch_assoc($result);
          <div class="col-lg-4">
          	<div class="input-group">
          		<span class="input-group-addon">Casco</span>
-         		<input type="text" name="casco" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Casco" value="<?php echo $row['casco']; ?>"  required disabled>
+         		<input type="text" name="casco" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Casco" value="<?php echo $row['casco']; ?>"  required >
          		
          	</div>
          	<p class="form-text text-muted">Digite o Casco</p>
@@ -160,7 +160,7 @@ $row = mysqli_fetch_assoc($result);
 		<div class="col-lg-8">
 			<div class="input-group">
 				<span class="input-group-addon">Motor - Marca/Potência</span>
-				<input type="text" name="motor" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Motor" value="<?php echo $row['motor'] ?>" disabled>
+				<input type="text" name="motor" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Motor" value="<?php echo $row['motor'] ?>" >
 				
 			</div>
 			<p class="form-text text-muted">Digite o Motor - Marca/Potência.</p>

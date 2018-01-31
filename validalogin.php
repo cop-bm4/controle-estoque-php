@@ -26,7 +26,7 @@ $_SESSION['ubm']   = $ubm;
 
 /* Logo abaixo temos um bloco com if e else, verificando se a variável $result foi bem sucedida, ou seja se ela estiver encontrado algum registro idêntico o seu valor será igual a 1, se não, se não tiver registros seu valor será 0. Dependendo do resultado ele redirecionará para a pagina site.php ou retornara  para a pagina do formulário inicial para que se possa tentar novamente realizar o login */
 
-if(mysqli_num_rows ($result) > 0 and $lg!='master' )
+if(mysqli_num_rows ($result) > 0 and ($lg!='master' and $lg!='cprodrigues' and $lg!='stedson') )
 {
 $_SESSION['login'] = $login;
 $_SESSION['senha'] = $senha;
@@ -35,7 +35,7 @@ header('location:home.php');
 
 
 }
-elseif (mysqli_num_rows($result)>0 and $lg='master' ){
+elseif (mysqli_num_rows($result)>0 and ($lg='master' or $lg='cprodrigues' or $lg='stedson'){
 	$_SESSION['login'] = $login;
     $_SESSION['senha'] = $senha;
     $_SESSION['ubm']   = $ubm;

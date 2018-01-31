@@ -2,7 +2,9 @@
 <html>
 <head>
 	<title>Cdastrar Novo usuário</title>
-<?php require "credenciais.php" ?>
+<?php require "credenciais.php"; 
+		require "db.php";
+?>
 
 
 	
@@ -167,7 +169,7 @@ if ($_POST['senha']==$_POST['senha2']) {
 	$login=$_POST['login'];
 	$ubm=$_POST['ubm'];
 
-$sql = "INSERT INTO materialoperacional (ubm, login, senha ) VALUES ( '$ubm', '$login', '$senha')";
+$sql = "INSERT INTO materialoperacional(ubm, login, senha ) VALUES ( '$ubm', '$login', '$senha')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Cadastro Realizado com sucesso.";

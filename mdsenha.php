@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-
-
 <head>
-<title>Home</title>
-	<!--login -->
-<?php require "credenciais.php" ?>
+	<title>Mudar Senha</title>
+	<?php require "credenciais.php"; 
+		require "db.php";
+?>
 
 
 	
@@ -33,7 +32,6 @@
 }
 </style>
 </head>
-
 <body>
 
 <nav class="navbar navbar-inverse">
@@ -69,73 +67,95 @@
 
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="http://copbm4cbmpa-com-br.umbler.net/mudarsenha.php"><span class="glyphicon glyphicon-lock">Mudar Senha</span></a></li>
+      
       <li><a href="http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
-  </div>
+  </div> 
 </nav>
 
 <div class="container">
-  <div class="jumbotron">
-    <h1>SISCOMP/bm4</h1> 
-    <p class="text-danger">Sistema de Controle de Material Operacional e Viaturas</p> 
-</div>
+<h2>Mudar Senha.</h2>
+<form method="post" class="input-group" action="#" id="formlogin" name="formlogin">
+
+  <div class="input-group input-group-lg">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    <input id="senha" type="password" class="form-control" name="senha" placeholder="senha" required>
   </div>
+  <p class="form-text text-muted">Digite a Senha.</p>
+  <br>
+   <div class="input-group input-group-lg">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    <input id="senha" type="password" class="form-control" name="senha2" placeholder="Repita a Senha" required>
+  </div>
+  <p class="form-text text-muted">Repita a Senha.</p>
+  <br>
+<div class="row">
+	<div class="col-lg-4">
+		<input name="btt" type="submit" class="btn  btn-lg" value="Atualizar"  />
+
+		
+	</div>
+	<div class="col-lg-6">
+		<a  href="home.php" button type="button" class="btn btn-default btn-lg" >	Voltar</a>
+	</div>
+		
+</div>
+  
+  
+</form>
 
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      
-      	
-<div class="thumbnail">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php">
-       <!-- <img src="http://copbm4cbmpa-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236"> -->
-        <div class="caption">
-        <h3 align="center">        Material </h3>
-        </div>
-      </a>
-    </div>
 
-      
-    </div>
-    <div class="col-sm-4">
+<?php
 
-      <div class="thumbnail">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-vtrs.php">
-       <!-- <img src="http://copbm4cbmpa-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236"> -->
-        <div class="caption">
-        <h3 align="center">        VTRS </h3>
-        </div>
-      </a>
-    </div>
-      
-    </div>
+if (isset($_POST['btt'])) {
+	
+
+
+if ($_POST['senha']==$_POST['senha2']) {
+	$senha=$_POST['senha'];
+	$login=$_SESSION['login'];
+	
+
+$sql = " UPDATE materialoperacional SET senha='$senha'  WHERE login='$login'";
+
+if ($conn->query($sql) === TRUE) {
+    echo "Senha atualizada com sucesso.";
     
 
-    <div class="col-sm-4">
-     <div class="thumbnail">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-embarcacoes.php">
-       <!-- <img src="http://copbm4cbmpa-com-br.umbler.net/vetorcadastrarocorrencia.jpg" class="img-rounded" alt="cadastro-material" width="304" height="236"> -->
-        <div class="caption">
-        <h3 align="center">        EMBARCAÇÕES </h3>
-        </div>
-      </a>
-    </div>
-      
+   
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Não foi possível atualziar a senha. Por favor, tente novamente.";
+}
 
-    </div>
-  </div>
+$conn->close();
+
+
+
+
+
+}
+else{
+	echo "As senhas não conferem, por favor tente novamente.";
+}
+}
+
+
+
+?>
 </div>
+
+
+
+
+
 
 
 <div class="footer">
   <p>© 2018 BM4/COP CBM-PA  V.C João Luz </p>
 </div>
 
+
 </body>
-
-
-
-
 </html>

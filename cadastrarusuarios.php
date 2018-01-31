@@ -71,33 +71,25 @@
   </div> 
 </nav>
 
-<!--
-	<form class="form-control" method="post" action="#">
-		<div class="container">
+<div class="container">
+<h2>Cadastro de novo usuário.</h2>
+<form method="post" class="input-group" action="#" id="formlogin" name="formlogin">
 
-		<div class="row">
-			<div class="col-lg-4 ">
-				<div class="input-group">
-					<span class="input-group-addon">Login</span>
-					<input type="text" name="login">
-					
-				</div>
-				<p class="text text-mudet">Digite o Login</p>
-			</div>
-		</div>
-			<div class="row">
-			<div class="col-lg-4 ">
-				<div class="input-group">
-					<span class="input-group-addon">Senha</span>
-					<input type="text" name="login">
-					
-				</div>
-				<p class="text text-mudet">Digite o Senha</p>
-			</div>
-		</div>
+ <div class="input-group input-group-lg">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="login" type="text" class="form-control" name="login" placeholder="login">
+  </div>
+  <div class="input-group input-group-lg">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    <input id="senha" type="password" class="form-control" name="senha" placeholder="senha">
+  </div>
+  <br>
+  <input type="submit" class="btn  btn-lg" value="LOGAR	"  />
+
+  </div>
+</form>
+
 </div>
-	</form>
--->
 
 	
 

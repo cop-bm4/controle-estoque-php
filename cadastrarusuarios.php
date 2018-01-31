@@ -145,7 +145,7 @@
 
 		
 	</div>
-	<div class="col-lg-4">
+	<div class="col-lg-6">
 		<a  href="masterhome.php" button type="button" class="btn btn-default btn-lg" >	Voltar</a>
 	</div>
 		

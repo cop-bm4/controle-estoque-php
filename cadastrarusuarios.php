@@ -139,10 +139,19 @@
   </div>
   <p class="form-text text-muted">Repita a Senha.</p>
   <br>
+<div class="row">
+	<div class="col-lg-3">
+		<input name="btt" type="submit" class="btn  btn-lg" value="Cadastrar	"  />
 
-  <input name="btt" type="submit" class="btn  btn-lg" value="Cadastrar	"  />
-
-  </div>
+		
+	</div>
+	<div class="col-lg-3">
+		<a  href="masterhome.php" button type="button" class="btn btn-default btn-lg" >	Voltar</a>
+	</div>
+		
+</div>
+  
+  
 </form>
 
 
@@ -186,7 +195,7 @@ else{
 
 ?>
 
-<a  href="masterhome.php" button type="button" class="btn btn-default btn-lg" >	Voltar</a>
+
 </div>
 
 	

@@ -69,7 +69,7 @@
 
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      
+      <li> <a href="http://copbm4cbmpa-com-br.umbler.net/cadastrarusuarios.php"><span class="glyphicon glyphicon-plus"> </span> <span class="glyphicon glyphicon-user"></span></a></li>
       <li><a href="http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
   </div>

@@ -32,6 +32,74 @@
 </head>
 
 <body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://copbm4cbmpa-com-br.umbler.net/"> SISCOMP/bm4 </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active" ><a href="http://copbm4cbmpa-com-br.umbler.net/home.php">Home</a></li>
+     
+     	<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php">Registro<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-material.php">Material</a></li>
+        <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-vtrs.php">VTRS</a></li>
+                  <li><a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-embarcacoes.php">Embarcações</a></li>
+        </ul>
+      </li>
+
+
+
+  
+
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Relatórios</a>
+                <ul class="dropdown-menu">
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatorios.php"> Material</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosvtrs.php">Vtr's</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/relatoriosembarcacoes.php">Embarcações</a></li>
+                </ul>
+              </li>  
+
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      
+      <li><a href="http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container">
+	<form class="form-control" method="post" action="#">
+		<div class="row">
+			<div class="col-lg-4 ">
+				<div class="input-group">
+					<span class="input-group-addon">Login</span>
+					<input type="text" name="login">
+					
+				</div>
+				<p class="text text-mudet">Digite o Login</p>
+			</div>
+		</div>
+			<div class="row">
+			<div class="col-lg-4 ">
+				<div class="input-group">
+					<span class="input-group-addon">Senha</span>
+					<input type="text" name="login">
+					
+				</div>
+				<p class="text text-mudet">Digite o Senha</p>
+			</div>
+		</div>
+
+	</form>
+
+
+	
+</div>
 
 
 

@@ -91,7 +91,7 @@
   <br>
 <div class="row">
 	<div class="col-lg-4">
-		<input name="btt" type="submit" class="btn  btn-lg" value="Cadastrar"  />
+		<input name="btt" type="submit" class="btn  btn-lg" value="Atualizar"  />
 
 		
 	</div>

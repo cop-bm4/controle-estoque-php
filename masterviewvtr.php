@@ -142,9 +142,7 @@ $row = mysqli_fetch_assoc($result);
 
    <?php endif ?>
 
-
-
-  </tbody>
+</tbody>
 </table>
       
   <div class="row">

@@ -149,7 +149,7 @@ $row = mysqli_fetch_assoc($result);
       
   <div class="row">
     <div class="col-lg-12">
-      <p class="lead"> <strong> Preenchido por: </strong> <?php echo $row['cargo']; echo " "; echo $row['nome'];  ?> <strong> Em: </strong> <?php echo $row['reg_date']; ?>
+      <p > <strong> Preenchido por: </strong> <?php echo $row['cargo']; echo " "; echo $row['nome'];  ?> <strong> Em: </strong> <?php echo $row['reg_date']; ?>
 
       </p>
     </div>

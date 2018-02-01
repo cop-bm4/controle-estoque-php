@@ -26,7 +26,7 @@ $observacoes;
 
 
 
-for ($i=0; $i <16 ; $i++) {
+for ($i=0; $i <15 ; $i++) {
 
 
  $sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg, cargo, defeito, marca, observacoes )

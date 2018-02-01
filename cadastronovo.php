@@ -213,6 +213,7 @@ require "credenciais.php";
 <option data-tokens= "MALHO" value="MALHO" >MALHO</option>
 <option data-tokens= "MARTELO UNIVERSAL" value="MARTELO UNIVERSAL" >MARTELO UNIVERSAL</option>
 <option data-tokens= "MICRO RETÍFICA" value="MICRO RETIFICA" >MICRO RETÍFICA</option>
+<option data-tokens= "MACHADINHA BOMBEIRO" value="MOCHILA COSTAL" >MOCHILA COSTAL</option>
 <option data-tokens= "MOLA MOSQUETÃO" value="MOLA MOSQUETAO" >MOLA MOSQUETÃO</option>
 <option data-tokens= "MOTOSERRA" value="MOTOSERRA" >MOTOSERRA</option>
 <option data-tokens= "MOTO ESMERIL" value="MOTO ESMERIL" >MOTO ESMERIL</option>

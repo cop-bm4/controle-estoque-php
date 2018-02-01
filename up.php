@@ -128,6 +128,8 @@
 <option data-tokens= "MANGUEIRA 2 ½”" value="MANGUEIRA 2 ½”" >MANGUEIRA 2 ½”</option>
 <option data-tokens= "MANGOTE 4”" value="MANGOTE 4”" >MANGOTE 4”</option>
 <option data-tokens= "MACHADINHA BOMBEIRO" value="MACHADINHA BOMBEIRO" >MACHADINHA BOMBEIRO</option>
+<option data-tokens= "MACHADINHA BOMBEIRO" value="MOCHILA COSTAL" >MOCHILA COSTAL</option>
+
 <option data-tokens= "MALHO" value="MALHO" >MALHO</option>
 <option data-tokens= "MARTELO UNIVERSAL" value="MARTELO UNIVERSAL" >MARTELO UNIVERSAL</option>
 <option data-tokens= "MICRO RETÍFICA" value="MICRO RETIFICA" >MICRO RETÍFICA</option>

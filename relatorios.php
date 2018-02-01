@@ -313,8 +313,8 @@ echo "Não foi possível conectar ao banco de dados";
   <?php
 
       $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE  material='$value' and ubm='$ub' ";
-      $operantes = "SELECT situacao FROM materialoperacional WHERE  situacao='operante' and material='$value' and ubm='$ub' ";
-      $inoperantes = "SELECT situacao FROM materialoperacional WHERE situacao='inoperante' and material='$value' and ubm='$ub' ";
+      $operantes = "SELECT situacao FROM materialoperacional WHERE  situacao='Operante' and material='$value' and ubm='$ub' ";
+      $inoperantes = "SELECT situacao FROM materialoperacional WHERE situacao='Inoperante' and material='$value' and ubm='$ub' ";
     
       $resultTotal = mysqli_query($conn, $total);
       $countTotal=  mysqli_num_rows($resultTotal);
@@ -366,8 +366,8 @@ echo "Não foi possível conectar ao banco de dados";
 
 
       $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ub' and material='$material'  ";
-      $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ub' and situacao='operante' and material='$material'";
-      $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ub' and situacao='inoperante' and material='$material' ";
+      $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ub' and situacao='Operante' and material='$material'";
+      $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ub' and situacao='Inoperante' and material='$material' ";
     
       $resultTotal = mysqli_query($conn, $total);
       $countTotal=  mysqli_num_rows($resultTotal);

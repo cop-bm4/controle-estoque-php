@@ -82,78 +82,52 @@ $row = mysqli_fetch_assoc($result);
 
 ?>
 <div class="container">
- <div class="container">
   <div class="jumbotron">
   <h2>Visualizaçâo Detalhada do Material</h2>    
     <br>
-  <table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">#</th>
-      
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">UBM:</th>
-      <th><?php echo $row['ubm']; ?></th>
-    </tr>
-    <tr>
-      <th scope="row"> Material:</th>
-      <td><?php echo $row['material']; ?> </td>
-    
-    </tr>
-    <tr>
-      <th scope="row">R. Patrimônial:</th>
-      <td><?php echo $row['rp']; ?></td>
-      
-    </tr>
-    <tr>
-      <th scope="row">N.Série</th>
-      <td><?php echo $row['nserie'];?></td>
-      
-    </tr>
+ 	 <div class="row">
+    <div class="col-lg-12">
+   
+    <p class="lead"><strong>Prefixo:</strong> <?php echo $row['prefixo']; ?>      <strong> Placa: </strong> <?php echo $row['placa']; ?>      <strong> chassi: </strong> <?php echo $row['chassi'];?> <strong>UBM: </strong> <?php echo $row['ubm']; ?> <strong>modelo: </strong> <?php echo $row['modelo']; ?></p>
+    </div>
+  </div>
 
-    <tr>
-      <th scope="row">Marca:</th>
-      <td><?php echo $row['marca']; ?></td>
-    </tr>
-
-    <tr>
-      <th scope="row">Situação:</th>
-      <td><?php echo $row['situacao']; ?></td>
-    </tr>
-  <?php if (!$row['ocorrencia']==NULL): ?>
-    <tr>
-      <th scope="row">Ocorrência:</th>
-      <td><?php echo $row['ocorrencia']; ?></td>
-      <th scope="row">Defeito:</th>
-      <td><?php echo $row['defeito'];  ?></td>
-    </tr>
-  
-<?php endif;?>
-   <?php if (!$row['observacoes']==NULL): ?>
-
-    <tr>
-      <th scope="row">Observações</th>
-      <td><?php echo $row['observacoes']; ?></td>
-    </tr>
-
-   <?php endif ?>
-
-</tbody>
-</table>
-      
   <div class="row">
     <div class="col-lg-12">
-      <p > <strong> Preenchido por: </strong> <?php echo $row['cargo']; echo " "; echo $row['nome'];  ?> <strong> Em: </strong> <?php echo $row['reg_date']; ?>
+      <p class="lead"><strong>Situação: </strong> <?php echo $row['situacao']; ?> </p> 
+    </div>
+   </div> 
+   
+   <?php if (!$row['observacoes']==NULL): ?>
+   <div class="row">
+     <div class="col-lg-12">
+       <p class="lead"><strong>Observações: </strong> <?php echo $row['observacoes']; ?></p>
+     </div>
+   </div>
+    <?php endif; ?>
+
+    <?php if (!$row['ocorrencia']==NULL): ?>
+    <div class="row">
+    <div class="col-lg-12"> 
+    <p class="lead"><strong>Defeito: </strong> <?php echo $row['defeito'];  ?> </p>
+         
+    <p class="lead"><strong>Ocorrência: </strong> <?php echo $row['ocorrencia']; ?> </p>     
+    </div>      
+   </div>  
+  <?php endif; ?>
+
+<br>
+  
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="lead"> <strong> Preenchido por: </strong> <?php echo $row['cargo']; echo " "; echo $row['nome'];  ?> <strong> Em: </strong> <?php echo $row['reg_date']; ?>
 
       </p>
     </div>
   </div>
 
   </div>
+
   <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php"  button type="button" class="btn btn-default btn-lg"  class="">Voltar</a>
  </div>
   

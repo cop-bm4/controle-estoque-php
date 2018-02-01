@@ -96,55 +96,46 @@ $row = mysqli_fetch_assoc($result);
   </thead>
   <tbody>
     <tr>
+      <th scope="row">UBM:</th>
+      <th><?php echo $row['ubm']; ?></th>
+    </tr>
+    <tr>
       <th scope="row"> Material:</th>
       <td><?php echo $row['material']; ?> </td>
     
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <th scope="row">R. Patrimônial:</th>
+      <td><?php echo $row['rp']; ?></td>
+      
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
+      <th scope="row">N.Série</th>
+      <td><?php echo $row['nserie'];?></td>
+      
     </tr>
+
+    <tr>
+      <th scope="row">Marca:</th>
+      <td><?php echo $row['marca']; ?></td>
+    </tr>
+
+    <tr>
+      <th scope="row">Situação:</th>
+      <td><?php echo $row['situacao']; ?></td>
+    </tr>
+
+    <tr>
+      <th scope="row"></th>
+    </tr>
+  
+
+
+
   </tbody>
 </table>
 
-<table class="table">
-  <thead class="thead-light">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+
  	 <div class="row">
     <div class="col-lg-12">
    

@@ -7,7 +7,7 @@ require 'db.php';
 
 
 
-$material = "ALAVANCA";
+$material = "APARELHO OITO";
 $rp = "INFORMAR";
 $nserie = "INFORMAR";
 $situacao = "Operante";
@@ -26,7 +26,7 @@ $observacoes;
 
 
 
-for ($i=0; $i <3 ; $i++) {
+for ($i=0; $i <1 ; $i++) {
 
 
  $sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg, cargo, defeito, marca, observacoes )

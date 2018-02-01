@@ -500,10 +500,7 @@
       <?php endif; ?>
 
       <?php if ($_POST['material']!='qualquer' && $ub=='qualquer'): ?>
-
-              <?php for ($i=0; $i <$tamanhoubms ; $i++): ?>
-               
-                  <table class="table table-bordered">
+           <table class="table table-bordered">
                     <thead>
                       <tr>
                         <th>UBM </th>
@@ -513,6 +510,9 @@
                         <th>TOTAL</th>
                       </tr>
                     </thead>
+              <?php for ($i=0; $i <$tamanhoubms ; $i++): ?>
+               
+                 
                     
 
                                  <?php 

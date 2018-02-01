@@ -292,7 +292,7 @@ $defeito = $_POST['defeito'];
 $observacoes= $_POST['observacoes'];
 $marca=$_POST['marca'];
 
-$sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg', rp='$rp', nserie='$nserie', situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito', marca='$marca', observacoes=$observacoes WHERE id='$id'";
+$sql = " UPDATE materialoperacional SET nome='$nome', rg='$rg', rp='$rp', nserie='$nserie', situacao='$situacao', ocorrencia='$ocorrencia', cargo='$cargo', defeito='$defeito', marca='$marca', observacoes='$observacoes' WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";

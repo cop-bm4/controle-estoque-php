@@ -81,7 +81,7 @@
     <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
     <input id="senha" type="password" class="form-control" name="senha" placeholder="senha" required>
   </div>
-  <p class="form-text text-muted">Digite a Senha.</p>
+  <p class="form-text text-muted">Digite a nova Senha.</p>
   <br>
    <div class="input-group input-group-lg">
     <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>

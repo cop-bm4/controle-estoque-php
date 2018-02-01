@@ -86,48 +86,76 @@ $row = mysqli_fetch_assoc($result);
   <div class="jumbotron">
   <h2>Visualizaçâo Detalhada do Material</h2>    
     <br>
- 	 <div class="row">
-    <div class="col-lg-12">
-   
-    <p class="lead"><strong>Embarcação:</strong> <?php echo $row['embarcacao']; ?>      <strong> casco: </strong> <?php echo $row['casco']; ?>      <strong> Motor: </strong> <?php echo $row['motor'];?> <strong>UBM: </strong> <?php echo $row['ubm']; ?> </p>
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="col-lg-12">
-      <p class="lead"><strong>Situação: </strong> <?php echo $row['situacao']; ?> </p> 
-    </div>
-   </div> 
-   
-   <?php if (!$row['observacoes']==NULL): ?>
-   <div class="row">
-     <div class="col-lg-12">
-       <p class="lead"><strong>Observações: </strong> <?php echo $row['observacoes']; ?></p>
-     </div>
-   </div>
-    <?php endif; ?>
+    <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">#</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">UBM:</th>
+      <th><?php echo $row['ubm']; ?></th>
+    </tr>
+    <tr>
+      <th scope="row"> Embarcação:</th>
+      <td><?php echo $row['embarcacao']; ?> </td>
+    
+    </tr>
+    <tr>
+      <th scope="row">Casco:</th>
+      <td><?php echo $row['casco']; ?></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">motor</th>
+      <td><?php echo $row['motor'];?></td>
+      
+    </tr>
 
-    <?php if (!$row['ocorrencia']==NULL): ?>
-    <div class="row">
-    <div class="col-lg-12"> 
-    <p class="lead"><strong>Defeito: </strong> <?php echo $row['defeito'];  ?> </p>
-         
-    <p class="lead"><strong>Ocorrência: </strong> <?php echo $row['ocorrencia']; ?> </p>     
-    </div>      
-   </div>  
-  <?php endif; ?>
 
-<br>
+    <tr>
+      <th scope="row">Situação:</th>
+      <td><?php echo $row['situacao']; ?></td>
+    </tr>
+  <?php if (!$row['ocorrencia']==NULL): ?>
+    <tr>
+      <th scope="row">Ocorrência:</th>
+      <td><?php echo $row['ocorrencia']; ?></td>
+    </tr>
+    <tr>
+      <?php endif ?>
+  <?php     if (!$row['defeito']==NULL): ?>  
+      <th scope="row">Defeito:</th>
+      <td><?php echo $row['defeito'];  ?></td>
+    </tr>
   
-  <div class="row">
+<?php endif;?>
+   <?php if (!$row['observacoes']==NULL): ?>
+
+    <tr>
+      <th scope="row">Observações</th>
+      <td><?php echo $row['observacoes']; ?></td>
+    </tr>
+
+   <?php endif ?>
+
+
+
+  </tbody>
+</table>
+      <div class="row">
     <div class="col-lg-12">
-      <p class="lead"> <strong> Preenchido por: </strong> <?php echo $row['cargo']; echo " "; echo $row['nome'];  ?> <strong> Em: </strong> <?php echo $row['reg_date']; ?>
+      <p > <strong> Preenchido por: </strong> <?php echo $row['cargo']; echo " "; echo $row['nome'];  ?> <strong> Em: </strong> <?php echo $row['reg_date']; ?>
 
       </p>
     </div>
   </div>
 
-  </div>
+      </div>
 
   <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-embarcacoes.php"  button type="button" class="btn btn-default btn-lg"  class="">Voltar</a>
  </div>

@@ -29,7 +29,7 @@ for ($i=0; $i <26 ; $i++) {
 
 //$sql= "UPDATE materialoperacional SET situacao='$situacao', defeito='$defeito' WHERE material='ABAFADOR INCENDIO' ";
 if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
+    echo "New record created successfully" .$ubm.;
     echo $i;
    
 } else {

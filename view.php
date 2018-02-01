@@ -124,51 +124,29 @@ $row = mysqli_fetch_assoc($result);
       <th scope="row">Situação:</th>
       <td><?php echo $row['situacao']; ?></td>
     </tr>
-
+  <?php if (!$row['ocorrencia']==NULL): ?>
     <tr>
-      <th scope="row"></th>
+      <th scope="row">Ocorrência:</th>
+      <td><?php echo $row['ocorrencia']; ?></td>
+      <th scope="row">Defeito:</th>
+      <td><?php echo $row['defeito'];  ?></td>
     </tr>
   
+<?php endif;?>
+   <?php if (!$row['observacoes']==NULL): ?>
+
+    <tr>
+      <th scope="row">Observações</th>
+      <td><?php echo $row['observacoes']; ?></td>
+    </tr>
+
+   <?php endif ?>
 
 
 
   </tbody>
 </table>
-
-
- 	 <div class="row">
-    <div class="col-lg-12">
-   
-    <p class="lead"><strong>Material:</strong> <?php echo $row['material']; ?>      <strong> R. Patrimônial: </strong> <?php echo $row['rp']; ?>      <strong> N. Série: </strong> <?php echo $row['nserie'];?> <strong>UBM: </strong> <?php echo $row['ubm']; ?> <strong>Marca: </strong> <?php echo $row['marca']; ?></p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-lg-12">
-      <p class="lead"><strong>Situação: </strong> <?php echo $row['situacao']; ?> </p> 
-    </div>
-   </div> 
-   
-   <?php if (!$row['observacoes']==NULL): ?>
-   <div class="row">
-     <div class="col-lg-12">
-       <p class="lead"><strong>Observações: </strong> <?php echo $row['observacoes']; ?></p>
-     </div>
-   </div>
-    <?php endif; ?>
-
-    <?php if (!$row['ocorrencia']==NULL): ?>
-    <div class="row">
-    <div class="col-lg-12"> 
-    <p class="lead"><strong>Defeito: </strong> <?php echo $row['defeito'];  ?> </p>
-         
-    <p class="lead"><strong>Ocorrência: </strong> <?php echo $row['ocorrencia']; ?> </p>     
-    </div>      
-   </div>  
-  <?php endif; ?>
-
-<br>
-  
+      
   <div class="row">
     <div class="col-lg-12">
       <p class="lead"> <strong> Preenchido por: </strong> <?php echo $row['cargo']; echo " "; echo $row['nome'];  ?> <strong> Em: </strong> <?php echo $row['reg_date']; ?>

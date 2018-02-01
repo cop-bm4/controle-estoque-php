@@ -169,46 +169,7 @@ $row = mysqli_fetch_assoc($result);
       
 
 
- 	 <div class="row">
-    <div class="col-lg-12">
-   
-    <p class="lead"><strong>Prefixo:</strong> <?php echo $row['prefixo']; ?>      <strong> Placa: </strong> <?php echo $row['placa']; ?>      <strong> chassi: </strong> <?php echo $row['chassi'];?> <strong>UBM: </strong> <?php echo $row['ubm']; ?> <strong>modelo: </strong> <?php echo $row['modelo']; ?></p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-lg-12">
-      <p class="lead"><strong>Situação: </strong> <?php echo $row['situacao']; ?> </p> 
-    </div>
-   </div> 
-   
-   <?php if (!$row['observacoes']==NULL): ?>
-   <div class="row">
-     <div class="col-lg-12">
-       <p class="lead"><strong>Observações: </strong> <?php echo $row['observacoes']; ?></p>
-     </div>
-   </div>
-    <?php endif; ?>
-
-    <?php if (!$row['ocorrencia']==NULL): ?>
-    <div class="row">
-    <div class="col-lg-12"> 
-    <p class="lead"><strong>Defeito: </strong> <?php echo $row['defeito'];  ?> </p>
-         
-    <p class="lead"><strong>Ocorrência: </strong> <?php echo $row['ocorrencia']; ?> </p>     
-    </div>      
-   </div>  
-  <?php endif; ?>
-
-<br>
-  
-  <div class="row">
-    <div class="col-lg-12">
-      <p class="lead"> <strong> Preenchido por: </strong> <?php echo $row['cargo']; echo " "; echo $row['nome'];  ?> <strong> Em: </strong> <?php echo $row['reg_date']; ?>
-
-      </p>
-    </div>
-  </div>
+ 	
 
   </div>
 

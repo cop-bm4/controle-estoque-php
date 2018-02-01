@@ -492,10 +492,10 @@
                     
 
               <?php endfor ?>      
-             
-            <?php endfor ?>
-           </tbody>
+                </tbody>
                 </table>
+            <?php endfor ?>
+        
 
       <?php endif; ?>
 
@@ -543,11 +543,11 @@
                         <td><?php echo $countInoperantes; ?></td>
                         <td><?php echo $countTotal; ?></td>
                       </tr>
-                    </tbody>
-                  </table>
+                 
 
               <?php endfor ?>
-
+           </tbody>
+                  </table>
       <?php endif; ?>
 
 

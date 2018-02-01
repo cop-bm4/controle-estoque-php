@@ -492,10 +492,10 @@
                     
 
               <?php endfor ?>      
-                </tbody>
-                </table>
+             
             <?php endfor ?>
-        
+           </tbody>
+                </table>
 
       <?php endif; ?>
 

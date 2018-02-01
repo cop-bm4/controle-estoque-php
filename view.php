@@ -130,8 +130,8 @@ $row = mysqli_fetch_assoc($result);
       <td><?php echo $row['ocorrencia']; ?></td>
     </tr>
   <?php endif; ?>
-    <?php if(!$row['defeito']==NULL): ?>
-    <tr>
+
+    <?php     if (!$row['defeito']==NULL): ?>  
       <th scope="row">Defeito:</th>
       <td><?php echo $row['defeito'];  ?></td>
     </tr>

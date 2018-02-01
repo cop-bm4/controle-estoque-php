@@ -146,6 +146,7 @@ $row = mysqli_fetch_assoc($result);
     </tr>
     <tr>
       <?php endif ?>
+      
   <?php     if (!$row['defeito']==NULL): ?>  
       <th scope="row">Defeito:</th>
       <td><?php echo $row['defeito'];  ?></td>

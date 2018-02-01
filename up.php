@@ -2,7 +2,7 @@
 require 'db.php';
 
 
-$material = "ABAFADOR DE INCENDIO";
+$material = "ABAFADOR INCENDIO";
 $rp = "INFORMAR";
 $nserie = "INFORMAR";
 $situacao = "Operante";
@@ -27,6 +27,7 @@ for ($i=0; $i <12 ; $i++) {
 $sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg, cargo, defeito, marca, observacoes )
 VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ubm','$nome','$rg', '$cargo', '$defeito', '$marca', '$observacoes')";
 
+$sql= "UPDATE materialoperacional SET material='$material' WHERE material='ABAFADOR DE INCENDIO'";
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
     echo $i;

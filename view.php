@@ -128,6 +128,10 @@ $row = mysqli_fetch_assoc($result);
     <tr>
       <th scope="row">Ocorrência:</th>
       <td><?php echo $row['ocorrencia']; ?></td>
+    </tr>
+  <?php endif; ?>
+    <?php if(!$row['defeito']==NULL): ?>
+    <tr>
       <th scope="row">Defeito:</th>
       <td><?php echo $row['defeito'];  ?></td>
     </tr>

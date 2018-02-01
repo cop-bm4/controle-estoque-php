@@ -27,7 +27,7 @@ for ($i=0; $i <26 ; $i++) {
 // $sql = "INSERT INTO materialoperacional (material, rp, nserie, situacao, ocorrencia, ubm, nome, rg, cargo, defeito, marca, observacoes )
 // VALUES ('$material', '$rp', '$nserie', '$situacao', '$ocorrencia','$ubm','$nome','$rg', '$cargo', '$defeito', '$marca', '$observacoes')";
 
-$sql= "UPDATE materialoperacional SET situacao='$situacao', defeito=$defeito WHERE material='ABAFADOR INCENDIO' ";
+$sql= "UPDATE materialoperacional SET situacao='$situacao', defeito='$defeito' WHERE material='ABAFADOR INCENDIO' ";
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
     echo $i;

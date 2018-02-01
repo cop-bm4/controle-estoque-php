@@ -10,7 +10,7 @@ require 'db.php';
 $material = "AFT";
 $rp = "INFORMAR";
 $nserie = "INFORMAR";
-$situacao = "Operante";
+$situacao = "Inoperante";
 $ocorrencia;
 $marca= "INFORMAR";
 $ubm = "5 GBM";
@@ -18,7 +18,7 @@ $nome = "Joao Luz";
 $rg = "6436847";
 $cargo = "VC";
 $defeito; 
-$observacoes="COM RESTRIÇÕES"; 
+$observacoes="ENVIADO AO COP PARA MANUTENÇÃO"; 
 
 
 

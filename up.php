@@ -142,6 +142,7 @@
 <option data-tokens= "MOTO BOMBA DIESEL" value="MOTO BOMBA DIESEL" >MOTO BOMBA DIESEL</option>
 <option data-tokens= "MOTO BOMBAELÉTRICA" value="MOTO BOMBAELETRICA" >MOTO BOMBAELÉTRICA</option>
 <option data-tokens= "MOTO GERADOR" value="MOTO GERADOR" >MOTO GERADOR</option>
+<option data-tokens= "MOTO PODA" value="MOTO PODA" >MOTO PODA</option>
 <option data-tokens= "MANILHA" value="MANILHA" >MANILHA</option>
 <option data-tokens="MCLEOD" value="MCLEOD">MCLEOD</option>
 <option data-tokens= "MOTOR DE P  15 HP" value="MOTOR DE P  15 HP" >MOTOR DE P  15 HP</option>

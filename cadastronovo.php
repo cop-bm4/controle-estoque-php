@@ -261,7 +261,25 @@ require "credenciais.php";
 <option data-tokens= "REDUÇÃO" value="REDUCAO" >REDUÇÃO</option>
 <option data-tokens= "ROLDANA SIMPLES" value="ROLDANA SIMPLES" >ROLDANA SIMPLES</option>
 <option data-tokens= "ROLDANA DUPLA" value="ROLDANA DUPLA" >ROLDANA DUPLA</option>
-
+<option data-tokens="MACHADO PICARETA" value= " MACHADO PICARETA">  MACHADO PICARETA  </option>
+      </option>
+<option data-tokens="BAMBI BUCKET" value= " BAMBI BUCKET">  BAMBI BUCKET  </option>
+      </option>
+<option data-tokens="EXAUSTOR TURBO INSULFRADOR" value= " EXAUSTOR TURBO INSULFRADOR">  EXAUSTOR TURBO INSULFRADOR  </option>
+      </option>
+<option data-tokens="BOMBA HIDRAULICA CENTRIFUGA " value= " BOMBA HIDRAULICA CENTRIFUGA">   BOMBA HIDRAULICA CENTRIFUGA   </option>
+      </option>
+<option data-tokens="CILINDRO DE OXIGENIO PARA MERGULHO" value= " CILINDRO DE OXIGENIO PARA MERGULHO">  CILINDRO DE OXIGENIO PARA MERGULHO  </option>
+      </option>
+<option data-tokens="VALVULA DE MERGULHO 2 ESTAGIO" value= "  VALVULA DE MERGULHO 2 ESTAGIO"> VALVULA DE MERGULHO 2 ESTAGIO </option>
+      </option>
+<option data-tokens="VALVULA DE MERGULHO 1 ESTAGIO" value= "  VALVULA DE MERGULHO 1 ESTAGIO"> VALVULA DE MERGULHO 1 ESTAGIO </option>
+      </option>
+<option data-tokens="MASCARA FULL FACE" value= "  MASCARA FULL FACE"> MASCARA FULL FACE </option>
+      </option>
+<option data-tokens="RADIO COMUNICADOR DE MERGULHO" value= "  RADIO COMUNICADOR DE MERGULHO"> RADIO COMUNICADOR DE MERGULHO </option>
+      </option>
+<option data-tokens="LEME" value= " LEME">  LEME  </option>
 <option data-tokens= "SIRENE INTERNA" value="SIRENE INTERNA" >SIRENE INTERNA</option>
 <option data-tokens= "SUPORTE BAK PAK" value="SUPORTE BAK PAK" >SUPORTE BAK PAK</option>
 <option data-tokens= "TENDA GV" value="TENDA GV" >TENDA GV</option>

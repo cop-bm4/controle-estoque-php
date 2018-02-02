@@ -156,25 +156,25 @@
 <option data-tokens= "OCULOS PROTEÇÃO" value="OCULOS PROTECAO" >OCULOS PROTEÇÃO</option>
 <option data-tokens= "OXÍMETRO DE PULSO" value="OXIMETRO DE PULSO" >OXÍMETRO DE PULSO</option>
 <option data-tokens= "PAR DE ASCENSOR DE PUNHO" value="PAR DE ASCENSOR DE PUNHO" >PAR DE ASCENSOR DE PUNHO</option>
-<option data-tokens="MACHADO PICARETA" value= "	MACHADO PICARETA">	MACHADO PICARETA	</option>
+<option data-tokens="MACHADO PICARETA" value="MACHADO PICARETA">	MACHADO PICARETA	</option>
 			</option>
-<option data-tokens="BAMBI BUCKET" value= "	BAMBI BUCKET">	BAMBI BUCKET	</option>
+<option data-tokens="BAMBI BUCKET" value="BAMBI BUCKET">	BAMBI BUCKET	</option>
 			</option>
-<option data-tokens="EXAUSTOR TURBO INSULFRADOR" value= "	EXAUSTOR TURBO INSULFRADOR">	EXAUSTOR TURBO INSULFRADOR	</option>
+<option data-tokens="EXAUSTOR TURBO INSULFRADOR" value="EXAUSTOR TURBO INSULFRADOR">	EXAUSTOR TURBO INSULFRADOR	</option>
 			</option>
-<option data-tokens="BOMBA HIDRAULICA CENTRIFUGA " value= "	BOMBA HIDRAULICA CENTRIFUGA"> 	BOMBA HIDRAULICA CENTRIFUGA 	</option>
+<option data-tokens="BOMBA HIDRAULICA CENTRIFUGA " value="BOMBA HIDRAULICA CENTRIFUGA"> 	BOMBA HIDRAULICA CENTRIFUGA 	</option>
 			</option>
-<option data-tokens="CILINDRO DE OXIGENIO PARA MERGULHO" value= "	CILINDRO DE OXIGENIO PARA MERGULHO">	CILINDRO DE OXIGENIO PARA MERGULHO	</option>
+<option data-tokens="CILINDRO DE OXIGENIO PARA MERGULHO" value="CILINDRO DE OXIGENIO PARA MERGULHO">	CILINDRO DE OXIGENIO PARA MERGULHO	</option>
 			</option>
-<option data-tokens="VALVULA DE MERGULHO 2 ESTAGIO" value= "	VALVULA DE MERGULHO 2 ESTAGIO">	VALVULA DE MERGULHO 2 ESTAGIO	</option>
+<option data-tokens="VALVULA DE MERGULHO 2 ESTAGIO" value="VALVULA DE MERGULHO 2 ESTAGIO">	VALVULA DE MERGULHO 2 ESTAGIO	</option>
 			</option>
-<option data-tokens="VALVULA DE MERGULHO 1 ESTAGIO" value= "	VALVULA DE MERGULHO 1 ESTAGIO">	VALVULA DE MERGULHO 1 ESTAGIO	</option>
+<option data-tokens="VALVULA DE MERGULHO 1 ESTAGIO" value="VALVULA DE MERGULHO 1 ESTAGIO">	VALVULA DE MERGULHO 1 ESTAGIO	</option>
 			</option>
-<option data-tokens="MASCARA FULL FACE" value= "	MASCARA FULL FACE">	MASCARA FULL FACE	</option>
+<option data-tokens="MASCARA FULL FACE" value= "MASCARA FULL FACE">	MASCARA FULL FACE	</option>
 			</option>
-<option data-tokens="RADIO COMUNICADOR DE MERGULHO" value= "	RADIO COMUNICADOR DE MERGULHO">	RADIO COMUNICADOR DE MERGULHO	</option>
+<option data-tokens="RADIO COMUNICADOR DE MERGULHO" value="RADIO COMUNICADOR DE MERGULHO">	RADIO COMUNICADOR DE MERGULHO	</option>
 			</option>
-<option data-tokens="LEME" value= "	LEME">	LEME	</option>
+<option data-tokens="LEME" value="LEME">	LEME	</option>
 
 <option data-tokens= "PINO PÁRA CHOQUE" value="PINO PÁRA CHOQUE" >PINO PÁRA CHOQUE</option>
 <option data-tokens= "PÉ DE CABRA" value="PE DE CABRA" >PÉ DE CABRA</option>

@@ -163,6 +163,8 @@ require "credenciais.php";
 <option data-tokens= "DIVISÃO DE DUAS SAÍDAS" value="DIVISAO DE DUAS SAIDAS" >DIVISÃO DE DUAS SAÍDAS</option>
 <option data-tokens= "DESENCARCERADOR A ÓLEO" value="DESENCARCERADOR A OLEO" >DESENCARCERADOR A ÓLEO</option>
 <option data-tokens= "DESENCARCERADOR ELÉTRICO" value="DESENCARCERADOR ELETRICO" >DESENCARCERADOR ELÉTRICO</option>
+  <option data-tokens= "DESCENSOR INDY" value="DESCENSOR INDY" >DESCENSOR INDY</option>
+
 <option data-tokens= "ESCADA DE MADEIRA" value="ESCADA DE MADEIRA" >ESCADA DE MADEIRA</option>
 <option data-tokens= "ESCADA EM  FIBRA" value="ESCADA EM  FIBRA" >ESCADA EM  FIBRA</option>
 <option data-tokens= "ESCADA EM ALUMÍNIO" value="ESCADA EM ALUMINIO" >ESCADA EM ALUMÍNIO</option>

@@ -267,6 +267,8 @@ require "credenciais.php";
 <option data-tokens= "TUBO DE RESGATE" value="TUBO DE RESGATE" >TUBO DE RESGATE</option>
 
 <option data-tokens= "TRIPÉ RESG POÇO" value="TRIPE RESG POcO" >TRIPÉ RESG POÇO</option>
+  <option data-tokens="TRIPE DE ILUMINACAO" value="TRIPE DE ILUMINACAO">TRIPE DE ILUMINACAO</option>
+
 <option data-tokens="VÁLVULA MERGULHO" value="VALVULA DE MERGULHO">VÁLVULA DE MERGULHO</option>
 
               

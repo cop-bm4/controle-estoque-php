@@ -202,6 +202,7 @@ require "credenciais.php";
 <option data-tokens= "LUVA DE INCENDIO" value="LUVA DE INCENDIO" >LUVA DE INCENDIO</option>
 <option data-tokens= "MACA PVC (cesto)" value="MACA PVC (cesto)" >MACA PVC (cesto)</option>
 <option data-tokens= "MACA LONA" value="MACA LONA" >MACA LONA</option>
+<option data-tokens= "MACA INFLAVEL" value="MACA INFLAVEL" >MACA INFLAVEL</option>
 <option data-tokens= "MACA COM RODAS" value="MACA COM RODAS" >MACA COM RODAS</option>
 <option data-tokens= "MÁSCARA CONTRA GASES" value="MASCARA CONTRA GASES" >MÁSCARA CONTRA GASES</option>
 <option data-tokens= "MÁSCARA PANORÂMICA" value="MASCARA PANORÂMICA" >MÁSCARA PANORÂMICA</option>

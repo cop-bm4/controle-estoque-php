@@ -174,6 +174,9 @@
 <option data-tokens= "ROUPA APICULTOR" value="ROUPA APICULTOR" >ROUPA APICULTOR</option>
 <option data-tokens= "ROUPA MERGULHO" value="ROUPA MERGULHO" >ROUPA MERGULHO</option>
 <option data-tokens= "ROUPA SANEAMENTO  C/ BOTA" value="ROUPA SANEAMENTO  C/ BOTA" >ROUPA SANEAMENTO  C/ BOTA</option>
+<option data-tokens= "ROCADEIRA MANUAL" value="ROCADEIRA MANUAL" >ROÇADEIRA MANUAL</option>
+    <option data-tokens= "ROCADEIRA ELETRICA" value="ROCADEIRA ELETRICA">ROÇADEIRA ELÉTRICA</option>
+    <option data-tokens= "ROCADEIRA A DIESEL" value="ROCADEIRA A DIESEL" >ROÇADEIRA A DIESEL</option>
 <option data-tokens= "REDUÇÃO" value="REDUCAO" >REDUÇÃO</option>
 <option data-tokens= "ROLDANA SIMPLES" value="ROLDANA SIMPLES" >ROLDANA SIMPLES</option>
 <option data-tokens= "ROLDANA DUPLA" value="ROLDANA DUPLA" >ROLDANA DUPLA</option>

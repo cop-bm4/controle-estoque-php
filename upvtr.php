@@ -29,7 +29,7 @@ $situacao=$_POST['situacao'];
 $defeito=$_POST['defeito'];
 $observacoes=$_POST['observacoes'];
 
-$sql= "INSERT INTO materialoperacional(prefixo,situacao, defeito, observacoes, ubm, cargo, nome) VALUES('$prefixo','$situacao','$defeito', '$observacoes','13 GBM', 'VC', 'JOAO LUZ') ";
+$sql= "INSERT INTO materialoperacional(prefixo,situacao, defeito, observacoes, ubm, cargo, nome) VALUES('$prefixo','$situacao','$defeito', '$observacoes','1 GBM', 'VC', 'JOAO LUZ') ";
 
 	if ($conn->query($sql) === TRUE) {
     echo "New record created successfully" ;

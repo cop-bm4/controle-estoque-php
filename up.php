@@ -238,6 +238,9 @@ Observações:
 Marca:
 <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="marca" >
 <br>
+rp:
+<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="rp" >
+<br>
  <button type="submit" class="btn btn-default btn-lg" name="btt">Enviar</button>
 
 </form>
@@ -260,7 +263,7 @@ $operante = "Operante";
 $situacao=$_POST['situacao'];
 $ocorrencia;
 $marca= "INFORMAR";
-$ubm = "13 GBM";
+$ubm = "1 GBM";
 $nome = "Joao Luz";
 $rg = "6436847";
 $cargo = "VC";

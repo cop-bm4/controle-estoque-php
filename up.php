@@ -235,7 +235,7 @@ Observações:
 <br>
 Marca:
 <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="marca" >
-
+<br>
  <button type="submit" class="btn btn-default btn-lg" name="btt">Enviar</button>
 
 </form>

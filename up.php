@@ -258,14 +258,14 @@ $operante = "Operante";
 $situacao=$_POST['situacao'];
 $ocorrencia;
 $marca= "INFORMAR";
-$ubm = "5 GBM";
+$ubm = "1 GPA";
 $nome = "Joao Luz";
 $rg = "6436847";
 $cargo = "VC";
 $defeito=$_POST['defeito']; 
 $observacoes=$_POST['observacoes']; 
 $quantidade=$_POST['quantidade'];
-
+$marca=$_POST['marca'];
 
 
 

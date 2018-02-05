@@ -257,7 +257,7 @@ if (isset($_POST['btt'])) {
 
 
 $material = $_POST['material'];
-$rp = "INFORMAR";
+$rp = $_POST['rp'];
 $nserie = "INFORMAR";
 $operante = "Operante";
 $situacao=$_POST['situacao'];

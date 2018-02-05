@@ -120,6 +120,7 @@ require "credenciais.php";
 <option data-tokens= "BINÓCULO" value="BINOCULO" >BINÓCULO</option>
 <option data-tokens= "BOTA DE INCÊNDIO" value="BOTA DE INCENDIO" >BOTA DE INCÊNDIO</option>
 <option data-tokens= "BOTA  CANO LONGO" value="BOTA  CANO LONGO" >BOTA  CANO LONGO</option>
+<option data-tokens= "BOMBA A VACUO" value="BOMBA A VACUO" >BOMBA A VACUO</option>
 <option data-tokens= "BOMBA FLUTUANTE" value="BOMBA FLUTUANTE" >BOMBA FLUTUANTE</option>
 <option data-tokens= "BOMBA SUBMERSA" value="BOMBA SUBMERSA" >BOMBA SUBMERSA</option>
 <option data-tokens= "BOMBA REBOQUE" value="BOMBA REBOQUE" >BOMBA REBOQUE</option>

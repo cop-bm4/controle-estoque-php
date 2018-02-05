@@ -230,8 +230,11 @@ situação:
 Defeito:
 <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="defeito" >
 <br>
+Observações:
 <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="observacoes" >
 <br>
+Marca:
+<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="marca" >
 
  <button type="submit" class="btn btn-default btn-lg" name="btt">Enviar</button>
 

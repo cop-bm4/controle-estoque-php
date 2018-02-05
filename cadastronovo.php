@@ -158,6 +158,7 @@ require "credenciais.php";
 <option data-tokens= "COLETE SALVA  VIDAS" value="COLETE SALVA  VIDAS" >COLETE SALVA  VIDAS</option>
 <option data-tokens= "COLETOR" value="COLETOR" >COLETOR</option>
 <option data-tokens= "COMPRESSOR DE AR" value="COMPRESSOR DE AR" >COMPRESSOR DE AR</option>
+<option data-tokens= "CONJUNTO EPR" value="CONJUNTO EPR" >CONJUNTO EPR</option>
 <option data-tokens= "DERIVANTE" value="DERIVANTE" >DERIVANTE</option>
 <option data-tokens= "DRAGA MANUAL" value="DRAGA MANUAL" >DRAGA MANUAL</option>
 <option data-tokens= "DIVISOR TRES SAIDAS" value="DIVISOR TRES SAIDAS" >DIVISOR TRES SAIDAS</option>

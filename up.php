@@ -146,6 +146,8 @@
 <option data-tokens= "MOTO PODA" value="MOTO PODA" >MOTO PODA</option>
 <option data-tokens= "MANILHA" value="MANILHA" >MANILHA</option>
 <option data-tokens="MCLEOD" value="MCLEOD">MCLEOD</option>
+<option data-tokens= "MOTO BOMBA FLUTUANTE" value="MOTOR DE P  15 HP" >MOTOR DE P  15 HP</option>
+
 <option data-tokens= "MOTOR DE P  15 HP" value="MOTOR DE P  15 HP" >MOTOR DE P  15 HP</option>
 <option data-tokens= "MOTOR DE P  25 HP" value="MOTOR DE P  25 HP" >MOTOR DE P  25 HP</option>
 <option data-tokens= "MOTOR DE POPA 40 HP" value="MOTOR DE POPA 40 HP" >MOTOR DE POPA 40 HP</option>
@@ -258,7 +260,7 @@ $operante = "Operante";
 $situacao=$_POST['situacao'];
 $ocorrencia;
 $marca= "INFORMAR";
-$ubm = "1 GPA";
+$ubm = "13 GBM";
 $nome = "Joao Luz";
 $rg = "6436847";
 $cargo = "VC";

@@ -96,7 +96,7 @@ echo "Não foi possível conectar ao banco de dados";
   </div>
 
 <?php
-$sq="SELECT * FROM `materialoperacional` ORDER BY ubm ASC";
+$sq="SELECT * FROM materialoperacional ORDER BY ubm ASC";
 
 $sql = "SELECT id, ubm, material, rp, nserie, situacao, ocorrencia, nome, rg, reg_date, login,marca FROM materialoperacional where material !='' ";
 $result = mysqli_query($conn, $sql);

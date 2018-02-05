@@ -287,6 +287,7 @@ require "credenciais.php";
 <option data-tokens= "TALHA" value="TALHA" >TALHA</option>
 <option data-tokens= "TALABARTE" value="TALABARTE" >TALABARTE</option>
 <option data-tokens="TESADO" value="TESADO">TESADO</option>
+<option data-tokens="TIFOR" value="TIFOR">TIFOR</option>
 <option data-tokens= "TORRE DE ILUMINAÇÃO" value="TORRE DE ILUMINACAO" >TORRE DE ILUMINAÇÃO</option>
 <option data-tokens= "TUBO DE RESGATE" value="TUBO DE RESGATE" >TUBO DE RESGATE</option>
 

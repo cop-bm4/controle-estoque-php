@@ -208,6 +208,7 @@
 <option data-tokens= "TALHA" value="TALHA" >TALHA</option>
 <option data-tokens= "TALABARTE" value="TALABARTE" >TALABARTE</option>
 <option data-tokens="TESADO" value="TESADO">TESADO</option>
+<option data-tokens="TIFOR" value="TIFOR">TIFOR</option>
 <option data-tokens= "TORRE DE ILUMINAÇÃO" value="TORRE DE ILUMINACAO" >TORRE DE ILUMINAÇÃO</option>
   <option data-tokens="TRIPE DE ILUMINACAO" value="TRIPE DE ILUMINACAO">TRIPE DE ILUMINACAO</option>
 

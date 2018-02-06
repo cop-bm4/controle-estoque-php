@@ -5,8 +5,8 @@
 </head>
 <body>
 <form method="post" action="#">
-	prefixo
-	<input type="text" name="prefixo" required>
+	embarcação	
+	<input type="text" name="embarcacao" required>
 	<select name="situacao">
 <option value="Operante">operante</option>	
 <option value="Inoperante">Inoperante</option>	
@@ -15,8 +15,8 @@ defeito
 <input type="text" name="defeito">
 observações
 <input type="text" name="observacoes">
-PLACA:
-<input type="text" name="placa">
+casco:
+<input type="text" name="casco">
 <button type="submit" name="btt">enviar</button>
 </form>
 
@@ -26,19 +26,19 @@ if (isset($_POST['btt']))
 
 require "db.php";
 
-$prefixo=$_POST['prefixo'];
+$embarcacao=$_POST['embarcacao'];
 $situacao=$_POST['situacao'];
 $defeito=$_POST['defeito'];
 $observacoes=$_POST['observacoes'];
-$placa=$_POST['placa'];
+$casco=$_POST['casco'];
 
-$sql= "INSERT INTO materialoperacional(prefixo,situacao, defeito, observacoes, ubm, cargo, nome,placa) VALUES('$prefixo','$situacao','$defeito', '$observacoes','13 GBM','VC', 'ELVISLENE FERRAZ','$placa') ";
+$sql= "INSERT INTO materialoperacional(embarcacao,situacao, defeito, observacoes, ubm, cargo, nome,casco) VALUES('$embarcacao','$situacao','$defeito', '$observacoes','13 GBM','VC', 'ELVISLENE FERRAZ','$casco') ";
 
 
 	if ($conn->query($sql) === TRUE) {
     echo "New record created successfully" ;
     
-   	echo $prefixo;
+   	echo $embarcacao;
 	} else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 	}

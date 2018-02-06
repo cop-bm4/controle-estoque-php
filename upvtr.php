@@ -32,7 +32,7 @@ $defeito=$_POST['defeito'];
 $observacoes=$_POST['observacoes'];
 $placa=$_POST['placa'];
 
-$sql= "INSERT INTO materialoperacional(prefixo,situacao, defeito, observacoes, ubm, cargo, nome,plAca) VALUES('$prefixo','$situacao','$defeito', '$observacoes','1 GBM','VC','JOAO LUZ','$placa') ";
+$sql= "INSERT INTO materialoperacional(prefixo,situacao, defeito, observacoes, ubm, cargo, nome,placa) VALUES('$prefixo','$situacao','$defeito', '$observacoes','1 GBM','VC', 'JOAO LUZ','$placa') ";
 
 
 	if ($conn->query($sql) === TRUE) {

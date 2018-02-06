@@ -52,22 +52,22 @@ echo "Não foi possível conectar ao banco de dados";
       <a class="navbar-brand" href="#"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="http://copbm4cbmpa-com-br.umbler.net/masterhome.php">Home</a></li>
+      <li ><a href="http://copbm4cbmpa-com-br.umbler.net/cascohome.php">Home</a></li>
       <li class= "active" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php">Registro<span class="caret"></span></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/cascocadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php" >Material</a></li>
-          <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php">VTRS</a></li>
-                  <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-embarcacoes.php">Embarcações</a></li>
+          <li><a href="http://copbm4cbmpa-com-br.umbler.net/cascocadastro-material.php" >Material</a></li>
+          <li><a href="http://copbm4cbmpa-com-br.umbler.net/cascocadastro-vtrs.php">VTRS</a></li>
+                  <li><a href="http://copbm4cbmpa-com-br.umbler.net/cascocadastro-embarcacoes.php">Embarcações</a></li>
         </ul>
       </li>
       
 <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Relatórios</a>
  <ul class="dropdown-menu">
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatorios.php"> Material</a></li>
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatoriosvtrs.php">Vtr's</a></li>
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatoriosembarcacoes.php">Embarcações</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/cascorelatorios.php"> Material</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/cascorelatoriosvtrs.php">Vtr's</a></li>
+                <li><a href="http://copbm4cbmpa-com-br.umbler.net/cascorelatoriosembarcacoes.php">Embarcações</a></li>
                 </ul>
               </li>  
 

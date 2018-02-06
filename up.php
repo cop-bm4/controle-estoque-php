@@ -106,6 +106,7 @@
 <option data-tokens= "FERRO DE COVA" value="FERRO DE COVA" >FERRO DE COVA</option>
 <option data-tokens= "FITA DE ANCORAGEM" value="FITA DE ANCORAGEM" >FITA DE ANCORAGEM</option>
 <option data-tokens= "FLUTSPUMA (FLUTUADOR DE SALVAMENTO AQUÁTICO)" value="FLUTSPUMA (FLUTUADOR DE SALVAMENTO AQUÁTICO)" >FLUTSPUMA (FLUTUADOR DE SALVAMENTO AQUÁTICO)</option>
+<option data-tokens= "FURADEIRA" value="FURADEIRA" >FURADEIRA</option>
 <option data-tokens= "GAIOLA" value="GAIOLA" >GAIOLA</option>
 <option data-tokens= "GADANHO" value="GADANHO" >GADANHO</option>
 <option data-tokens= "GARFO" value="GARFO" >GARFO</option>

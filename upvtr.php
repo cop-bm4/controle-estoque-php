@@ -15,6 +15,8 @@ defeito
 <input type="text" name="defeito">
 observações
 <input type="text" name="observacoes">
+PLACA:
+<input type="text" name="placa">
 <button type="submit" name="btt">enviar</button>
 </form>
 
@@ -28,8 +30,10 @@ $prefixo=$_POST['prefixo'];
 $situacao=$_POST['situacao'];
 $defeito=$_POST['defeito'];
 $observacoes=$_POST['observacoes'];
+$placa=$_POST['placa'];
 
-$sql= "INSERT INTO materialoperacional(prefixo,situacao, defeito, observacoes, ubm, cargo, nome) VALUES('$prefixo','$situacao','$defeito', '$observacoes','1 GBM', 'VC', 'JOAO LUZ') ";
+$sql= "INSERT INTO materialoperacional(prefixo,situacao, defeito, observacoes, ubm, cargo, nome,plca) VALUES('$prefixo','$situacao','$defeito', '$observacoes','1 GBM','VC', 'JOAO LUZ','$placa') ";
+
 
 	if ($conn->query($sql) === TRUE) {
     echo "New record created successfully" ;

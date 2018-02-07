@@ -120,6 +120,7 @@ $result = mysqli_query($conn, $sql);
 <tbody>
   <?php 
    $idarray = array();
+   $prefixoarray = array();
     $i=0;
   ?>
  <?php while($row = mysqli_fetch_assoc($result)): ?> 
@@ -144,10 +145,13 @@ $result = mysqli_query($conn, $sql);
     $situacao=$_POST['situacao'];
     
     $idarray[$i]=$row['id'];
+    $prefixoarray[$i]=$row['prefixo'];
+    echo $prefixoarray[$i];
+    echo $idarray[$i];
 
     if (isset($_POST["btt"])) {
         
-      $sql= "UPDATE materialoperacional SET situacao='$situacao' where id='$idarray[$i]'" ;
+      $sql= "UPDATE materialoperacional SET situacao='$situacao' where id='$idarray[$i]' and prefixo='$prefixoarray['$i']" ;
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
 

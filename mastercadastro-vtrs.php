@@ -128,7 +128,7 @@ $result = mysqli_query($conn, $sql);
     
     <td><?php echo $row['situacao']; ?>
       <form method="post" action="#">
-      <select name="situacao" value="<?php echo $row['situacao']; ?>">
+      <select name="situacao" >
         <option>-----</option>
         <option value="Operante">Operante</option>
         <option value="Inoperante">Inoperante</option>
@@ -136,11 +136,23 @@ $result = mysqli_query($conn, $sql);
       <button type="submit" name="btt">Atualizar</button>
     </form>
     <?php 
+
     $situacao=$_POST['situacao'];
     $id=$row['id'];
     if (isset($_POST["submit"])) {
-      
+        
       $sql= "UPDATE materialoperacional SET situacao='$situacao' where id='$id'" ;
+if ($conn->query($sql) === TRUE) {
+    echo "Atualização feita com sucesso";
+
+    
+    
+} else {
+    echo "Error updating record: " . $conn->error;
+}
+
+$conn->close();
+  }
 
     }
 

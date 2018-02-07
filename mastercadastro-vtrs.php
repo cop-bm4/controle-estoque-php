@@ -126,7 +126,25 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['placa']; ?></td>
     <td><?php echo $row['chassi']?></td>
     
-    <td><?php echo $row['situacao']; ?></td>
+    <td>
+      <form method="post" action="#">
+      <select name="situacao" value="<?php echo $row['situacao']; ?>">
+        <option value="Operante">Operante</option>
+        <option value="Inoperante">Inoperante</option>
+      </select>
+      <button type="submit" name="btt">Atualizar</button>
+    </form>
+    <?php 
+    $situacao=$_POST['situacao'];
+    $id=$row['id'];
+    if (isset($_POST["submit"])) {
+      
+      $sql= "UPDATE materialoperacional SET situacao='$situacao' where id='$id'" ;
+
+    }
+
+    ?>
+    </td>
     <td><?php echo $row['reg_date']; ?></td>
     
     <td class="actions text-right">

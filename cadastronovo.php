@@ -131,6 +131,9 @@ require "credenciais.php";
 <option data-tokens= "CAIXA TÉRMICA" value="CAIXA TERMICA" >CAIXA TÉRMICA</option>
 <option data-tokens= "CABO DE AÇO" value="CABO DE ACO" >CABO DE AÇO</option>
 <option data-tokens= "CAMBÃO" value="CAMBÃO" >CAMBÃO</option>
+<option data-tokens="CHAVE ALLEN" value="CHAVE ALLEN">CHAVE ALLEN</option>
+
+<option data-tokens="CHAVES DE BOCA" value="CHAVES DE BOCA">CHAVES DE BOCA</option>
 <option data-tokens= "CHAVE AMERICANA" value="CHAVE AMERICANA" >CHAVE AMERICANA</option>
 <option data-tokens= "CHAVE DE MANGUEIRA" value="CHAVE DE MANGUEIRA" >CHAVE DE MANGUEIRA</option>
 <option data-tokens= "CHAVE DE HIDRANTE" value="CHAVE DE HIDRANTE" >CHAVE DE HIDRANTE</option>

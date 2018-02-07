@@ -139,7 +139,7 @@ $result = mysqli_query($conn, $sql);
 
     $situacao=$_POST['situacao'];
     $id=$row['id'];
-    if (isset($_POST["submit"])) {
+    if (isset($_POST["btt"])) {
         
       $sql= "UPDATE materialoperacional SET situacao='$situacao' where id='$id'" ;
 if ($conn->query($sql) === TRUE) {

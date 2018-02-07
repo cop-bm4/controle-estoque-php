@@ -176,7 +176,7 @@ if ($conn->query($sql) === TRUE) {
 
   
 
-<?php ?>
+
 
 <?php endwhile; ?>
 

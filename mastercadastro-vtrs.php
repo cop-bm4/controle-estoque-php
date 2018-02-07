@@ -151,7 +151,7 @@ $result = mysqli_query($conn, $sql);
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
 
-    
+    header("location: mastercadastro-vtrs.php");
     
 } else {
     echo "Error updating record: " . $conn->error;

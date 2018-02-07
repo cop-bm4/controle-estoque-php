@@ -126,9 +126,10 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['placa']; ?></td>
     <td><?php echo $row['chassi']?></td>
     
-    <td>
+    <td><?php echo $row['situacao']; ?>
       <form method="post" action="#">
       <select name="situacao" value="<?php echo $row['situacao']; ?>">
+        <option>-----</option>
         <option value="Operante">Operante</option>
         <option value="Inoperante">Inoperante</option>
       </select>

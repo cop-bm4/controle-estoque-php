@@ -147,7 +147,7 @@ $result = mysqli_query($conn, $sql);
 
     if (isset($_POST["btt"])) {
         
-      $sql= "UPDATE materialoperacional SET situacao='$situacao' where id=''" ;
+      $sql= "UPDATE materialoperacional SET situacao='$situacao' where id='$idarray[$i]'" ;
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
 

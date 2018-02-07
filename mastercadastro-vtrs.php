@@ -160,7 +160,7 @@ if ($conn->query($sql) === TRUE) {
 
   }
 
-    
+    $i++; 
 
     ?>
     </td>
@@ -176,7 +176,7 @@ if ($conn->query($sql) === TRUE) {
 
   
 
-<?php $i++; ?>
+<?php ?>
 
 <?php endwhile; ?>
 

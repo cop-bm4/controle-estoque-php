@@ -118,6 +118,10 @@ $result = mysqli_query($conn, $sql);
 
 
 <tbody>
+  <?php 
+   $idarray = array();
+    $i=0;
+  ?>
  <?php while($row = mysqli_fetch_assoc($result)): ?> 
 
   <tr>
@@ -138,10 +142,12 @@ $result = mysqli_query($conn, $sql);
     <?php 
 
     $situacao=$_POST['situacao'];
-    $id=$row['id'];
+    
+    $idarray[$i]=$row['id'];
+
     if (isset($_POST["btt"])) {
         
-      $sql= "UPDATE materialoperacional SET situacao='$situacao' where id='$id'" ;
+      $sql= "UPDATE materialoperacional SET situacao='$situacao' where id='$idarray['$i']'" ;
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
 
@@ -171,7 +177,7 @@ if ($conn->query($sql) === TRUE) {
   
 
 
-
+<?php $i++; ?>
 <?php endwhile; ?>
 
 </tbody>

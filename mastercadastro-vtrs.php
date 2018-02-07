@@ -199,7 +199,7 @@ $i++;
 <!-- Modal -->
 
 
-<?php echo $idarray[9]; ?>
+<?php echo $idarray[0]; ?>
 
 <div class="footer">
   <p>© 2018 BM4/COP CBM-PA  V.C João Luz </p>

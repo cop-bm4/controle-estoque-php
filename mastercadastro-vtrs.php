@@ -161,7 +161,7 @@ if ($conn->query($sql) === TRUE) {
   }
 
     
-
+$i++;
     ?>
     </td>
     <td><?php echo $row['reg_date']; ?></td>
@@ -177,7 +177,7 @@ if ($conn->query($sql) === TRUE) {
   
 
 
-<?php $i++; ?>
+
 <?php endwhile; ?>
 
 </tbody>

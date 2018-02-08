@@ -121,7 +121,6 @@ $result = mysqli_query($conn, $sql);
   <?php 
    $idarray = array();
    $prefixoarray = array();
-   $bttarray= array();
     $i=0;
   ?>
  <?php while($row = mysqli_fetch_assoc($result)): ?> 
@@ -133,13 +132,13 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['chassi']?></td>
     
     <td><?php echo $row['situacao']; ?>
-      <form method="post" action="#">
+    <!--  <form method="post" action="#">
       <select name="situacao" >
         <option>-----</option>
         <option value="Operante">Operante</option>
         <option value="Inoperante">Inoperante</option>
       </select>
-      <button type="submit" name="btt<?php echo $row['id']; ?>" >Atualizar</button>
+      <button type="submit" name="btt">Atualizar</button>
     </form>
     <?php 
 
@@ -167,7 +166,7 @@ if ($conn->query($sql) === TRUE) {
 
     $i++; 
 
-    ?>
+    ?>-->
     </td>
     <td><?php echo $row['reg_date']; ?></td>
     

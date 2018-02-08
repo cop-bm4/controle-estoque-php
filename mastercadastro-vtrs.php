@@ -121,6 +121,7 @@ $result = mysqli_query($conn, $sql);
   <?php 
    $idarray = array();
    $prefixoarray = array();
+   $bttarray= array();
     $i=0;
   ?>
  <?php while($row = mysqli_fetch_assoc($result)): ?> 
@@ -138,7 +139,7 @@ $result = mysqli_query($conn, $sql);
         <option value="Operante">Operante</option>
         <option value="Inoperante">Inoperante</option>
       </select>
-      <button type="submit" name="btt">Atualizar</button>
+      <button type="submit" name="btt<?php echo $row['id']; ?>" >Atualizar</button>
     </form>
     <?php 
 

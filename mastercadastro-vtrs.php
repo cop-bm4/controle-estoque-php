@@ -132,7 +132,7 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['chassi']?></td>
     
     <td><?php echo $row['situacao']; ?>
-    <!--  <form method="post" action="#">
+      <form method="post" action="#">
       <select name="situacao" >
         <option>-----</option>
         <option value="Operante">Operante</option>
@@ -166,7 +166,7 @@ if ($conn->query($sql) === TRUE) {
 
     $i++; 
 
-    ?>-->
+    ?>
     </td>
     <td><?php echo $row['reg_date']; ?></td>
     

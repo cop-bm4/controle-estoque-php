@@ -146,8 +146,7 @@ $result = mysqli_query($conn, $sql);
     
     $idarray[$i]=$row['id'];
     $prefixoarray[$i]=$row['prefixo'];
-    echo $prefixoarray[$i];
-    echo $idarray[$i];
+   
 
     if (isset($_POST["btt"])) {
         

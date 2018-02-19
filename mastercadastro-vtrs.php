@@ -132,40 +132,6 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['chassi']?></td>
     
     <td><?php echo $row['situacao']; ?>
-      <form method="post" action="#">
-      <select name="situacao" >
-        <option>-----</option>
-        <option value="Operante">Operante</option>
-        <option value="Inoperante">Inoperante</option>
-      </select>
-      <button type="submit" name="btt">Atualizar</button>
-    </form>
-    <?php 
-
-    $situacao=$_POST['situacao'];
-    
-    $idarray[$i]=$row['id'];
-    $prefixoarray[$i]=$row['prefixo'];
-   
-
-    if (isset($_POST["btt"])) {
-        
-      $sql= "UPDATE materialoperacional SET situacao='$situacao' where id='$idarray[$i]' and prefixo='$prefixoarray[$i]' " ;
-if ($conn->query($sql) === TRUE) {
-    echo "Atualização feita com sucesso";
-
-    
-    
-} else {
-    echo "Error updating record: " . $conn->error;
-}
-
-
-  }
-
-    $i++; 
-
-    ?>
     </td>
     <td><?php echo $row['reg_date']; ?></td>
     

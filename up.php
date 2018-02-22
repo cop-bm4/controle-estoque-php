@@ -271,7 +271,7 @@ $operante = "Operante";
 $situacao=$_POST['situacao'];
 $ocorrencia;
 $marca= "INFORMAR";
-$ubm = "1 GBM";
+$ubm = "13 GBM";
 $nome = "Joao Luz";
 $rg = "6436847";
 $cargo = "VC";

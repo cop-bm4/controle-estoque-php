@@ -148,7 +148,7 @@
 <option data-tokens= "MOTO ESMERIL" value="MOTO ESMERIL" >MOTO ESMERIL</option>
 <option data-tokens= "MOTO  SERRA SABRE" value="MOTO  SERRA SABRE" >MOTO  SERRA SABRE</option>
 <option data-tokens= "MOTO BOMBA DIESEL" value="MOTO BOMBA DIESEL" >MOTO BOMBA DIESEL</option>
-<option data-tokens= "MOTO BOMBAELÉTRICA" value="MOTO BOMBAELETRICA" >MOTO BOMBAELÉTRICA</option>
+<option data-tokens= "MOTO BOMBO ELÉTRICA" value="MOTO BOMBAELETRICA" >MOTO BOMBA ELÉTRICA</option>
 <option data-tokens= "MOTO GERADOR" value="MOTO GERADOR" >MOTO GERADOR</option>
 <option data-tokens= "MOTO PODA" value="MOTO PODA" >MOTO PODA</option>
 <option data-tokens= "MANILHA" value="MANILHA" >MANILHA</option>

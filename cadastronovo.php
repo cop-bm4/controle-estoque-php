@@ -244,7 +244,7 @@ require "credenciais.php";
 <option data-tokens= "OCULOS PROTEÇÃO" value="OCULOS PROTECAO" >OCULOS PROTEÇÃO</option>
 <option data-tokens= "OXÍMETRO DE PULSO" value="OXIMETRO DE PULSO" >OXÍMETRO DE PULSO</option>
 <option data-tokens= "PAR DE ASCENSOR DE PUNHO" value="PAR DE ASCENSOR DE PUNHO" >PAR DE ASCENSOR DE PUNHO</option>
-
+<option data-tokens= "POLICORTE" value="POLICORTE" >POLICORTE</option>
 <option data-tokens= "PINO PÁRA CHOQUE" value="PINO PÁRA CHOQUE" >PINO PÁRA CHOQUE</option>
 <option data-tokens= "PÉ DE CABRA" value="PE DE CABRA" >PÉ DE CABRA</option>
 <option data-tokens= "PÁ DE BICO" value="PA DE BICO" >PÁ DE BICO</option>

@@ -88,6 +88,8 @@
 <option data-tokens= "DESENCARCERADOR A ÓLEO" value="DESENCARCERADOR A OLEO" >DESENCARCERADOR A ÓLEO</option>
 <option data-tokens= "DESENCARCERADOR ELÉTRICO" value="DESENCARCERADOR ELETRICO" >DESENCARCERADOR ELÉTRICO</option>
   <option data-tokens= "DESCENSOR INDY" value="DESCENSOR INDY" >DESCENSOR INDY</option>
+<option data-tokens= "DESFRIBILADOR" value="DESFRIBILADOR" >DESFRIBILADOR</option>
+
 
 <option data-tokens= "ESCADA DE MADEIRA" value="ESCADA DE MADEIRA" >ESCADA DE MADEIRA</option>
 <option data-tokens= "ESCADA EM  FIBRA" value="ESCADA EM  FIBRA" >ESCADA EM  FIBRA</option>

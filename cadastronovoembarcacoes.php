@@ -240,7 +240,7 @@ echo "Não foi possível conectar ao banco de dados";
      </div>
      </div>
      <br>
-      <div class="row">
+     <!-- <div class="row">
         <div class="col-lg-5">
           <div class="input-group">
             <span class="input-group-addon">Imagens </span>  
@@ -249,7 +249,7 @@ echo "Não foi possível conectar ao banco de dados";
           <p class="form-text text-muted">Enviar foto atualizada do material.</p>
         </div>
       </div>
-
+-->
 
 
 	<div class="container">

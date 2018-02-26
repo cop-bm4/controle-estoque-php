@@ -121,7 +121,7 @@
 <option data-tokens="1 GPA" value="1 GPA">  1 GPA </option>
 <option data-tokens="1 GBS" value="1 GBS">  1 GBS </option>
 <option data-tokens="1 GMAF" value="1 GMAF">  1 GMAF  </option>
-                 
+<option data-tokens="CFAE" value="CFAE">  CFAE  </option>                
          </select>
         </div>
       <p class="form-text text-muted">Escolha a UBM.</p>

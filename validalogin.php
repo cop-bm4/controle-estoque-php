@@ -42,14 +42,14 @@ if ( (mysqli_num_rows($result)>0) and ($lg='master' or $lg='cprodrigues' or $lg=
     header('location:masterhome.php'); 
 
 
-}
+}/*
 if( (mysqli_num_rows($result)>0) and ($lg='bm4') and ($lg!='master' and $lg!='cprodrigues' and $lg!='stedson' and $lg!='tcel.helton' and $lg!='cop') ){
 	$_SESSION['login'] = $login;
     $_SESSION['senha'] = $senha;
     $_SESSION['ubm']   = $ubm;
     header('location:bm4.php'); 
 	
-}
+}*/
 else{
 	
 	unset ($_SESSION['login']);

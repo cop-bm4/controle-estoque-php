@@ -111,7 +111,8 @@
 <option data-tokens="1 GPA" value="1 GPA">  1 GPA </option>
 <option data-tokens="1 GBS" value="1 GBS">  1 GBS </option>
 <option data-tokens="1 GMAF" value="1 GMAF">  1 GMAF  </option>
-<option data-tokens="CFAE" value="CFAE">  CFAE  </option>    
+<option data-tokens="CFAE" value="CFAE">  CFAE  </option> 
+<option data-tokens="BM4" value="BM4">BM4</option>                      
               </select>
             </div>
             <p id="passwordHelpBlock" class="form-text text-muted">
@@ -129,7 +130,7 @@
  </div>
 
  <?php
-     $ubms = array("1 GBM", "2 GBM", "3 GBM", "4 GBM", "5 GBM", "6 GBM", "7 GBM", "8 GBM", "9 GBM", "10 GBM", "11 GBM", "12 GBM", "13 GBM", "14 GBM", "15 GBM", "16 GBM", "17 GBM", "18 GBM", "19 GBM", "20 GBM", "21 GBM", "22 GBM", "23 GBM", "24 GBM", "25 GBM", "26 GBM", "27 GBM", "28 GBM", "29 GBM", "30 GBM", "1 GPA", "1 GBS", "1 GMAF","CFAE");
+     $ubms = array("1 GBM", "2 GBM", "3 GBM", "4 GBM", "5 GBM", "6 GBM", "7 GBM", "8 GBM", "9 GBM", "10 GBM", "11 GBM", "12 GBM", "13 GBM", "14 GBM", "15 GBM", "16 GBM", "17 GBM", "18 GBM", "19 GBM", "20 GBM", "21 GBM", "22 GBM", "23 GBM", "24 GBM", "25 GBM", "26 GBM", "27 GBM", "28 GBM", "29 GBM", "30 GBM", "1 GPA", "1 GBS", "1 GMAF","CFAE","BM4");
             $tamanhoubms= count($ubms);      
 ?>
 

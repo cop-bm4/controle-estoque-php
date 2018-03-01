@@ -35,7 +35,7 @@ header('location:home.php');
 
 
 }
-if ( mysqli_num_rows($result)>0 and $lg='master' or $lg='cprodrigues' or $lg='stedson' or $lg='tcel.helton' or $lg='cop'  and $lg!='bm4'){
+if ( (mysqli_num_rows($result)>0) and ($lg='master' or $lg='cprodrigues' or $lg='stedson' or $lg='tcel.helton' or $lg='cop')  and ($lg!='bm4')) {
 	$_SESSION['login'] = $login;
     $_SESSION['senha'] = $senha;
     $_SESSION['ubm']   = $ubm;
@@ -43,7 +43,7 @@ if ( mysqli_num_rows($result)>0 and $lg='master' or $lg='cprodrigues' or $lg='st
 
 
 }
-if( mysqli_num_rows($result)>0 and $lg='bm4' and $lg!='master' and $lg!='cprodrigues' and $lg!='stedson' and $lg!='tcel.helton' and $lg!='cop' ){
+if( (mysqli_num_rows($result)>0) and ($lg='bm4') and ($lg!='master' and $lg!='cprodrigues' and $lg!='stedson' and $lg!='tcel.helton' and $lg!='cop') ){
 	$_SESSION['login'] = $login;
     $_SESSION['senha'] = $senha;
     $_SESSION['ubm']   = $ubm;

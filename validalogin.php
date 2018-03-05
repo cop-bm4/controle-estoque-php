@@ -26,7 +26,7 @@ $_SESSION['ubm']   = $ubm;
 
 /* Logo abaixo temos um bloco com if e else, verificando se a variável $result foi bem sucedida, ou seja se ela estiver encontrado algum registro idêntico o seu valor será igual a 1, se não, se não tiver registros seu vsalor será 0. Dependendo do resultado ele redirecionará para a pagina site.php ou retornara  para a pagina do formulário inicial para que se possa tentar novamente realizar o login */
 
-if(mysqli_num_rows ($result) > 0 and ($lg!='master' and $lg!='cprodrigues' and $lg!='stedson' and $lg!='tcel.helton' and $lg!='cop') )
+if(mysqli_num_rows ($result) > 0 and ($lg!='master' and $lg!='cprodrigues' and $lg!='stedson' and $lg!='tcel.helton' and $lg!='cop' and $lg!='bm4') )
 {
 $_SESSION['login'] = $login;
 $_SESSION['senha'] = $senha;
@@ -35,29 +35,14 @@ header('location:home.php');
 
 
 }
-<<<<<<< HEAD
-if ( (mysqli_num_rows($result)>0) and ($lg='master' or $lg='cprodrigues' or $lg='stedson' or $lg='tcel.helton' or $lg='cop')  and ($lg!='bm4')) {
-=======
-elseif (mysqli_num_rows($result)>0 and ($lg='master' or $lg='cprodrigues' or $lg='stedson' or $lg='tcel.helton' or $lg='cop')){
->>>>>>> parent of a8b7bfc... adcionando direcionamento da pagina da bm4
+if ( mysqli_num_rows($result)>0 and $lg='master' or $lg='cprodrigues' or $lg='stedson' or $lg='tcel.helton' or $lg='cop'  ) {
 	$_SESSION['login'] = $login;
     $_SESSION['senha'] = $senha;
     $_SESSION['ubm']   = $ubm;
     header('location:masterhome.php'); 
 
 
-<<<<<<< HEAD
-}/*
-if( (mysqli_num_rows($result)>0) and ($lg='bm4') and ($lg!='master' and $lg!='cprodrigues' and $lg!='stedson' and $lg!='tcel.helton' and $lg!='cop') ){
-	$_SESSION['login'] = $login;
-    $_SESSION['senha'] = $senha;
-    $_SESSION['ubm']   = $ubm;
-    header('location:bm4.php'); 
-	
-}*/
-=======
 }
->>>>>>> parent of a8b7bfc... adcionando direcionamento da pagina da bm4
 else{
 	
 	unset ($_SESSION['login']);

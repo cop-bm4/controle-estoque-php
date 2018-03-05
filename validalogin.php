@@ -35,7 +35,8 @@ header('location:home.php');
 
 
 }
-if ( mysqli_num_rows($result)>0 and $lg='master' or $lg='cprodrigues' or $lg='stedson' or $lg='tcel.helton' or $lg='cop'  ) {
+
+if ( mysqli_num_rows($result)>0 and ($lg='master' or $lg='cprodrigues' or $lg='stedson' or $lg='tcel.helton' or $lg='cop')  ) {
 	$_SESSION['login'] = $login;
     $_SESSION['senha'] = $senha;
     $_SESSION['ubm']   = $ubm;

@@ -300,6 +300,7 @@ echo "Não foi possível conectar ao banco de dados";
      </div>
      </div>
      <br>
+     <!--
       <div class="row">
         <div class="col-lg-5">
           <div class="input-group">
@@ -310,7 +311,7 @@ echo "Não foi possível conectar ao banco de dados";
         </div>
       </div>
 
-
+-->
 
 	<div class="container">
       <div class="p-3 mb-2 bg-info text-white"> <h3>2 - Responsável pelo Preenchimento </h3></div>

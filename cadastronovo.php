@@ -477,7 +477,7 @@ require "credenciais.php";
        </div> 
      </div>
     </div>
-<br>
+<br><!--
       <div class="row">
         <div class="col-lg-5">
           <div class="input-group">
@@ -487,7 +487,7 @@ require "credenciais.php";
           <p class="form-text text-muted">Enviar foto atualizada do material.</p>
         </div>
       </div>
-
+-->
     <div class="container">
       <div class="p-3 mb-2 bg-info text-white"> <h3>2 - Responsável pelo Preenchimento </h3></div>
     </div>

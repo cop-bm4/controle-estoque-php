@@ -83,7 +83,7 @@ $row = mysqli_fetch_assoc($result);
 ?>
 <div class="container">
   <div class="jumbotron">
-  <h2>Visualizaçâo Detalhada do Material</h2>    
+  <h2>Visualizaçâo Detalhada da Embarcação</h2>    
     <br>
 
    <table class="table">

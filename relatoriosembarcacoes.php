@@ -92,7 +92,7 @@
                     <tbody>
                     <?php
 
-                    $sql = "SELECT embarcacao, situacao, ubm, defeito FROM materialoperacional WHERE ubm='$ubmss' and embarcacao='' and material='' and prefixo='' ";
+                    $sql = "SELECT embarcacao, situacao, ubm, defeito FROM materialoperacional WHERE ubm='$ubmss' and embarcacao='' and material!='' and prefixo!='' ";
                      $result= mysqli_query($conn, $sql);
           
           

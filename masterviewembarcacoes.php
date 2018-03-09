@@ -158,9 +158,7 @@ $row = mysqli_fetch_assoc($result);
   <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-embarcacoes.php"  button type="button" class="btn btn-default btn-lg"  class="">Voltar</a>
  </div>
   
- <div class="footer">
-  <p>© 2018 BM4/COP  CBM-PA V.C João Luz </p>
-</div>
+ 
 </body>
 </html>
 

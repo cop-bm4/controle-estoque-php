@@ -5,7 +5,7 @@
 <head>
 
 	<!--login -->
-<?php require "credenciais.php" ?>
+
 
 
 	<title>Home</title>

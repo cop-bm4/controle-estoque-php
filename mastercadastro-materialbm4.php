@@ -136,7 +136,7 @@ $result = mysqli_query($conn, $sql);
       <a href="mastereditar.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Editar</a>
       <a href="http://copbm4cbmpa-com-br.umbler.net/excluir.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default" >
          <i class="fa fa-trash"></i> Excluir</a>
-      <a href="http://copbm4cbmpa-com-br.umbler.net/cautela.php?id=<?php echo $row['id']; ?>" button type="button" class ="btn btn-default"> Cautela </a>   
+      <a href="http://copbm4cbmpa-com-br.umbler.net/cautela.php?id=<?php echo $row['id']; ?>" button type="button" class ="btn btn-default"><i class="fa fa-pencil"> </i> Cautela </a>   
     </td>
   </tr>
 

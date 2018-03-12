@@ -53,7 +53,7 @@ echo "Não foi possível conectar ao banco de dados";
       <a class="navbar-brand" href="#"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="http://copbm4cbmpa-com-br.umbler.net/masterhome.php">Home</a></li>
+      <!--<li ><a href="http://copbm4cbmpa-com-br.umbler.net/masterhome.php">Home</a></li>
       <li class= "active" class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -77,7 +77,7 @@ echo "Não foi possível conectar ao banco de dados";
      
       <li><a href=" http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
-  </div>
+  </div>-->
 </nav>
 
 

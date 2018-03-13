@@ -53,6 +53,8 @@ echo "Não foi possível conectar ao banco de dados";
       <a class="navbar-brand" href="#"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
+    	<li><a href="http://copbm4cbmpa-com-br.umbler.net/bm4.php"> VOLTAR</a></li>
+ 
       <!--<li ><a href="http://copbm4cbmpa-com-br.umbler.net/masterhome.php">Home</a></li>
       <li class= "active" class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php">Registro<span class="caret"></span></a>
@@ -111,8 +113,7 @@ $result = mysqli_query($conn, $sql);
     <th  >Material</th>
     <th>R. Patrimônial</th>
     <th>Cautelado</th>
-
-    <th>Situação</th>
+	<th>Situação</th>
     <th>Atualizado em</th>
     <th> Opções</th>
   </tr>

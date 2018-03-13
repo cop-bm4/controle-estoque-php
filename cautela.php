@@ -116,7 +116,7 @@ echo "Não foi possível conectar ao banco de dados";
       </div>
 </div>
   <div class="row">
-      <div class="col-lg-3" >
+      <div class="col-lg-2" >
         <button type="submit" class="btn btn-default btn-lg">Atualizar</button>
       </div>
 

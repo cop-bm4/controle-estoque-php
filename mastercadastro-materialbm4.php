@@ -113,7 +113,7 @@ $result = mysqli_query($conn, $sql);
     <th  >Material</th>
     <th>R. Patrimônial</th>
     <th>Cautelado</th>
-	<th>Situação</th>
+	<th>Responsável</th>
     <th>Atualizado em</th>
     <th> Opções</th>
   </tr>
@@ -129,7 +129,7 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['rp']; ?></td>
     <td><?php echo $row['cautelado']?></td>
 
-    <td><?php echo $row['situacao']; ?></td>
+    <td><?php echo $row['cautela']; ?></td>
     <td><?php echo $row['reg_date']; ?></td>
 
     <td class="actions text-right">

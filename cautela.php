@@ -117,7 +117,7 @@ echo "Não foi possível conectar ao banco de dados";
 </div>
   <div class="row">
       <div class="col-lg-1" >
-        <button type="submit" class="btn btn-default btn-lg">Enviar</button>
+        <button type="submit" class="btn btn-default btn-lg">Atualizar</button>
       </div>
       <div class="col-lg-1">
       <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-materialbm4.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
@@ -125,7 +125,7 @@ echo "Não foi possível conectar ao banco de dados";
     </div>
     </form>
 </div>
-
+<div class="container">
 <?php
 
  if(isset($_POST['cautela'])){
@@ -151,7 +151,7 @@ $conn->close();
 }
 
 ?>
-
+</div>
 
 </body>
 </html>

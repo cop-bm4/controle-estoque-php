@@ -1,5 +1,5 @@
 <?php
-
+require 'db.php';
 $id = $_GET['id'];
 $cautelado = $_POST['cautelado'];
 $cautela =  $_POST['cautela'];

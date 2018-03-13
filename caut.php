@@ -9,7 +9,7 @@ $cautela =  $_POST['cautela'];
 $sql= "UPDATE materialoperacional SET cautela='$cautela', cautelado='$cautelado' WHERE id='$id'";
 if ($conn->query($sql) === TRUE) {
     echo "Atualização feita com sucesso";
-    header('mastercadastro-materialbm4.php');
+    header('http://copbm4cbmpa-com-br.umbler.net/mastercadastro-materialbm4.php');
     
     
 } else {

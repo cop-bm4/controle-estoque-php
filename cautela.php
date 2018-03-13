@@ -48,6 +48,7 @@ echo "Não foi possível conectar ao banco de dados";
 
 <div class="container">
     <form method="post" action="caut.php">
+      <div class="row">
       <div class="col-lg-2">
             <div class="input-group">
               <span class="input-group-addon" id="in">Cautela</span>
@@ -95,6 +96,8 @@ echo "Não foi possível conectar ao banco de dados";
             </div>
             <p class="form-text text-muted">Escolha a UBM.</p>
           </div>
+          </div>
+          <div class="row">
 
                <div class="col-lg-4">
         <div class="input-group">
@@ -109,7 +112,7 @@ echo "Não foi possível conectar ao banco de dados";
            </p>
 
       </div>
-
+</div>
   <div class="row">
       <div class="col-lg-1" >
         <button type="submit" class="btn btn-default btn-lg">Enviar</button>

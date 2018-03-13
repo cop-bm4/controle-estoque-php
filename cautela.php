@@ -28,6 +28,8 @@
 </head>
 <body>
 <?php
+$id= $_GET['id'];
+
 require "db.php";
 // Check connection
 if ($conn->connect_error) {
@@ -47,7 +49,7 @@ echo "Não foi possível conectar ao banco de dados";
 </nav>
 
 <div class="container">
-    <form method="post" action="caut.php">
+    <form method="post" action="#">
       <div class="row">
       <div class="col-lg-8">
             <div class="input-group">
@@ -124,7 +126,31 @@ echo "Não foi possível conectar ao banco de dados";
     </form>
 </div>
 
+<?php
 
+ if(isset($_POST['cautela'])){
+
+$cautelado = $_POST['cautelado'];
+$cautela =  $_POST['cautela'];
+
+
+
+$sql= "UPDATE materialoperacional SET cautela='$cautela', cautelado='$cautelado' WHERE id='$id'";
+if ($conn->query($sql) === TRUE) {
+    echo "Atualização feita com sucesso";
+    
+    
+    
+} else {
+    echo "Error updating record: " . $conn->error;
+}
+
+$conn->close();
+
+
+}
+
+?>
 
 
 </body>

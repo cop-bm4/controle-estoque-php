@@ -49,7 +49,7 @@ echo "Não foi possível conectar ao banco de dados";
 <div class="container">
     <form method="post" action="caut.php">
       <div class="row">
-      <div class="col-lg-2">
+      <div class="col-lg-8">
             <div class="input-group">
               <span class="input-group-addon" id="in">Cautela</span>
               <select class="form-control" data-live-search="true" name="cautelado" required>
@@ -99,7 +99,7 @@ echo "Não foi possível conectar ao banco de dados";
           </div>
           <div class="row">
 
-               <div class="col-lg-4">
+               <div class="col-lg-8">
         <div class="input-group">
             
                 <span class="input-group-addon" id="inputGroup-sizing-default">Responsável</span>

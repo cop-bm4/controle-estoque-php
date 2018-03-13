@@ -1,10 +1,10 @@
-<!DOCTYPE HTML>  
+<!DOCTYPE HTML>
 
 <html>
 <head>
 
   <!--login -->
-<?php 
+<?php
 
 
 
@@ -26,24 +26,24 @@
    left: 0;
    bottom: 0;
    width: 100%;
-   
+
    color: black;
    text-align: center;
-   font-size: 12px; 
+   font-size: 12px;
 }
 </style>
 </head>
 
 
-<body>  
+<body>
 <!-- Banco de dados conect-->
 <?php
-require "db.php"; 
+require "db.php";
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 echo "Não foi possível conectar ao banco de dados";
-} 
+}
 ?>
 <!--conec -->
 
@@ -62,7 +62,7 @@ echo "Não foi possível conectar ao banco de dados";
                   <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-embarcacoes.php">Embarcações</a></li>
         </ul>
       </li>
-      
+
 <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Relatórios</a>
  <ul class="dropdown-menu">
@@ -70,11 +70,11 @@ echo "Não foi possível conectar ao banco de dados";
                 <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatoriosvtrs.php">Vtr's</a></li>
                 <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatoriosembarcacoes.php">Embarcações</a></li>
                 </ul>
-              </li>  
+              </li>
 
     </ul>
     <ul class="nav navbar-nav navbar-right">
-     
+
       <li><a href=" http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
   </div>-->
@@ -82,15 +82,15 @@ echo "Não foi possível conectar ao banco de dados";
 
 
 
-   
-<?php $ub = $_SESSION['ubm']; 
+
+<?php $ub = $_SESSION['ubm'];
 
 ?>
 <div class="container">
 <div class="row">
-   
+
     <div class="col-sm-12 text-right h2">
-      
+
         <a class="btn btn-default" href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-materialbm4.php"><i class="fa fa-refresh"></i> Atualizar</a>
       </div>
   </div>
@@ -103,7 +103,7 @@ $result = mysqli_query($conn, $sql);
 ?>
 
 
-   <?php if(mysqli_num_rows ($result) > 0 ): ?>    
+   <?php if(mysqli_num_rows ($result) > 0 ): ?>
 <table class="table table-bordered">
 <thead>
   <tr>
@@ -111,7 +111,7 @@ $result = mysqli_query($conn, $sql);
     <th  >Material</th>
     <th>R. Patrimônial</th>
     <th>Número de Série</th>
-    
+
     <th>Situação</th>
     <th>Atualizado em</th>
     <th> Opções</th>
@@ -120,27 +120,28 @@ $result = mysqli_query($conn, $sql);
 
 
 <tbody>
- <?php while($row = mysqli_fetch_assoc($result)): ?> 
+ <?php while($row = mysqli_fetch_assoc($result)): ?>
 
   <tr>
     <td><?php echo $row['ubm']; ?></td>
     <td><?php echo $row['material'];?> </td>
     <td><?php echo $row['rp']; ?></td>
     <td><?php echo $row['nserie']?></td>
-    
+
     <td><?php echo $row['situacao']; ?></td>
     <td><?php echo $row['reg_date']; ?></td>
-    
+
     <td class="actions text-right">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/masterview.php?id=<?php echo $row['id']; ?>"button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Visualizar</a>
-      <a href="mastereditar.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Editar</a>
-      <a href="http://copbm4cbmpa-com-br.umbler.net/excluir.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default" >
+      <!--<a href="http://copbm4cbmpa-com-br.umbler.net/masterview.php?id=<?php echo $row['id']; ?>"button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Visualizar</a>
+-->
+      <!-- <a href="mastereditar.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Editar</a> -->
+      <!-- <a href="http://copbm4cbmpa-com-br.umbler.net/excluir.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default" > -->
          <i class="fa fa-trash"></i> Excluir</a>
       <a href="http://copbm4cbmpa-com-br.umbler.net/cautela.php?id=<?php echo $row['id']; ?>" button type="button" class ="btn btn-default"><i class="fa fa-pencil"> </i> Cautela </a>   
     </td>
   </tr>
 
-  
+
 
 
 
@@ -149,9 +150,9 @@ $result = mysqli_query($conn, $sql);
 </tbody>
 </table>
 
-<?php else : ?>     
-  <tr>       
-   <td colspan="6">Nenhum registro encontrado.</td>      
+<?php else : ?>
+  <tr>
+   <td colspan="6">Nenhum registro encontrado.</td>
  </tr>
 
 <?php endif;?>

@@ -93,7 +93,7 @@ $ubmss = $_SESSION['ubm'];
                     $sql = "SELECT prefixo, situacao, placa, ubm, defeito FROM materialoperacional WHERE ubm='$ubmss' and prefixo!='' and material='' ";
 					           $result= mysqli_query($conn, $sql);
 					
-					
+					             $n= mysqli_num_rows($result);
                     ?>
 
                     <?php while ($row = mysqli_fetch_assoc($result)):  ?> 
@@ -111,6 +111,7 @@ $ubmss = $_SESSION['ubm'];
                    </tbody>
 
 				</table>
+    Total: <?php echo $n; ?>
 
 </div>
 

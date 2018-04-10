@@ -600,7 +600,12 @@
 
     <?php endif; ?>
 
- 
+ Total: <?php echo $countTotal ?>
+ <br>
+ Total Operantes: <?php echo $countOperantes ?>
+<br>
+ Total Inoperantes: <?php echo $countInoperantes; ?>
+
   </div>
 
   </body>

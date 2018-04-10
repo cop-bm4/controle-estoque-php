@@ -455,6 +455,12 @@ echo "Não foi possível conectar ao banco de dados";
 <?php endif; ?>
 
 
+ Total: <?php echo $countTotal ?>
+ <br>
+ Total Operantes: <?php echo $countOperantes ?>
+<br>
+ Total Inoperantes: <?php echo $countInoperantes; ?>
+
 </div>
 
 </body>

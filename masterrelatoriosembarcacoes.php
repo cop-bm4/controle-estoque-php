@@ -164,7 +164,7 @@
                     $sql = "SELECT embarcacao, situacao, casco, ubm FROM materialoperacional WHERE ubm='$ubms[$i]' and prefixo='' and material='' and embarcacao!='' ";
 					           $result= mysqli_query($conn, $sql);
 					
-					
+					           $n= mysql_num_rows($result);
                     ?>
 
                     <?php while ($row = mysqli_fetch_assoc($result)):  ?> 
@@ -206,7 +206,7 @@
 
                			  $sql = "SELECT embarcacao, situacao, casco, ubm FROM materialoperacional WHERE ubm='$ubs' and prefixo='' and material='' and embarcacao!='' ";
 					$result= mysqli_query($conn, $sql);
-
+$n= mysql_num_rows($result);
                		?>
 
                     <?php while ($row = mysqli_fetch_assoc($result)):  ?> 
@@ -229,7 +229,7 @@
 
 
 <?php endif ?>
-
+Total: <?php  echo $n ?>
 </div>
 
 </body>

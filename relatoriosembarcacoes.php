@@ -94,7 +94,7 @@
 
                     $sql = "SELECT embarcacao, situacao, casco, ubm FROM materialoperacional WHERE ubm='$ubmss' and prefixo='' and material='' and embarcacao!='' ";
                      $result= mysqli_query($conn, $sql);
-          
+                      $n = mysqli_num_rows($result);
           
                     ?>
 
@@ -113,7 +113,7 @@
                    </tbody>
 
         </table>
-
+Total: <?php echo $n; ?>
 </div>
 
 </body>

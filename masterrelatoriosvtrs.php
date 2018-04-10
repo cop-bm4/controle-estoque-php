@@ -184,7 +184,12 @@
 
 			<?php endfor; ?>
 
+        <?php $sql2 = "SELECT prefixo FROM materialoperacional WHERE prefixo!='' ";
+          $result2 = mysqli_query($conn,$sql2);
+          $n2 = mysqli_num_rows($result2);
 
+        ?>
+        Total: <?php echo $n2; ?>
 		<?php endif; ?>
 
 
@@ -222,14 +227,14 @@
                    </tbody>
 
 				</table>
-
+Total: <?php echo $n  ?>
 		
 		<?php endif; ?>	
 
 
 
 <?php endif ?>
-Total: <?php echo $n  ?>
+
 </div>
 
 </body>

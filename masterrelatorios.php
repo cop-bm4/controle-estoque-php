@@ -508,7 +508,7 @@
               <?php for ($j=0; $j <$tamanhonomematerial ; $j++): ?>
                     
                           <?php 
-        $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubms[$i]' and material='$nomematerial[$j]' and material !='' ";
+        $total = "SELECT material,situacao,ubm FROM materialoperacional WHERE ubm='$ubms[$i]' and material='$nomematerial[$j]'  ";
         $operantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubms[$i]' and situacao='Operante' and material='$nomematerial[$j] '";
         $inoperantes = "SELECT situacao FROM materialoperacional WHERE ubm='$ubms[$i]' and situacao='Inoperante' and material='$nomematerial[$j]' ";
       
@@ -530,8 +530,8 @@
 
 
                       <tr>
-                        <th><?php echo $ubms[$i]; ?></th>
-                        <th><?php echo $row['material']; ?></th>
+                        <th><?php echo $ubms[$i] ?></th>
+                        <th><?php echo $nomematerial[$j]; ?></th>
                         <th><?php echo $countOperantes; ?></th>
                         <th><?php echo $countInoperantes; ?></th>
                         <th><?php echo $countTotal; ?></th>
@@ -600,9 +600,9 @@
 
     <?php endif; ?>
 
- Total: <?php echo $countTotal ?>
+ Total: <?php echo $countTotal; ?>
  <br>
- Total Operantes: <?php echo $countOperantes ?>
+ Total Operantes: <?php echo $countOperantes; ?>
 <br>
  Total Inoperantes: <?php echo $countInoperantes; ?>
 

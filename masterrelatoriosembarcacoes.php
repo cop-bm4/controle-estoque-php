@@ -164,7 +164,7 @@
                     $sql = "SELECT embarcacao, situacao, casco, ubm FROM materialoperacional WHERE ubm='$ubms[$i]' and prefixo='' and material='' and embarcacao!='' ";
 					           $result= mysqli_query($conn, $sql);
 					
-					           $n= mysqli_num_rows($result);
+					       
                     ?>
 
                     <?php while ($row = mysqli_fetch_assoc($result)):  ?> 
@@ -183,9 +183,10 @@
 
 
 			<?php endfor; ?>
-
-
-		<?php endif; ?>
+<?php
+    $n= mysqli_num_rows($result);
+		?>
+    <?php endif; ?>
 
 
 		<?php if ($_POST['ub']!='qualquer'): ?>

@@ -1,9 +1,9 @@
 <?php
 
-$servername = "mysql785.umbler.com";
-$username = "joaluz";
-$password = "joao99945222";
-$db = "materialcontrol"; 
+$servername = "mysql857.umbler.com";
+$username = "copbm4";
+$password = "copbm4123";
+$db = "copbm4"; 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
 

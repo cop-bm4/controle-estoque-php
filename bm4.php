@@ -39,12 +39,12 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="http://copbm4cbmpa-com-br.umbler.net/"> SISCOMP </a>
+      <a class="navbar-brand" href="http://bm4cop-org.umbler.net/"> SISCOMP </a>
     </div>
     
     <ul class="nav navbar-nav navbar-right">
       
-      <li><a href="http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+      <li><a href="http://bm4cop-org.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
   </div>
 </nav>
@@ -63,7 +63,7 @@
       
       	
 <div class="thumbnail">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-materialbm4.php">
+      <a href="http://bm4cop-org.umbler.net/mastercadastro-materialbm4.php">
 
         <div class="caption">
         <h3 align="center">        Material BM4</h3>
@@ -76,7 +76,7 @@
     <div class="col-sm-4">
 
       <div class="thumbnail">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrsbm4.php">
+      <a href="http://bm4cop-org.umbler.net/mastercadastro-vtrsbm4.php">
         <div class="caption">
         <h3 align="center">       VTRS BM4 </h3>
         </div>

@@ -50,29 +50,29 @@ echo "Não foi possível conectar ao banco de dados";
       <a class="navbar-brand" href="#"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="http://copbm4cbmpa-com-br.umbler.net/masterhome.php">Home</a></li>
+      <li ><a href="http://bm4cop-org.umbler.net/masterhome.php">Home</a></li>
       <li class= "active" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php">Registro<span class="caret"></span></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://bm4cop-org.umbler.net/mastercadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php" >Material</a></li>
-          <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php">VTRS</a></li>
-                  <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-embarcacoes.php">Embarcações</a></li>
+          <li><a href="http://bm4cop-org.umbler.net/mastercadastro-material.php" >Material</a></li>
+          <li><a href="http://bm4cop-org.umbler.net/mastercadastro-vtrs.php">VTRS</a></li>
+                  <li><a href="http://bm4cop-org.umbler.net/mastercadastro-embarcacoes.php">Embarcações</a></li>
         </ul>
       </li>
       
 <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Relatórios</a>
  <ul class="dropdown-menu">
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatorios.php"> Material</a></li>
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatoriosvtrs.php">Vtr's</a></li>
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatoriosembarcacoes.php">Embarcações</a></li>
+                <li><a href="http://bm4cop-org.umbler.net/masterrelatorios.php"> Material</a></li>
+                <li><a href="http://bm4cop-org.umbler.net/masterrelatoriosvtrs.php">Vtr's</a></li>
+                <li><a href="http://bm4cop-org.umbler.net/masterrelatoriosembarcacoes.php">Embarcações</a></li>
                 </ul>
               </li>  
 
     </ul>
     <ul class="nav navbar-nav navbar-right">
      
-      <li><a href=" http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+      <li><a href=" http://bm4cop-org.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
   </div>
 </nav>
@@ -89,8 +89,8 @@ echo "Não foi possível conectar ao banco de dados";
 <div class="row">
    
     <div class="col-sm-12 text-right h2">
-        <a class="btn btn-primary" href="http://copbm4cbmpa-com-br.umbler.net/cadastronovoembarcacoes.php"><i class="fa fa-plus"></i> Nova Embarcação</a> 
-        <a class="btn btn-default" href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-embarcacoes.php"><i class="fa fa-refresh"></i> Atualizar</a>
+        <a class="btn btn-primary" href="http://bm4cop-org.umbler.net/cadastronovoembarcacoes.php"><i class="fa fa-plus"></i> Nova Embarcação</a> 
+        <a class="btn btn-default" href="http://bm4cop-org.umbler.net/mastercadastro-embarcacoes.php"><i class="fa fa-refresh"></i> Atualizar</a>
       </div>
   </div>
 
@@ -129,10 +129,10 @@ $result = mysqli_query($conn, $sql);
     <td><?php echo $row['reg_date']; ?></td>
     
     <td class="actions text-right">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/masterviewembarcacoes.php?id=<?php echo $row['id']; ?>"button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Visualizar</a>
+      <a href="http://bm4cop-org.umbler.net/masterviewembarcacoes.php?id=<?php echo $row['id']; ?>"button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Visualizar</a>
       <a href="mastereditarembarcacoes.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Editar</a>
 
-      <a href="http://copbm4cbmpa-com-br.umbler.net/excluirembarcacoes.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default" >
+      <a href="http://bm4cop-org.umbler.net/excluirembarcacoes.php?id=<?php echo $row['id']; ?>" button type="button" class="btn btn-default" >
          <i class="fa fa-trash"></i> Excluir</a>
     </td>
   </tr>

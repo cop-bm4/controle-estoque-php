@@ -10,7 +10,7 @@ require 'db.php';
 ?>
 	<title>Visualizar</title>
 
-<link rel="stylesheet" type="text/css" href="http://copbm4cbmpa-com-br.umbler.net/estilo.css"/>
+<link rel="stylesheet" type="text/css" href="http://bm4cop-org.umbler.net/estilo.css"/>
 	 <meta charset="utf-8">
   
 <!--mod mobile-->
@@ -42,29 +42,29 @@ require 'db.php';
       <a class="navbar-brand" href="#"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="http://copbm4cbmpa-com-br.umbler.net/masterhome.php">Home</a></li>
+      <li ><a href="http://bm4cop-org.umbler.net/masterhome.php">Home</a></li>
       <li class= "active" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php">Registro<span class="caret"></span></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://bm4cop-org.umbler.net/mastercadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-material.php" >Material</a></li>
-          <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-vtrs.php">VTRS</a></li>
-          <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-embarcacoes.php">Embarcações</a></li>
+          <li><a href="http://bm4cop-org.umbler.net/mastercadastro-material.php" >Material</a></li>
+          <li><a href="http://bm4cop-org.umbler.net/mastercadastro-vtrs.php">VTRS</a></li>
+          <li><a href="http://bm4cop-org.umbler.net/mastercadastro-embarcacoes.php">Embarcações</a></li>
         </ul>
       </li>
       
  <li class="dropdown">
       					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Relatórios</a>
       				 <ul class="dropdown-menu">
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatorios.php"> Material</a></li>
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatoriosvtrs.php">Vtr's</a></li>
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/masterrelatoriosembarcacoes.php">Embarcações</a></li>
+                <li><a href="http://bm4cop-org.umbler.net/masterrelatorios.php"> Material</a></li>
+                <li><a href="http://bm4cop-org.umbler.net/masterrelatoriosvtrs.php">Vtr's</a></li>
+                <li><a href="http://bm4cop-org.umbler.net/masterrelatoriosembarcacoes.php">Embarcações</a></li>
                 </ul>
       				</li>	 
 
     </ul>
     <ul class="nav navbar-nav navbar-right">
      
-      <li><a href=" http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+      <li><a href=" http://bm4cop-org.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
   </div>
 </nav>
@@ -155,7 +155,7 @@ $row = mysqli_fetch_assoc($result);
     </div>
   </div>
 
-  <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-embarcacoes.php"  button type="button" class="btn btn-default btn-lg"  class="">Voltar</a>
+  <a href="http://bm4cop-org.umbler.net/mastercadastro-embarcacoes.php"  button type="button" class="btn btn-default btn-lg"  class="">Voltar</a>
  </div>
   
  

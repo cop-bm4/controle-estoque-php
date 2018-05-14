@@ -45,7 +45,7 @@ echo "Não foi possível conectar ao banco de dados";
       <a class="navbar-brand" href="#"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li><a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-materialbm4.php"> VOLTAR</a></li>
+      <li><a href="http://bm4cop-org.umbler.net/mastercadastro-materialbm4.php"> VOLTAR</a></li>
 </nav>
 
 <div class="container">
@@ -121,7 +121,7 @@ echo "Não foi possível conectar ao banco de dados";
       </div>
 
       <div class="col-lg-2">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/mastercadastro-materialbm4.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
+      <a href="http://bm4cop-org.umbler.net/mastercadastro-materialbm4.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
       </div>
     </div>
     </form>

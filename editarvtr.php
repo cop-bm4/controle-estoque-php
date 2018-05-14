@@ -52,29 +52,29 @@ echo "Não foi possível conectar ao banco de dados";
       <a class="navbar-brand" href="#"> SISCOMP </a>
     </div>
     <ul class="nav navbar-nav">
-      <li ><a href="http://copbm4cbmpa-com-br.umbler.net/cascohome.php">Home</a></li>
+      <li ><a href="http://bm4cop-org.umbler.net/cascohome.php">Home</a></li>
       <li class= "active" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="http://copbm4cbmpa-com-br.umbler.net/cascocadastro-material.php">Registro<span class="caret"></span></a>
+        <a class="dropdown-toggle" data-toggle="dropdown" href="http://bm4cop-org.umbler.net/cascocadastro-material.php">Registro<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="http://copbm4cbmpa-com-br.umbler.net/cascocadastro-material.php" >Material</a></li>
-          <li><a href="http://copbm4cbmpa-com-br.umbler.net/cascocadastro-vtrs.php">VTRS</a></li>
-                  <li><a href="http://copbm4cbmpa-com-br.umbler.net/cascocadastro-embarcacoes.php">Embarcações</a></li>
+          <li><a href="http://bm4cop-org.umbler.net/cascocadastro-material.php" >Material</a></li>
+          <li><a href="http://bm4cop-org.umbler.net/cascocadastro-vtrs.php">VTRS</a></li>
+                  <li><a href="http://bm4cop-org.umbler.net/cascocadastro-embarcacoes.php">Embarcações</a></li>
         </ul>
       </li>
       
 <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Relatórios</a>
  <ul class="dropdown-menu">
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/cascorelatorios.php"> Material</a></li>
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/cascorelatoriosvtrs.php">Vtr's</a></li>
-                <li><a href="http://copbm4cbmpa-com-br.umbler.net/cascorelatoriosembarcacoes.php">Embarcações</a></li>
+                <li><a href="http://bm4cop-org.umbler.net/cascorelatorios.php"> Material</a></li>
+                <li><a href="http://bm4cop-org.umbler.net/cascorelatoriosvtrs.php">Vtr's</a></li>
+                <li><a href="http://bm4cop-org.umbler.net/cascorelatoriosembarcacoes.php">Embarcações</a></li>
                 </ul>
               </li>  
 
     </ul>
     <ul class="nav navbar-nav navbar-right">
      
-      <li><a href=" http://copbm4cbmpa-com-br.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+      <li><a href=" http://bm4cop-org.umbler.net/logout.php "><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
   </div>
 </nav>
@@ -313,7 +313,7 @@ $row = mysqli_fetch_assoc($result);
         <button type="submit" class="btn btn-default btn-lg" name="btt">Enviar</button>
       </div>
       <div class="col-lg-1">
-      <a href="http://copbm4cbmpa-com-br.umbler.net/cadastro-vtrs.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
+      <a href="http://bm4cop-org.umbler.net/cadastro-vtrs.php" class="btn btn-default btn-lg active" role="button" aria-pressed="true">Voltar</a>
       </div>
     </div>
    

@@ -47,7 +47,7 @@
 <div class="container">
   <div class="jumbotron">
     <h1>MRM</h1> 
-    <p class="text-danger">Mapa de registro de viaturas</p> 
+    <p class="text-danger">Mapa de registro de missões</p> 
 
   </div>
   </div>

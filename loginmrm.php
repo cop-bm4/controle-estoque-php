@@ -37,10 +37,7 @@
     <ul class="nav navbar-nav">
    	
    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="http://bm4cop-org.umbler.net/login.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
-      
-    </ul>
+    
   </div>
 </nav>
 

@@ -21,8 +21,8 @@
 
 .spanborder> div{
   background-color:#eee;
-   border: 1px solid #888;
-   border-radius:3px;
+   border: 5px solid #888;
+   border-radius:10px;
 
 }
 </style>

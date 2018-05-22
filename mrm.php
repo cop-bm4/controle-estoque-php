@@ -29,6 +29,20 @@
 </div>
 
 
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Evento: </h3>
+      <p class="font-weight-bold">Data/hora: </p> <p>ech</p>
+      <p class="font-weight-bold">Local: </p> <p>Local </p>
+      <p class="font-weight-bold">Destino</p> <p>Destino</p>
+      <p class="font-weight-bold">vtr</p> <p>vtr</p>
+      <p class="font-weight-bold">condutor</p> <p>condutor</p>
+      <p class="font-weight-bold">protocolo</p> <p>protocolo</p>
+    </div>
+  </div>
+</div>
+
 
 <div class="footer">
   <p>© 2018 BM4/COP CBM-PA    V.C João Luz </p>

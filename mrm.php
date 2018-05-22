@@ -40,9 +40,10 @@
       <p class="font-weight-bold">vtr: </p> 
       <p class="font-weight-bold">condutor: </p> 
       <p class="font-weight-bold">protocolo: </p> 
+    </span>
     </div>
   </div>
- </span>
+ 
 </div>
 
 

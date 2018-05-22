@@ -40,7 +40,7 @@
 <div class="container">
   
   <div class="row">
-    <div class="spanborder">
+  
     <div class="col-sm-4">
       
       <h3>Evento: </h3>
@@ -52,7 +52,7 @@
       <p class="font-weight-bold">protocolo: </p> 
     
     </div>
-  </div>
+  
  </div>
 </div>
 

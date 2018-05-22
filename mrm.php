@@ -18,7 +18,16 @@
    text-align: center;
    font-size: 12px;
 }
+
+.spanborder> div{
+  background-color:#eee;
+   border: 1px solid #888;
+   border-radius:3px;
+
+}
 </style>
+
+
 </head>
 <body>
 
@@ -31,8 +40,9 @@
 <div class="container">
   
   <div class="row">
+    <div class="spanborder">
     <div class="col-sm-4">
-      <span class="border border-danger"></span>
+      
       <h3>Evento: </h3>
       <p class="font-weight-bold">Data/hora: </p> 
       <p class="font-weight-bold">Local: </p> 
@@ -43,7 +53,7 @@
     
     </div>
   </div>
- 
+ </div>
 </div>
 
 

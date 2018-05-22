@@ -27,7 +27,7 @@
   <h2>Mapa de registro de missão.</h2>
 </div>
 
-<span class="border border-danger">
+<span class="border border-danger">s</span>
 <div class="container">
   
   <div class="row">
@@ -41,9 +41,9 @@
       <p class="font-weight-bold">protocolo: </p> 
     </div>
   </div>
- 
+
 </div>
- </span>
+ 
 
 <div class="footer">
   <p>© 2018 BM4/COP CBM-PA    V.C João Luz </p>

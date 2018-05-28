@@ -34,7 +34,6 @@
   <h2>Mapa de Registro de Missão.</h2>
 </div>
 
-
 <div class="container">
   
   <div class="row">

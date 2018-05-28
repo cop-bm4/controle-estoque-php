@@ -31,7 +31,7 @@
 
 	<div class="jumbotron text-center">
   <h1>BM4</h1>
-  <h2>Mapa de registro de missão.</h2>
+  <h2>Mapa de Registro de Missão.</h2>
 </div>
 
 
@@ -45,13 +45,14 @@
       <p class="font-weight-bold">Data/hora: </p> 
       <p class="font-weight-bold">Local: </p> 
       <p class="font-weight-bold">Destino: </p> 
-      <p class="font-weight-bold">vtr: </p> 
-      <p class="font-weight-bold">condutor: </p> 
-      <p class="font-weight-bold">protocolo: </p> 
-    
+      <p class="font-weight-bold">Vtr: </p> 
+      <p class="font-weight-bold">Condutor: </p> 
+      <p class="font-weight-bold">Protocolo: </p> 
+          
     </div>
   
  </div>
+
 </div>
 
 

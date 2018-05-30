@@ -29,6 +29,19 @@
 </head>
 <body>
 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">MRM</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="http://bm4cop-org.umbler.net/mrm/login.php"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
+    </ul>
+  </div>
+</nav>
+   
+ </div> 
+
 	<div class="jumbotron text-center">
   <h1>BM4</h1>
   <h2>Mapa de Registro de Missão.</h2>

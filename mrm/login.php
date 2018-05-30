@@ -56,20 +56,22 @@
 
   
 <div class="container">
-<form method="post" class="input-group" action="validalogin.php" id="formlogin" name="formlogin">
+	<form method="post" class="input-group" action="validalogin.php" id="formlogin" name="formlogin">
 
- <div class="input-group input-group-lg">
-    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-    <input id="login" type="text" class="form-control" name="login" placeholder="login">
-  </div>
-  <div class="input-group input-group-lg">
-    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-    <input id="senha" type="password" class="form-control" name="senha" placeholder="senha">
-  </div>
-  <input type="submit" class="btn  btn-lg" value="LOGAR "  />
+ 		<div class="input-group input-group-lg">
+    		<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    			<input id="login" type="text" class="form-control" name="login" placeholder="login">
+  		</div>
+  		
+  		<div class="input-group input-group-lg">
+    		<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    			<input id="senha" type="password" class="form-control" name="senha" placeholder="senha">
+  		</div>
+  
+ 		 <input type="submit" class="btn  btn-lg" value="LOGAR "  />
+	</form>
 
-  </div>
-</form>
+</div>
 
 
 

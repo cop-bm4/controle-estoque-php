@@ -40,8 +40,8 @@
   
     <div class="col-sm-4">
       
-      <h3><div class="d-inline p-2 bg-danger text-center text-white">>Evento: </div></h3>
-      <p class="font-weight-bold"><div class="d-inline p-2 bg-danger text-center text-white">Data/hora: </div></p> 
+      <h3>Evento: </h3>
+      <p class="font-weight-bold">Data/hora: </p> 
       <p class="font-weight-bold">Local: </p> 
       <p class="font-weight-bold">Destino: </p> 
       <p class="font-weight-bold">Vtr: </p> 

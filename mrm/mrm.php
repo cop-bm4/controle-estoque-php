@@ -36,7 +36,7 @@
       <a class="navbar-brand" href="#">MRM</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="http://bm4cop-org.umbler.net/mrm/login.php"><span class="glyphicon glyphicon-user"></span> Login </a></li>
+      <li class="text-gray-dark"><a href="http://bm4cop-org.umbler.net/mrm/login.php"><span class="glyphicon glyphicon-user"></span> Login </a></li>
     </ul>
   </div>
 </nav>

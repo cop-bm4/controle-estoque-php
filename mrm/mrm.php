@@ -34,13 +34,11 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
   <a class="navbar-brand" href="#">MRM</a>
-  <ul class="nav navbar-nav navbar-right">
-    <li><a href="http://bm4cop-org.umbler.net/mrm/login.php"></a>Login</li>
+  <ul class="nav navbar-nav navbar-right" class="mr-5">
+    <li><a href="http://bm4cop-org.umbler.net/mrm/login.php" class="text-white">Login</a></li>
     
   </ul>
-   <span class="navbar-text">
-      Navbar text with an inline element
-    </span>
+  
 </nav>
    
  

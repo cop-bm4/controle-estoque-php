@@ -89,6 +89,18 @@
     </div>
   
 
+   <div class="col-sm-3">
+      <div class="alert alert-dark" role="alert">
+        <h3 class="alert-heading">Evento: </h3>
+        <p class="font-weight-bold">Data/hora: </p> 
+        <p class="font-weight-bold">Local: </p> 
+        <p class="font-weight-bold">Destino: </p> 
+        <p class="font-weight-bold">Vtr: </p> 
+        <p class="font-weight-bold">Condutor: </p> 
+        <p class="font-weight-bold">Protocolo: </p> 
+      </div>
+    </div>
+
  </div>
 </div>
 

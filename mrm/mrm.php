@@ -39,7 +39,7 @@
   <div class="row">
   
     <div class="col-sm-4">
-      
+      <div class="alert alert-danger" role="alert">
       <h3>Evento: </h3>
       <p class="font-weight-bold">Data/hora: </p> 
       <p class="font-weight-bold">Local: </p> 
@@ -47,7 +47,7 @@
       <p class="font-weight-bold">Vtr: </p> 
       <p class="font-weight-bold">Condutor: </p> 
       <p class="font-weight-bold">Protocolo: </p> 
-          
+          </div>
     </div>
   
  </div>

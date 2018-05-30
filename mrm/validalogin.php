@@ -14,7 +14,7 @@ if ($conn->maxdb_connect_error()) {
 
 
 
-$sql= "SELECT login, senha FROM materialoperacional WHERE 'login' = '$login' AND 'senha'='$senha'";
+$sql= "SELECT login, senha FROM usuarios WHERE 'login' = '$login' AND 'senha'='$senha'";
 
 $result =  mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);

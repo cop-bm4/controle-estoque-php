@@ -3,11 +3,17 @@
 <head>
 	<title>login MRM</title>
 <meta charset="utf-8">
+  
+<!--mod mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!---->
+  <!-- include bibliotecas bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!---->
+
+
 <style>
 .footer {
    position: fixed;
@@ -19,24 +25,36 @@
    text-align: center;
 }
 </style>
+
+
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand/logo -->
-  <a class="navbar-brand" href="http://bm4cop-org.umbler.net/mrm/mrm.php">MRM</a>
-  <ul>
-    <li><a href="http://bm4cop-org.umbler.net/mrm/login.php" class="text-white">Login</a></li>
-  </ul>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"> MRM </a>
+    </div>
+    <ul class="nav navbar-nav">
+     
+      
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      
+    </ul>
+  </div>
 </nav>
 
+<div class="container">
+  <div class="jumbotron">
+    <h1>MRM</h1> 
+    <p class="text-danger">Mapa de Registro de Missões</p> 
 
-<div class="jumbotron text-center">
-  <h1>BM4</h1>
-  <h2>Mapa de Registro de Missão.</h2>
+  </div>
 </div>
 
 
+  
 <div class="container">
 <form method="post" class="input-group" action="validalogin.php" id="formlogin" name="formlogin">
 
@@ -52,6 +70,9 @@
 
   </div>
 </form>
+
+
+
 
 
 

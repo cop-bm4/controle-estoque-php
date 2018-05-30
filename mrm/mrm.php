@@ -35,7 +35,7 @@
 </div>
 
 <div class="container">
-  
+  <div class="d-inline p-2 bg-danger text-center text-white">
   <div class="row">
   
     <div class="col-sm-4">
@@ -51,7 +51,7 @@
     </div>
   
  </div>
-
+</div>
 </div>
 
 <

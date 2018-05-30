@@ -38,7 +38,7 @@
   
   <div class="row">
   
-    <div class="col-sm-4">
+    <div class="col-sm-3">
       <div class="alert alert-dark" role="alert">
       <h3 class="alert-heading">Evento: </h3>
       <p class="font-weight-bold">Data/hora: </p> 

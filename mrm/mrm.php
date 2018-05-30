@@ -38,6 +38,9 @@
     <li><a href="http://bm4cop-org.umbler.net/mrm/login.php"></a>Login</li>
     
   </ul>
+   <span class="navbar-text">
+      Navbar text with an inline element
+    </span>
 </nav>
    
  

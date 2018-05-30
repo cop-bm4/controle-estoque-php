@@ -35,13 +35,13 @@
 </div>
 
 <div class="container">
-  <div class="d-inline p-2 bg-danger text-center text-white">
+  
   <div class="row">
   
     <div class="col-sm-4">
       
       <h3>Evento: </h3>
-      <p class="font-weight-bold">Data/hora: </p> 
+      <p class="font-weight-bold"><div class="d-inline p-2 bg-danger text-center text-white">Data/hora: </div></p> 
       <p class="font-weight-bold">Local: </p> 
       <p class="font-weight-bold">Destino: </p> 
       <p class="font-weight-bold">Vtr: </p> 
@@ -52,7 +52,7 @@
   
  </div>
 </div>
-</div>
+
 
 <
 

@@ -30,20 +30,27 @@
 
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">MRM</a>
-    </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li class="text-gray-dark"><a href="http://bm4cop-org.umbler.net/mrm/login.php"><span class="oi oi-account-login"></span> Login </a></li>
-    </ul>
-  </div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">MRM</a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 3</a>
+    </li>
+  </ul>
 </nav>
    
- </div> 
-
-	<div class="jumbotron text-center">
+ 
+<div class="jumbotron text-center">
   <h1>BM4</h1>
   <h2>Mapa de Registro de Missão.</h2>
 </div>

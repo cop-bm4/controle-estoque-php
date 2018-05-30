@@ -34,7 +34,7 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
   <a class="navbar-brand" href="#">MRM</a>
-  <ul class="nav-justified mr-10">
+  <ul>
     <li><a href="http://bm4cop-org.umbler.net/mrm/login.php" class="text-white">Login</a></li>
     
   </ul>

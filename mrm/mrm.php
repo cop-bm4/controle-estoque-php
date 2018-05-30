@@ -34,13 +34,13 @@
   <h2>Mapa de Registro de Missão.</h2>
 </div>
 
-<div class="container">
+<div class="container-fluid">
   
   <div class="row">
   
     <div class="col-sm-4">
-      <div class="alert alert-danger" role="alert">
-      <h3>Evento: </h3>
+      <div class="alert alert-dark" role="alert">
+      <h3 class="alert-heading">Evento: </h3>
       <p class="font-weight-bold">Data/hora: </p> 
       <p class="font-weight-bold">Local: </p> 
       <p class="font-weight-bold">Destino: </p> 
@@ -54,7 +54,7 @@
 </div>
 
 
-<
+
 
 <div class="footer">
   <p>© 2018 BM4/COP CBM-PA    V.C João Luz </p>

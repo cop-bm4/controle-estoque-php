@@ -33,7 +33,7 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#"> MRM </a>
+      <a class="navbar-brand" href="http://bm4cop-org.umbler.net/mrm/mrm.php"> MRM </a>
     </div>
     <ul class="nav navbar-nav">
      

@@ -22,6 +22,7 @@ $count = mysqli_num_rows($result);
 if (mysqli_num_rows($result)>0) {
 $_SESSION['login'] = $login;
 $_SESSION['senha'] = $senha;
+$_SESSION['count'] = $count;
 	header('location:home.php');
 	echo $count;
 }
@@ -29,6 +30,7 @@ $_SESSION['senha'] = $senha;
 else{
 	header('location:credenciaisinvalidas.php');
 	echo $count;
+	$_SESSION['count'] = $count;
 }
 
 ?>

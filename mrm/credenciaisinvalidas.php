@@ -7,8 +7,10 @@ require 'head.php';
 <div class="container-fluid">
 	<p>Login ou senha inválido.</p>
 </div>
-
-
+<?php
+$contador = $_SESSION['count'];
+echo $contador;
+?>
 
 
 

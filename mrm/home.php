@@ -29,7 +29,7 @@ require 'head.php';
 		<!-- div militar -->
 		<div class="col-sm-4">
 			<div class="alert alert-dark"  role="alert">
-				<h3 ><strong>Militar</strong></h3>
+				<h3 ><strong>Militar</strong></h3>			
 			</div>
 		</div>
 

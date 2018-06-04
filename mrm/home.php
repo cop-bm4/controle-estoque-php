@@ -4,6 +4,7 @@
 <?php 
 require 'head.php';
 ?>
+<?php require "credenciais.php" ?>
 </head>
 <body>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -12,16 +13,42 @@ require 'head.php';
   
 </nav>
 
+
+
 <div class="container">
 	<div class="row"> 
+		<!-- div missao -->
 		<div class="col-sm-4">
 			<div class="alert alert-dark" role="alert">
-				
+				<h3><strong>Missões</strong></h3>
+
 			</div>
 		</div>
-	
+
+		
+		<!-- div militar -->
+		<div class="col-sm-4">
+			<div class="alert alert-dark"  role="alert">
+				<h3 ><strong>Militar</strong></h3>
+			</div>
+		</div>
+
+
+		<!-- div viaturas -->
+		<div class="col-sm-4">
+			<div class="alert alert-dark"  role="alert">
+				<h3 ><strong>Viaturas</strong></h3>
+			</div>
+		</div>
+
+
+
+
 	</div>
 </div>
+
+
+
 
 
 

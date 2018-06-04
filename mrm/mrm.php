@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!--
 	<title>MRM</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,6 +27,10 @@
 
 }
 </style>
+-->
+<?php
+require 'head.php';
+?>
 </head>
 
 <body>

@@ -8,7 +8,7 @@ $senha = $_POST['senha'];
 
 require "db.php";
 
-if ($conn->maxdb_connect_error()) {
+if ($conn->connect_error) {
 	die("Connection failed". $conn->connect_error);
 }
 

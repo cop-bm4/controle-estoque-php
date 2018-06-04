@@ -3,8 +3,8 @@
 <head>
 <?php 
 require 'head.php';
-?>
-<?php require "credenciais.php" ?>
+require "credenciais.php";
+ ?>
 </head>
 <body>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">

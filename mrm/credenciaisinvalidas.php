@@ -5,7 +5,7 @@ require 'head.php';
 ?>
 <body>
 <div class="container-fluid">
-	<p>Login ou senha inválidos.</p>
+	<p>Login ou senha inválido.</p>
 </div>
 
 

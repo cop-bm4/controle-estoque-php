@@ -19,7 +19,7 @@ require "credenciais.php";
 	<div class="row"> 
 		<!-- div missao -->
 		<div class="col-sm-4">
-			<div class="alert alert-dark" role="alert">
+			<div class="alert alert-danger" role="alert">
 				<h3><strong>Missões</strong></h3>
 
 			</div>
@@ -28,7 +28,7 @@ require "credenciais.php";
 		
 		<!-- div militar -->
 		<div class="col-sm-4">
-			<div class="alert alert-dark"  role="alert">
+			<div class="alert alert-danger"  role="alert">
 				<h3 ><strong>Militar</strong></h3>			
 			</div>
 		</div>
@@ -36,7 +36,7 @@ require "credenciais.php";
 
 		<!-- div viaturas -->
 		<div class="col-sm-4">
-			<div class="alert alert-dark"  role="alert">
+			<div class="alert alert-danger"  role="alert">
 				<h3 ><strong>Viaturas</strong></h3>
 			</div>
 		</div>

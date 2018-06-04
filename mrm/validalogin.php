@@ -19,7 +19,12 @@ $sql= "SELECT login, senha FROM usuarios WHERE 'login' = '$login' AND 'senha'='$
 $result =  mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 
-
-
+if (mysqli_num_rows($result)>0) {
+	header('location:home.php');
+}
+else{
+	header('location:credenciasinvalidas.php');
+	
+}
 
 ?>

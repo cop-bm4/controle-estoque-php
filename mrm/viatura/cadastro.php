@@ -15,7 +15,7 @@ require 'db.php';
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
-  <a class="navbar-brand" href="#">Cadastro</a>
+  <a class="navbar-brand" href="http://bm4cop-org.umbler.net/mrm/home.php">home</a>
   
 </nav>
 
@@ -80,7 +80,7 @@ $sql ="INSERT INTO viaturas(placa, prefixo) VALUES ('$placa','$prefixo')";
 	<div class="row">
 		 <div class="col-sm-12 text-right h2">
         <!-- <a class="btn btn-primary" href="http://bm4cop-org.umbler.net/cadastronovo.php"><i class="fa fa-plus"></i> Novo Material</a> -->
-        <a class="btn btn-default" href="http://bm4cop-org.umbler.net/cadastro-embarcacoes.php"><i class="fa fa-refresh"></i> Atualizar</a>
+        <a class="btn btn-default" href="http://bm4cop-org.umbler.net/mrm/viatura/cadastro.php"><i class="fa fa-refresh"></i> Atualizar</a>
       </div>
 	</div>
 

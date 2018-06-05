@@ -14,7 +14,7 @@ require 'credenciais.php';
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
-  <a class="navbar-brand" href="bm4cop-org.umbler.net/mrm/home.php">Home</a>
+  <a class="navbar-brand" href="#">Cadastro</a>
   
 </nav>
 
@@ -52,26 +52,28 @@ require 'credenciais.php';
 
 
 <br>
-<?php if(isset($_POST['pesquisar']) ): ?>
-<?php
-require 'http://bm4cop-org.umbler.net/db.php';
+<div class="container">
+<?php if(isset($_POST['pesquisar']) ){
+
+
+require 'db.php';
 $prefixo = $_POST['prefixo'];
 $placa = $_POST['placa'];
 
 $sql ="INSERT INTO viaturas(placa, prefixo) VALUES ('$placa','$prefixo')";
+	if($conn->query($sql) === TRUE){
+		echo "Cadasto realizado com sucesso";
+
+
+	}	
+} 
+
 
 ?>
-
-<?php  if($conn->query($sql) === TRUE): ?>
-
-<div class="container">
-	<h3>Cadastro realizado com sucesso</h3>
-	<br>
-	<a href="http://bm4cop-org.umbler.net/mrm/viaturas/cadastro.php" class="btn btn-info" role="button">Novo </a>
 </div>
 
-<?php endif ?>
-<?php endif ?>
+
+
 
 <?php 
 require 'footer.php';

@@ -49,18 +49,25 @@ require 'credenciais.php';
 </form>
 
 
-
+<br>
 <?php
 require 'http://bm4cop-org.umbler.net/db.php';
 $prefixo = $_POST['prefixo'];
 $placa = $_POST['placa'];
 
+$sql ="INSERT INTO viaturas (placa, prefixo) VALUES ('$placa','$prefixo')";
 
 
+<?php if
+if ($conn->query($sql) === TRUE): ?>
 
+<div class="container">
+	<h3>Cadastro realizado com sucesso</h3>
+	<br>
+	<a href="http://bm4cop-org.umbler.net/mrm/viaturas/cadastro.php" class="btn btn-info" role="button">Novo </a>
+</div>
 
-
-?>
+<?php endif ?>
 
 
 <?php 

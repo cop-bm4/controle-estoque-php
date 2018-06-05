@@ -29,7 +29,7 @@ require 'credenciais.php';
 		<div class="col-sm-4">
 			<div class="alert alert-danger" role="alert">
 				<h3><strong>Missões</strong></h3>
-				<button type="button" class="btn btn-success" class="gl"></button>
+				<button type="button" class="btn btn-success" class="glyphicon glyphicon-plus-sign" <a href="/mrm/missao/cadastro.php"></a></button>
 						
 			</div>
 		</div>

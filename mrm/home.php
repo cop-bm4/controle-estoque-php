@@ -26,8 +26,8 @@ require 'credenciais.php';
 		<div class="col-sm-4">
 			<div class="alert alert-success" role="alert">
 				<h3><strong>Missões</strong></h3>
-				 <a href="#" class="btn btn-info btn-lg">
-          <span class="glyphicon glyphicon-pencil"></span> Pl 
+				 <a href="#" class="btn btn-info btn-lg" class="text-center">
+          <span class="glyphicon glyphicon-plus"></span> Nova 
         </a>
 						
 			</div>
@@ -46,6 +46,9 @@ require 'credenciais.php';
 		<div class="col-sm-4">
 			<div class="alert alert-success"  role="alert">
 				<h3 ><strong>Viaturas</strong></h3>
+					 <a href="#" class="btn btn-info btn-lg" class="text-center">
+          <span class="glyphicon glyphicon-plus"></span> Nova 
+        </a>
 			</div>
 		</div>
 

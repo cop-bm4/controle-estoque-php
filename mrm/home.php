@@ -27,7 +27,7 @@ require 'credenciais.php';
 			<div class="alert alert-success" role="alert">
 				<h3><strong>Missões</strong></h3>
 				 <a href="#" class="btn btn-info btn-lg">
-          <span class="glyphicon glyphicon-pencil"></span> Plus 
+          <span class="glyphicon glyphicon-pencil"></span> Pl 
         </a>
 						
 			</div>

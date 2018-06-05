@@ -14,7 +14,7 @@ require 'credenciais.php';
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
-  <a class="navbar-brand" href="bm4cop-org.umbler.net/mrm/home.php">Home</a>
+  <a class="navbar-brand" href="#">Cadastro</a>
   
 </nav>
 
@@ -55,7 +55,7 @@ require 'credenciais.php';
 <?php if(isset($_POST['pesquisar']) ){
 
 
-require 'http://bm4cop-org.umbler.net/db.php';
+require 'db.php';
 $prefixo = $_POST['prefixo'];
 $placa = $_POST['placa'];
 

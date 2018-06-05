@@ -4,6 +4,7 @@
 <?php
 require 'head.php';
 require 'credenciais.php';
+require 'db.php';
 
 ?>
 
@@ -40,7 +41,7 @@ require 'credenciais.php';
   								<div class="input-group-prepend">
     								<span class="input-group-text" id="BAS">Placa</span>
  							 	</div>
-  								<input type="text" class="form-control" id="BAS" aria-describedby="basic-addon3" nome="placa">
+  								<input type="text" class="form-control" id="BAS" aria-describedby="basic-addon3" name="placa">
 							</div>
 					</div>	
 					<div class="col-lg-2">
@@ -56,7 +57,7 @@ require 'credenciais.php';
 <?php if(isset($_POST['pesquisar']) ){
 
 
-require 'db.php';
+
 $prefixo = $_POST['prefixo'];
 $placa = $_POST['placa'];
 

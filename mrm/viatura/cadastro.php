@@ -50,6 +50,7 @@ require 'credenciais.php';
 
 
 <br>
+<?php if(isset($_POST['pesquisar']) ): ?>
 <?php
 require 'http://bm4cop-org.umbler.net/db.php';
 $prefixo = $_POST['prefixo'];
@@ -68,7 +69,7 @@ $sql ="INSERT INTO viaturas (placa, prefixo) VALUES ('$placa','$prefixo')";
 </div>
 
 <?php endif ?>
-
+<?php endif ?>
 
 <?php 
 require 'footer.php';

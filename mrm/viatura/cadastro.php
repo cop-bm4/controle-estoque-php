@@ -2,8 +2,8 @@
 <html>
 <head>
 <?php
-require 'head.php';
-require 'credenciais.php';
+require '/home/bm4cop.org/public/head.php';
+require '/home/bm4cop.org/public/credenciais.php';
 
 ?>
 

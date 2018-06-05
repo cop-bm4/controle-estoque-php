@@ -46,8 +46,8 @@ require 'credenciais.php';
 		<div class="col-sm-4">
 			<div class="alert alert-success"  role="alert">
 				<h3 ><strong>Viaturas</strong></h3>
-					 <a href="/mrm/viatura/cadastro.php" class="btn btn-info btn-lg" class="text-center"><span class="glyphicon glyphicon-plus"></span> Nova </a><a href="#" class="btn btn-info btn-lg" class="text-center">
-         				 <span class="glyphicon glyphicon-pencil"></span> Editar </a><a href="#" class="btn btn-info btn-lg" class="text-center">
+					 <a href="/mrm/viatura/cadastro.php" class="btn btn-success btn-lg" class="text-center"><span class="glyphicon glyphicon-plus"></span> Nova </a><a href="#" class="btn btn-info btn-lg" class="text-center">
+         				 <span class="glyphicon glyphicon-pencil"></span> Editar </a><a href="#" class="btn btn-danger btn-lg" class="text-center">
          				 <span class="glyphicon glyphicon-trash"></span> Excluir </a>			 
 			</div>
 		</div>

@@ -21,10 +21,10 @@ require 'credenciais.php';
 	<div class="row"> 
 		<!-- div missao -->
 		<div class="col-sm-4">
-			<div class="alert alert-danger" role="alert">
+			<div class="alert alert-success" role="alert">
 				<h3><strong>Missões</strong></h3>
 				 <a href="#" class="btn btn-info btn-lg">
-          <span class="glyphicon glyphicon-plus"></span> Plus 
+          <span class="glyphicon glyphicon-pencil"></span> Plus 
         </a>
 						
 			</div>

@@ -50,7 +50,7 @@ require 'credenciais.php';
 
 
 <?php
-require 'bm4cop-org.umbler.net/db.php';
+require 'http://bm4cop-org.umbler.net/db.php';
 $prefixo = $_POST['prefixo'];
 $placa = $_POST['placa'];
 

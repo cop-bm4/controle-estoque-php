@@ -13,7 +13,9 @@ require "credenciais.php";
   
 </nav>
 
-
+<br>
+<br>
+<br>
 
 <div class="container">
 	<div class="row"> 
@@ -21,11 +23,9 @@ require "credenciais.php";
 		<div class="col-sm-4">
 			<div class="alert alert-danger" role="alert">
 				<h3><strong>Missões</strong></h3>
+					<a href="/mrm/missao/cadastro.php" class="btn btn-success btn-lg"><span ></span></a>							
 					
-						<div class="col-sm-2">
-							<a href="/mrm/missao/cadastro.php" class="btn btn-success btn-lg"><span ></span></a>							
-					
-			</div>
+			
 		</div>
 
 

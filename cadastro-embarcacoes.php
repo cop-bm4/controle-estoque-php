@@ -107,7 +107,7 @@ $result = mysqli_query($conn, $sql);
 <thead>
   <tr>
   
-<
+
     <th>EMBARCAÇÃO</th>
     <th>CASCO</th>
     <th>MOTOR/POTÊNCIA-MARCA</th>

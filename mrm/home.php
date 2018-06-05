@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Novo</title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <?php 
-require 'head.php';
-require "credenciais.php";
+
+require 'credenciais.php';
  ?>
 </head>
 <body>
@@ -23,7 +29,8 @@ require "credenciais.php";
 		<div class="col-sm-4">
 			<div class="alert alert-danger" role="alert">
 				<h3><strong>Missões</strong></h3>
-					<a href="/mrm/missao/cadastro.php" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-plus"></span></a>							
+				<button type="button" class="btn btn-success" class="gl"></button>
+						
 			</div>
 		</div>
 

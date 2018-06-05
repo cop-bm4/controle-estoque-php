@@ -73,6 +73,51 @@ $sql ="INSERT INTO viaturas(placa, prefixo) VALUES ('$placa','$prefixo')";
 ?>
 </div>
 
+<br>
+<br>
+<div class="container">
+	<h3>Viaturas cadastradas</h3>
+	<div class="row">
+		 <div class="col-sm-12 text-right h2">
+        <!-- <a class="btn btn-primary" href="http://bm4cop-org.umbler.net/cadastronovo.php"><i class="fa fa-plus"></i> Novo Material</a> -->
+        <a class="btn btn-default" href="http://bm4cop-org.umbler.net/cadastro-embarcacoes.php"><i class="fa fa-refresh"></i> Atualizar</a>
+      </div>
+	</div>
+
+<?php
+
+$sql =  "SELECT * FROM viaturas ";
+$result =  mysqli_query($conn, $sql);
+
+?>
+
+<?php if (mysqli_num_rows($result)>0):  ?>
+
+<table class="table table-bordered">
+	<thead>
+		<th>PREFIXO</th>
+		<th>PLACA</th>
+	</thead>
+	
+	<tbody>
+<?php while ($row=mysqli_fetch_assoc($result)): ?> 
+		<tr>
+		<td><?php echo $row['prefixo']; ?> </td>	
+		<td><?php echo $row['placa']; ?> </td>	
+
+		</tr>
+<?php endwhile; ?>
+
+	</tbody>	
+</table>
+	
+<?php else: ?>
+	<p>Não tem registro.</p>
+	<?php endelse; ?>
+
+</div>
+
+
 
 
 

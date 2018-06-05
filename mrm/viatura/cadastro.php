@@ -52,6 +52,7 @@ require 'credenciais.php';
 
 
 <br>
+<div class="container">
 <?php if(isset($_POST['pesquisar']) ){
 
 
@@ -69,7 +70,7 @@ $sql ="INSERT INTO viaturas(placa, prefixo) VALUES ('$placa','$prefixo')";
 
 
 ?>
-
+</div>
 
 
 

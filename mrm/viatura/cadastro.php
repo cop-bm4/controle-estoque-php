@@ -43,7 +43,9 @@ require 'credenciais.php';
   								<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" nome="placa">
 							</div>
 					</div>	
-
+					<div class="col-lg-2">
+       				 <button type="submit" class="btn btn-default " name="pesquisar">Cadastrar</button>
+     				 </div>
 				</div>
 			</div>
 </form>

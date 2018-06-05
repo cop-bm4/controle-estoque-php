@@ -2,7 +2,9 @@
 <html>
 <head>
 <?php
-require '/mrm/head.php';
+require 'head.php';
+require 'credenciais.php';
+
 ?>
 
 </head>

@@ -125,7 +125,7 @@ $sql ="INSERT INTO militar(nome, ubm, graduacao,mf,telefone) VALUES ('$nome','$u
 	<div class="row">
 		 <div class="col-sm-12 text-right h2">
         <!-- <a class="btn btn-primary" href="http://bm4cop-org.umbler.net/cadastronovo.php"><i class="fa fa-plus"></i> Novo Material</a> -->
-        <a class="btn btn-default" href="http://bm4cop-org.umbler.net/mrm/missao/cadastro.php"><i class="fa fa-refresh"></i> Atualizar</a>
+        <a class="btn btn-default" href="http://bm4cop-org.umbler.net/mrm/militar/cadastro.php"><i class="fa fa-refresh"></i> Atualizar</a>
       </div>
 	</div>
 

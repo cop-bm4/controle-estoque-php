@@ -115,10 +115,7 @@ $result =  mysqli_query($conn, $sql);
 
 </div>
 
-
-
-
-
+<?php endif ?>
 <?php 
 require 'footer.php';
 ?>

@@ -58,8 +58,7 @@ $placa = $_POST['placa'];
 $sql ="INSERT INTO viaturas (placa, prefixo) VALUES ('$placa','$prefixo')";
 
 
-<?php if
-if ($conn->query($sql) === TRUE): ?>
+<?php if($conn->query($sql) === TRUE): ?>
 
 <div class="container">
 	<h3>Cadastro realizado com sucesso</h3>

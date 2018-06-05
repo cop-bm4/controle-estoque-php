@@ -23,11 +23,10 @@ require "credenciais.php";
 		<div class="col-sm-4">
 			<div class="alert alert-danger" role="alert">
 				<h3><strong>Missões</strong></h3>
-					<a href="/mrm/missao/cadastro.php" class="btn btn-success btn-lg"><span ></span></a>							
-					
 			
+					<a href="/mrm/missao/cadastro.php" class="btn btn-success btn-lg"><span ></span></a>							
+			</div>
 		</div>
-
 
 		
 		<!-- div militar -->

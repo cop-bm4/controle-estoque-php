@@ -38,9 +38,9 @@ require 'credenciais.php';
 					<div class="col-4">
 							<div class="input-group mb-3">
   								<div class="input-group-prepend">
-    								<span class="input-group-text" id="basic-addon3">Placa</span>
+    								<span class="input-group-text" id="BAS">Placa</span>
  							 	</div>
-  								<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" nome="placa">
+  								<input type="text" class="form-control" id="BAS" aria-describedby="basic-addon3" nome="placa">
 							</div>
 					</div>	
 					<div class="col-lg-2">

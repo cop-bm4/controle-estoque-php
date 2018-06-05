@@ -100,10 +100,13 @@ require 'db.php';
 
 
 
-$prefixo = $_POST['prefixo'];
-$placa = $_POST['placa'];
+$nome = $_POST['nome'];
+$ubm = $_POST['ubm'];
+$graduacao = $_POST['graduacao'];
+$mf = $_POST['mf'];
+$telefone = $_POST['telefone'];
 
-$sql ="INSERT INTO viaturas(placa, prefixo) VALUES ('$placa','$prefixo')";
+$sql ="INSERT INTO militar(nome, ubm, graduacao,mf,telefone) VALUES ('$nome','$ubm', '$graduacao', '$mf', '$telefone')";
 	if($conn->query($sql) === TRUE){
 		echo "Cadasto realizado com sucesso";
 
@@ -118,17 +121,17 @@ $sql ="INSERT INTO viaturas(placa, prefixo) VALUES ('$placa','$prefixo')";
 <br>
 <br>
 <div class="container">
-	<h3>Viaturas cadastradas</h3>
+	<h3>Militares cadastrados</h3>
 	<div class="row">
 		 <div class="col-sm-12 text-right h2">
         <!-- <a class="btn btn-primary" href="http://bm4cop-org.umbler.net/cadastronovo.php"><i class="fa fa-plus"></i> Novo Material</a> -->
-        <a class="btn btn-default" href="http://bm4cop-org.umbler.net/mrm/viatura/cadastro.php"><i class="fa fa-refresh"></i> Atualizar</a>
+        <a class="btn btn-default" href="http://bm4cop-org.umbler.net/mrm/missao/cadastro.php"><i class="fa fa-refresh"></i> Atualizar</a>
       </div>
 	</div>
 
 <?php
 
-$sql =  "SELECT * FROM viaturas ";
+$sql =  "SELECT * FROM militar ";
 $result =  mysqli_query($conn, $sql);
 
 ?>
@@ -137,16 +140,21 @@ $result =  mysqli_query($conn, $sql);
 
 <table class="table table-bordered">
 	<thead>
-		<th>PREFIXO</th>
-		<th>PLACA</th>
+		<th>Graduação</th>
+		<th>Nome</th>
+		<th>Mf</th>
+		<th>UBM</th>
+		<th>Telefone</th>
 	</thead>
 	
 	<tbody>
 <?php while ($row=mysqli_fetch_assoc($result)): ?> 
 		<tr>
-		<td><?php echo $row['prefixo']; ?> </td>	
-		<td><?php echo $row['placa']; ?> </td>	
-
+		<td><?php echo $row['graduacao']; ?> </td>	
+		<td><?php echo $row['nome']; ?> </td>	
+		<td><?php echo $row['mf']; ?> </td>
+		<td><?php echo $row['ubm']; ?> </td>
+		<td><?php echo $row['telefone']; ?> </td>
 		</tr>
 <?php endwhile; ?>
 

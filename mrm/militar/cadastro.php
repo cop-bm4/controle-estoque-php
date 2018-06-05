@@ -27,7 +27,7 @@ require 'db.php';
 				<h3>Cadastro Novo Militar</h3>
 				<div class="row">
 
-					<div class="col-2">
+					<div class="col-4">
 						<div class="input-group mb-3">
  							 <div class="input-group-prepend">
     							<span class="input-group-text" id="basic-addon3">Graduação</span>

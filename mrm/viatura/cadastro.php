@@ -22,7 +22,8 @@ require 'credenciais.php';
 <br>
 <br>
 <form class="form-control" action="#" method="post">
-			<div class="container-fluid">
+			<div class="container">
+				<h3>Cadastro Nova Viatura</h3>
 				<div class="row">
 					<div class="col-4">
 						<div class="input-group mb-3">

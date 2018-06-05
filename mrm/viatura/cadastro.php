@@ -2,8 +2,8 @@
 <html>
 <head>
 <?php
-require '/home/bm4cop.org/public/head.php';
-require '/home/bm4cop.org/public/credenciais.php';
+require '/home/bm4cop.org/public/mrm/head.php';
+require '/home/bm4cop.org/public/mrm/credenciais.php';
 
 ?>
 
@@ -15,7 +15,7 @@ require '/home/bm4cop.org/public/credenciais.php';
 
 
 <?php 
-require '/mrm/footer.php';
+require '/home/bm4cop.org/public/mrm/footer.php';
 ?>
 </body>
 </html>

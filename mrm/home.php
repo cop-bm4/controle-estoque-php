@@ -19,9 +19,13 @@ require "credenciais.php";
 	<div class="row"> 
 		<!-- div missao -->
 		<div class="col-sm-4">
-			<div class="alert alert-success" role="alert">
+			<div class="alert alert-danger" role="alert">
 				<h3><strong>Missões</strong></h3>
-
+					<div class="row">
+						<div class="col-sm-2">
+							<a href="/mrm/missao/cadastro.php" class="btn btn-success btn-lg"><span ></span></a>							
+						</div>
+					</div>
 			</div>
 		</div>
 

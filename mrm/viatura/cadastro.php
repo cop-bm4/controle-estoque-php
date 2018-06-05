@@ -25,9 +25,11 @@ require 'credenciais.php';
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-4">
-						<div class="input-group">
-							<span class="input-group-addon" id="inputGroup-sizing-default">Prefixo</span>
-							<input type="text" name="prefixo" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" required>
+						<div class="input-group mb-3">
+ 							 <div class="input-group-prepend">
+    							<span class="input-group-text" id="basic-addon3">Prefixo</span>
+  							</div>
+ 						 		<input type="text" class="form-control" id="basic-url" name="prefixo" aria-describedby="basic-addon3">
 						</div>
 					</div>
 						<br>

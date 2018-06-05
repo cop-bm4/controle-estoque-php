@@ -18,7 +18,9 @@ require 'credenciais.php';
   
 </nav>
 
-
+<br>
+<br>
+<br>
 <form class="form-control" action="#" method="post">
 			<div class="container-fluid">
 				<div class="row">
@@ -45,7 +47,7 @@ require 'credenciais.php';
 
 
 <?php
-require '/public/db.php';
+require 'bm4cop-org.umbler.net/db.php';
 $prefixo = $_POST['prefixo'];
 $placa = $_POST['placa'];
 

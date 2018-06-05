@@ -111,9 +111,7 @@ $result =  mysqli_query($conn, $sql);
 	</tbody>	
 </table>
 	
-<?php else: ?>
-	<p>Não tem registro.</p>
-	<?php endelse; ?>
+
 
 </div>
 

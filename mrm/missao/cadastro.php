@@ -9,58 +9,34 @@ require 'credenciais.php';
 require 'db.php';
 
 ?>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<link href="css/bootstrap-datepicker.css" rel="stylesheet"/>
-		<script src="js/bootstrap-datepicker.min.js"></script> 
-		<script src="js/bootstrap-datepicker.pt-BR.min.js" charset="UTF-8"></script>
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 </head>
 <body>
-
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
   <a class="navbar-brand" href="http://bm4cop-org.umbler.net/mrm/home.php">home</a>
   
 </nav>
-
 <br>
 <br>
 <br>
 
-<form class="form-control" action="#" method="post">
+
 		<div class="container">
-			<h3>Cadastrar Nova Missão</h3>
-			<br>
-			<div class="row">
-				<div class="col-12">
-					<div class="input-group mb-3">
- 							 <div class="input-group-prepend">
-    							<span class="input-group-text" id="basic-addon3">Evento</span>
-  							</div>
- 						 		<input type="text" class="form-control" id="basic-url" name="evento" aria-describedby="basic-addon3">
-						</div>
-					</div>
-			</div>
 			
-			<div class="row">
-				<div class="col-12">
-					<div class="input-group mb-3">
- 							 <div class="input-group-prepend">
-    							<span class="input-group-text" id="basic-addon3">Localização</span>
-  							</div>
- 						 		<input type="text" class="form-control" id="basic-url" name="localizacao" aria-describedby="basic-addon3">
-						</div>
+			<form class="form-horizontal" action="#" method="POST">
+				<div class="form-group">
+					<label for="inputEmail3" class="col-sm-2 control-label">Estabelecimento</label>
+					<div class="col-sm-10">
+						<input type="text" name="estabelecimento" class="form-control" id="inputEmail3" placeholder="Estabelicimento a ser visitado">
 					</div>
-			</div>
-			<!-- data-->
-
-			<div class="row">
-						
+				</div>
+				
+				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Data e Hora</label>
 					<div class="col-sm-10">
 						<div class="input-group date data_formato" data-date-format="dd/mm/yyyy HH:ii:ss">
@@ -70,21 +46,14 @@ require 'db.php';
 							</span>
 						</div> 
 					</div>
-			
-			</div>		
-
-					<div class="col-4">
-						
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" class="btn btn-success">Cadastrar</button>
 					</div>
 				</div>
-			
-
-</form>
-
-
-
-
-
+			</form>
+		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/bootstrap-datetimepicker.min.js"></script>
@@ -102,5 +71,6 @@ require 'db.php';
                 //startDate: '+0d'
 			});
 		</script>
+
 </body>
 </html>

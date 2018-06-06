@@ -59,7 +59,7 @@ require 'db.php';
 						?>	
 						<?php if ($row_militar=mysqli_num_rows($result)>0):
 						?>
-						<option><?php echo .$row_militar['graduacao']..$row_militar['nome'].; ?></option>
+						<option><?php echo $row_militar['nome']; ?></option>
 						<?php endwhile; ?>	
 						</select>
 					</div>

@@ -50,12 +50,12 @@ require 'db.php';
 	
 				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Militar</label>
-					<div class="col-sm-offset-2 col-sm-6">
+					<div class="col-sm-6">
 						<select class="form-control">
 						<?php
 						$sql = "SELECT nome, graduacao FROM militar";
 						$result = mysqli_query($conn, $sql);	
-							
+
 						?>	
 						
 

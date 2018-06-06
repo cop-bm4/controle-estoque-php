@@ -87,8 +87,10 @@ require 'db.php';
 					<label for="inputPassword3" class="col-sm-2 control-label">Viatura</label>
 					<div class="col-sm-4">
 						<select class="form-control form-control-lg" name="cod_viatura">
+
 						<?php
-						$sql_viatura = "SELECT cod_viatura,prefixo FROM viaturas";
+
+						$sql_viatura = "SELECT cod_viaturas,prefixo FROM viaturas";
 						$result_viatura = mysqli_query($conn, $sql_viatura);	
 
 						?>	
@@ -97,7 +99,7 @@ require 'db.php';
 
 						<?php while($row_viatura=mysqli_fetch_assoc($result_viatura)):?>
 
-						<option value="<?php echo $row_viatura['cod_viatura'];?>"><?php echo $row_viatura['prefixo']; ?></option>
+						<option value="<?php echo $row_viatura['cod_viaturas'];?>"><?php echo $row_viatura['prefixo']; ?></option>
 
 						<?php endwhile; ?>	
 						
@@ -108,7 +110,7 @@ require 'db.php';
 					</div>
 				</div>
 
-			
+			<br>
 
 				<div class="form-group">
 					<div class="col-sm-offset-2 col-sm-10">

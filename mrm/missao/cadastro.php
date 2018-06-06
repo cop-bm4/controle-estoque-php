@@ -57,9 +57,35 @@ require 'db.php';
 				</div>
 	
 				<div class="form-group">
-					<label for="inputPassword3" class="col-sm-2 control-label">Militar</label>
+					<label for="inputPassword3" class="col-sm-2 control-label">Militar - Condutor</label>
 					<div class="col-sm-4">
-						<select class="form-control form-control-lg" name="cod_militar">
+						<select class="form-control form-control-lg" name="cod_militar_condutor">
+						<?php
+						$sql = "SELECT cod_militar,nome, graduacao FROM militar";
+						$result = mysqli_query($conn, $sql);	
+
+						?>	
+						<?php if (mysqli_num_rows($result)>0): ?>
+
+
+						<?php while($row_militar=mysqli_fetch_assoc($result)):?>
+
+						<option value="<?php echo $row_militar['cod_militar'];?>"><?php echo $row_militar['graduacao']." ". $row_militar['nome']; ?></option>
+
+						<?php endwhile; ?>	
+						
+						</select>
+
+					<?php  endif; ?>
+
+					</div>
+				</div>
+
+
+				<div class="form-group">
+					<label for="inputPassword3" class="col-sm-2 control-label">Militar - Auxliar</label>
+					<div class="col-sm-4">
+						<select class="form-control form-control-lg" name="cod_militar_auxiliar">
 						<?php
 						$sql = "SELECT cod_militar,nome, graduacao FROM militar";
 						$result = mysqli_query($conn, $sql);	

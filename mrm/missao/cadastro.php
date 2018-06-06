@@ -62,7 +62,7 @@ require 'db.php';
 
 						<?php while($row_militar=mysqli_fetch_assoc($result)):?>
 
-						<option value="<?php echo $row_militar['cod_militar'];?>"><?php echo $row_militar['graduacao'] $row_militar['nome']; ?></option>
+						<option value="<?php echo $row_militar['cod_militar'];?>"><?php echo $row_militar['graduacao'].$row_militar['nome']; ?></option>
 
 						<?php endwhile; ?>	
 						

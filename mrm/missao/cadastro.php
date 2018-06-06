@@ -57,11 +57,15 @@ require 'db.php';
 						$result = mysqli_query($conn, $sql);	
 
 						?>	
-						<?php while($row_militar=mysqli_num_rows($result)):
-						?>
+						<?php if (mysqli_num_rows($result)>0): ?>
+
+
+						<?php while($row_militar=mysqli_fetch_assoc($result)):?>
 						<option><?php echo $row_militar['nome']; ?></option>
 						<?php endwhile; ?>	
 						</select>
+
+					<?php  endif; ?>
 					</div>
 				</div>
 

@@ -57,16 +57,12 @@ require 'db.php';
 
 			<div class="row">
 						<div class="col-4">
-						<div class="input-group-prepend">
+							<div class="input-group mb-3">
+ 							 <div class="input-group-prepend">
     							<span class="input-group-text" id="basic-addon3">Data</span>
   							</div>
-						<div class="input-group date">
-							<input type="text" class="form-control" id="exemplo" >
-							<div class="input-group-addon">
-								<span class="glyphicon glyphicon-th"></span>
-							</div>
-						</div>
-
+ 						 		<input type="text" class="form-control" id="exemplo" >
+						</div>		
 					</div>
 				</div>
 			</div>		

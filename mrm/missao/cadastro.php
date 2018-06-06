@@ -27,7 +27,7 @@ require 'db.php';
 
 
 		<div class="container">
-			
+			<h3>Cadastrar Nova Missão</h3>
 			<form class="form-horizontal" action="#" method="POST">
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Evento</label>
@@ -57,8 +57,10 @@ require 'db.php';
 						$result = mysqli_query($conn, $sql);	
 
 						?>	
-						
-
+						<?php if ($row_militar=mysqli_num_rows($result)>0):
+						?>
+						<option><?php echo $row_militar['graduacao']..$row_militar['nome']; ?></option>
+						<?php endwhile; ?>	
 						</select>
 					</div>
 				</div>

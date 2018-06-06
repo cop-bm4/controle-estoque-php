@@ -15,6 +15,8 @@ require 'db.php';
 		<script src="js/bootstrap-datepicker.pt-BR.min.js" charset="UTF-8"></script>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -58,20 +60,18 @@ require 'db.php';
 			<!-- data-->
 
 			<div class="row">
-						<div class="col-4">
-
-							<div class="input-group mb-3">
- 							 
- 							 <div class="input-group-prepend">
-    							<span class="input-group-text" id="basic-addon3">Data e Hora</span>
-  							</div>
- 						 		<div class="input-group date data_formato" data-date-format="dd/mm/yyyy HH:ii:ss">
+						<div class="form-group">
+					<label for="inputPassword3" class="col-sm-2 control-label">Data e Hora</label>
+					<div class="col-sm-10">
+						<div class="input-group date data_formato" data-date-format="dd/mm/yyyy HH:ii:ss">
 							<input type="text" class="form-control" name="data" placeholder="Data da visita">
-								</div>
-
-
-						</div>		
+							<span class="input-group-addon">
+								<span class="glyphicon glyphicon-th"></span>
+							</span>
+						</div> 
 					</div>
+				</div>
+			</div>		
 
 					<div class="col-4">
 						

@@ -42,8 +42,7 @@ require 'db.php';
 						</div>
 					</div>
 			</div>
-			<br>
-			<br>
+			
 			<div class="row">
 				<div class="col-12">
 					<div class="input-group mb-3">
@@ -54,13 +53,13 @@ require 'db.php';
 						</div>
 					</div>
 			</div>
-			<br>
-			<br>
 			<!-- data-->
 
-			 <div class="form-group">
-					<label class="col-sm-2 control-label">Data</label>
-					<div class="col-sm-10">
+			<div class="row">
+						<div class="col-4">
+						<div class="input-group-prepend">
+    							<span class="input-group-text" id="basic-addon3">Data</span>
+  							</div>
 						<div class="input-group date">
 							<input type="text" class="form-control" id="exemplo" >
 							<div class="input-group-addon">
@@ -69,7 +68,9 @@ require 'db.php';
 						</div>
 
 					</div>
-				  </div>
+				</div>
+			</div>		
+		</div>
 
 
 

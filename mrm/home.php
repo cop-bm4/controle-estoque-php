@@ -12,7 +12,7 @@ require 'credenciais.php';
 <body>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
-  <a class="navbar-brand" href="#">MRM</a>
+  <a class="navbar-brand" href="http://bm4cop-org.umbler.net/mrm/mrm.php">MRM</a>
   
 </nav>
 

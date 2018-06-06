@@ -82,7 +82,7 @@ require 'db.php';
 				</div>
 
 
-				<!--
+				
 				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Viatura</label>
 					<div class="col-sm-4">
@@ -109,7 +109,7 @@ require 'db.php';
 
 					</div>
 				</div>
--->
+
 			<br>
 
 				<div class="form-group">

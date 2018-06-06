@@ -109,6 +109,35 @@ require 'db.php';
 
 					</div>
 				</div>
+					
+				<div class="form-group">
+					<label for="inputEmail3" class="col-sm-2 control-label">Solicitante</label>
+					<div class="col-sm-6">
+						<input type="text" name="solicitante" class="form-control" id="inputEmail3" placeholder="Nome do Responsável pela solicitação.">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="inputEmail3" class="col-sm-2 control-label">Telefone</label>
+					<div class="col-sm-4">
+						<input type="text" name="telefone" class="form-control" id="inputEmail3" placeholder="Telefone para Contato">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="inputEmail3" class="col-sm-2 control-label">Observações</label>
+					<div class="col-sm-10">
+						<input type="text" name="observacao" class="form-control" id="inputEmail3" placeholder="Observações">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="inputEmail3" class="col-sm-2 control-label">Referencia</label>
+					<div class="col-sm-10">
+						<input type="text" name="referencia" class="form-control" id="inputEmail3" placeholder="Referencia da Missão.">
+					</div>
+				</div>
+
 
 			<br>
 

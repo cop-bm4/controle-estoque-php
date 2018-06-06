@@ -51,9 +51,9 @@ require 'db.php';
 				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Militar</label>
 					<div class="col-sm-4">
-						<select class="form-control form-control-lg">
+						<select class="form-control form-control-lg" name="cod_militar">
 						<?php
-						$sql = "SELECT nome, graduacao FROM militar";
+						$sql = "SELECT cod_militar,nome, graduacao FROM militar";
 						$result = mysqli_query($conn, $sql);	
 
 						?>	
@@ -61,8 +61,11 @@ require 'db.php';
 
 
 						<?php while($row_militar=mysqli_fetch_assoc($result)):?>
-						<option><?php echo $row_militar['nome']; ?></option>
+
+						<option value="<?php echo $row_militar['cod_militar'];?>"><?php echo $row_militar['graduacao'] $row_militar['nome']; ?></option>
+
 						<?php endwhile; ?>	
+						
 						</select>
 
 					<?php  endif; ?>

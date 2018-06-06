@@ -81,6 +81,7 @@ require 'db.php';
 					</div>
 				</div>
 
+
 				
 				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Viatura</label>

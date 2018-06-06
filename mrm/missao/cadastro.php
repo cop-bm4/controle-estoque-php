@@ -89,7 +89,7 @@ require 'db.php';
 						<select class="form-control form-control-lg" name="cod_viatura">
 						<?php
 						$sql_viatura = "SELECT cod_viatura,prefixo FROM viaturas";
-						$result_viatura = mysqli_query($conn, $sql);	
+						$result_viatura = mysqli_query($conn, $sql_viatura);	
 
 						?>	
 						<?php if (mysqli_num_rows($result_viatura)>0): ?>

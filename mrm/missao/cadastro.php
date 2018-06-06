@@ -60,7 +60,7 @@ require 'db.php';
 			<!-- data-->
 
 			<div class="row">
-						<div class="form-group">
+						
 					<label for="inputPassword3" class="col-sm-2 control-label">Data e Hora</label>
 					<div class="col-sm-10">
 						<div class="input-group date data_formato" data-date-format="dd/mm/yyyy HH:ii:ss">
@@ -70,21 +70,14 @@ require 'db.php';
 							</span>
 						</div> 
 					</div>
-				</div>
+			
 			</div>		
 
 					<div class="col-4">
 						
 					</div>
 				</div>
-			</div>		
-		</div>
-
-
-
-			</div>
-		</div>
-
+			
 
 </form>
 

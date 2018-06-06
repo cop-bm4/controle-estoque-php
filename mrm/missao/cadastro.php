@@ -13,6 +13,8 @@ require 'db.php';
 <link href="css/bootstrap-datepicker.css" rel="stylesheet"/>
 		<script src="js/bootstrap-datepicker.min.js"></script> 
 		<script src="js/bootstrap-datepicker.pt-BR.min.js" charset="UTF-8"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -57,12 +59,22 @@ require 'db.php';
 
 			<div class="row">
 						<div class="col-4">
+
 							<div class="input-group mb-3">
+ 							 
  							 <div class="input-group-prepend">
-    							<span class="input-group-text" id="basic-addon3">Data</span>
+    							<span class="input-group-text" id="basic-addon3">Data e Hora</span>
   							</div>
- 						 		<input type="text" class="form-control" id="exemplo" >
+ 						 		<div class="input-group date data_formato" data-date-format="dd/mm/yyyy HH:ii:ss">
+							<input type="text" class="form-control" name="data" placeholder="Data da visita">
+								</div>
+
+
 						</div>		
+					</div>
+
+					<div class="col-4">
+						
 					</div>
 				</div>
 			</div>		
@@ -77,11 +89,24 @@ require 'db.php';
 </form>
 
 
-<script type="text/javascript">
-			$('#exemplo').datepicker({	
-				format: "dd/mm/yyyy",	
-				language: "pt-BR",
-				startDate: '+0d',
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap-datetimepicker.min.js"></script>
+		<script src="js/locales/bootstrap-datetimepicker.pt-BR.js"></script>
+		<script type="text/javascript">
+			$('.data_formato').datetimepicker({
+				weekStart: 1,
+				todayBtn: 1,
+                autoclose: 1,
+                todayHighlight: 1,
+                startView: 2,
+                forceParse: 0,
+                showMeridian: 1,
+                language: "pt-BR",
+                //startDate: '+0d'
 			});
 		</script>
 </body>

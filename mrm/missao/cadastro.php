@@ -30,30 +30,53 @@ require 'db.php';
 			
 			<form class="form-horizontal" action="#" method="POST">
 				<div class="form-group">
-					<label for="inputEmail3" class="col-sm-2 control-label">Estabelecimento</label>
+					<label for="inputEmail3" class="col-sm-2 control-label">Evento</label>
 					<div class="col-sm-10">
-						<input type="text" name="estabelecimento" class="form-control" id="inputEmail3" placeholder="Estabelicimento a ser visitado">
+						<input type="text" name="evento" class="form-control" id="inputEmail3" placeholder="Evento">
 					</div>
 				</div>
-				
+
 				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Data e Hora</label>
-					<div class="col-sm-10">
+					<div class="col-sm-4">
 						<div class="input-group date data_formato" data-date-format="dd/mm/yyyy HH:ii:ss">
-							<input type="text" class="form-control" name="data" placeholder="Data da visita">
+							<input type="text" class="form-control" name="data" placeholder="Data e Hora do Evento">
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-th"></span>
 							</span>
 						</div> 
 					</div>
 				</div>
+	
+				<div class="form-group">
+					<label for="inputPassword3" class="col-sm-2 control-label">Militar</label>
+					<div class="col-sm-offset-2 col-sm-6">
+						<select class="form-control">
+						<?php
+						$sql = "SELECT nome, graduacao FROM militar";
+						$result = mysqli_query($conn, $sql);	
+							
+						?>	
+						
+
+						</select>
+					</div>
+				</div>
+
 				<div class="form-group">
 					<div class="col-sm-offset-2 col-sm-10">
-						<button type="submit" class="btn btn-success">Cadastrar</button>
+						<button type="submit" class="btn btn-success" name="cadastrar">Cadastrar</button>
 					</div>
 				</div>
 			</form>
 		</div>
+
+
+
+
+
+
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/bootstrap-datetimepicker.min.js"></script>

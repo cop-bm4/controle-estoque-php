@@ -198,7 +198,7 @@ require 'db.php';
 			$data_sem_barra = implode("-", $data_sem_barra);
 			$data_sem_barra = $data_sem_barra . " " . $hora;
 
-
+			require 'db.php';
 			$sql_cad = "INSERT INTO missao(evento,localizacao,cod_militar_auxiliar,cod_militar_condutor, viatura, solicitante,telefone, observacao,referencia,data) VALUES('$evento','$localizacao','$cod_militar_auxiliar','$cod_militar_condutor','$viatura','$solicitante','$telefone','$observacao','$referencia','$data_sem_barra')";
 			if($conn->query($sql_cad) === TRUE){
 		echo "Cadasto realizado com sucesso";

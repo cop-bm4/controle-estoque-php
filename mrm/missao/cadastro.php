@@ -28,7 +28,8 @@ require 'db.php';
 
 		<div class="container">
 			<h3>Cadastrar Nova Missão</h3>
-			<form class="form-horizontal" action="up.php" method="POST">
+
+			<form class="form-horizontal" action="up.php" method="post">
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Evento</label>
 					<div class="col-sm-10">

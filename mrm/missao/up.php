@@ -1,5 +1,5 @@
 <?php 
-
+require 'credenciais.php';
 			$evento = $_POST['evento'];
 			$localizacao =  $_POST['localizacao'];
 			$cod_militar_auxiliar = $_POST['cod_militar_auxiliar'];

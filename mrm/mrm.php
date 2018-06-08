@@ -61,7 +61,7 @@
 
 <?php if ($count>0): ?>
 
-   <?php while ($row=mysqli_fetch_assoc($result)): ?> 
+   <?php while ($row=mysqli_fetch_array($result)): ?> 
       <div class="row">
   
   

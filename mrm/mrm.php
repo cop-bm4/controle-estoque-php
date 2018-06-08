@@ -52,7 +52,8 @@
 <div class="container-fluid">
   <!-- contador de vetor -->
     <?php 
-    $sql = "SELECT * FROM missao WHERE situacao = 'aberto'" ;
+    require 'db.php';
+    $sql = "SELECT * FROM missao WHERE situacao = 'aberto' ";
     $result = mysqli_query($conn, $sql);
     $count = mysqli_num_rows($result);
      ?>

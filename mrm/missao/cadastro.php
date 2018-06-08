@@ -116,7 +116,7 @@ require 'db.php';
 				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Viatura</label>
 					<div class="col-sm-4">
-						<select class="form-control form-control-lg" name="cod_viaturas">
+						<select class="form-control form-control-lg" name="cod_viatura">
 							<option value="">     </option>
 						<?php
 
@@ -185,8 +185,8 @@ require 'db.php';
 
 		<div class="container">
 			
-			<?php if (isset($_POST['cadastrar'])){
-
+			<?php if (isset($_POST['cadastrar'])): ?>
+			<?php
 			
 			$evento = $REQUEST['evento'];
 			$localizacao =  $REQUEST['localizacao'];
@@ -206,16 +206,14 @@ require 'db.php';
 
 			require 'db.php';
 			$sql_cad = "INSERT INTO missao(evento,localizacao,cod_militar_auxiliar,cod_militar_condutor, cod_viatura, solicitante,telefone, observacao,referencia,dat) VALUES('$evento','$localizacao','$cod_militar_auxiliar','$cod_militar_condutor','$viatura','$solicitante','$telefone','$observacao','$referencia','$data_sem_barra')";
-			if($conn->query($sql_cad) === TRUE){
-		echo "Cadasto realizado com sucesso";
+		?>
+		<?php if($conn->query($sql_cad) === TRUE):  ?>
+				<p class="alert alert-danger">Cadastro Realizado com sucesso!</p>
+		<?php endif; ?>
 
 
-	}		
-
-
-
-			} 
-			?>
+			
+		<?php endif;	?>
 			
 
 

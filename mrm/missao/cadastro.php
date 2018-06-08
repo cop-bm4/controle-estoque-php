@@ -29,7 +29,7 @@ require 'db.php';
 		<div class="container">
 			<h3>Cadastrar Nova Missão</h3>
 
-			<form class="form-horizontal" action="up.php" method="post">
+			<form class="form-horizontal" action="#" method="post">
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Evento</label>
 					<div class="col-sm-10">
@@ -187,16 +187,17 @@ require 'db.php';
 			
 			<?php if (isset($_POST['cadastrar'])){
 
-			$evento = $_POST['evento'];
-			$localizacao =  $_POST['localizacao'];
-			$cod_militar_auxiliar = $_POST['cod_militar_auxiliar'];
-			$cod_militar_condutor = $_POST['cod_militar_condutor'];
-			$viatura = $_POST['viatura'];
-			$solicitante = $_POST['solicitante'];
-			$telefone = $_POST['telefone'];
-			$observacao = $_POST['observacao'];
-			$referencia = $_POST['referencia'];
-			$data = $_POST['data'];
+			
+			$evento = $REQUEST['evento'];
+			$localizacao =  $REQUEST['localizacao'];
+			$cod_militar_auxiliar = $_REQUEST['cod_militar_auxiliar'];
+			$cod_militar_condutor = $_REQUEST['cod_militar_condutor'];
+			$viatura = $_REQUEST['cod_viatura'];
+			$solicitante = $_REQUEST['solicitante'];
+			$telefone = $_REQUEST['telefone'];
+			$observacao = $_REQUEST['observacao'];
+			$referencia = $_REQUEST['referencia'];
+			$data = $_REQUEST['data'];
 			$data = explode(" ", $data);
 			list($date, $hora) = $data;
 			$data_sem_barra = array_reverse(explode("/", $date));
@@ -204,12 +205,12 @@ require 'db.php';
 			$data_sem_barra = $data_sem_barra . " " . $hora;
 
 			require 'db.php';
-			$sql_cad = "INSERT INTO missao(evento,localizacao,cod_militar_auxiliar,cod_militar_condutor, viatura, solicitante,telefone, observacao,referencia,data) VALUES('$evento','$localizacao','$cod_militar_auxiliar','$cod_militar_condutor','$viatura','$solicitante','$telefone','$observacao','$referencia','$data_sem_barra')";
+			$sql_cad = "INSERT INTO missao(evento,localizacao,cod_militar_auxiliar,cod_militar_condutor, cod_viatura, solicitante,telefone, observacao,referencia,dat) VALUES('$evento','$localizacao','$cod_militar_auxiliar','$cod_militar_condutor','$viatura','$solicitante','$telefone','$observacao','$referencia','$data_sem_barra')";
 			if($conn->query($sql_cad) === TRUE){
 		echo "Cadasto realizado com sucesso";
 
 
-	}	
+	}		
 
 
 

@@ -50,60 +50,33 @@
 </div>
 
 <div class="container-fluid">
+  <!-- contador de vetor -->
+    <?php 
+    $sql = "SELECT * FROM missao WHERE situacao = 'aberto'" ;
+    $result = mysqli_query($conn, $sql);
+    $count = mysqli_num_rows($result);
+     ?>
+
+<?php if ($count>0): ?>
+
+   <?php while ($row=mysqli_fetch_assoc($result)): ?> 
+      <div class="row">
   
-  <div class="row">
   
-    <div class="col-sm-3">
-      <div class="alert alert-dark" role="alert">
-      <h3 class="alert-heading">Evento: </h3>
-      <p class="font-weight-bold">Data/hora: </p> 
-      <p class="font-weight-bold">Local: </p> 
-      <p class="font-weight-bold">Destino: </p> 
-      <p class="font-weight-bold">Vtr: </p> 
-      <p class="font-weight-bold">Condutor: </p> 
-      <p class="font-weight-bold">Protocolo: </p> 
+          <div class="col-sm-12">
+            <div class="alert alert-dark" role="alert">
+              <h3 class="alert-heading">Evento:<p><?php echo $row['evento']; ?> </p> </h3>
+              <p class="font-weight-bold">Data/hora: </p> 
+              <p class="font-weight-bold">Local: </p> 
+              <p class="font-weight-bold">Destino: </p> 
+              <p class="font-weight-bold">Vtr: </p> 
+              <p class="font-weight-bold">Condutor: </p> 
+              <p class="font-weight-bold">Referencia: </p> 
+            </div>
           </div>
     </div>
-
-
-    <div class="col-sm-3">
-      <div class="alert alert-dark" role="alert">
-        <h3 class="alert-heading">Evento: </h3>
-        <p class="font-weight-bold">Data/hora: </p> 
-        <p class="font-weight-bold">Local: </p> 
-        <p class="font-weight-bold">Destino: </p> 
-        <p class="font-weight-bold">Vtr: </p> 
-        <p class="font-weight-bold">Condutor: </p> 
-        <p class="font-weight-bold">Protocolo: </p> 
-      </div>
-    </div>
-  
-    <div class="col-sm-3">
-      <div class="alert alert-dark" role="alert">
-        <h3 class="alert-heading">Evento: </h3>
-        <p class="font-weight-bold">Data/hora: </p> 
-        <p class="font-weight-bold">Local: </p> 
-        <p class="font-weight-bold">Destino: </p> 
-        <p class="font-weight-bold">Vtr: </p> 
-        <p class="font-weight-bold">Condutor: </p> 
-        <p class="font-weight-bold">Protocolo: </p> 
-      </div>
-    </div>
-  
-
-   <div class="col-sm-3">
-      <div class="alert alert-dark" role="alert">
-        <h3 class="alert-heading">Evento: </h3>
-        <p class="font-weight-bold">Data/hora: </p> 
-        <p class="font-weight-bold">Local: </p> 
-        <p class="font-weight-bold">Destino: </p> 
-        <p class="font-weight-bold">Vtr: </p> 
-        <p class="font-weight-bold">Condutor: </p> 
-        <p class="font-weight-bold">Protocolo: </p> 
-      </div>
-    </div>
-
- </div>
+<?php endwhile; ?>
+<?php endif; ?>
 </div>
 
 

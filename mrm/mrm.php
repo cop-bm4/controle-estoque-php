@@ -67,14 +67,14 @@
   
           <div class="col-sm-12">
             <div class="alert alert-dark" role="alert">
-              <h3 class="alert-heading">Evento:  <small class="text-muted"> <?php echo " ".$row['evento'];?> </small> </h3>
+              <h3 class="alert-heading">Evento:  <small> <?php echo " ".$row['evento'];?> </small> </h3>
               <p class="font-weight-bold">Data/hora: <small class="text-info"> <?php echo " ".$row['dat']; ?> </small> </p> 
               <p class="font-weight-bold">Local:<small> <?php echo " ".$row['localizacao']; ?> </small></p> 
               <p class="font-weight-bold">Destino: <small> <?php echo " ".$row['destino']; ?> </small> </p> 
               <p class="font-weight-bold">Vtr:
                 <small> 
                 <?php
-                $n = $row['cod_viatura'];   
+                $n_viatura = $row['cod_viatura'];   
                 $sql_vtr = "SELECT prefixo FROM viaturas WHERE cod_viatura='$n'"; 
                 $result_vtr=mysqli_query($conn, $sql_vtr);
                 $row_vtr=mysqli_fetch_assoc($result_vtr);
@@ -83,8 +83,34 @@
                  ?>
                 </small>
                </p> 
-              <p class="font-weight-bold">Condutor: </p> 
-              <p class="font-weight-bold">Referencia: </p> 
+              <p class="font-weight-bold">Condutor:
+                <small>
+                  <?php
+                $n_militar_condutor = $row['cod_militar_condutor'];   
+                $sql_militar = "SELECT nome,graduacao,cod_militar FROM militar WHERE cod_militar='$n_militar_condutor'"; 
+                $result_militar=mysqli_query($conn, $sql_militar);
+                $row_militar=mysqli_fetch_assoc($result_militar);
+                echo " ".$row_militar['graduacao']." ".$row_militar['nome'];
+                
+                 ?>
+                </small> 
+              </p> 
+                 <p class="font-weight-bold">Auxiliar:
+                <small>
+                  <?php
+                $n_militar_auxiliar = $row['cod_militar_auxiliar'];   
+                $sql_militar_auxiliar = "SELECT nome,graduacao,cod_militar FROM militar WHERE cod_militar='$n_militar_auxiliar'"; 
+                $result_militar_auxiliar=mysqli_query($conn, $sql_militar_auxiliar);
+                $row_militar_auxiliar=mysqli_fetch_assoc($result_militar_auxiliar);
+                echo " ".$row_militar_auxiliar['graduacao']." ".$row_militar_auxiliar['nome'];
+                
+                 ?>
+                </small> 
+              </p> 
+              <p class="font-weight-bold">Solicitante:<small><?php echo " ".$row['solicitante']; ?></small> </p> 
+              <p class="font-weight-bold">Telefone do Solicitante:<small><?php echo " ".$row['telefone']; ?></small> </p> 
+              <p class="font-weight-bold">Referencia:<small><?php echo " ".$row['referencia']; ?></small> </p> 
+                
             </div>
           </div>
     </div>

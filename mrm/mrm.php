@@ -69,9 +69,17 @@
             <div class="alert alert-dark" role="alert">
               <h3 class="alert-heading">Evento:  <small class="text-muted"> <?php echo " ".$row['evento'];?> </small> </h3>
               <p class="font-weight-bold">Data/hora: <small class="text-info"> <?php echo " ".$row['dat']; ?> </small> </p> 
-              <p class="font-weight-bold">Local: <?php echo $row['localizacao']; ?> </p> 
-              <p class="font-weight-bold">Destino: </p> 
-              <p class="font-weight-bold">Vtr: </p> 
+              <p class="font-weight-bold">Local:<small> <?php echo " ".$row['localizacao']; ?> </small></p> 
+              <p class="font-weight-bold">Destino: <small> <?php echo " ".$row['destino']; ?> </small> </p> 
+              <p class="font-weight-bold">Vtr:
+                <small> 
+                <?php $sql_vtr="SELECT prefixo FROM viaturas WHERE cod_viaturas='$row['cod_viatura']'"; 
+                $result_vtr=mysqli_query($conn, $sql_vtr);
+                $row_vtr=mysqli_fetch_assoc($result_vtr);
+                echo " ".$row_vtr['prefixo'];
+                 ?>
+                </small>
+               </p> 
               <p class="font-weight-bold">Condutor: </p> 
               <p class="font-weight-bold">Referencia: </p> 
             </div>

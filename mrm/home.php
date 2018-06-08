@@ -106,7 +106,8 @@ $result =  mysqli_query($conn, $sql);
                 $sql_militar = "SELECT nome,graduacao,cod_militar FROM militar WHERE cod_militar='$n_militar_condutor'"; 
                 $result_militar=mysqli_query($conn, $sql_militar);
                 $row_militar=mysqli_fetch_assoc($result_militar);
-                echo " ".$row_militar['graduacao']." ".$row_militar['nome']; ?> </td>
+                echo " ".$row_militar['graduacao']." ".$row_militar['nome']; 
+                ?> </td>
         <td><?php echo $row['referencia']; ?></td>        
 		</tr>
 <?php endwhile; ?>
@@ -114,7 +115,7 @@ $result =  mysqli_query($conn, $sql);
 	</tbody>	
 </table>
 	
-
+<?php endif; ?>
 
 </div>
 

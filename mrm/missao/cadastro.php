@@ -61,6 +61,7 @@ require 'db.php';
 					<label for="inputPassword3" class="col-sm-2 control-label">Militar - Condutor</label>
 					<div class="col-sm-4">
 						<select class="form-control form-control-lg" name="cod_militar_condutor">
+							<option value="">     </option>
 						<?php
 						$sql = "SELECT cod_militar,nome, graduacao FROM militar";
 						$result = mysqli_query($conn, $sql);	
@@ -87,6 +88,7 @@ require 'db.php';
 					<label for="inputPassword3" class="col-sm-2 control-label">Militar - Auxliar</label>
 					<div class="col-sm-4">
 						<select class="form-control form-control-lg" name="cod_militar_auxiliar">
+							<option value="">     </option>
 						<?php
 						$sql = "SELECT cod_militar,nome, graduacao FROM militar";
 						$result = mysqli_query($conn, $sql);	
@@ -114,7 +116,7 @@ require 'db.php';
 					<label for="inputPassword3" class="col-sm-2 control-label">Viatura</label>
 					<div class="col-sm-4">
 						<select class="form-control form-control-lg" name="cod_viaturas">
-
+							<option value="">     </option>
 						<?php
 
 						$sql_viatura = "SELECT cod_viaturas,prefixo FROM viaturas";

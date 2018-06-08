@@ -27,6 +27,7 @@ require 'db.php';
 			<h3>Cadastrar Nova Missão</h3>
 
 			<form class="form-horizontal" action="#" method="post">
+
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Evento</label>
 					<div class="col-sm-10">
@@ -179,11 +180,11 @@ require 'db.php';
 
 		<div class="container">
 			
-			<?php if (isset($_POST['cadastrar'])): ?>
+			<?php if (isset($_REQUEST['cadastrar'])): ?>
 			<?php
 			
-			$evento = $REQUEST['evento'];
-			$localizacao =  $REQUEST['localizacao'];
+			$evento = $_REQUEST['evento'];
+			$localizacao =  $_REQUEST['localizacao'];
 			$cod_militar_auxiliar = $_REQUEST['cod_militar_auxiliar'];
 			$cod_militar_condutor = $_REQUEST['cod_militar_condutor'];
 			$viatura = $_REQUEST['cod_viatura'];

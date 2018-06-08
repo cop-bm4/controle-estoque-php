@@ -67,7 +67,56 @@ require 'db.php';
 	</div>
 </div>
 
+<div class="container-fluid">
+	
+	<h3>Missões Cadastradas</h3>
+	<div class="row">
+		 <div class="col-sm-12 text-right h2">
+        <!-- <a class="btn btn-primary" href="http://bm4cop-org.umbler.net/cadastronovo.php"><i class="fa fa-plus"></i> Novo Material</a> -->
+        <a class="btn btn-default" href="http://bm4cop-org.umbler.net/mrm/viatura/cadastro.php"><i class="fa fa-refresh"></i> Atualizar</a>
+      </div>
+	</div>
 
+<?php
+
+$sql =  "SELECT * FROM missao ORDER BY cod_missao DESC";
+$result =  mysqli_query($conn, $sql);
+
+?>
+
+<?php if (mysqli_num_rows($result)>0):  ?>
+
+<table class="table table-bordered">
+	<thead>
+		<th>EVENTO</th>
+		<th>ORIGEM</th>
+		<th>DESTINO</th>
+		<th>CONDUTOR</th>
+		<th>REFERENCIA</th>
+	</thead>
+	
+	<tbody>
+<?php while ($row=mysqli_fetch_assoc($result)): ?> 
+		<tr>
+		<td><?php echo $row['evento']; ?> </td>	
+		<td><?php echo $row['localizacao']; ?> </td>	
+		<td><?php echo $row['destino']; ?> </td>
+		<td><?php 
+                $n_militar_condutor = $row['cod_militar_condutor'];   
+                $sql_militar = "SELECT nome,graduacao,cod_militar FROM militar WHERE cod_militar='$n_militar_condutor'"; 
+                $result_militar=mysqli_query($conn, $sql_militar);
+                $row_militar=mysqli_fetch_assoc($result_militar);
+                echo " ".$row_militar['graduacao']." ".$row_militar['nome']; ?> </td>
+        <td><?php echo $row['referencia']; ?></td>        
+		</tr>
+<?php endwhile; ?>
+
+	</tbody>	
+</table>
+	
+
+
+</div>
 
 
 

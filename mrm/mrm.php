@@ -54,7 +54,7 @@
     <?php 
     require 'db.php';
     
-    $sql = "SELECT * FROM missao WHERE situacao= 'aberto'";
+    $sql = "SELECT * FROM missao WHERE situacao= 'aberto' ORDER BY cod_missao DESC";
     $result = mysqli_query($conn, $sql);
     $count = mysqli_num_rows($result);
      ?>

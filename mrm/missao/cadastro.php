@@ -124,7 +124,7 @@ require 'db.php';
 							<option value="">     </option>
 						<?php
 
-						$sql_viatura = "SELECT cod_viaturas,prefixo FROM viaturas";
+						$sql_viatura = "SELECT cod_viatura,prefixo FROM viaturas";
 						$result_viatura = mysqli_query($conn, $sql_viatura);	
 
 						?>	
@@ -133,7 +133,7 @@ require 'db.php';
 
 						<?php while($row_viatura=mysqli_fetch_assoc($result_viatura)):?>
 
-						<option value="<?php echo $row_viatura['cod_viaturas'];?>"><?php echo $row_viatura['prefixo']; ?></option>
+						<option value="<?php echo $row_viatura['cod_viatura'];?>"><?php echo $row_viatura['prefixo']; ?></option>
 
 						<?php endwhile; ?>	
 						

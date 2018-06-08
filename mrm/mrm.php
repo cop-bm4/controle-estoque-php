@@ -59,33 +59,6 @@
     $count = mysqli_num_rows($result);
      ?>
 
-
-<?php if (mysqli_num_rows($result)>0):  ?>
-
-<table class="table table-bordered">
-  <thead>
-    <th>PREFIXO</th>
-    <th>PLACA</th>
-  </thead>
-  
-  <tbody>
-<?php while ($row=mysqli_fetch_assoc($result)): ?> 
-    <tr>
-    <td><?php echo $row['observacao']; ?> </td>  
-    <td><?php echo $row['localizacao']; ?> </td>  
-
-    </tr>
-<?php endwhile; ?>
-
-  </tbody>  
-</table>
-  
-
-
-</div>
-
-<?php endif ?>
-
 <?php if ($count>0): ?>
 
    <?php while ($row=mysqli_fetch_assoc($result)): ?> 

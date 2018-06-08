@@ -181,6 +181,7 @@ require 'db.php';
 
 
 		<div class="container">
+			
 			<?php if (isset($_POST['cadastrar'])){
 
 			$evento = $_POST['evento'];

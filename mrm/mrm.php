@@ -67,7 +67,7 @@
   
           <div class="col-sm-12">
             <div class="alert alert-dark" role="alert">
-              <h3 class="alert-heading">Evento: <kbt><?php echo " ".$row['evento'];?></kbt></h3>
+              <h3 class="alert-heading">Evento:  <small class="text-muted"> <?php echo " ".$row['evento'];?> </small> </h3>
               <p class="font-weight-bold">Data/hora: </p> 
               <p class="font-weight-bold">Local: <?php echo $row['localizacao']; ?> </p> 
               <p class="font-weight-bold">Destino: </p> 

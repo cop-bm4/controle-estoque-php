@@ -74,8 +74,9 @@
               <p class="font-weight-bold">Vtr:
                 <small> 
                 <?php
-                $n_viatura = $row['cod_viatura'];   
-                $sql_vtr = "SELECT prefixo FROM viaturas WHERE cod_viatura='$n'"; 
+                $n_viatura = $row['cod_viatura'];  
+
+                $sql_vtr = "SELECT prefixo FROM viaturas WHERE cod_viatura='$n_viatura'"; 
                 $result_vtr=mysqli_query($conn, $sql_vtr);
                 $row_vtr=mysqli_fetch_assoc($result_vtr);
                 echo " ".$row_vtr['prefixo'];

@@ -22,9 +22,6 @@ require 'db.php';
   
 </nav>
 <br>
-<br>
-<br>
-
 
 		<div class="container">
 			<h3>Cadastrar Nova Missão</h3>
@@ -167,9 +164,6 @@ require 'db.php';
 						<input type="text" name="referencia" class="form-control" id="inputEmail3" placeholder="Referencia da Missão.">
 					</div>
 				</div>
-
-
-			<br>
 
 
 				<div class="form-group">

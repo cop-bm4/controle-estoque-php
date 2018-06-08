@@ -29,7 +29,7 @@ require 'db.php';
 		<div class="container">
 			<h3>Cadastrar Nova Missão</h3>
 
-			<form class="form-control" action="up.php" method="post">
+			<form class="form-horizontal" action="up.php" method="post">
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Evento</label>
 					<div class="col-sm-10">
@@ -38,9 +38,9 @@ require 'db.php';
 				</div>
 
 				<div class="form-group">
-					<label for="inputEmail4" class="col-sm-2 control-label">Localização</label>
+					<label for="inputEmail3" class="col-sm-2 control-label">Localização</label>
 					<div class="col-sm-10">
-						<input type="text" name="localizacao" class="form-control" id="inputEmail4" placeholder="Localização">
+						<input type="text" name="localizacao" class="form-control" id="inputEmail3" placeholder="Localização">
 					</div>
 				</div>
 
@@ -58,7 +58,7 @@ require 'db.php';
 				</div>
 	
 				<div class="form-group">
-					<label for="inputPassword5" class="col-sm-2 control-label">Militar - Condutor</label>
+					<label for="inputPassword3" class="col-sm-2 control-label">Militar - Condutor</label>
 					<div class="col-sm-4">
 						<select class="form-control form-control-lg" name="cod_militar_condutor">
 						<?php
@@ -84,7 +84,7 @@ require 'db.php';
 
 
 				<div class="form-group">
-					<label for="inputPassword6" class="col-sm-2 control-label">Militar - Auxliar</label>
+					<label for="inputPassword3" class="col-sm-2 control-label">Militar - Auxliar</label>
 					<div class="col-sm-4">
 						<select class="form-control form-control-lg" name="cod_militar_auxiliar">
 						<?php
@@ -111,7 +111,7 @@ require 'db.php';
 
 				
 				<div class="form-group">
-					<label for="inputPassword7" class="col-sm-2 control-label">Viatura</label>
+					<label for="inputPassword3" class="col-sm-2 control-label">Viatura</label>
 					<div class="col-sm-4">
 						<select class="form-control form-control-lg" name="cod_viaturas">
 
@@ -138,14 +138,14 @@ require 'db.php';
 				</div>
 					
 				<div class="form-group">
-					<label for="inputEmail10" class="col-sm-2 control-label">Solicitante</label>
+					<label for="inputEmail3" class="col-sm-2 control-label">Solicitante</label>
 					<div class="col-sm-6">
 						<input type="text" name="solicitante" class="form-control" id="inputEmail3" placeholder="Nome do Responsável pela solicitação.">
 					</div>
 				</div>
 
 				<div class="form-group">
-					<label for="inputEmail311class="col-sm-2 control-label">Telefone</label>
+					<label for="inputEmail3" class="col-sm-2 control-label">Telefone</label>
 					<div class="col-sm-4">
 						<input type="text" name="telefone" class="form-control" id="inputEmail3" placeholder="Telefone para Contato">
 					</div>

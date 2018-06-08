@@ -69,7 +69,7 @@
             <div class="alert alert-dark" role="alert">
               <h3 class="alert-heading">Evento:  <small> <?php echo " ".$row['evento'];?> </small> </h3>
               <p class="font-weight-bold">Data/hora: <small class="text-info"> <?php echo " ".$row['dat']; ?> </small> </p> 
-              <p class="font-weight-bold">Local:<small> <?php echo " ".$row['localizacao']; ?> </small></p> 
+              <p class="font-weight-bold">Origem:<small> <?php echo " ".$row['localizacao']; ?> </small></p> 
               <p class="font-weight-bold">Destino: <small> <?php echo " ".$row['destino']; ?> </small> </p> 
               <p class="font-weight-bold">Vtr:
                 <small> 
@@ -110,8 +110,8 @@
               </p> 
               <p class="font-weight-bold">Solicitante:<small><?php echo " ".$row['solicitante']; ?></small> </p> 
               <p class="font-weight-bold">Telefone do Solicitante:<small><?php echo " ".$row['telefone']; ?></small> </p> 
-              <p class="font-weight-bold">Referencia:<small><?php echo " ".$row['referencia']; ?></small> </p> 
-                
+              <p class="font-weight-bold">Observações:<small><?php echo " ".$row['observavao']; ?></small> </p> 
+                 <p class="font-weight-bold">Referencia:<small><?php echo " ".$row['referencia']; ?></small> </p> 
             </div>
           </div>
     </div>

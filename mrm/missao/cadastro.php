@@ -37,9 +37,9 @@ require 'db.php';
 
 
 				<div class="form-group">
-					<label for="inputEmail3" class="col-sm-2 control-label">Localização</label>
+					<label for="inputEmail3" class="col-sm-2 control-label">Origem</label>
 					<div class="col-sm-10">
-						<input type="text" name="localizacao" class="form-control" id="inputEmail3" placeholder="Localização">
+						<input type="text" name="localizacao" class="form-control" id="inputEmail3" placeholder="Origem">
 					</div>
 				</div>
 

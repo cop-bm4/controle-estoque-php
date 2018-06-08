@@ -43,6 +43,12 @@ require 'db.php';
 					</div>
 				</div>
 
+				<div class="form-group">
+					<label for="inputEmail3" class="col-sm-2 control-label">Destino</label>
+					<div class="col-sm-10">
+						<input type="text" name="destino" class="form-control" id="inputEmail3" placeholder="Destino">
+					</div>
+				</div>
 
 				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Data e Hora</label>
@@ -182,7 +188,7 @@ require 'db.php';
 			
 			<?php if (isset($_REQUEST['cadastrar'])): ?>
 			<?php
-			
+			$destino = $_REQUEST['destino'];
 			$evento = $_REQUEST['evento'];
 			$localizacao =  $_REQUEST['localizacao'];
 			$cod_militar_auxiliar = $_REQUEST['cod_militar_auxiliar'];
@@ -200,7 +206,7 @@ require 'db.php';
 			$data_sem_barra = $data_sem_barra . " " . $hora;
 
 			require 'db.php';
-			$sql_cad = "INSERT INTO missao(evento,localizacao,cod_militar_auxiliar,cod_militar_condutor, cod_viatura, solicitante,telefone, observacao,referencia,dat) VALUES('$evento','$localizacao','$cod_militar_auxiliar','$cod_militar_condutor','$viatura','$solicitante','$telefone','$observacao','$referencia','$data_sem_barra')";
+			$sql_cad = "INSERT INTO missao(destino,evento,localizacao,cod_militar_auxiliar,cod_militar_condutor, cod_viatura, solicitante,telefone, observacao,referencia,dat) VALUES('$destino','$evento','$localizacao','$cod_militar_auxiliar','$cod_militar_condutor','$viatura','$solicitante','$telefone','$observacao','$referencia','$data_sem_barra')";
 		?>
 		<?php if($conn->query($sql_cad) === TRUE):  ?>
 				<p class="alert alert-danger">Cadastro Realizado com sucesso!</p>

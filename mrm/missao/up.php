@@ -4,7 +4,7 @@ require 'credenciais.php';
 			$localizacao =  $REQUEST['localizacao'];
 			$cod_militar_auxiliar = $_REQUEST['cod_militar_auxiliar'];
 			$cod_militar_condutor = $_REQUEST['cod_militar_condutor'];
-			$viatura = $_REQUEST['viatura'];
+			$viatura = $_REQUEST['cod_viatura'];
 			$solicitante = $_REQUEST['solicitante'];
 			$telefone = $_REQUEST['telefone'];
 			$observacao = $_REQUEST['observacao'];

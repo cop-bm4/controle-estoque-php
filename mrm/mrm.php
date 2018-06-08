@@ -71,7 +71,7 @@
   <tbody>
 <?php while ($row=mysqli_fetch_assoc($result)): ?> 
     <tr>
-    <td><?php echo $row['evento']; ?> </td>  
+    <td><?php echo $row['observacao']; ?> </td>  
     <td><?php echo $row['localizacao']; ?> </td>  
 
     </tr>

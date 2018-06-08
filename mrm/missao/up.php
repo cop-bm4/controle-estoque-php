@@ -1,15 +1,15 @@
 <?php 
 require 'credenciais.php';
-			$evento = $_POST['evento'];
-			$localizacao =  $_POST['localizacao'];
-			$cod_militar_auxiliar = $_POST['cod_militar_auxiliar'];
-			$cod_militar_condutor = $_POST['cod_militar_condutor'];
-			$viatura = $_POST['viatura'];
-			$solicitante = $_POST['solicitante'];
-			$telefone = $_POST['telefone'];
-			$observacao = $_POST['observacao'];
-			$referencia = $_POST['referencia'];
-			$data = $_POST['data'];
+			$evento = $REQUEST['evento'];
+			$localizacao =  $REQUEST['localizacao'];
+			$cod_militar_auxiliar = $_REQUEST['cod_militar_auxiliar'];
+			$cod_militar_condutor = $_REQUEST['cod_militar_condutor'];
+			$viatura = $_REQUEST['viatura'];
+			$solicitante = $_REQUEST['solicitante'];
+			$telefone = $_REQUEST['telefone'];
+			$observacao = $_REQUEST['observacao'];
+			$referencia = $_REQUEST['referencia'];
+			$data = $_REQUEST['data'];
 			$data = explode(" ", $data);
 			list($date, $hora) = $data;
 			$data_sem_barra = array_reverse(explode("/", $date));

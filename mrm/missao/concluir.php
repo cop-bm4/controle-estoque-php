@@ -46,7 +46,7 @@ $(document).ready(function(){
 
 <div class="bs-example">
     <!-- Button HTML (to Trigger Modal) -->
-    <input type="button" class="btn btn-lg btn-primary launch-modal" value="Concluir?">
+    <input type="button" class="btn btn-lg btn-primary launch-modal" value="Concluir">
     
     <!-- Modal HTML -->
     <div id="myModal" class="modal fade">

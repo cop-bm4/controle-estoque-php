@@ -39,14 +39,14 @@ $(document).ready(function(){
   
 </nav>
 
-<
+<?php $sql ?>
 
 
 <!-- modal -->
 
 <div class="bs-example">
     <!-- Button HTML (to Trigger Modal) -->
-    <input type="button" class="btn btn-lg btn-primary launch-modal" value="Launch Demo Modal">
+    <input type="button" class="btn btn-lg btn-primary launch-modal" value="Concluir?">
     
     <!-- Modal HTML -->
     <div id="myModal" class="modal fade">
@@ -59,7 +59,7 @@ $(document).ready(function(){
                 <div class="modal-body">
                     <p>Deseja concluir a missão?</p>
                     <p class="text-warning"><small>Se não salvar, suas modificações não serão concluidas.</small></p>
-                    <p class="text-info"><small><strong>Nota:</strong> Depois de salvo não poderá mais editar dal evento.</small></p>
+                    <p class="text-info"><small><strong>Nota:</strong> Depois de salvo não poderá mais editar tal evento.</small></p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">FECHAR</button>

@@ -39,7 +39,14 @@ $(document).ready(function(){
   
 </nav>
 
-<?php $sql ?>
+<?php $sql="SELECT * FROM missao WHERE situacao='aberto'";
+	  $result = mysqli_query($conn,$sql);
+	  $row = mysqli_fetch_assoc($result);
+	  	
+
+
+
+ ?>
 
 
 <!-- modal -->
@@ -63,7 +70,8 @@ $(document).ready(function(){
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">FECHAR</button>
-                    <button type="button" class="btn btn-primary">Savar</button>
+                    <a href=""></a>
+                    <button type="button" class="btn btn-primary" >Savar</button>
                 </div>
             </div>
         </div>

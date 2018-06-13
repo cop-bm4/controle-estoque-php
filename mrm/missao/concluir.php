@@ -52,7 +52,7 @@ require 'db.php';
   </div>
 </div>
 
-<script type="text/javascript">
+<script>
 	$(document).ready(function() {
    $('#myModal').modal('show');
 	});

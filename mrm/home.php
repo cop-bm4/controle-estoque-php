@@ -32,8 +32,8 @@ require 'db.php';
 				
 
 					 <a href="/mrm/missao/cadastro.php" class="btn btn-success btn-lg" class="text-center"><span class="glyphicon glyphicon-plus"></span> Nova </a><a href="#" class="btn btn-info btn-lg" class="text-center">
-         				 <span class="glyphicon glyphicon-pencil"></span> Editar </a><a href="#" class="btn btn-danger btn-lg" class="text-center">
-         				 <span class="glyphicon glyphicon-trash"></span> Excluir </a>		
+         				 <span class="glyphicon glyphicon-pencil"></span> Editar </a><a href="/mrm/missao/concluir.php" class="btn btn-danger btn-lg" class="text-center">
+         				 <span class="glyphicon glyphicon-ok-circle"></span> Concluir </a>		
 						
 			</div>
 		</div>
@@ -93,6 +93,7 @@ $result =  mysqli_query($conn, $sql);
 		<th>DESTINO</th>
 		<th>CONDUTOR</th>
 		<th>REFERENCIA</th>
+		<th>SITUAÇÃO</th>
 	</thead>
 	
 	<tbody>
@@ -109,6 +110,7 @@ $result =  mysqli_query($conn, $sql);
                 echo " ".$row_militar['graduacao']." ".$row_militar['nome']; 
                 ?> </td>
         <td><?php echo $row['referencia']; ?></td>        
+        <td><?php echo $row['situacao']; ?></td>
 		</tr>
 <?php endwhile; ?>
 

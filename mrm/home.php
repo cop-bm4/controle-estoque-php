@@ -33,7 +33,7 @@ require 'db.php';
 
 					 <a href="/mrm/missao/cadastro.php" class="btn btn-success btn-lg" class="text-center"><span class="glyphicon glyphicon-plus"></span> Nova </a><a href="#" class="btn btn-info btn-lg" class="text-center">
          				 <span class="glyphicon glyphicon-pencil"></span> Editar </a><a href="/mrm/missao/concluir.php" class="btn btn-danger btn-lg" class="text-center">
-         				 <span class="glyphicon glyphicon-ok-circle"></span> Concluir </a>		
+         				 <span class="glyphicon glyphicon-ok-circle"></span> ok </a>		
 						
 			</div>
 		</div>

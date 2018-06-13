@@ -39,7 +39,10 @@ $(document).ready(function(){
   
 </nav>
 
+<
 
+
+<!-- modal -->
 
 <div class="bs-example">
     <!-- Button HTML (to Trigger Modal) -->
@@ -51,21 +54,29 @@ $(document).ready(function(){
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Confirmation</h4>
+                   
                 </div>
                 <div class="modal-body">
-                    <p>Do you want to save changes you made to document before closing?</p>
-                    <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
-                    <p class="text-info"><small><strong>Note:</strong> If you click on the black area outside of this modal window it will not hide.</small></p>
+                    <p>Deseja concluir a missão?</p>
+                    <p class="text-warning"><small>Se não salvar, suas modificações não serão concluidas.</small></p>
+                    <p class="text-info"><small><strong>Nota:</strong> Depois de salvo não poderá mais editar dal evento.</small></p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">FECHAR</button>
+                    <button type="button" class="btn btn-primary">Savar</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+<!-- modal -->
+
+
+
+
+
 
 </body>
 </html>

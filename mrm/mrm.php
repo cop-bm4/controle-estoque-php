@@ -49,7 +49,7 @@
   <h2>Mapa de Registro de Missão.</h2>
 </div>
 
-<div class="container-fluid">
+<div class="container">
   <!-- contador de vetor -->
     <?php 
     require 'db.php';

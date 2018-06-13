@@ -92,6 +92,7 @@ require 'db.php';
 				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Militar - Auxliar</label>
 					<div class="col-sm-4">
+						
 						<select class="form-control form-control-lg" name="cod_militar_auxiliar">
 							<option value="">     </option>
 						<?php

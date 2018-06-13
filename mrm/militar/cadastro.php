@@ -150,11 +150,13 @@ $result =  mysqli_query($conn, $sql);
 	<tbody>
 <?php while ($row=mysqli_fetch_assoc($result)): ?> 
 		<tr>
+
 		<td><?php echo $row['graduacao']; ?> </td>	
 		<td><?php echo $row['nome']; ?> </td>	
 		<td><?php echo $row['mf']; ?> </td>
 		<td><?php echo $row['ubm']; ?> </td>
 		<td><?php echo $row['telefone']; ?> </td>
+		
 		</tr>
 <?php endwhile; ?>
 

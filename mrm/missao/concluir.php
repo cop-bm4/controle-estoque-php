@@ -32,7 +32,7 @@ require 'db.php';
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -51,6 +51,13 @@ require 'db.php';
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+   $('#myModal').modal('show');
+	});
+
+</script>
 
 </body>
 </html>

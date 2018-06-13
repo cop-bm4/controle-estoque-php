@@ -95,7 +95,8 @@
                 
                  ?>
                 </small> 
-              </p> 
+               </p> 
+              <p class="font-weight-bold">Telefone do Condutor: <small><?php echo " ".$row_militar['telefone']; ?> </small></p>
                  <p class="font-weight-bold">Auxiliar:
                 <small>
                   <?php
@@ -108,6 +109,7 @@
                  ?>
                 </small> 
               </p> 
+             <p class="font-weight-bold">Telefone do Auxiliar: <small><?php echo " ".$row_militar_auxiliar['telefone']; ?> </small></p>
               <p class="font-weight-bold">Solicitante:<small><?php echo " ".$row['solicitante']; ?></small> </p> 
               <p class="font-weight-bold">Telefone do Solicitante:<small><?php echo " ".$row['telefone']; ?></small> </p> 
               <p class="font-weight-bold">Observações:<small><?php echo " ".$row['observavao']; ?></small> </p> 

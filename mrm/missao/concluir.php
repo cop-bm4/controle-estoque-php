@@ -41,13 +41,40 @@ $(document).ready(function(){
 
 <?php $sql="SELECT * FROM missao WHERE situacao='aberto'";
 	  $result = mysqli_query($conn,$sql);
-	  $row = mysqli_fetch_assoc($result);
-	  	
+	  
+?>
+<?php if ($result>0):  ?>
+
+
+	
+<div class="container-fluid">
+	<table class="table-bordered">
+		<thead>
+			<th>MRM</th>
+			<th>EVENTO</th>
+			<th>SELECIONAR</th>	
+		</thead>
+		<tbody>
+<?php while ($row = mysqli_fetch_assoc($result);) :?>
+		<td><?php echo $row['cod_missao'] ?></td>
+		<td><?php echo $row['evento']; ?> </td>	
+		<td>
+			
 
 
 
- ?>
 
+
+
+			
+		</td>
+			
+		</tbody>
+	</table>	
+	
+<?php endwhile; ?>
+
+</div>
 
 <!-- modal -->
 
@@ -81,7 +108,7 @@ $(document).ready(function(){
 
 <!-- modal -->
 
-
+<?php endif;?>
 
 
 

@@ -88,6 +88,7 @@ $result =  mysqli_query($conn, $sql);
 
 <table class="table table-bordered">
 	<thead>
+		<th>MRM</th>
 		<th>EVENTO</th>
 		<th>ORIGEM</th>
 		<th>DESTINO</th>
@@ -99,6 +100,7 @@ $result =  mysqli_query($conn, $sql);
 	<tbody>
 <?php while ($row=mysqli_fetch_assoc($result)): ?> 
 		<tr>
+		<td><?php echo $row['cod_missao'] ?></td>
 		<td><?php echo $row['evento']; ?> </td>	
 		<td><?php echo $row['localizacao']; ?> </td>	
 		<td><?php echo $row['destino']; ?> </td>

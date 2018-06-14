@@ -68,7 +68,7 @@
           <div class="col-sm-12">
             <div class="alert alert-dark" role="alert">
               <h3 class="alert-heading">Evento:  <small> <?php echo " ".$row['evento'];?> </small> </h3>
-              <h2 class="font-weight-bold">Data/hora: <small class="text-danger"> <?php echo " ".$row['dat']; ?> </small> </h2> 
+              <p class="font-weight-bold">Data/hora: <small class="text-danger"> <?php echo " ".$row['dat']; ?> </small> </p> 
               <p class="font-weight-bold">Origem:<small> <?php echo " ".$row['localizacao']; ?> </small></p> 
               <p class="font-weight-bold">Destino: <small> <?php echo " ".$row['destino']; ?> </small> </p> 
               <p class="font-weight-bold">Vtr:

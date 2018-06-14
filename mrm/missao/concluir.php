@@ -55,8 +55,8 @@ $(document).ready(function(){
 			<th>SELECIONAR</th>	
 		</thead>
 		<tbody>
-<?php while ($row = mysqli_fetch_assoc($result);) :?>
-		<td><?php echo $row['cod_missao'] ?></td>
+<?php while ($row = mysqli_fetch_assoc($result)) :?>
+		<td><?php echo $row['cod_missao']; ?></td>
 		<td><?php echo $row['evento']; ?> </td>	
 		<td>
 			

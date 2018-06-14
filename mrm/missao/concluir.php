@@ -63,7 +63,7 @@ $(document).ready(function(){
 			
 				<div class="bs-example">
    				 <!-- Button HTML (to Trigger Modal) -->
-   				 <input type="button" class="btn btn-primary launch-modal" value="Concluir">
+   				 <input type="button" class="btn btn-primary launch-modal btn-group-justified" value="Concluir">
    	 
   			  <!-- Modal HTML -->
    				 <div id="myModal" class="modal fade">
@@ -81,7 +81,7 @@ $(document).ready(function(){
 
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">FECHAR</button>
-                          <a href="att.php?id=<?php echo $row['cod_missao']; ?>" button type="button" class="btn btn-default btn-group-justified"><i class="fa fa-pencil"></i> Salvar</a>
+                          <a href="att.php?id=<?php echo $row['cod_missao']; ?>" button type="button" class="btn btn-default "><i class="fa fa-pencil"></i> Salvar</a>
                    <!-- <button type="button" class="btn btn-primary" >Savar</button> -->
                 </div>
             </div>

@@ -47,7 +47,7 @@ $(document).ready(function(){
 
 
 	
-<div class="container-fluid">
+<div class="container">
 	<table class="table-bordered">
 		<thead>
 			<th>MRM</th>
@@ -58,12 +58,39 @@ $(document).ready(function(){
 <?php while ($row = mysqli_fetch_assoc($result)) :?>
 		<td><?php echo $row['cod_missao']; ?></td>
 		<td><?php echo $row['evento']; ?> </td>	
-		<td>
+		<td> 
+				
+
+
+		 </td>
 			
+				<div class="bs-example">
+   				 <!-- Button HTML (to Trigger Modal) -->
+   				 <input type="button" class="btn btn-lg btn-primary launch-modal" value="Concluir">
+   	 
+  			  <!-- Modal HTML -->
+   				 <div id="myModal" class="modal fade">
+       				 <div class="modal-dialog">
+           				 <div class="modal-content">
+               				 <div class="modal-header">
+                			    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                 </div>
 
+                <div class="modal-body">
+                    <p>Deseja concluir a missão?</p>
+                    <p class="text-warning"><small>Se não salvar, suas modificações não serão concluidas.</small></p>
+                    <p class="text-info"><small><strong>Nota:</strong> Depois de salvo não poderá mais editar tal evento.</small></p>
+                </div>
 
-
-
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">FECHAR</button>
+                          <a href="att.php?id=<?php echo $row['cod_missao']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Salvar</a>
+                   <!-- <button type="button" class="btn btn-primary" >Savar</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 			
@@ -78,32 +105,6 @@ $(document).ready(function(){
 
 <!-- modal -->
 
-<div class="bs-example">
-    <!-- Button HTML (to Trigger Modal) -->
-    <input type="button" class="btn btn-lg btn-primary launch-modal" value="Concluir">
-    
-    <!-- Modal HTML -->
-    <div id="myModal" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                   
-                </div>
-                <div class="modal-body">
-                    <p>Deseja concluir a missão?</p>
-                    <p class="text-warning"><small>Se não salvar, suas modificações não serão concluidas.</small></p>
-                    <p class="text-info"><small><strong>Nota:</strong> Depois de salvo não poderá mais editar tal evento.</small></p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">FECHAR</button>
-                    <a href=""></a>
-                    <button type="button" class="btn btn-primary" >Savar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <!-- modal -->

@@ -56,14 +56,14 @@ $(document).ready(function(){
 		</thead>
 		<tbody>
 <?php while ($row = mysqli_fetch_assoc($result)) :?>
-		<td><p class="align-items-center"><?php echo $row['cod_missao']; ?></p></td>
+		<td><p class="text text-xl-center" ><?php echo $row['cod_missao']; ?></p></td>
 		<td><p class="align-items-center"><?php echo $row['evento']; ?> </p></td>	
 		<td> 
 				
 			
 				<div class="bs-example">
    				 <!-- Button HTML (to Trigger Modal) -->
-   				 <input type="button" class="btn btn-sm btn-primary launch-modal" value="Concluir">
+   				 <input type="button" class="btn btn-primary launch-modal" value="Concluir">
    	 
   			  <!-- Modal HTML -->
    				 <div id="myModal" class="modal fade">

@@ -60,9 +60,6 @@ $(document).ready(function(){
 		<td><?php echo $row['evento']; ?> </td>	
 		<td> 
 				
-
-
-		 </td>
 			
 				<div class="bs-example">
    				 <!-- Button HTML (to Trigger Modal) -->

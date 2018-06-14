@@ -56,8 +56,8 @@ $(document).ready(function(){
 		</thead>
 		<tbody>
 <?php while ($row = mysqli_fetch_assoc($result)) :?>
-		<td><?php echo $row['cod_missao']; ?></td>
-		<td><?php echo $row['evento']; ?> </td>	
+		<td><p class="align-items-center"><?php echo $row['cod_missao']; ?></p></td>
+		<td><p class="align-items-center"><?php echo $row['evento']; ?> </p></td>	
 		<td> 
 				
 			

@@ -4,7 +4,7 @@
 	<?php 
 	require 'head.php';
 	require 'db.php';
-	require 'credenciais';
+	require 'credenciais.php';
 	?>
 
 

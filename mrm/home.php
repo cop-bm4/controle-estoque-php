@@ -14,7 +14,10 @@ require 'db.php';
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
   <a class="navbar-brand" href="http://bm4cop-org.umbler.net/mrm/mrm.php">MRM</a>
-  
+    <ul class="nav navbar-nav navbar-right">
+     
+      <li><a href="http://bm4cop-org.umbler.net/mrm/logout.php "> <span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+    </ul>
 </nav>
 
 <br>

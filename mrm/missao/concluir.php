@@ -56,7 +56,7 @@ $(document).ready(function(){
 		</thead>
 		<tbody>
 <?php while ($row = mysqli_fetch_assoc($result)) :?>
-		<td><p class="text text-xl-center" ><?php echo $row['cod_missao']; ?></p></td>
+		<td><p class="text text-xl-center align-content-xl-between" ><?php echo $row['cod_missao']; ?></p></td>
 		<td><p class="text text-xl-center"><?php echo $row['evento']; ?> </p></td>	
 		<td> 
 				

@@ -55,11 +55,7 @@ require 'db.php';
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand/logo -->
-  <a class="navbar-brand" href="http://bm4cop-org.umbler.net/mrm/home.php">home</a>
-  
-</nav>
+
 <br>
 
 		<div class="container">

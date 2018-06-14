@@ -48,7 +48,7 @@ $(document).ready(function(){
 
 	
 <div class="container">
-	<table class="table-bordered">
+	<table class="table table-bordered">
 		<thead>
 			<th>MRM</th>
 			<th>EVENTO</th>

@@ -57,7 +57,7 @@ $(document).ready(function(){
 		<tbody>
 <?php while ($row = mysqli_fetch_assoc($result)) :?>
 		<td><p class="text text-xl-center" ><?php echo $row['cod_missao']; ?></p></td>
-		<td><p class="align-items-center"><?php echo $row['evento']; ?> </p></td>	
+		<td><p class="text text-xl-center"><?php echo $row['evento']; ?> </p></td>	
 		<td> 
 				
 			
@@ -81,7 +81,7 @@ $(document).ready(function(){
 
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">FECHAR</button>
-                          <a href="att.php?id=<?php echo $row['cod_missao']; ?>" button type="button" class="btn btn-default"><i class="fa fa-pencil"></i> Salvar</a>
+                          <a href="att.php?id=<?php echo $row['cod_missao']; ?>" button type="button" class="btn btn-default btn-group-justified"><i class="fa fa-pencil"></i> Salvar</a>
                    <!-- <button type="button" class="btn btn-primary" >Savar</button> -->
                 </div>
             </div>

@@ -34,7 +34,7 @@
 
 <?php
 
-$sql =  "SELECT * FROM missao ORDER BY cod_missao DESC";
+$sql =  "SELECT * FROM missao WHERE situacao='aberto' ORDER BY cod_missao DESC";
 $result =  mysqli_query($conn, $sql);
 
 ?>
@@ -49,7 +49,7 @@ $result =  mysqli_query($conn, $sql);
 		<th>DESTINO</th>
 		<th>CONDUTOR</th>
 		<th>REFERENCIA</th>
-		<th>SITUAÇÃO</th>
+		
 		<td>SELECIONAR</td>
 	</thead>
 	
@@ -68,7 +68,7 @@ $result =  mysqli_query($conn, $sql);
                 echo " ".$row_militar['graduacao']." ".$row_militar['nome']; 
                 ?> </td>
         <td><?php echo $row['referencia']; ?></td>        
-        <td><?php echo $row['situacao']; ?></td>
+      
         <td> <a href="edit.php?id=<?php echo $row['cod_missao']; ?>" button type="button" class="btn btn-default "><i class="fa fa-pencil"></i> Selecionar</a></td>
 		</tr>
 <?php endwhile; ?>

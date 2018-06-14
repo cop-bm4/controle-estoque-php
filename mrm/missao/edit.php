@@ -89,7 +89,7 @@ require 'db.php';
 					<label for="inputPassword3" class="col-sm-2 control-label">Data e Hora</label>
 					<div class="col-sm-4">
 						<div class="input-group date data_formato" data-date-format="dd/mm/yyyy HH:ii:ss">
-							<input type="text" class="form-control" name="data" value="Data e Hora do Evento">
+							<input type="text" class="form-control" name="data" value=<?php echo $row['dat']; ?>>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-th"></span>
 							</span>
@@ -111,7 +111,7 @@ require 'db.php';
 
 
 						<?php while($row_militar=mysqli_fetch_assoc($result)):?>
-
+						
 						<option value="<?php echo $row_militar['cod_militar'];?>"><?php echo $row_militar['graduacao']." ". $row_militar['nome']; ?></option>
 
 						<?php endwhile; ?>	
@@ -211,7 +211,7 @@ require 'db.php';
 
 				<div class="form-group">
 					<div class="col-sm-offset-2 col-sm-10">
-						<button type="submit" class="btn btn-success" name="cadastrar">Atualizar </button>
+						<button type="submit" class="btn btn-success" name="atualizar">Atualizar </button>
 					</div>
 				</div>
 
@@ -222,7 +222,7 @@ require 'db.php';
 
 		<div class="container">
 			
-			<?php if (isset($_REQUEST['cadastrar'])): ?>
+			<?php if (isset($_REQUEST['atualizar'])): ?>
 			<?php
 			$destino = $_REQUEST['destino'];
 			$evento = $_REQUEST['evento'];
@@ -242,10 +242,12 @@ require 'db.php';
 			$data_sem_barra = $data_sem_barra . " " . $hora;
 
 			require 'db.php';
-			$sql_cad = "INSERT INTO missao(destino,evento,localizacao,cod_militar_auxiliar,cod_militar_condutor, cod_viatura, solicitante,telefone, observacao,referencia,dat) VALUES('$destino','$evento','$localizacao','$cod_militar_auxiliar','$cod_militar_condutor','$viatura','$solicitante','$telefone','$observacao','$referencia','$data_sem_barra')";
+			$sql_att = "UPDATE missao SET destino='$destino', evento='$evento', localizacao='$localizacao', cod_militar_auxiliar='$cod_militar_auxiliar', cod_militar_condutor='$cod_militar_condutor', cod_viatura='$viatura', solicitante='$solicitante', telefone='$telefone', observacao='$observacao',referencia='$referencia', dat='$data_sem_barra'";
+
+			//$sql_cad = "INSERT INTO missao(destino,evento,localizacao,cod_militar_auxiliar,cod_militar_condutor, cod_viatura, solicitante,telefone, observacao,referencia,dat) VALUES('$destino','$evento','$localizacao','$cod_militar_auxiliar','$cod_militar_condutor','$viatura','$solicitante','$telefone','$observacao','$referencia','$data_sem_barra')";
 		?>
-		<?php if($conn->query($sql_cad) === TRUE):  ?>
-				<p class="alert alert-danger">Cadastro Realizado com sucesso!</p>
+		<?php if($conn->query($sql_att) === TRUE):  ?>
+				<p class="alert alert-danger">Atualização  Realizada com Sucesso!</p>
 		<?php endif; ?>
 
 

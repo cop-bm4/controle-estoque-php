@@ -242,7 +242,7 @@ require 'db.php';
 			$data_sem_barra = $data_sem_barra . " " . $hora;
 
 			require 'db.php';
-			$sql_att = "UPDATE missao SET destino='$destino', evento='$evento', localizacao='$localizacao', cod_militar_auxiliar='$cod_militar_auxiliar', cod_militar_condutor='$cod_militar_condutor', cod_viatura='$viatura', solicitante='$solicitante', telefone='$telefone', observacao='$observacao',referencia='$referencia', dat='$data_sem_barra'";
+			$sql_att = "UPDATE missao SET destino='$destino', evento='$evento', localizacao='$localizacao', cod_militar_auxiliar='$cod_militar_auxiliar', cod_militar_condutor='$cod_militar_condutor', cod_viatura='$viatura', solicitante='$solicitante', telefone='$telefone', observacao='$observacao',referencia='$referencia', dat='$data_sem_barra' WHERE cod_missao='$id'";
 
 			//$sql_cad = "INSERT INTO missao(destino,evento,localizacao,cod_militar_auxiliar,cod_militar_condutor, cod_viatura, solicitante,telefone, observacao,referencia,dat) VALUES('$destino','$evento','$localizacao','$cod_militar_auxiliar','$cod_militar_condutor','$viatura','$solicitante','$telefone','$observacao','$referencia','$data_sem_barra')";
 		?>

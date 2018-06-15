@@ -8,6 +8,27 @@ require 'db.php';
 
 ?>
 
+<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".launch-modal").click(function(){
+		$("#myModal").modal({
+			backdrop: 'static'
+		});
+	}); 
+});
+</script>
+<style type="text/css">
+    .bs-example{
+    	margin: 20px;
+    }
+</style>
+
 </head>
 
 

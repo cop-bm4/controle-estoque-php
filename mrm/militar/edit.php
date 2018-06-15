@@ -7,8 +7,8 @@ require 'credenciais.php';
 require 'db.php';
 $id=$_GET['id'];
 $sql_consulta = "SELECT * FROM militar WHERE cod_militar = '$id' ";
-$result= mysqli_query($conn, $sql_consulta);
-$row_consulta = mysqli_fetch_assoc($result);
+$result_s= mysqli_query($conn, $sql_consulta);
+$row_consulta = mysqli_fetch_assoc($result_s);
 
 ?>
 
@@ -39,7 +39,7 @@ $row_consulta = mysqli_fetch_assoc($result);
  							 <div class="input-group-prepend">
     							<span class="input-group-text" id="basic-addon3">Graduação</span>
   							</div>
- 						 		<input type="text" class="form-control" id="basic-url" name="graduacao" aria-describedby="basic-addon3" value="<?php echo $row['graduacao']; ?>">
+ 						 		<input type="text" class="form-control" id="basic-url" name="graduacao" aria-describedby="basic-addon3" value="<?php echo $row_consulta['graduacao']; ?>">
 						</div>
 					</div>
 						<br>
@@ -50,7 +50,7 @@ $row_consulta = mysqli_fetch_assoc($result);
   								<div class="input-group-prepend">
     								<span class="input-group-text" id="BAS">Nome</span>
  							 	</div>
-  								<input type="text" class="form-control" id="BAS" aria-describedby="basic-addon3" name="nome" value="<?php echo $row['nome']; ?>">
+  								<input type="text" class="form-control" id="BAS" aria-describedby="basic-addon3" name="nome" value="<?php echo $row_consulta['nome']; ?>">
 							</div>
 					</div>	
 						<br>
@@ -61,7 +61,7 @@ $row_consulta = mysqli_fetch_assoc($result);
   								<div class="input-group-prepend">
     								<span class="input-group-text" id="BAS">MF</span>
  							 	</div>
-  								<input type="text" class="form-control" id="BAS" aria-describedby="basic-addon3" name="mf" value="<?php echo $row['mf']; ?>">
+  								<input type="text" class="form-control" id="BAS" aria-describedby="basic-addon3" name="mf" value="<?php echo $row_consulta['mf']; ?>">
 							</div>
 					</div>		
 
@@ -72,7 +72,7 @@ $row_consulta = mysqli_fetch_assoc($result);
   								<div class="input-group-prepend">
     								<span class="input-group-text" id="BAS">UBM</span>
  							 	</div>
-  								<input type="text" class="form-control" id="BAS" aria-describedby="basic-addon3" name="ubm" value="<?php echo $row['ubm']; ?>">
+  								<input type="text" class="form-control" id="BAS" aria-describedby="basic-addon3" name="ubm" value="<?php echo $row_consulta['ubm']; ?>">
 							</div>
 						</div>
 						<div class="col-3">
@@ -80,7 +80,7 @@ $row_consulta = mysqli_fetch_assoc($result);
   								<div class="input-group-prepend">
     								<span class="input-group-text" id="BAS">Telefone</span>
  							 	</div>
-  								<input type="text" class="form-control" id="BAS" aria-describedby="basic-addon3" name="telefone" value="<?php echo $row['telefone']; ?>">
+  								<input type="text" class="form-control" id="BAS" aria-describedby="basic-addon3" name="telefone" value="<?php echo $row_consulta['telefone']; ?>">
 							</div>
 						</div>
 					</div>	

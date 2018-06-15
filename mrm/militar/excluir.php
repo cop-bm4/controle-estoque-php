@@ -98,7 +98,7 @@ $result =  mysqli_query($conn, $sql);
                  </div>
 
                 <div class="modal-body">
-                    <p>Deseja o militar?</p>
+                    <p>Deseja excluir o militar?</p>
                     <p class="text-warning"><small>Se não Excluir, suas modificações não serão concluidas .</small></p>
                     <p class="text-info"><small><strong>Nota:</strong> Depois de Excluir não poderá mais editar tal Militar.</small></p>
                 </div>

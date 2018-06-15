@@ -59,11 +59,12 @@ $(document).ready(function(){
 		</thead>
 		<tbody>
 <?php while ($row = mysqli_fetch_assoc($result)) :?>
+  <tr>
 		<td><p class="text text-xl-center align-content-xl-between" ><?php echo $row['cod_missao']; ?></p></td>
+
 		<td><p class="text text-xl-center"><?php echo $row['evento']; ?> </p></td>	
+
 		<td> 
-				
-			
 				<div class="bs-example">
    				 <!-- Button HTML (to Trigger Modal) -->
    				 <input type="button" class="btn btn-primary launch-modal btn-group-justified" value="Salvar">
@@ -96,7 +97,7 @@ $(document).ready(function(){
 			
 		</td>
 			
-	
+	</tr>
 	
 <?php endwhile; ?>
   </tbody>

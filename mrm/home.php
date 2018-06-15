@@ -47,7 +47,7 @@ require 'db.php';
 			<div class="alert alert-success"  role="alert">
 				<h3 ><strong>Militar</strong></h3>		
 
-					 <a href="/mrm/militar/cadastro.php" class="btn btn-success btn-lg" class="text-center"><span class="glyphicon glyphicon-plus"></span> Novo </a><a href="#" class="btn btn-info btn-lg" class="text-center">
+					 <a href="/mrm/militar/cadastro.php" class="btn btn-success btn-lg" class="text-center"><span class="glyphicon glyphicon-plus"></span> Novo </a><a href="/mrm/militar/editar.php" class="btn btn-info btn-lg" class="text-center">
          				 <span class="glyphicon glyphicon-pencil"></span> Editar </a><a href="#" class="btn btn-danger btn-lg" class="text-center">
          				 <span class="glyphicon glyphicon-trash"></span> Excluir </a>			
 			</div>

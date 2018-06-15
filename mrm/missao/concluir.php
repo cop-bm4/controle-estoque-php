@@ -96,11 +96,11 @@ $(document).ready(function(){
 			
 		</td>
 			
-		</tbody>
-	</table>	
+	
 	
 <?php endwhile; ?>
-
+  </tbody>
+  </table>  
 </div>
 
 <!-- modal -->

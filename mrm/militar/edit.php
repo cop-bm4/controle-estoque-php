@@ -114,15 +114,17 @@ $mf = $_POST['mf'];
 $telefone = $_POST['telefone'];
 
 $sql ="UPDATE militar SET nome= '$nome', ubm='$ubm', graduacao= '$graduacao',mf='$mf', telefone='$telefone' WHERE cod_militar='$id' ";
-	if($conn->query($sql) === TRUE){
-		echo "Atualizado com sucesso";
-
-
-	}	
-} 
 
 
 ?>
+<?php	if($conn->query($sql) === TRUE):?>
+
+<p class="text-warning"><?php echo "Atualizado com sucesso"; ?> </p>		
+
+
+
+
+<?php endif; ?>
 </div>
 
 <br>

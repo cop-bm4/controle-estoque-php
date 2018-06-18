@@ -3,7 +3,7 @@
 <head>
 <?php
 require 'head.php';
-require 'credenciais.php';
+
 require 'db.php';
 
 ?>

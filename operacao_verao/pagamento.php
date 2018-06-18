@@ -30,16 +30,22 @@ require 'db.php';
 		<div class="container">
 			<h3>Novo pagamento</h3>
 
-			<form class="form-horizontal" action="#" method="post">
+			<form class="form-horizontal" action="action.php" method="post">
 
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Pagador</label>
 					<div class="col-sm-10">
 						<input type="text" name="pagador" class="form-control" id="inputEmail3" placeholder="Responsável pelo pagamento">
 					</div>
+				</div> 
+
+					<div class="form-group">
+					<label for="inputEmail3" class="col-sm-2 control-label">Cargo do Pagador</label>
+					<div class="col-sm-10">
+						<input type="text" name="cargo_pagador" class="form-control" id="inputEmail3" placeholder="Cargo do recebedor">
+					</div>
 				</div>
-
-
+				
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Recebedor</label>
 					<div class="col-sm-10">
@@ -51,7 +57,7 @@ require 'db.php';
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Cargo do Recebedor</label>
 					<div class="col-sm-10">
-						<input type="text" name="cargo" class="form-control" id="inputEmail3" placeholder="Cargo do recebedor">
+						<input type="text" name="cargo_recebedor" class="form-control" id="inputEmail3" placeholder="Cargo do recebedor">
 					</div>
 				</div>
 				

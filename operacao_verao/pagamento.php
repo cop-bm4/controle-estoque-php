@@ -66,23 +66,8 @@ require 'db.php';
           </div>
         </div>
 
-</form>
-<!-- fim recebedor -->
-
-<!-- botao_recebedor -->
-<?php if (isset($_REQUEST['botao_recebedor'])): ?>
-<?php
-$recebedor = $_POST['recebedor'];
-$pagador = $_POST['pagador'];
-?>
-
-<!-- FIM botao_recebedor -->
 
 
-<h4>Pagar Óculos</h4>
-<form class="form-horizontal" action="#" method="post">
-
-      <!--
         <div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Material</label>
 					<div class="col-sm-4">
@@ -96,7 +81,7 @@ $pagador = $_POST['pagador'];
 
 					</div>
 				</div>
-      -->
+
 
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Quantidade</label>
@@ -110,19 +95,6 @@ $pagador = $_POST['pagador'];
             <button type="submit" class="btn btn-success" name="botao_confirmar_oculos">Confirmar </button>
           </div>
         </div>
-
-  </form>
-
-<?php if (isset($_REQUEST['botao_confirmar_oculos'])): ?>
-        <?php
-        echo $recebedor;
-        echo $pagador;
-        $quantidade_oculos = $_POST['quantidade_oculos'];
-        if ($quantidade_oculos>0):?>
-          <?php for ($i=0; $i < $quantidade_oculos; $i++): ?>
-
-          <div class="form-group">
-
 
             <div class="form-group">
               <label for="inputEmail3" class="col-sm-2 control-label">Militar</label>
@@ -146,22 +118,6 @@ $pagador = $_POST['pagador'];
             </div>
 
       </div>
-
-
-        <?php endfor; ?>
-
-
-
-      <?php endif; ?>
-
-
-
-<?php endif; ?>
-
-
-
-
-
 
 
 				<div class="form-group">
@@ -199,7 +155,7 @@ $pagador = $_POST['pagador'];
 
 			</form>
 
-<?php endif; ?>
+
 		</div>
 
 

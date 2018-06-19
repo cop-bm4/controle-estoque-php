@@ -70,7 +70,7 @@ require 'db.php';
 <!-- fim recebedor -->
 
 
-  <?php if (isset($_RESQUEST['botao_recebedor'])): ?>
+  <?php if (isset($_REQUEST['botao_recebedor'])): ?>
 <?php
 $recebedor = $_POST['recebedor'];
 $pagador = $_POST['pagador'];

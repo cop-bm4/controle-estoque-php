@@ -17,7 +17,7 @@ $ubm = $_REQUEST['ubm'];
 
 <?php
 /* Carrega a classe DOMPdf */
-require_once("dompdf/dompdf_config.inc.php");
+require_once("operacao_verao/dompdf/dompdf_config.inc.php");
 
 /* Cria a instância */
 $dompdf = new DOMPDF();

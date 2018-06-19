@@ -13,7 +13,7 @@ $mf = $_REQUEST['mf'];
 $ubm = $_REQUEST['ubm'];
 
 
-$sql_insert_op = "INSERT INTO pagamento_op(paga)"
+$sql_insert_op = "INSERT INTO pagamento_op(pagador, recebedor, cod_material, rp, )"
 
 
 

@@ -26,7 +26,7 @@ require 'db.php';
 <br>
 
 
-
+<!-- recebedor e pagador -->
 		<div class="container">
 			<h3>Novo pagamento</h3>
 
@@ -67,12 +67,15 @@ require 'db.php';
         </div>
 
 </form>
+<!-- fim recebedor -->
 
 
-  <?php if (isset($_POST['botao_recebedor'])): ?>
+  <?php if (isset($_REQUEST['botao_recebedor'])): ?>
 <?php
-
-
+$recebedor = $_REQUEST['recebedor'];
+$pagador = $_REQUEST['pagador'];
+echo $recebedor;
+echo $pagador;
 ?>
 
 

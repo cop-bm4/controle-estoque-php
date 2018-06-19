@@ -60,11 +60,7 @@ require 'db.php';
 						<input type="text" name="cargo_recebedor" class="form-control" id="inputEmail3" placeholder="Cargo do recebedor">
 					</div>
 				</div>
-        <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-success" name="botao_recebedor">Salvar recebedor </button>
-          </div>
-        </div>
+      
 
 
 
@@ -90,11 +86,6 @@ require 'db.php';
 					</div>
 				</div>
 
-        <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-success" name="botao_confirmar_oculos">Confirmar </button>
-          </div>
-        </div>
 
             <div class="form-group">
               <label for="inputEmail3" class="col-sm-2 control-label">Militar</label>

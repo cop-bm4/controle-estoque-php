@@ -70,6 +70,14 @@ require 'db.php';
 
 
   <?php if (isset($_POST['botao_recebedor'])): ?>
+<?php
+
+
+?>
+
+
+
+
 <form class="form-horizontal" action="#" method="post">
 				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Material</label>
@@ -127,7 +135,7 @@ require 'db.php';
 				</div>
 
 			</form>
-      
+
 <?php endif; ?>
 		</div>
 

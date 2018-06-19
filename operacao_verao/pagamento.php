@@ -60,7 +60,7 @@ require 'db.php';
 						<input type="text" name="cargo_recebedor" class="form-control" id="inputEmail3" placeholder="Cargo do recebedor">
 					</div>
 				</div>
-      
+
 
 
 
@@ -101,15 +101,7 @@ require 'db.php';
               </div>
             </div>
 
-            <div class="form-group">
-              <label for="inputEmail3" class="col-sm-2 control-label">Número de controle</label>
-              <div class="col-sm-10">
-                <input type="text" name="n_controle_oculos" class="form-control" id="inputEmail3" placeholder="Número de controle óculos">
-              </div>
-            </div>
-
-      </div>
-
+      
 
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Militar</label>

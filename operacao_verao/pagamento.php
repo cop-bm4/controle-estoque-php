@@ -30,7 +30,7 @@ require 'db.php';
 		<div class="container">
 			<h3>Novo pagamento</h3>
 
-			<form class="form-horizontal" action="#" method="post">
+			<form class="form-horizontal" action="action.php" method="post">
 
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Pagador</label>
@@ -101,7 +101,7 @@ require 'db.php';
               </div>
             </div>
 
-      
+
 
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Militar</label>

@@ -69,20 +69,21 @@ require 'db.php';
 </form>
 <!-- fim recebedor -->
 
-
-  <?php if (isset($_REQUEST['botao_recebedor'])): ?>
+<!-- botao_recebedor -->
+<?php if (isset($_REQUEST['botao_recebedor'])): ?>
 <?php
 $recebedor = $_POST['recebedor'];
 $pagador = $_POST['pagador'];
-echo $recebedor;
-echo $pagador;
 ?>
 
+<!-- FIM botao_recebedor -->
 
 
-
+<h4>Pagar Óculos</h4>
 <form class="form-horizontal" action="#" method="post">
-				<div class="form-group">
+
+      <!--
+        <div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Material</label>
 					<div class="col-sm-4">
 						<select class="form-control form-control-lg" name="cod_material">
@@ -95,13 +96,72 @@ echo $pagador;
 
 					</div>
 				</div>
+      -->
 
 				<div class="form-group">
-					<label for="inputEmail3" class="col-sm-2 control-label">RP</label>
+					<label for="inputEmail3" class="col-sm-2 control-label">Quantidade</label>
 					<div class="col-sm-4">
-						<input type="text" name="rp" class="form-control" id="inputEmail3" placeholder="rp do Material">
+						<input type="text" name="quantidade_oculos" class="form-control" id="inputEmail3" placeholder="Quantidade">
 					</div>
 				</div>
+
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-success" name="botao_confirmar_oculos">Confirmar </button>
+          </div>
+        </div>
+
+  </form>
+
+<?php if (isset($_REQUEST['botao_confirmar_oculos'])): ?>
+        <?php
+        echo $recebedor;
+        echo $pagador;
+        $quantidade_oculos = $_POST['quantidade_oculos'];
+        if ($quantidade_oculos>0):?>
+          <?php for ($i=0; $i < $quantidade_oculos; $i++): ?>
+
+          <div class="form-group">
+
+
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label">Militar</label>
+              <div class="col-sm-10">
+                <input type="text" name="nome_militar_oculos" class="form-control" id="inputEmail3" placeholder="Militar que irá receber">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label">MF</label>
+              <div class="col-sm-10">
+                <input type="text" name="mf_militar_oculos" class="form-control" id="inputEmail3" placeholder="MF do militar">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label">Número de controle</label>
+              <div class="col-sm-10">
+                <input type="text" name="n_controle_oculos" class="form-control" id="inputEmail3" placeholder="Número de controle óculos">
+              </div>
+            </div>
+
+      </div>
+
+
+        <?php endfor; ?>
+
+
+
+      <?php endif; ?>
+
+
+
+<?php endif; ?>
+
+
+
+
+
 
 
 				<div class="form-group">

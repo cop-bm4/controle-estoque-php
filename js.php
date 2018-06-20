@@ -19,6 +19,13 @@
       </ul>
   </nav>
 
+
+  <div class="container">
+    <h3>Novo pagamento</h3>
+      <form class="form-horizontal" action="action.php" method="post">
+
+
+
   <p><label><input type="checkbox" id="example1"> Are you sure?</label></p>
   <p class="conditional" data-condition="#example1">
     <label><input type="checkbox" name="example2"> Really super sure?</label>
@@ -51,8 +58,9 @@
      See?! It works with selects!
    </div>
 
+</form>
 
-
+</div>
 
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"
           integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"

@@ -1,10 +1,24 @@
 <html>
 <head>
-<tittle>JQ</tittle>
+
+  <?php
+  require 'head.php';
+
+  require 'db.php';
+
+  ?>
 
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="http://bm4cop-org.umbler.net">home</a>
+      <ul class="nav navbar-nav navbar-right">
+
+      </ul>
+  </nav>
+
   <p><label><input type="checkbox" id="example1"> Are you sure?</label></p>
   <p class="conditional" data-condition="#example1">
     <label><input type="checkbox" name="example2"> Really super sure?</label>

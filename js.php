@@ -14,7 +14,7 @@
 
 <p id="demo">JavaScript can change HTML content ss.</p>
 
-<button type="button" onclick='show()'>Click Me!</button>
+<button type="button" onclick="show()">Click Me!</button>
 
 </body>
 </html>

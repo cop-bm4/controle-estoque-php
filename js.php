@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src="/script/script.js" ></script>
+  <script >
+    document.getElementById('demo').InnerHTML = "Teste function";</script>
 
 </head>
 

@@ -24,20 +24,65 @@
     <h3>Novo pagamento</h3>
       <form class="form-horizontal" action="action.php" method="post">
 
+<!-- pagador & recebedor -->
+
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">Pagador</label>
+  <div class="col-sm-10">
+    <input type="text" name="pagador" class="form-control" id="inputEmail3" placeholder="Responsável pelo pagamento">
+  </div>
+</div>
+
+  <div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">Função do Pagador</label>
+  <div class="col-sm-10">
+    <input type="text" name="cargo_pagador" class="form-control" id="inputEmail3" placeholder="Cargo do recebedor">
+  </div>
+</div>
+
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">Recebedor</label>
+  <div class="col-sm-10">
+    <input type="text" name="recebedor" class="form-control" id="inputEmail3" placeholder="Responsável pelo recebimento">
+  </div>
+</div>
 
 
-  <p><label><input type="checkbox" id="example1"> Are you sure?</label></p>
-  <p class="conditional" data-condition="#example1">
-    <label><input type="checkbox" name="example2"> Really super sure?</label>
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">Função do Recebedor</label>
+  <div class="col-sm-10">
+    <input type="text" name="cargo_recebedor" class="form-control" id="inputEmail3" placeholder="Cargo do recebedor">
+  </div>
+</div>
+
+
+
+
+<!-- fim pagador & recebedor -->
+
+<h5>Material</h5>
+
+
+  <p><label><input type="checkbox" id="oculos"> oculos</label></p>
+  <p><label><input type="checkbox" id="short">Short </label></p>
+  <p><label><input type="checkbox" id="camisa_de_gv">Camisa de GV </label></p>
+  <p><label><input type="checkbox" id="protetor_solar">protetor solar </label></p>
+  <p><label><input type="checkbox" id="protetor_labial">protetor labial </label></p>
+  <p class="conditional" data-condition="#oculos"><label><input type="checkbox" name="example2"> Really super sure?</label>
   </p>
+
   <p class="conditional" data-condition="#example1 && example2">
     <label>Then type "yay": </label>
     <input type="text" id="example3" placeholder="yay">
   </p>
+
   <p class="conditional msg" data-condition="#example1">
     deu
-
-  </p>
+</p>
+<p class="conditional" data-condition="#oculos">
+  <label>Quantidade óculos</label>
+  <input type="text" id="quantidade_oculos" placeholder="digite o numero de óculos">
+</p>
   <!-- This will be shown only if BOTH examle1 and examle2 are checked AND 'yay' typed in examle3 -->
   <p class="conditional msg"
      data-condition="#example1 && example2 && #example3 == 'yay'">

@@ -1,5 +1,6 @@
+<!--
 <?php
-
+/*
 require 'db.php';
 
 $pagador = $_REQUEST['pagador'];
@@ -12,9 +13,9 @@ $nome_militar = $_REQUEST['nome_militar'];
 $mf = $_REQUEST['mf'];
 $ubm = $_REQUEST['ubm'];
 
-
+*/
 ?>
-
+-->
 <?php
    //Inclui a classe 'class.ezpdf.php'
    include("pdf-php/class.ezpdf.php");

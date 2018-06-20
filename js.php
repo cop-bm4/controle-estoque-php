@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script >
-  function show(){
-    document.getElementById('demo').innerHTML = "Teste function";
-  }
+  <script src="/script/script.js" >
   </script>
 
 </head>

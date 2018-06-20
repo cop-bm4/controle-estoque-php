@@ -1,5 +1,5 @@
 function show() {
-  document.getElementById('demo').InnerHTML = "Teste function";
-  
+  document.getElementById('demo').innerHTML = "Teste function";
+
 
 }

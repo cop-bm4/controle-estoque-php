@@ -13,7 +13,7 @@
     <label>Then type "yay": </label>
     <input type="text" id="example3" placeholder="yay">
   </p>
-  <p class="conditional" data-condition="example1">
+  <p class="conditional msg" data-condition="#example1">
     deu
 
   </p>

@@ -1,45 +1,21 @@
-<!--
 <?php
-/*
-require 'db.php';
+/* Carrega a classe DOMPdf */
+require_once("dompdf/dompdf_config.inc.php");
 
-$pagador = $_REQUEST['pagador'];
-$cargo_pagador = $_REQUEST['cargo_pagador'];
-$recebedor = $_REQUEST['recebedor'];
-$cargo_recebedor = $_REQUEST['cargo_recebedor'];
-$cod_material = $_REQUEST['cod_material'];
-$rp = $_REQUEST['rp'];
-$nome_militar = $_REQUEST['nome_militar'];
-$mf = $_REQUEST['mf'];
-$ubm = $_REQUEST['ubm'];
+/* Cria a instância */
+$dompdf = new DOMPDF();
 
-*/
-?>
--->
-<?php
-   //Inclui a classe 'class.ezpdf.php'
-   include("pdf-php/class.ezpdf.php");
+/* Carrega seu HTML */
+$dompdf->load_html('<p>Adicione seu HTML aqui.</p>');
 
-   //Instancia um novo documento com o nome de pdf
-   $pdf = new Cezpdf();
+/* Renderiza */
+$dompdf->render();
 
-   //Seleciona a fonte que será usada. As fontes estão localizadas na pasta "pdf-php/fonts". Use a de sua preferencia.
-   $pdf -> selectFont('pdf-php/fonts/Helvetica.afm');
-
-   //Chama o método "ezText".
-   //No 1° parametro passa o texto do documento
-   //No 2° parametro define o tamanho da fonte.
-   //No 3° parametro é do tipo array. A seguir uma explicação desse 3° parametro:
-
-   // justification => seta a posição de um label, pode ser center, right, left, aright, ou aleft
-   // leading = > define o tamanho que cada linha usará para se mostrada, deverá  ser um int
-   // spacing => define o espaçamento entrelinhas, deverá ser um float
-   // você pode usar apenas leading ou apenas spacing, nunca os dois
-
-   $pdf -> ezText('DevMedia Group!', 20, array(justification => 'center', spacing => 2.0));
-   $pdf -> ezText('Olá Pessoal. Obrigado por estarem acompanhando mais este artigo!', 15, array(justification => 'left', spacing => 3.0));
-   $pdf -> ezText('Acessem o portal da DevMedia Group: www.devmedia.com.br!', 10, array(justification => 'right', spacing => 1.0));
-
-   //Gera o PDF
-   $pdf -> ezStream();
+/* Exibe */
+$dompdf->stream(
+    "saida.pdf", /* Nome do arquivo de saída */
+    array(
+        "Attachment" => false /* Para download, altere para true */
+    )
+);
 ?>

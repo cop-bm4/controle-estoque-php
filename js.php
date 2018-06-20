@@ -71,23 +71,23 @@
   <p class="conditional" data-condition="#oculos"><label><input type="checkbox" name="example2"> Really super sure?</label>
   </p>
 
-  <p class="conditional" data-condition="#example1 && example2">
+  <p class="conditional" data-condition="#oculos && #short">
     <label>Then type "yay": </label>
     <input type="text" id="example3" placeholder="yay">
   </p>
 
-  <p class="conditional msg" data-condition="#oculos">
+  <p class="conditional" data-condition="#oculos">
     deu
 </p>
 
-<p class="conditional msg" data-condition="#oculos">
+<p class="conditional" data-condition="#oculos">
   <label>Quantidade óculos</label>
   <input type="text" id="quantidade_oculos" placeholder="digite o numero de óculos">
 </p>
 
   <!-- This will be shown only if BOTH examle1 and examle2 are checked AND 'yay' typed in examle3 -->
   <p class="conditional msg"
-     data-condition="#example1 && example2 && #example3 == 'yay'">
+     data-condition="#oculos && #short && #example3 == 'yay'">
      Both are selected and YAY is typed!
   </p>
   <p>

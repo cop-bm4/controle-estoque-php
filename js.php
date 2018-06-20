@@ -13,6 +13,10 @@
     <label>Then type "yay": </label>
     <input type="text" id="example3" placeholder="yay">
   </p>
+  <p class="conditional msg" data-condition="example1">
+    deu
+
+  </p>
   <!-- This will be shown only if BOTH examle1 and examle2 are checked AND 'yay' typed in examle3 -->
   <p class="conditional msg"
      data-condition="#example1 && example2 && #example3 == 'yay'">

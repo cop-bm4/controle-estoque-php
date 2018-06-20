@@ -76,13 +76,9 @@
     <input type="text" id="example3" placeholder="yay">
   </p>
 
-  <p class="conditional" data-condition="#oculos">
-    deu
-</p>
-
 <p class="conditional" data-condition="#oculos">
-  <label>Quantidade óculos</label>
-  <input type="text" id="quantidade_oculos" placeholder="digite o numero de óculos">
+  <label>Quantidade de Óculos</label>
+  <input type="text" id="quantidade_oculos" placeholder="9" >
 </p>
 
   <!-- This will be shown only if BOTH examle1 and examle2 are checked AND 'yay' typed in examle3 -->

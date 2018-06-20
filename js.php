@@ -2,7 +2,9 @@
 <html>
 <head>
   <script >
-    document.getElementById('demo').InnerHTML = "Teste function";</script>
+  function show(){
+    document.getElementById('demo').InnerHTML = "Teste function";
+  }</script>
 
 </head>
 
@@ -10,7 +12,7 @@
 
 <h2>What Can JavaScript Do?</h2>
 
-<p id="demo">JavaScript can change HTML content s.</p>
+<p id="demo">JavaScript can change HTML content ss.</p>
 
 <button type="button" onclick='show()'>Click Me!</button>
 

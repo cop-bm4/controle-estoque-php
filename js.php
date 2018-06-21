@@ -76,9 +76,14 @@
     <input type="text" id="example3" placeholder="yay">
   </p>
 
+<div class="conditional msg" data-condition="#camisa_de_gv">
+<label>Quantidade de Camisa</label>
+<input type="text" id="quantidade_camisa_gv" >
+</div>
+
 <p class="conditional" data-condition="#oculos">
   <label>Quantidade de Óculos</label>
-  <input type="text" id="quantidade_oculos" placeholder="9" >
+  <input type="text" id="quantidade_oculos" >
 </p>
 
   <!-- This will be shown only if BOTH examle1 and examle2 are checked AND 'yay' typed in examle3 -->

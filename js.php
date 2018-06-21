@@ -67,8 +67,12 @@
   <p><label><input type="checkbox" id="camisa_de_gv">Camisa de GV </label></p>
   <p><label><input type="checkbox" id="protetor_solar">protetor solar </label></p>
   <p><label><input type="checkbox" id="protetor_labial">protetor labial </label></p>
+
+<!--
   <p class="conditional" data-condition="#oculos"><label><input type="checkbox" name="example2"> Really super sure?</label>
   </p>
+
+-->
 
 
 <p class="conditional" data-condition="#oculos">

@@ -1,4 +1,14 @@
 <?php
+
+
+
+?>
+
+
+
+
+
+<?php
 /* Carrega a classe DOMPdf */
 require_once("dompdf/dompdf_config.inc.php");
 
@@ -6,7 +16,21 @@ require_once("dompdf/dompdf_config.inc.php");
 $dompdf = new DOMPDF();
 
 /* Carrega seu HTML */
-$dompdf->load_html('<p>Adicione seu HTML aqui.</p>');
+$dompdf->load_html('<p>
+<html>
+<head>
+<h1>teste</h1>
+</head>
+
+<body>
+<
+</body>
+
+</html>
+
+
+
+</p>');
 
 /* Renderiza */
 $dompdf->render();

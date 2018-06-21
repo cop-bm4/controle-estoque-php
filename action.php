@@ -1,7 +1,8 @@
 <?php
-
-
-
+$p=$_REQUEST['pagador'];
+echo "REQUEST".$p;
+$i= $POST['pagador'];
+echo "POST".$i;
 ?>
 
 
@@ -23,7 +24,7 @@ $dompdf->load_html('<p>
 </head>
 
 <body>
-<
+<?php echo $ ?>
 </body>
 
 </html>

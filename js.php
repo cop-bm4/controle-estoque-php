@@ -91,11 +91,11 @@
 <input type="text" id="camisa de gv" name="q_camisa">
 </div>
 
-
-<div class="conditional msg" data-condititon="#protetor_solar">
-  <label>Quantidade de Protetor solar</label>
-  <input type="text" id="quantide de protetor" name="q_solar">
+<div class="conditional msg" data-condition="#protetor_solar">
+<label>Quantidade de protetor solar  </label>
+<input type="text" id="protetor" name="q_solar">
 </div>
+
 
 <div class="conditional msg" data-condition="#protetor_labial">
   <label>Protetor Labial</label>

@@ -62,7 +62,6 @@
 
 <h5>Material</h5>
 
-
   <p><label><input type="checkbox" id="oculos"> oculos</label></p>
   <p><label><input type="checkbox" id="short">Short </label></p>
   <p><label><input type="checkbox" id="camisa_de_gv">Camisa de GV </label></p>
@@ -71,28 +70,45 @@
   <p class="conditional" data-condition="#oculos"><label><input type="checkbox" name="example2"> Really super sure?</label>
   </p>
 
-  <p class="conditional" data-condition="#oculos && #short">
-    <label>Then type "yay": </label>
-    <input type="text" id="example3" placeholder="yay">
-  </p>
-
-<div class="conditional msg" data-condition="#camisa_de_gv">
-<label>Quantidade de Camisa</label>
-<input type="text" id="quantidade_camisa_gv" >
-</div>
 
 <p class="conditional" data-condition="#oculos">
   <label>Quantidade de Óculos</label>
-  <input type="text" id="quantidade_oculos" >
+  <input type="text" id="quantidade_oculos" name="q_oculos">
 </p>
 
-  <!-- This will be shown only if BOTH examle1 and examle2 are checked AND 'yay' typed in examle3 -->
-  <p class="conditional msg"
+<div class="conditional msg" data-condition="#short">
+<label>Quantidade de Short</label>
+<input type="text" id="short" name="q_short">
+</div>
+
+
+<div class="conditional msg" data-condition="#camisa_de_gv">
+<label>Quantidade de Camisa de GV  </label>
+<input type="text" id="camisa de gv" name="q_camisa">
+</div>
+
+
+<div class="conditional msg" data-condititon="#protetor_solar">
+  <label>Quantidade de Protetor solar</label>
+  <input type="text" id="quantide de protetor" name="q_solar">
+</div>
+
+<div class="conditional msg" data-condition="#protetor_labial">
+  <label>Protetor Labial</label>
+  <input type="text" id="quantidade protetor labial" name="q_labial">
+
+</div>
+
+
+
+<!--
+<p class="conditional msg"
      data-condition="#oculos && #short && #example3 == 'yay'">
      Both are selected and YAY is typed!
-  </p>
-  <p>
-    <label>Pick two or three:</label>
+</p>
+
+<p>
+  <label>Pick two or three:</label>
     <select class="select" name="example5">
       <option>....</option>
       <option value="one">One!</option>
@@ -100,11 +116,15 @@
       <option value="three">Three!</option>
       <option value="four">Four!</option>
     </select>
-  </p>
-  <div class="conditional msg"
+</p>
+
+
+<div class="conditional msg"
        data-condition="['two','three'].includes(example5)">
      See?! It works with selects!
-   </div>
+</div>
+-->
+
 
 </form>
 

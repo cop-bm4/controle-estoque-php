@@ -6,7 +6,7 @@ require_once("dompdf/dompdf_config.inc.php");
 $dompdf = new DOMPDF();
 
 /* Carrega seu HTML */
-$dompdf->load_html('oi');
+$dompdf->load_html('');
 
 /* Renderiza */
 $dompdf->render();

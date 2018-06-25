@@ -65,17 +65,15 @@
   <p><label><input type="checkbox" id="protetor_solar">protetor solar </label></p>
   <p><label><input type="checkbox" id="protetor_labial">protetor labial </label></p>
 
-<!--
-  <p class="conditional" data-condition="#oculos"><label><input type="checkbox" name="example2"> Really super sure?</label>
-  </p>
-
--->
-<div class="conditional-msg" data-condition="#oculos">
-  <label>Quantidade de Óculos</label>
-  <input type="text" name="q_oculos" class="form-control" >
+<div class="form-group">
 
 </div>
+<div class="conditional msg" data-condition="#oculos">
+  <label>Quantidade de Óculos</label>
+  <input type="text" name="q_oculos" class="form-control" >
+</div>
 
+</div>
 <div class="conditional msg" data-condition="#short">
 <label>Quantidade de Short</label>
 <input type="text" id="short" name="q_short">
@@ -98,32 +96,6 @@
   <input type="text" id="quantidade protetor labial" name="q_labial">
 
 </div>
-
-
-
-<!--
-<p class="conditional msg"
-     data-condition="#oculos && #short && #example3 == 'yay'">
-     Both are selected and YAY is typed!
-</p>
-
-<p>
-  <label>Pick two or three:</label>
-    <select class="select" name="example5">
-      <option>....</option>
-      <option value="one">One!</option>
-      <option value="two">Two!</option>
-      <option value="three">Three!</option>
-      <option value="four">Four!</option>
-    </select>
-</p>
-
-
-<div class="conditional msg"
-       data-condition="['two','three'].includes(example5)">
-     See?! It works with selects!
-</div>
--->
 
 				<div class="form-group">
 					<div class="col-sm-offset-2 col-sm-10">

@@ -162,7 +162,7 @@ for ($k=0; $k < $q_short; $k++): ?>
 <!-- protetor solar -->
 
 <?php if ($q_solar>0):?>
-  <h2>Camisa</h2>
+  <h2>Protetor Solar</h2>
   <br>
 <?php for ($p=0; $p < $q_solar; $p++): ?>
 <h5>Militar <?php  echo $p+1;?></h5>
@@ -193,7 +193,7 @@ for ($k=0; $k < $q_short; $k++): ?>
 <?php if ($q_labial>0):?>
   <h2>Protetor Labial</h2>
   <br>
-<?php for ($s=0; $s < $q_lavial; $s++): ?>
+<?php for ($s=0; $s < $q_labial; $s++): ?>
 <h5>Militar <?php  echo $p+1;?></h5>
 <div class="form control">
   <label>Nome</label>

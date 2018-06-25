@@ -1,8 +1,5 @@
 <?php
-$p=$_REQUEST['pagador'];
-echo "REQUEST".$p;
-$i= $POST['pagador'];
-echo "POST".$i;
+
 ?>
 
 

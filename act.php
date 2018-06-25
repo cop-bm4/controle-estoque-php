@@ -71,7 +71,7 @@ $q_labial= (int)$qnt_labial;
 
 <!-- oculos -->
 <?php if ($q_oculos>0):?>
-  <h5>Oculos</h5>
+  <h2>Oculos</h2>
   <br>
 <?php
 
@@ -102,7 +102,7 @@ for ($i=0; $i < $q_oculos; $i++): ?>
 <!-- short -->
 
 <?php if ($q_short>0):?>
-<h5>Short</h5>
+<h2>Short</h2>
 <br>
 <?php
 
@@ -159,16 +159,69 @@ for ($k=0; $k < $q_short; $k++): ?>
 <!-- fim camisa -->
 
 
+<!-- protetor solar -->
+
+<?php if ($q_solar>0):?>
+  <h2>Camisa</h2>
+  <br>
+<?php for ($p=0; $p < $q_solar; $p++): ?>
+<h5>Militar <?php  echo $p+1;?></h5>
+<div class="form control">
+  <label>Nome</label>
+  <input type="text" name="militar_solar[]">
+</div>
+<br>
+<div class="form control">
+  <label>MF</label>
+  <input type="text" name="mf_militar_solar[]">
+</div>
+<br>
+<div class="fomr control">
+  <label>N de série</label>
+  <input type="text" name=nserie_solar[]>
+</div>
+<br>
+<?php endfor ?>
+<?php endif; ?>
+
+<!-- fim solar -->
 
 
 
+<!-- protetor labial -->
 
+<?php if ($q_labial>0):?>
+  <h2>Protetor Labial</h2>
+  <br>
+<?php for ($s=0; $s < $q_lavial; $s++): ?>
+<h5>Militar <?php  echo $p+1;?></h5>
+<div class="form control">
+  <label>Nome</label>
+  <input type="text" name="militar_labial[]">
+</div>
+<br>
+<div class="form control">
+  <label>MF</label>
+  <input type="text" name="mf_militar_labial[]">
+</div>
+<br>
+<div class="fomr control">
+  <label>N de série</label>
+  <input type="text" name=nserie_labial[]>
+</div>
+<br>
+<?php endfor ?>
+<?php endif; ?>
+
+<!-- fim labial -->
+
+<div class="form-group">
+  <div class="col-sm-offset-2 col-sm-10">
+    <button type="submit" class="btn btn-success" name="cadastrar">Gerar Documento</button>
+  </div>
+</div>
 
 </form>
-
-
-
-
 
 
 </div>

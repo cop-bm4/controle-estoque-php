@@ -11,6 +11,7 @@ $qnt_camisa = (int)$POST['q_camisa'];
 $qnt_solar= (int)$POST['q_solar'];
 $qnt_labial = (int)$POST['q_labial'];
 
+var_dump($qnt_oculos);
  ?>
 
 

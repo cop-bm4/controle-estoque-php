@@ -4,12 +4,12 @@ require 'db.php';
 $pagador = $_POST['pagador'];
 $cargo_pagador = $_POST['cargo_pagador'];
 $recebedor = $_POST['recebedor'];
-$cargo_recebedor = $POST['cargo_recebedor'];
-$qnt_oculos = $POST['q_oculos'];
-$qnt_short = $REQUEST['q_short'];
-$qnt_camisa = $REQUEST['q_camisa'];
-$qnt_solar= $POST['q_solar'];
-$qnt_labial = $POST['q_labial'];
+$cargo_recebedor = $_POST['cargo_recebedor'];
+$qnt_oculos = $_REQUEST['q_oculos'];
+$qnt_short = $_REQUEST['q_short'];
+$qnt_camisa = $_REQUEST['q_camisa'];
+$qnt_solar= $_POST['q_solar'];
+$qnt_labial = $_POST['q_labial'];
 
 $q_oculos= (int)$qnt_oculos;
 echo $q_oculos;

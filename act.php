@@ -64,7 +64,7 @@ echo $q_oculos;
         <input value="<?php echo $cargo_recebedor." ".$recebedor ?>" type="text" name="recebedor" class="form-control" id="inputEmail3" readonly>
       </div>
     </div>
-ss
+
 <?php if ($qnt_oculos==2):?>
 <h2>deu</h2>
 <?php endif; ?>

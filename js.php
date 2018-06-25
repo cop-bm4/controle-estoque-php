@@ -69,7 +69,7 @@
 
 <div class="conditional msg" data-condition="#oculos">
   <label>Quantidade de Óculos</label>
-  <input type="text" name="q_oculos" class="form-control" >
+  <input type="text" name="q_oculos"  >
 </div>
 
 

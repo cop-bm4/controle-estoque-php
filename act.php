@@ -76,7 +76,7 @@ $q_labial= (int)$qnt_labial;
 <?php
 
 for ($i=0; $i < $q_oculos; $i++): ?>
-<h5>Militar <?php echo $i; ?></h5>
+<h5>Militar <?php echo $i+1; ?></h5>
 <div class="form control">
   <label>Nome</label>
   <input type="text" name="militar_oculos[]">
@@ -107,7 +107,7 @@ for ($i=0; $i < $q_oculos; $i++): ?>
 <?php
 
 for ($k=0; $k < $q_short; $k++): ?>
-<h5>Militar <?php echo $k; ?></h5>
+<h5>Militar <?php echo $k+1; ?></h5>
 <br>
 <div class="form control">
   <label>Nome</label>
@@ -137,7 +137,7 @@ for ($k=0; $k < $q_short; $k++): ?>
   <h2>Camisa</h2>
   <br>
 <?php for ($j=0; $j < $q_camisa; $j++): ?>
-<h5>Militar <?php  echo $j;?></h5>
+<h5>Militar <?php  echo $j+1;?></h5>
 <div class="form control">
   <label>Nome</label>
   <input type="text" name="militar_camisa[]">

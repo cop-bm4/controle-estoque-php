@@ -22,7 +22,7 @@
 
   <div class="container">
     <h3>Novo pagamento</h3>
-      <form class="form-horizontal" action="action.php" method="post">
+      <form class="form-horizontal" action="act.php" method="post">
 
 <!-- pagador & recebedor -->
 

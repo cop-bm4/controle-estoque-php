@@ -65,13 +65,13 @@
   <p><label><input type="checkbox" id="protetor_solar">protetor solar </label></p>
   <p><label><input type="checkbox" id="protetor_labial">protetor labial </label></p>
 
-<div class="form-group">
+
 
 <div class="conditional msg" data-condition="#oculos">
   <label>Quantidade de Óculos</label>
   <input type="text" name="q_oculos" class="form-control" >
 </div>
-</div>
+
 
 
 <div class="conditional msg" data-condition="#short">

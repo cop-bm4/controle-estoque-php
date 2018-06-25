@@ -12,12 +12,11 @@ $qnt_solar= $_POST['q_solar'];
 $qnt_labial = $_POST['q_labial'];
 
 $q_oculos= (int)$qnt_oculos;
-echo $q_oculos;
-echo $qnt_oculos;
-echo $qnt_short;
-echo $qnt_camisa;
-echo $qnt_solar;
-echo $qnt_labial;
+$q_short= (int)$qnt_short;
+$q_camisa= (int)$qnt_camisa;
+$q_solar= (int)$qnt_solar;
+$q_labial= (int)$qnt_labial;
+
  ?>
 
 
@@ -70,10 +69,93 @@ echo $qnt_labial;
       </div>
     </div>
 
-POST
-<?php if ($q_oculos>2):?>
-<h2>deu</h2>
+<!-- oculos -->
+<?php if ($q_oculos>0):?>
+<?php
+
+for ($i=0; $i < $q_oculos; $i++): ?>
+
+<div class="form control">
+  <label>Nome</label>
+  <input type="text" name="militar_oculos[]">
+</div>
+
+<div class="form control">
+  <label>MF</label>
+  <input type="text" name="mf_militar_oculos[]">
+</div>
+
+<div class="fomr control">
+  <label>N de série</label>
+  <input type="text" name=nserie_oculos[]>
+</div>
+
+<?php endfor ?>
 <?php endif; ?>
+
+
+<!-- fim oculos -->
+
+
+<!-- short -->
+
+<?php if ($q_short>0):?>
+<?php
+
+for ($j=0; $j < $q_short; $j++): ?>
+
+<div class="form control">
+  <label>Nome</label>
+  <input type="text" name="militar_short[]">
+</div>
+
+<div class="form control">
+  <label>MF</label>
+  <input type="text" name="mf_militar_short[]">
+</div>
+
+<div class="fomr control">
+  <label>N de série</label>
+  <input type="text" name=nserie_short[]>
+</div>
+
+<?php endfor ?>
+<?php endif; ?>
+
+<!-- fim short -->
+
+
+
+<!-- camisa -->
+
+<?php if ($q_camisa>0):?>
+<?php
+
+for ($j=0; $j < $q_camisa; $j++): ?>
+
+<div class="form control">
+  <label>Nome</label>
+  <input type="text" name="militar_camisa[]">
+</div>
+
+<div class="form control">
+  <label>MF</label>
+  <input type="text" name="mf_militar_camisa[]">
+</div>
+
+<div class="fomr control">
+  <label>N de série</label>
+  <input type="text" name=nserie_camisa[]>
+</div>
+
+<?php endfor ?>
+<?php endif; ?>
+
+<!-- fim camisa -->
+
+
+
+
 
 
 

@@ -55,9 +55,6 @@
   </div>
 </div>
 
-
-
-
 <!-- fim pagador & recebedor -->
 
 <h5>Material</h5>
@@ -73,7 +70,6 @@
   </p>
 
 -->
-
 <div class="form-group">
 
 <p class="conditional" data-condition="#oculos">

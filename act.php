@@ -5,7 +5,7 @@ $pagador = $_POST['pagador'];
 $cargo_pagador = $_POST['cargo_pagador'];
 $recebedor = $_POST['recebedor'];
 $cargo_recebedor = $POST['cargo_recebedor'];
-$qnt_oculos = $REQUEST['q_oculos'];
+$qnt_oculos = $POST['q_oculos'];
 $qnt_short = $REQUEST['q_short'];
 $qnt_camisa = $REQUEST['q_camisa'];
 $qnt_solar= $POST['q_solar'];
@@ -69,7 +69,7 @@ echo $qnt_labial;
         <input value="<?php echo $cargo_recebedor." ".$recebedor ?>" type="text" name="recebedor" class="form-control" id="inputEmail3" readonly>
       </div>
     </div>
-a
+POST
 <?php if ($qnt_oculos>2):?>
 <h2>deu</h2>
 <?php endif; ?>

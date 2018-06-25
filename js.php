@@ -74,7 +74,7 @@
 
 <p class="conditional" data-condition="#oculos">
   <label>Quantidade de Óculos</label>
-  <input type="text" id="quantidade_oculos" name="q_oculos">
+  <input type="text" id="quantidade_oculos" name="q_oculos" class="form-control" >
 </p>
 </div>
 

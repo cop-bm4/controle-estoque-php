@@ -7,7 +7,7 @@ $recebedor = $_POST['recebedor'];
 $cargo_recebedor = $POST['cargo_recebedor'];
 $qnt_oculos = $REQUEST['q_oculos'];
 $qnt_short = $REQUEST['q_short'];
-$qnt_camisa = $POST['q_camisa'];
+$qnt_camisa = $REQUEST['q_camisa'];
 $qnt_solar= $POST['q_solar'];
 $qnt_labial = $POST['q_labial'];
 

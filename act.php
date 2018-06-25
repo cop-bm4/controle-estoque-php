@@ -64,8 +64,8 @@ $q_oculos= (int)$qnt_oculos;
         <input value="<?php echo $cargo_recebedor." ".$recebedor ?>" type="text" name="recebedor" class="form-control" id="inputEmail3" readonly>
       </div>
     </div>
-a
-<?php if ($q_oculos>"0"):?>
+s
+<?php if ($qnt_oculos>"0"):?>
 <h2>deu</h2>
 <?php endif; ?>
 

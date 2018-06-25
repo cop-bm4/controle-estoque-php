@@ -24,6 +24,14 @@ $dompdf->load_html('<p>
 </head>
 
 <body>
+<div class="container">
+<div class="row">
+ <div class=col-sm-2>
+ <img src="logo_cbm.jpg" />
+ </div>
+
+</div>
+</div>
 <?php echo $ ?>
 </body>
 

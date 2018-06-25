@@ -12,7 +12,7 @@ $qnt_solar= $POST['q_solar'];
 $qnt_labial = $POST['q_labial'];
 
 $q_oculos= (int)$qnt_oculos;
-
+echo $q_oculos." ".$qnt_oculos;
  ?>
 
 

@@ -13,6 +13,11 @@ $qnt_labial = $POST['q_labial'];
 
 $q_oculos= (int)$qnt_oculos;
 echo $q_oculos;
+echo $qnt_oculos;
+echo $qnt_short;
+echo $qnt_camisa;
+echo $qnt_solar;
+echo $qnt_labial;
  ?>
 
 
@@ -65,7 +70,7 @@ echo $q_oculos;
       </div>
     </div>
 
-<?php if ($qnt_oculos==2):?>
+<?php if ($qnt_oculos>2):?>
 <h2>deu</h2>
 <?php endif; ?>
 

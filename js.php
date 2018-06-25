@@ -67,13 +67,13 @@
 
 <div class="form-group">
 
-</div>
 <div class="conditional msg" data-condition="#oculos">
   <label>Quantidade de Óculos</label>
   <input type="text" name="q_oculos" class="form-control" >
 </div>
-
 </div>
+
+
 <div class="conditional msg" data-condition="#short">
 <label>Quantidade de Short</label>
 <input type="text" id="short" name="q_short">

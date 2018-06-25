@@ -71,7 +71,7 @@ echo $qnt_labial;
     </div>
 
 POST
-<?php if ($qnt_oculos>2):?>
+<?php if ($q_oculos>2):?>
 <h2>deu</h2>
 <?php endif; ?>
 

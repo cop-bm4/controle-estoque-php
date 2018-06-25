@@ -5,13 +5,14 @@ $pagador = $_POST['pagador'];
 $cargo_pagador = $_POST['cargo_pagador'];
 $recebedor = $_POST['recebedor'];
 $cargo_recebedor = $POST['cargo_recebedor'];
-$qnt_oculos = (int)$POST['q_oculos'];
-$qnt_short = (int)$POST['q_short'];
-$qnt_camisa = (int)$POST['q_camisa'];
-$qnt_solar= (int)$POST['q_solar'];
-$qnt_labial = (int)$POST['q_labial'];
+$qnt_oculos = $POST['q_oculos'];
+$qnt_short = $POST['q_short'];
+$qnt_camisa = $POST['q_camisa'];
+$qnt_solar= $POST['q_solar'];
+$qnt_labial = $POST['q_labial'];
 
-var_dump($qnt_oculos);
+$q_oculos= (int) $qnt_oculos;
+
  ?>
 
 
@@ -64,7 +65,7 @@ var_dump($qnt_oculos);
       </div>
     </div>
 
-<?php if ($qnt_oculos>0):?>
+<?php if ($q_oculos>0):?>
 <h2>deu</h2>
 <?php endif; ?>
 

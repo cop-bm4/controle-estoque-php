@@ -1,7 +1,7 @@
 <?php
 require 'db.php';
-
-$nome = $_REQUEST['name'];
+echo "a";
+$nome = $_POST['pagador'];
 echo $nome;
 
 

@@ -71,25 +71,27 @@ $q_labial= (int)$qnt_labial;
 
 <!-- oculos -->
 <?php if ($q_oculos>0):?>
+  <h5>Oculos</h5>
+  <br>
 <?php
 
 for ($i=0; $i < $q_oculos; $i++): ?>
-
+<h5>Militar <?php echo $i; ?></h5>
 <div class="form control">
   <label>Nome</label>
   <input type="text" name="militar_oculos[]">
 </div>
-
+<br>
 <div class="form control">
   <label>MF</label>
   <input type="text" name="mf_militar_oculos[]">
 </div>
-
+<br>
 <div class="fomr control">
   <label>N de série</label>
   <input type="text" name=nserie_oculos[]>
 </div>
-
+<br>
 <?php endfor ?>
 <?php endif; ?>
 
@@ -100,25 +102,28 @@ for ($i=0; $i < $q_oculos; $i++): ?>
 <!-- short -->
 
 <?php if ($q_short>0):?>
+<h5>Short</h5>
+<br>
 <?php
 
-for ($j=0; $j < $q_short; $j++): ?>
-
+for ($k=0; $k < $q_short; $k++): ?>
+<h5>Militar <?php echo $k; ?></h5>
+<br>
 <div class="form control">
   <label>Nome</label>
   <input type="text" name="militar_short[]">
 </div>
-
+<br>
 <div class="form control">
   <label>MF</label>
   <input type="text" name="mf_militar_short[]">
 </div>
-
+<br>
 <div class="fomr control">
   <label>N de série</label>
   <input type="text" name=nserie_short[]>
 </div>
-
+<br>
 <?php endfor ?>
 <?php endif; ?>
 
@@ -129,25 +134,25 @@ for ($j=0; $j < $q_short; $j++): ?>
 <!-- camisa -->
 
 <?php if ($q_camisa>0):?>
-<?php
-
-for ($j=0; $j < $q_camisa; $j++): ?>
-
+  <h2>Camisa</h2>
+  <br>
+<?php for ($j=0; $j < $q_camisa; $j++): ?>
+<h5>Militar <?php  echo $j;?></h5>
 <div class="form control">
   <label>Nome</label>
   <input type="text" name="militar_camisa[]">
 </div>
-
+<br>
 <div class="form control">
   <label>MF</label>
   <input type="text" name="mf_militar_camisa[]">
 </div>
-
+<br>
 <div class="fomr control">
   <label>N de série</label>
   <input type="text" name=nserie_camisa[]>
 </div>
-
+<br>
 <?php endfor ?>
 <?php endif; ?>
 

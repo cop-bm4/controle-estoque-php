@@ -194,7 +194,7 @@ for ($k=0; $k < $q_short; $k++): ?>
   <h2>Protetor Labial</h2>
   <br>
 <?php for ($s=0; $s < $q_labial; $s++): ?>
-<h5>Militar <?php  echo $p+1;?></h5>
+<h5>Militar <?php  echo $s+1;?></h5>
 <div class="form control">
   <label>Nome</label>
   <input type="text" name="militar_labial[]">

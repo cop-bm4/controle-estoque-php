@@ -70,7 +70,7 @@ echo $qnt_labial;
       </div>
     </div>
 
-POST
+REQUEST
 <?php if ($qnt_oculos>2):?>
 <h2>deu</h2>
 <?php endif; ?>

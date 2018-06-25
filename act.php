@@ -63,7 +63,7 @@ $qnt_labial = $POST['q_labial'];
       </div>
     </div>
 
-<?php if (isset($_POST['q_oculos'])):?>
+<?php if ($qnt_oculos>0):?>
 <h2>deu</h2>
 <?php endif; ?>
 

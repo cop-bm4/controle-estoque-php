@@ -51,7 +51,7 @@ $qnt_labial = $POST['q_labial'];
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label" >Responsável</label>
     <div class="col-sm-10">
-      <input value="$pagador" type="text" name="pagador" class="form-control" id="inputEmail3" readonly>
+      <input value="<?php echo $pagador ?>" type="text" name="pagador" class="form-control" id="inputEmail3" readonly>
     </div>
   </div>
 

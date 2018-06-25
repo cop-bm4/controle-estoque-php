@@ -65,7 +65,7 @@ $q_oculos= (int) $qnt_oculos;
       </div>
     </div>
 
-<?php if ($q_oculos>0):?>
+<?php if (2>0):?>
 <h2>deu</h2>
 <?php endif; ?>
 

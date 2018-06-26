@@ -34,10 +34,10 @@ $dompdf->load_html('<p>
 <div class="container">
 <div class="row">
 <p>
-teste
+Corpo de bombeiros militar bm4
 </p>
  <div class=col-sm-2>
- <img src="logo_cbm.jpg" />
+ <img src="logo_cbm.jpg">
  </div>
 
 </div>

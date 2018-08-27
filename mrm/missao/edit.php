@@ -17,7 +17,7 @@
   <!-- Brand/logo -->
   <a class="navbar-brand" href="http://bm4cop-org.umbler.net/mrm/home.php">home</a>
     <ul class="nav navbar-nav navbar-right">
-     
+
       <li><a href="http://bm4cop-org.umbler.net/mrm/logout.php "> <span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
     </ul>
 </nav>
@@ -25,7 +25,7 @@
 
 
 
-<?php 
+<?php
 
 $sql= "SELECT * FROM missao WHERE cod_missao='$id'";
 $result = mysqli_query($conn, $sql);
@@ -33,9 +33,9 @@ $row = mysqli_fetch_assoc($result);
 
 
 ?>
-	
+
 <div class="container">
-		
+
 
 <!DOCTYPE html>
 <html>
@@ -59,7 +59,7 @@ require 'db.php';
 <br>
 
 		<div class="container">
-			<h3>Cadastrar Nova Missão</h3>
+			<h3>Editar Missão</h3>
 
 			<form class="form-horizontal" action="#" method="post">
 
@@ -93,10 +93,10 @@ require 'db.php';
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-th"></span>
 							</span>
-						</div> 
+						</div>
 					</div>
 				</div>
-	
+
 				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Militar - Condutor</label>
 					<div class="col-sm-4">
@@ -104,18 +104,18 @@ require 'db.php';
 							<option value="">     </option>
 						<?php
 						$sql = "SELECT cod_militar,nome, graduacao FROM militar";
-						$result = mysqli_query($conn, $sql);	
+						$result = mysqli_query($conn, $sql);
 
-						?>	
+						?>
 						<?php if (mysqli_num_rows($result)>0): ?>
 
 
 						<?php while($row_militar=mysqli_fetch_assoc($result)):?>
-						
+
 						<option value="<?php echo $row_militar['cod_militar'];?>"><?php echo $row_militar['graduacao']." ". $row_militar['nome']; ?></option>
 
-						<?php endwhile; ?>	
-						
+						<?php endwhile; ?>
+
 						</select>
 
 					<?php  endif; ?>
@@ -127,14 +127,14 @@ require 'db.php';
 				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Militar - Auxliar</label>
 					<div class="col-sm-4">
-						
+
 						<select class="form-control form-control-lg" name="cod_militar_auxiliar">
 							<option value="">     </option>
 						<?php
 						$sql = "SELECT cod_militar,nome, graduacao FROM militar";
-						$result = mysqli_query($conn, $sql);	
+						$result = mysqli_query($conn, $sql);
 
-						?>	
+						?>
 						<?php if (mysqli_num_rows($result)>0): ?>
 
 
@@ -142,8 +142,8 @@ require 'db.php';
 
 						<option value="<?php echo $row_militar['cod_militar'];?>"><?php echo $row_militar['graduacao']." ". $row_militar['nome']; ?></option>
 
-						<?php endwhile; ?>	
-						
+						<?php endwhile; ?>
+
 						</select>
 
 					<?php  endif; ?>
@@ -152,7 +152,7 @@ require 'db.php';
 				</div>
 
 
-				
+
 				<div class="form-group">
 					<label for="inputPassword3" class="col-sm-2 control-label">Viatura</label>
 					<div class="col-sm-4">
@@ -161,9 +161,9 @@ require 'db.php';
 						<?php
 
 						$sql_viatura = "SELECT cod_viatura,prefixo FROM viaturas";
-						$result_viatura = mysqli_query($conn, $sql_viatura);	
+						$result_viatura = mysqli_query($conn, $sql_viatura);
 
-						?>	
+						?>
 						<?php if (mysqli_num_rows($result_viatura)>0): ?>
 
 
@@ -171,15 +171,15 @@ require 'db.php';
 
 						<option value="<?php echo $row_viatura['cod_viatura'];?>"><?php echo $row_viatura['prefixo']; ?></option>
 
-						<?php endwhile; ?>	
-						
+						<?php endwhile; ?>
+
 						</select>
 
 					<?php  endif; ?>
 
 					</div>
 				</div>
-					
+
 				<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Solicitante</label>
 					<div class="col-sm-6">
@@ -221,7 +221,7 @@ require 'db.php';
 
 
 		<div class="container">
-			
+
 			<?php if (isset($_REQUEST['atualizar'])): ?>
 			<?php
 			$destino = $_REQUEST['destino'];
@@ -251,9 +251,9 @@ require 'db.php';
 		<?php endif; ?>
 
 
-			
+
 		<?php endif;	?>
-			
+
 
 
 		</div>

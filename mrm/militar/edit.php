@@ -124,7 +124,8 @@ $sql ="UPDATE militar SET nome= '$nome', ubm='$ubm', graduacao= '$graduacao',mf=
 
 
 
-<?php endif; ?>
+<?php endif;
+ ?>
 </div>
 
 <br>

@@ -117,6 +117,7 @@ $sql ="UPDATE militar SET nome= '$nome', ubm='$ubm', graduacao= '$graduacao',mf=
 
 
 ?>
+
 <?php	if($conn->query($sql) === TRUE):?>
 
 <p class="text-warning"><?php echo "Atualizado com sucesso"; ?> </p>		
@@ -124,12 +125,9 @@ $sql ="UPDATE militar SET nome= '$nome', ubm='$ubm', graduacao= '$graduacao',mf=
 
 
 
-<?php endif;
- ?>
+<?php endif; ?>
 </div>
 
-<br>
-<br>
 
 </body>
 </html>

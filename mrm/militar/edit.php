@@ -103,7 +103,7 @@ $row_consulta = mysqli_fetch_assoc($result_s);
 
 <br>
 <div class="container">
-<?php if(isset($_POST['pesquisar']) ){
+<?php if(isset($_POST['pesquisar']) ):{
 
 
 
